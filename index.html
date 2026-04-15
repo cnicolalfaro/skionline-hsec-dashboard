@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard HSEC - Cursos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <header class="hero">
+      <div class="hero-brand">
+        <img src="assets/logo.png" alt="Logo departamento" class="brand-logo" />
+        <div>
+          <p class="eyebrow">SK INDUSTRIAL S.A. · HSEC</p>
+          <h1>Dashboard de Registro Final de Cursos</h1>
+          <p class="lead">Vista ejecutiva del consolidado de diplomas y archivos procesados.</p>
+        </div>
+      </div>
+      <div class="hero-meta">
+        <span class="badge" id="updatedAt">Actualizando datos...</span>
+      </div>
+    </header>
+
+    <main>
+      <section class="cards" id="kpiCards"></section>
+
+      <section class="grid two-col">
+        <article class="panel">
+          <div class="panel-header">
+            <div>
+              <h2>Distribución por curso</h2>
+              <p>Total de archivos detectados por categoría principal</p>
+            </div>
+          </div>
+          <div id="courseBars" class="bars"></div>
+        </article>
+
+        <article class="panel">
+          <div class="panel-header">
+            <div>
+              <h2>Estado del registro</h2>
+              <p>Archivos únicos, duplicados y no legibles</p>
+            </div>
+          </div>
+          <div class="donut-layout">
+            <div class="donut" id="statusDonut"></div>
+            <div class="legend" id="donutLegend"></div>
+          </div>
+        </article>
+      </section>
+
+      <section class="grid two-col">
+        <article class="panel">
+          <div class="panel-header">
+            <div>
+              <h2>Resumen consolidado</h2>
+              <p>Datos tomados desde la hoja RESUMEN</p>
+            </div>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Curso</th>
+                  <th>Total archivos</th>
+                  <th>Únicos</th>
+                </tr>
+              </thead>
+              <tbody id="summaryTableBody"></tbody>
+            </table>
+          </div>
+        </article>
+
+        <article class="panel">
+          <div class="panel-header">
+            <div>
+              <h2>Lectura ejecutiva</h2>
+              <p>Hallazgos destacados del consolidado</p>
+            </div>
+          </div>
+          <ul id="insightsList" class="sample-list"></ul>
+        </article>
+      </section>
+    </main>
+
+    <footer class="footer">
+      Panel generado automáticamente desde el archivo Excel entregado.
+    </footer>
+  </div>
+
+  <script src="data/dashboard_data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

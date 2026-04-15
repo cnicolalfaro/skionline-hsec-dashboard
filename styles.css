@@ -1,0 +1,236 @@
+:root {
+  --bg: #071120;
+  --bg-soft: #0d1b2d;
+  --panel: #10233b;
+  --panel-2: #132a45;
+  --text: #eef4ff;
+  --muted: #b6c7e6;
+  --blue: #2d7ff9;
+  --red: #f53b4d;
+  --yellow: #f4c430;
+  --green: #51b847;
+  --cyan: #42b7ff;
+  --shadow: 0 18px 40px rgba(0, 0, 0, .25);
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(135deg, var(--bg), #0a1830 48%, #07192a);
+  color: var(--text);
+}
+
+.page-shell {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 28px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 24px;
+  background: linear-gradient(135deg, rgba(45,127,249,.12), rgba(245,59,77,.12));
+  border: 1px solid rgba(255,255,255,.08);
+  border-radius: 22px;
+  box-shadow: var(--shadow);
+}
+
+.hero-brand {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.brand-logo {
+  width: 140px;
+  height: auto;
+  background: white;
+  border-radius: 14px;
+  padding: 10px;
+}
+
+.eyebrow {
+  margin: 0 0 6px;
+  color: #8cc8ff;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: .18em;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(1.6rem, 3vw, 2.4rem);
+}
+
+.lead, .panel-header p, .footer {
+  color: var(--muted);
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 14px;
+  border-radius: 999px;
+  background: rgba(255,255,255,.08);
+  border: 1px solid rgba(255,255,255,.08);
+  font-size: .92rem;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 16px;
+  margin: 22px 0;
+}
+
+.card {
+  background: linear-gradient(180deg, var(--panel), var(--panel-2));
+  border-radius: 18px;
+  padding: 18px;
+  box-shadow: var(--shadow);
+  border-top: 4px solid var(--accent, var(--blue));
+}
+
+.card .label {
+  color: var(--muted);
+  font-size: .92rem;
+}
+
+.card .value {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-top: 8px;
+}
+
+.grid {
+  display: grid;
+  gap: 18px;
+  margin-bottom: 18px;
+}
+.two-col { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+
+.panel {
+  background: linear-gradient(180deg, rgba(16,35,59,.98), rgba(10,24,42,.98));
+  border-radius: 20px;
+  padding: 18px;
+  box-shadow: var(--shadow);
+  min-height: 320px;
+}
+
+.panel-header h2 {
+  margin: 0 0 4px;
+  font-size: 1.1rem;
+}
+.panel-header p {
+  margin: 0 0 16px;
+}
+
+.bars {
+  display: grid;
+  gap: 12px;
+}
+.bar-row {
+  display: grid;
+  gap: 6px;
+}
+.bar-meta {
+  display: flex;
+  justify-content: space-between;
+  font-size: .95rem;
+}
+.bar-track {
+  height: 14px;
+  border-radius: 999px;
+  background: rgba(255,255,255,.08);
+  overflow: hidden;
+}
+.bar-fill {
+  height: 100%;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--blue), var(--cyan));
+}
+
+.donut-layout {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 20px;
+  align-items: center;
+}
+.donut {
+  width: 210px;
+  height: 210px;
+  border-radius: 50%;
+  margin: 0 auto;
+  position: relative;
+}
+.donut::after {
+  content: '';
+  position: absolute;
+  inset: 38px;
+  border-radius: 50%;
+  background: var(--panel);
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,.06);
+}
+.legend {
+  display: grid;
+  gap: 10px;
+}
+.legend-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+.legend-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+.swatch {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.table-wrap {
+  overflow-x: auto;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  text-align: left;
+  padding: 10px;
+  border-bottom: 1px solid rgba(255,255,255,.08);
+}
+th { color: #9fd1ff; }
+
+.sample-list {
+  margin: 0;
+  padding-left: 18px;
+  display: grid;
+  gap: 12px;
+}
+.sample-list li {
+  color: var(--muted);
+}
+.sample-list strong {
+  color: white;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 16px;
+  font-size: .92rem;
+}
+
+@media (max-width: 900px) {
+  .hero, .hero-brand, .donut-layout { grid-template-columns: 1fr; display: grid; }
+  .two-col { grid-template-columns: 1fr; }
+  .brand-logo { width: 120px; }
+}

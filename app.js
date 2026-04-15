@@ -14,10 +14,11 @@ function normalizeText(value) {
 function renderCards(data) {
   const cards = [
     { label: 'Total archivos', value: data.kpis.totalArchivos, color: '#2d7ff9' },
-    { label: 'Documentos únicos', value: data.kpis.documentosUnicos, color: '#51b847' },
+    { label: 'Trabajadores en TARJA', value: data.kpis.trabajadoresTarja, color: '#8c63ff' },
+    { label: 'Con registros', value: data.kpis.conRegistros, color: '#51b847' },
+    { label: 'Sin registros', value: data.kpis.sinRegistros, color: '#ff7a59' },
     { label: 'Duplicados', value: data.kpis.duplicados, color: '#f4c430' },
-    { label: 'No legibles', value: data.kpis.noLegibles, color: '#f53b4d' },
-    { label: 'Con sufijo', value: data.kpis.conSufijo, color: '#42b7ff' }
+    { label: 'No legibles', value: data.kpis.noLegibles, color: '#f53b4d' }
   ];
 
   document.getElementById('kpiCards').innerHTML = cards.map(card => `
@@ -96,15 +97,11 @@ function renderRecords(rows) {
   body.innerHTML = rows.map(row => `
     <tr>
       <td>${row.nombre}</td>
-      <td>${row.curso}</td>
+      <td>${row.cursos}</td>
       <td>${row.estado}</td>
-      <td>${row.archivo}</td>
+      <td>${row.detalle}</td>
     </tr>
   `).join('');
-}
-
-function renderUpdateSteps(steps) {
-  document.getElementById('updateSteps').innerHTML = (steps || []).map(step => `<li>${step}</li>`).join('');
 }
 
 function setupFilters(data) {
@@ -113,7 +110,7 @@ function setupFilters(data) {
   const statusFilter = document.getElementById('statusFilter');
   const resultsCount = document.getElementById('resultsCount');
 
-  const courses = [...new Set((data.records || []).map(item => item.curso))].sort();
+  const courses = [...new Set((data.records || []).flatMap(item => item.courseList || []))].sort();
   courseFilter.innerHTML = '<option value="">Todos</option>' + courses.map(course => `<option value="${course}">${course}</option>`).join('');
 
   function applyFilters() {
@@ -123,14 +120,14 @@ function setupFilters(data) {
 
     const filtered = (data.records || []).filter(item => {
       const matchesName = !query || normalizeText(item.nombre).includes(query);
-      const matchesCourse = !selectedCourse || item.curso === selectedCourse;
-      const matchesStatus = !selectedStatus || item.estado === selectedStatus;
+      const matchesCourse = !selectedCourse || (item.courseList || []).includes(selectedCourse);
+      const matchesStatus = !selectedStatus || item.statusKey === selectedStatus;
       return matchesName && matchesCourse && matchesStatus;
     });
 
-    const limited = filtered.slice(0, 200);
+    const limited = filtered.slice(0, 250);
     renderRecords(limited);
-    resultsCount.textContent = `${formatNumber(filtered.length)} resultado(s)` + (filtered.length > 200 ? ' · mostrando 200' : '');
+    resultsCount.textContent = `${formatNumber(filtered.length)} resultado(s)` + (filtered.length > 250 ? ' · mostrando 250' : '');
   }
 
   nameInput.addEventListener('input', applyFilters);
@@ -148,10 +145,9 @@ function setupFilters(data) {
 
   document.getElementById('updatedAt').textContent = `Actualizado: ${data.generatedAt}`;
   renderCards(data);
-  renderBars(data.courseTotals);
-  renderDonut(data.statusBreakdown);
-  renderTable(data.summaryRows);
+  renderBars(data.courseTotals || []);
+  renderDonut(data.statusBreakdown || []);
+  renderTable(data.summaryRows || []);
   renderInsights(data.insights || []);
-  renderUpdateSteps(data.updateGuide || []);
   setupFilters(data);
 })();

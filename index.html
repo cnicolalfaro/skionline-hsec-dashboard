@@ -28,58 +28,6 @@
     <main>
       <section class="cards" id="kpiCards"></section>
 
-      <section class="panel filters-panel">
-        <div class="panel-header">
-          <div>
-            <h2>Buscador de personas</h2>
-            <p>Filtra por nombre, curso o estado del registro</p>
-          </div>
-        </div>
-
-        <div class="filters">
-          <label class="field">
-            <span>Nombre</span>
-            <input id="nameSearch" type="text" placeholder="Escribe parte del nombre" />
-          </label>
-
-          <label class="field">
-            <span>Curso</span>
-            <select id="courseFilter">
-              <option value="">Todos</option>
-            </select>
-          </label>
-
-          <label class="field">
-            <span>Estado</span>
-            <select id="statusFilter">
-              <option value="">Todos</option>
-              <option value="Vigente">Vigente</option>
-              <option value="Duplicado">Duplicado</option>
-              <option value="No legible">No legible</option>
-            </select>
-          </label>
-        </div>
-
-        <div class="results-summary">
-          <span class="mini-chip" id="resultsCount">0 resultados</span>
-          <span class="mini-chip">Tip: puedes buscar por apellido o nombre</span>
-        </div>
-
-        <div class="table-wrap">
-          <table>
-            <thead>
-              <tr>
-                <th>Nombre</th>
-                <th>Curso</th>
-                <th>Estado</th>
-                <th>Archivo</th>
-              </tr>
-            </thead>
-            <tbody id="recordsTableBody"></tbody>
-          </table>
-        </div>
-      </section>
-
       <section class="grid two-col">
         <article class="panel">
           <div class="panel-header">
@@ -95,7 +43,7 @@
           <div class="panel-header">
             <div>
               <h2>Estado del registro</h2>
-              <p>Archivos únicos, duplicados y no legibles</p>
+              <p>Archivos únicos, duplicados, no legibles y cruce con TARJA</p>
             </div>
           </div>
           <div class="donut-layout">
@@ -103,6 +51,59 @@
             <div class="legend" id="donutLegend"></div>
           </div>
         </article>
+      </section>
+
+      <section class="panel filters-panel">
+        <div class="panel-header">
+          <div>
+            <h2>Buscador de trabajadores</h2>
+            <p>Busca idealmente por primer apellido y filtra por curso o estado</p>
+          </div>
+        </div>
+
+        <div class="filters">
+          <label class="field">
+            <span>Primer apellido</span>
+            <input id="nameSearch" type="text" placeholder="Ejemplo: Aguilera" />
+          </label>
+
+          <label class="field">
+            <span>Curso</span>
+            <select id="courseFilter">
+              <option value="">Todos</option>
+            </select>
+          </label>
+
+          <label class="field">
+            <span>Estado</span>
+            <select id="statusFilter">
+              <option value="">Todos</option>
+              <option value="con-registros">Con registros</option>
+              <option value="duplicado">Duplicado</option>
+              <option value="no-legible">No legible</option>
+              <option value="sin-registros">Sin registros</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="results-summary">
+          <span class="mini-chip" id="resultsCount">0 resultados</span>
+          <span class="mini-chip">Sugerencia: busca por el primer apellido</span>
+        </div>
+
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Nombre</th>
+                <th>Cursos encontrados</th>
+                <th>Estado</th>
+                <th>Observación</th>
+              </tr>
+            </thead>
+            <tbody id="recordsTableBody"></tbody>
+          </table>
+        </div>
       </section>
 
       <section class="grid two-col">
@@ -136,16 +137,6 @@
           </div>
           <ul id="insightsList" class="sample-list"></ul>
         </article>
-      </section>
-
-      <section class="panel">
-        <div class="panel-header">
-          <div>
-            <h2>Cómo actualizar la información</h2>
-            <p>La página puede regenerarse en pocos pasos</p>
-          </div>
-        </div>
-        <ol class="steps" id="updateSteps"></ol>
       </section>
     </main>
 

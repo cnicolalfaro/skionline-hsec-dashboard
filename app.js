@@ -2,6 +2,15 @@ function formatNumber(value) {
   return new Intl.NumberFormat('es-CL').format(value || 0);
 }
 
+function normalizeText(value) {
+  return (value || '')
+    .toString()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase()
+    .trim();
+}
+
 function renderCards(data) {
   const cards = [
     { label: 'Total archivos', value: data.kpis.totalArchivos, color: '#2d7ff9' },
@@ -77,6 +86,59 @@ function renderInsights(items) {
   `).join('');
 }
 
+function renderRecords(rows) {
+  const body = document.getElementById('recordsTableBody');
+  if (!rows.length) {
+    body.innerHTML = '<tr><td colspan="4">No se encontraron coincidencias.</td></tr>';
+    return;
+  }
+
+  body.innerHTML = rows.map(row => `
+    <tr>
+      <td>${row.nombre}</td>
+      <td>${row.curso}</td>
+      <td>${row.estado}</td>
+      <td>${row.archivo}</td>
+    </tr>
+  `).join('');
+}
+
+function renderUpdateSteps(steps) {
+  document.getElementById('updateSteps').innerHTML = (steps || []).map(step => `<li>${step}</li>`).join('');
+}
+
+function setupFilters(data) {
+  const nameInput = document.getElementById('nameSearch');
+  const courseFilter = document.getElementById('courseFilter');
+  const statusFilter = document.getElementById('statusFilter');
+  const resultsCount = document.getElementById('resultsCount');
+
+  const courses = [...new Set((data.records || []).map(item => item.curso))].sort();
+  courseFilter.innerHTML = '<option value="">Todos</option>' + courses.map(course => `<option value="${course}">${course}</option>`).join('');
+
+  function applyFilters() {
+    const query = normalizeText(nameInput.value);
+    const selectedCourse = courseFilter.value;
+    const selectedStatus = statusFilter.value;
+
+    const filtered = (data.records || []).filter(item => {
+      const matchesName = !query || normalizeText(item.nombre).includes(query);
+      const matchesCourse = !selectedCourse || item.curso === selectedCourse;
+      const matchesStatus = !selectedStatus || item.estado === selectedStatus;
+      return matchesName && matchesCourse && matchesStatus;
+    });
+
+    const limited = filtered.slice(0, 200);
+    renderRecords(limited);
+    resultsCount.textContent = `${formatNumber(filtered.length)} resultado(s)` + (filtered.length > 200 ? ' · mostrando 200' : '');
+  }
+
+  nameInput.addEventListener('input', applyFilters);
+  courseFilter.addEventListener('change', applyFilters);
+  statusFilter.addEventListener('change', applyFilters);
+  applyFilters();
+}
+
 (function init() {
   const data = window.DASHBOARD_DATA;
   if (!data) {
@@ -90,4 +152,6 @@ function renderInsights(items) {
   renderDonut(data.statusBreakdown);
   renderTable(data.summaryRows);
   renderInsights(data.insights || []);
+  renderUpdateSteps(data.updateGuide || []);
+  setupFilters(data);
 })();

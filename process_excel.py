@@ -8,8 +8,9 @@ from typing import Any
 from openpyxl import load_workbook
 
 BASE_DIR = Path(__file__).resolve().parent
-EXCEL_PATH = BASE_DIR / 'data' / 'REGISTRO_FINAL_CURSOS.xlsx'
-OUTPUT_PATH = BASE_DIR / 'data' / 'dashboard_data.js'
+DATA_DIR = BASE_DIR / 'data'
+OUTPUT_PATH = DATA_DIR / 'dashboard_data.js'
+PREFERRED_EXCEL_NAME = 'REGISTRO_FINAL_CURSOS.xlsx'
 
 
 def to_int(value: Any) -> int:
@@ -19,11 +20,42 @@ def to_int(value: Any) -> int:
         return 0
 
 
+def find_excel_path() -> Path:
+    preferred = DATA_DIR / PREFERRED_EXCEL_NAME
+    if preferred.exists():
+        return preferred
+
+    candidates = sorted(DATA_DIR.glob('*.xlsx'), key=lambda item: item.stat().st_mtime, reverse=True)
+    if candidates:
+        return candidates[0]
+
+    raise FileNotFoundError('No se encontró ningún archivo Excel en la carpeta data.')
+
+
+def get_cell_value(row: tuple[Any, ...], headers: list[str], column_name: str, default: str = '') -> str:
+    if column_name not in headers:
+        return default
+    idx = headers.index(column_name)
+    if len(row) <= idx or row[idx] is None:
+        return default
+    return str(row[idx]).strip()
+
+
+def get_status(sheet_name: str) -> str:
+    if sheet_name == 'DUPLICADOS':
+        return 'Duplicado'
+    if sheet_name == 'NO_LEGIBLE':
+        return 'No legible'
+    return 'Vigente'
+
+
 def main() -> None:
-    wb = load_workbook(EXCEL_PATH, data_only=True)
+    excel_path = find_excel_path()
+    wb = load_workbook(excel_path, data_only=True)
 
     summary_rows: list[dict[str, Any]] = []
     summary_map: dict[str, dict[str, Any]] = {}
+    records: list[dict[str, str]] = []
 
     if 'RESUMEN' in wb.sheetnames:
         ws = wb['RESUMEN']
@@ -67,16 +99,22 @@ def main() -> None:
                 'total': summary_map.get(sheet_name, {}).get('total', len(data_rows))
             })
 
-        if 'TIENE_SUFIJO' in headers:
-            idx = headers.index('TIENE_SUFIJO')
-            for row in data_rows:
-                if len(row) <= idx or row[idx] is None:
-                    continue
-                value = str(row[idx]).strip().upper()
-                if value in {'SI', 'SÍ', 'YES', 'TRUE', '1'}:
-                    suffix_yes += 1
-                else:
-                    suffix_no += 1
+        for row in data_rows:
+            suffix_value = get_cell_value(row, headers, 'TIENE_SUFIJO', '')
+            normalized_suffix = suffix_value.upper()
+            if normalized_suffix in {'SI', 'SÍ', 'YES', 'TRUE', '1'}:
+                suffix_yes += 1
+            elif suffix_value:
+                suffix_no += 1
+
+            nombre = get_cell_value(row, headers, 'NOMBRE_PERSONA', 'Sin nombre')
+            archivo = get_cell_value(row, headers, 'NOMBRE_ARCHIVO', 'Sin archivo')
+            records.append({
+                'nombre': nombre,
+                'curso': sheet_name,
+                'estado': get_status(sheet_name),
+                'archivo': archivo,
+            })
 
     total_archivos = summary_map.get('TOTAL', {}).get('total', sum(item['total'] for item in course_totals))
     documentos_unicos = sum(item['unicos'] for item in summary_rows if isinstance(item.get('unicos'), int))
@@ -86,6 +124,7 @@ def main() -> None:
     curso_top = max(course_totals, key=lambda item: item['total']) if course_totals else {'curso': '-', 'total': 0}
     payload = {
         'generatedAt': datetime.now().strftime('%d/%m/%Y %H:%M'),
+        'sourceFile': excel_path.name,
         'kpis': {
             'totalArchivos': total_archivos,
             'documentosUnicos': documentos_unicos,
@@ -101,10 +140,17 @@ def main() -> None:
             {'label': 'No legibles', 'value': no_legibles, 'color': '#f53b4d'},
         ],
         'summaryRows': summary_rows,
+        'records': records,
         'insights': [
             {'title': 'Curso con mayor volumen', 'detail': f"{curso_top['curso']} concentra {curso_top['total']} archivos."},
             {'title': 'Calidad del registro', 'detail': f'Se identificaron {duplicados} duplicados y {no_legibles} documentos no legibles.'},
             {'title': 'Normalización de nombres', 'detail': f'{suffix_yes} archivos presentan sufijo especial y {suffix_no} quedaron con formato estándar.'}
+        ],
+        'updateGuide': [
+            'Copia tu archivo Excel más reciente dentro de la carpeta data del proyecto.',
+            'Si deseas, mantén el nombre REGISTRO_FINAL_CURSOS.xlsx para reemplazar el anterior.',
+            'Ejecuta el archivo actualizar_dashboard.bat para regenerar el panel local.',
+            'Si también quieres actualizar el enlace público, ejecuta publicar_actualizacion.bat.'
         ],
     }
 
@@ -113,7 +159,7 @@ def main() -> None:
         'window.DASHBOARD_DATA = ' + json.dumps(payload, ensure_ascii=False, indent=2) + ';',
         encoding='utf-8',
     )
-    print(f'Dashboard data generated at: {OUTPUT_PATH}')
+    print(f'Dashboard data generated at: {OUTPUT_PATH} using {excel_path.name}')
 
 
 if __name__ == '__main__':

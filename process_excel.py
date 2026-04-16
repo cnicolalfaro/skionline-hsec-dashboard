@@ -109,15 +109,22 @@ def names_match(evidence_name: Any, nombre: Any, paterno: Any, materno: Any) -> 
     return False
 
 
-def collect_person_evidence(evidence_entries: list[dict[str, Any]], nombre: Any, paterno: Any, materno: Any) -> dict[str, set[str]]:
+def collect_person_evidence(evidence_entries: list[dict[str, Any]], nombre: Any, paterno: Any, materno: Any, rut: Any = '') -> dict[str, set[str]]:
     courses: set[str] = set()
     flags: set[str] = set()
     notes: set[str] = set()
+    rut_matches: set[str] = set()
+    target_rut = clean_rut(rut)
 
     for entry in evidence_entries:
-        if not names_match(entry.get('name'), nombre, paterno, materno):
+        entry_ruts = {clean_rut(value) for value in entry.get('rutCandidates', []) if clean_rut(value)}
+        matches_by_rut = bool(target_rut and target_rut in entry_ruts)
+
+        if not matches_by_rut and not names_match(entry.get('name'), nombre, paterno, materno):
             continue
 
+        if matches_by_rut:
+            rut_matches.add(target_rut)
         if entry.get('course'):
             courses.add(entry['course'])
         if entry.get('flag'):
@@ -125,7 +132,7 @@ def collect_person_evidence(evidence_entries: list[dict[str, Any]], nombre: Any,
         if entry.get('note'):
             notes.add(entry['note'])
 
-    return {'courses': courses, 'flags': flags, 'notes': notes}
+    return {'courses': courses, 'flags': flags, 'notes': notes, 'rutMatches': rut_matches}
 
 
 def get_cell_value(row: tuple[Any, ...], headers: list[str], column_name: str, default: str = '') -> str:
@@ -153,6 +160,21 @@ def format_rut(value: Any) -> str:
     return f'{cleaned[:-1]}-{cleaned[-1].upper()}'
 
 
+def clean_rut(value: Any) -> str:
+    return re.sub(r'[^0-9kK]', '', '' if value is None else str(value)).upper()
+
+
+def extract_rut_candidates(value: Any) -> list[str]:
+    text = '' if value is None else str(value)
+    matches = re.findall(r'(?<!\d)(\d{7,8}[\-–]?[0-9kK])(?!\d)', text)
+    candidates: list[str] = []
+    for match in matches:
+        cleaned = clean_rut(match)
+        if len(cleaned) >= 8:
+            candidates.append(cleaned)
+    return list(dict.fromkeys(candidates))
+
+
 def get_first_available_cell(row: tuple[Any, ...], headers: list[str], column_names: list[str], default: str = '') -> str:
     normalized_headers = [header.upper().replace('.', '').strip() for header in headers]
     for column_name in column_names:
@@ -168,8 +190,21 @@ def get_first_available_cell(row: tuple[Any, ...], headers: list[str], column_na
     return default
 
 
-def load_external_rut_lookup() -> dict[str, str]:
-    lookup: dict[str, str] = {}
+def extract_headers_and_rows(raw_rows: list[tuple[Any, ...]]) -> tuple[list[str], list[tuple[Any, ...]]]:
+    if not raw_rows:
+        return [], []
+
+    for idx, raw_header in enumerate(raw_rows[:15]):
+        headers = [str(h).strip() if h is not None else '' for h in raw_header]
+        normalized = [header.upper().replace('.', '').strip() for header in headers]
+        if 'NOMBRE' in normalized and ('RUT' in normalized or 'A PATERNO' in normalized):
+            return headers, raw_rows[idx + 1:]
+
+    headers = [str(h).strip() if h is not None else '' for h in raw_rows[0]]
+    return headers, raw_rows[1:]
+
+
+def find_external_tarja_workbook():
     search_folders = [BASE_DIR, BASE_DIR.parent, DATA_DIR]
 
     for folder in search_folders:
@@ -179,51 +214,60 @@ def load_external_rut_lookup() -> dict[str, str]:
             except Exception:
                 continue
 
-            if 'TARJA' not in wb.sheetnames:
-                continue
+            if 'TARJA' in wb.sheetnames:
+                return wb
 
-            ws = wb['TARJA']
-            rows = list(ws.iter_rows(values_only=True))
-            if not rows:
-                continue
+    return None
 
-            headers = [str(h).strip() if h is not None else '' for h in rows[0]]
-            if 'RUT' not in [header.upper().strip() for header in headers]:
-                continue
 
-            for row in rows[1:]:
-                if not row or all(value is None or str(value).strip() == '' for value in row):
-                    continue
+def load_external_rut_lookup() -> dict[str, str]:
+    lookup: dict[str, str] = {}
+    wb = find_external_tarja_workbook()
+    if wb is None:
+        return lookup
 
-                nombre = get_first_available_cell(row, headers, ['NOMBRE'])
-                paterno = get_first_available_cell(row, headers, ['A. PATERNO'])
-                materno = get_first_available_cell(row, headers, ['A. MATERNO'])
-                rut = format_rut(get_first_available_cell(row, headers, ['RUT']))
-                person_key = fingerprint(nombre, paterno, materno)
+    ws = wb['TARJA']
+    raw_rows = list(ws.iter_rows(values_only=True))
+    headers, rows = extract_headers_and_rows(raw_rows)
+    if not headers or not rows:
+        return lookup
 
-                if person_key and rut:
-                    lookup[person_key] = rut
+    if 'RUT' not in [header.upper().replace('.', '').strip() for header in headers]:
+        return lookup
 
-            if lookup:
-                return lookup
+    for row in rows:
+        if not row or all(value is None or str(value).strip() == '' for value in row):
+            continue
+
+        nombre = get_first_available_cell(row, headers, ['NOMBRE'])
+        paterno = get_first_available_cell(row, headers, ['A. PATERNO'])
+        materno = get_first_available_cell(row, headers, ['A. MATERNO'])
+        rut = format_rut(get_first_available_cell(row, headers, ['RUT']))
+        person_key = fingerprint(nombre, paterno, materno)
+
+        if person_key and rut:
+            lookup[person_key] = rut
 
     return lookup
 
 
 def build_tarja_records(wb, evidence_entries: list[dict[str, Any]], external_rut_lookup: dict[str, str]) -> tuple[list[dict[str, Any]], int]:
-    if 'TARJA' not in wb.sheetnames:
+    if 'TARJA' in wb.sheetnames:
+        ws = wb['TARJA']
+    else:
+        external_wb = find_external_tarja_workbook()
+        if external_wb is None or 'TARJA' not in external_wb.sheetnames:
+            return [], 0
+        ws = external_wb['TARJA']
+    raw_rows = list(ws.iter_rows(values_only=True))
+    headers, rows = extract_headers_and_rows(raw_rows)
+    if not headers or not rows:
         return [], 0
 
-    ws = wb['TARJA']
-    rows = list(ws.iter_rows(values_only=True))
-    if not rows:
-        return [], 0
-
-    headers = [str(h).strip() if h is not None else '' for h in rows[0]]
     records: list[dict[str, Any]] = []
     sin_registros = 0
 
-    for row in rows[1:]:
+    for row in rows:
         if not row or all(value is None or str(value).strip() == '' for value in row):
             continue
 
@@ -235,12 +279,12 @@ def build_tarja_records(wb, evidence_entries: list[dict[str, Any]], external_rut
 
         nombre_mostrado = ' '.join(part for part in [paterno, materno, nombre] if part).strip() or 'Sin nombre'
         person_key = fingerprint(nombre, paterno, materno)
-        evidence = collect_person_evidence(evidence_entries, nombre, paterno, materno)
+        rut_tarja = format_rut(get_first_available_cell(row, headers, ['RUT', 'R.U.T', 'R U T'], ''))
+        rut = rut_tarja or external_rut_lookup.get(person_key, '')
+        evidence = collect_person_evidence(evidence_entries, nombre, paterno, materno, rut)
         courses = sorted(evidence.get('courses', set()))
         flags = evidence.get('flags', set())
         notes = evidence.get('notes', set())
-        rut_tarja = format_rut(get_first_available_cell(row, headers, ['RUT', 'R.U.T', 'R U T'], ''))
-        rut = rut_tarja or external_rut_lookup.get(person_key, '')
 
         if not courses and not flags:
             estado = 'No hay registros cargados, confirmar en portales'
@@ -335,6 +379,7 @@ def main() -> None:
 
         for row in data_rows:
             nombre_persona = get_cell_value(row, headers, 'NOMBRE_PERSONA')
+            nombre_archivo = get_cell_value(row, headers, 'NOMBRE_ARCHIVO')
             person_key = fingerprint(nombre_persona)
             if not person_key:
                 continue
@@ -342,6 +387,7 @@ def main() -> None:
             course_name = format_course_name(sheet_name)
             entry = {
                 'name': nombre_persona,
+                'rutCandidates': extract_rut_candidates(nombre_persona) + extract_rut_candidates(nombre_archivo),
                 'course': '',
                 'flag': '',
                 'note': '',

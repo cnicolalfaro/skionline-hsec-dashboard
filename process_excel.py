@@ -79,6 +79,23 @@ def format_course_name(sheet_name: str) -> str:
     return sheet_name.replace('_', ' ').strip()
 
 
+def extract_rut_from_text(value: Any) -> str:
+    text = '' if value is None else str(value)
+    matches = re.findall(r'\d{7,10}[0-9kK]?', text)
+    if not matches:
+        return ''
+    matches.sort(key=len, reverse=True)
+    return matches[0]
+
+
+def get_first_available_cell(row: tuple[Any, ...], headers: list[str], column_names: list[str], default: str = '') -> str:
+    for column_name in column_names:
+        value = get_cell_value(row, headers, column_name, '')
+        if value:
+            return value
+    return default
+
+
 def build_tarja_records(wb, evidence_map: dict[str, dict[str, Any]]) -> tuple[list[dict[str, Any]], int]:
     if 'TARJA' not in wb.sheetnames:
         return [], 0
@@ -101,12 +118,15 @@ def build_tarja_records(wb, evidence_map: dict[str, dict[str, Any]]) -> tuple[li
         materno = get_cell_value(row, headers, 'A. MATERNO')
         especialidad = get_cell_value(row, headers, 'ESPECIALIDAD', 'Sin especialidad informada')
         estado_tarja = get_cell_value(row, headers, 'ESTADO', 'Sin estado')
+        rut_tarja = get_first_available_cell(row, headers, ['RUT', 'Nª PERSONAL', 'N° PERSONAL', 'Nº PERSONAL'], '')
 
         nombre_mostrado = ' '.join(part for part in [paterno, materno, nombre] if part).strip() or 'Sin nombre'
         person_key = fingerprint(nombre, paterno, materno)
-        evidence = evidence_map.get(person_key, {'courses': set(), 'flags': set()})
+        evidence = evidence_map.get(person_key, {'courses': set(), 'flags': set(), 'ruts': set(), 'notes': set()})
         courses = sorted(evidence.get('courses', set()))
         flags = evidence.get('flags', set())
+        notes = evidence.get('notes', set())
+        rut = sorted(evidence.get('ruts', set()), key=len, reverse=True)[0] if evidence.get('ruts') else rut_tarja
 
         if not courses and not flags:
             estado = 'No hay registros cargados, confirmar en portales'
@@ -129,11 +149,14 @@ def build_tarja_records(wb, evidence_map: dict[str, dict[str, Any]]) -> tuple[li
                 observaciones.append('incluye duplicados')
             if 'no-legible' in flags:
                 observaciones.append('incluye no legibles')
+            if 'irl-forms' in notes:
+                observaciones.append('respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental')
             extra = f" · {', '.join(observaciones)}" if observaciones else ''
             detalle = f'{especialidad} · Estado TARJA: {estado_tarja}{extra}'
 
         records.append({
             'nombre': nombre_mostrado,
+            'rut': rut,
             'cursos': ', '.join(courses) if courses else '-',
             'courseList': courses,
             'estado': estado,
@@ -202,9 +225,17 @@ def main() -> None:
             if not person_key:
                 continue
 
-            current = evidence_map.setdefault(person_key, {'courses': set(), 'flags': set()})
+            current = evidence_map.setdefault(person_key, {'courses': set(), 'flags': set(), 'ruts': set(), 'notes': set()})
+
+            nombre_archivo = get_cell_value(row, headers, 'NOMBRE_ARCHIVO', '')
+            rut_detectado = extract_rut_from_text(nombre_archivo)
+            if rut_detectado:
+                current['ruts'].add(rut_detectado)
+
             if is_evidence_sheet(sheet_name):
                 current['courses'].add(format_course_name(sheet_name))
+                if format_course_name(sheet_name) == 'IRL GENERAL FORMS':
+                    current['notes'].add('irl-forms')
             elif sheet_name == 'NO_LEGIBLE':
                 current['flags'].add('no-legible')
             elif sheet_name == 'DUPLICADOS':
@@ -241,6 +272,13 @@ def main() -> None:
         ],
         'summaryRows': summary_rows,
         'records': records,
+        'irlFormsNote': 'Los registros asociados a IRL GENERAL FORMS corresponden a respaldos cargados por los trabajadores mediante Forms. Para una validación formal, se recomienda revisar directamente el archivo original en la carpeta documental, a fin de confirmar su legibilidad, integridad y correcta carga. Los accesos disponibles a continuación funcionan solo para personal previamente autorizado en SharePoint.',
+        'accessLinks': [
+            {'label': 'Evidencias de certificaciones', 'url': 'https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/3-%20Registros%20capacitaciones%20-%20difusiones/3-%20Evidencias%20de%20Certificaciones?csf=1&web=1&e=ovhAFT'},
+            {'label': 'Procedimientos contrato 982', 'url': 'https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/2-%20Procedimientos?csf=1&web=1&e=IsTxdJ'},
+            {'label': 'Procedimientos contrato 984', 'url': 'https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030984/2-%20Procedimientos?csf=1&web=1&e=RJlP81'},
+            {'label': 'Check list actualizados', 'url': 'https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/4-%20Formatos%20terreno/01-%20Check%20list/Check%20List%20Actualizados?csf=1&web=1&e=5arIgO'}
+        ],
         'insights': [
             {'title': 'Curso con mayor volumen', 'detail': f"{curso_top['curso']} concentra {curso_top['total']} archivos."},
             {'title': 'Cruce con TARJA', 'detail': f'Se detectaron {sin_registros} trabajadores sin evidencias cargadas en el sistema.'},

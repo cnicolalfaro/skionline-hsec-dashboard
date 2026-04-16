@@ -11,6 +11,10 @@ function normalizeText(value) {
     .trim();
 }
 
+function normalizeRut(value) {
+  return (value || '').toString().replace(/[^0-9kK]/g, '').toLowerCase();
+}
+
 function renderCards(data) {
   const cards = [
     { label: 'Total de archivos', value: data.kpis.totalArchivos, color: '#2d7ff9', help: 'Cantidad total de evidencias y documentos encontrados en el consolidado.' },
@@ -86,16 +90,27 @@ function renderInsights(items) {
   `).join('');
 }
 
+function renderAccess(data) {
+  const note = document.getElementById('irlFormsNote');
+  const linksContainer = document.getElementById('accessLinks');
+  note.textContent = data.irlFormsNote || '';
+
+  linksContainer.innerHTML = (data.accessLinks || []).map(link => `
+    <a class="access-button" href="${link.url}" target="_blank" rel="noopener noreferrer">${link.label}</a>
+  `).join('');
+}
+
 function renderRecords(rows) {
   const body = document.getElementById('recordsTableBody');
   if (!rows.length) {
-    body.innerHTML = '<tr><td colspan="4">No se encontraron coincidencias.</td></tr>';
+    body.innerHTML = '<tr><td colspan="5">No se encontraron coincidencias.</td></tr>';
     return;
   }
 
   body.innerHTML = rows.map(row => `
     <tr>
       <td>${row.nombre}</td>
+      <td>${row.rut || '-'}</td>
       <td>${row.cursos}</td>
       <td>${row.estado}</td>
       <td>${row.detalle}</td>
@@ -105,6 +120,7 @@ function renderRecords(rows) {
 
 function setupFilters(data) {
   const nameInput = document.getElementById('nameSearch');
+  const rutInput = document.getElementById('rutSearch');
   const courseFilter = document.getElementById('courseFilter');
   const statusFilter = document.getElementById('statusFilter');
   const resultsCount = document.getElementById('resultsCount');
@@ -114,14 +130,16 @@ function setupFilters(data) {
 
   function applyFilters() {
     const query = normalizeText(nameInput.value);
+    const rutQuery = normalizeRut(rutInput.value);
     const selectedCourse = courseFilter.value;
     const selectedStatus = statusFilter.value;
 
     const filtered = (data.records || []).filter(item => {
       const matchesName = !query || normalizeText(item.nombre).includes(query);
+      const matchesRut = !rutQuery || normalizeRut(item.rut).includes(rutQuery);
       const matchesCourse = !selectedCourse || (item.courseList || []).includes(selectedCourse);
       const matchesStatus = !selectedStatus || item.statusKey === selectedStatus;
-      return matchesName && matchesCourse && matchesStatus;
+      return matchesName && matchesRut && matchesCourse && matchesStatus;
     });
 
     const limited = filtered.slice(0, 250);
@@ -130,6 +148,7 @@ function setupFilters(data) {
   }
 
   nameInput.addEventListener('input', applyFilters);
+  rutInput.addEventListener('input', applyFilters);
   courseFilter.addEventListener('change', applyFilters);
   statusFilter.addEventListener('change', applyFilters);
   applyFilters();
@@ -146,6 +165,7 @@ function setupFilters(data) {
   renderCards(data);
   renderBars(data.courseTotals || []);
   renderDonut(data.statusBreakdown || []);
+  renderAccess(data);
   renderTable(data.summaryRows || []);
   renderInsights(data.insights || []);
   setupFilters(data);

@@ -53,18 +53,33 @@
         </article>
       </section>
 
+      <section class="panel access-panel">
+        <div class="access-layout">
+          <div>
+            <h2>Accesos documentales autorizados</h2>
+            <p id="irlFormsNote" class="access-note"></p>
+          </div>
+          <div id="accessLinks" class="access-links"></div>
+        </div>
+      </section>
+
       <section class="panel filters-panel">
         <div class="panel-header">
           <div>
             <h2>Buscador de trabajadores</h2>
-            <p>Busca idealmente por primer apellido y filtra por curso o estado</p>
+            <p>Busca por primer apellido, RUT, curso o estado</p>
           </div>
         </div>
 
-        <div class="filters">
+        <div class="filters filters-four">
           <label class="field">
             <span>Primer apellido</span>
             <input id="nameSearch" type="text" placeholder="Ejemplo: Aguilera" />
+          </label>
+
+          <label class="field">
+            <span>RUT</span>
+            <input id="rutSearch" type="text" placeholder="Ejemplo: 18482993" />
           </label>
 
           <label class="field">
@@ -88,7 +103,7 @@
 
         <div class="results-summary">
           <span class="mini-chip" id="resultsCount">0 resultados</span>
-          <span class="mini-chip">Sugerencia: busca por el primer apellido</span>
+          <span class="mini-chip">Sugerencia: busca por primer apellido o por RUT</span>
         </div>
 
         <div class="table-wrap">
@@ -96,6 +111,7 @@
             <thead>
               <tr>
                 <th>Nombre</th>
+                <th>RUT</th>
                 <th>Cursos encontrados</th>
                 <th>Estado</th>
                 <th>Observación</th>

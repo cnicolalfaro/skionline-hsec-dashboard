@@ -1,14 +1,14 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "16/04/2026 19:16",
+  "generatedAt": "16/04/2026 19:26",
   "sourceFile": "REGISTRO_FINAL_CURSOS.xlsx",
   "kpis": {
     "totalArchivos": 1776,
     "documentosUnicos": 1655,
     "duplicados": 114,
     "noLegibles": 11,
-    "trabajadoresTarja": 333,
-    "conRegistros": 292,
-    "sinRegistros": 41
+    "trabajadoresTarja": 291,
+    "conRegistros": 275,
+    "sinRegistros": 16
   },
   "courseTotals": [
     {
@@ -51,12 +51,12 @@ window.DASHBOARD_DATA = {
   "statusBreakdown": [
     {
       "label": "Con registros",
-      "value": 292,
+      "value": 275,
       "color": "#51b847"
     },
     {
       "label": "Sin registros",
-      "value": 41,
+      "value": 16,
       "color": "#ff7a59"
     },
     {
@@ -145,7 +145,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "INGENIERO PROGRAMADOR · Estado TARJA: VIGENTE"
+      "detalle": "INGENIERO PROGRAMADOR · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "ACEVEDO PEREIRA ALDO FELIPE",
@@ -154,22 +154,7 @@ window.DASHBOARD_DATA = {
       "courseList": [],
       "estado": "No hay registros cargados, confirmar en portales",
       "statusKey": "sin-registros",
-      "detalle": "CHOFER CAMION PLANO C/EQ · Estado TARJA: VIGENTE"
-    },
-    {
-      "nombre": "AGUAYO CIFUENTES FELIPE IGNACIO",
-      "rut": "19554837-4",
-      "cursos": "AYB, EPP, EXT, OPR, PA",
-      "courseList": [
-        "AYB",
-        "EPP",
-        "EXT",
-        "OPR",
-        "PA"
-      ],
-      "estado": "Con registros",
-      "statusKey": "con-registros",
-      "detalle": "TOPOGRAFO DE MANTENCION · Estado TARJA: VIGENTE"
+      "detalle": "CHOFER CAMION PLANO C/EQ · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "AGUILAR CHOQUE SEVERINO",
@@ -178,7 +163,7 @@ window.DASHBOARD_DATA = {
       "courseList": [],
       "estado": "No hay registros cargados, confirmar en portales",
       "statusKey": "sin-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "AGUILAR RAMIREZ JORGE RAFAEL",
@@ -194,7 +179,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MECANICO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "AGUILERA BALBOA LUIS CARLOS",
@@ -209,7 +194,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "JEFE DE OPERACIONES · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "JEFE DE OPERACIONES · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "AGUILERA CHAPARRO MIGUEL ANGEL",
@@ -221,7 +206,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MECANICO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "AGUIRRE BRIZUELA VALERIA JAZMIN",
@@ -234,7 +219,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "ASISTENTE ADMINISTRATIVO · Estado TARJA: VIGENTE"
+      "detalle": "ASISTENTE ADMINISTRATIVO · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "ALAMOS ALAMOS ABELARDO ANTONIO",
@@ -243,7 +228,7 @@ window.DASHBOARD_DATA = {
       "courseList": [],
       "estado": "No hay registros cargados, confirmar en portales",
       "statusKey": "sin-registros",
-      "detalle": "ASEADORES INDUSTRIAL · Estado TARJA: VIGENTE"
+      "detalle": "ASEADORES INDUSTRIAL · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "ALCAINO ESSMANN WINSTON ALEXIS",
@@ -252,7 +237,7 @@ window.DASHBOARD_DATA = {
       "courseList": [],
       "estado": "No hay registros cargados, confirmar en portales",
       "statusKey": "sin-registros",
-      "detalle": "ENCARGADO DE SERVICIOS · Estado TARJA: VIGENTE"
+      "detalle": "ENCARGADO DE SERVICIOS · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "ALEGRIA VASQUEZ PABLO CESAR",
@@ -269,7 +254,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "EXPERTO HSEC MANTENCION · Estado TARJA: VIGENTE · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "EXPERTO HSEC MANTENCION · Estado TARJA: ACTIVO · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "ALFARO CALDERON CONSTANZA NICOL",
@@ -280,7 +265,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "EXPERTO GESTION HSEC OBRA · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "EXPERTO GESTION HSEC OBRA · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "ALURRALDE LOPEZ VICTOR",
@@ -289,7 +274,7 @@ window.DASHBOARD_DATA = {
       "courseList": [],
       "estado": "No hay registros cargados, confirmar en portales",
       "statusKey": "sin-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "ALVAREZ BECERRA JOSE LUIS",
@@ -301,22 +286,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
-    },
-    {
-      "nombre": "ALVIAL LAGOS GEORGE EDUARD",
-      "rut": "17421968-0",
-      "cursos": "AYB, EPP, EXT, OPR, PA",
-      "courseList": [
-        "AYB",
-        "EPP",
-        "EXT",
-        "OPR",
-        "PA"
-      ],
-      "estado": "Con registros",
-      "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA /ANDAMIE · Estado TARJA: VIGENTE"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "AMAYA RIQUELME VICTOR RENATO",
@@ -331,7 +301,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER CAMIONETA MANTENCI · Estado TARJA: VIGENTE"
+      "detalle": "CHOFER CAMIONETA MANTENCI · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "ANABALON ESCOBAR HUGO ALBERTO",
@@ -347,7 +317,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · incluye duplicados"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO · incluye duplicados"
     },
     {
       "nombre": "ARAGON URIBE MIGUEL ANGEL",
@@ -364,7 +334,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "EXPERTO HSEC MANTENCION · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "EXPERTO HSEC MANTENCION · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "ARANCIBIA MUÑOZ FRANCO DARIO",
@@ -378,7 +348,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "ARANEDA ESCOBAR HERNAN OGGER",
@@ -389,7 +359,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "SOLDADOR PLANCHA · Estado TARJA: VIGENTE"
+      "detalle": "SOLDADOR PLANCHA · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "ARANGUIZ BETANZO FERNANDO DANIEL",
@@ -404,16 +374,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER DE BUS · Estado TARJA: VIGENTE"
-    },
-    {
-      "nombre": "ARAYA CONTRERAS CRISTIAN BRIAN",
-      "rut": "16969757-4",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
-      "detalle": "MECANICO PRIMERA /RIGGER · Estado TARJA: VIGENTE"
+      "detalle": "CHOFER DE BUS · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "ARENAS CAIRE NELSON ELIAS",
@@ -427,7 +388,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "SOLDADOR PLANCHA · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "SOLDADOR PLANCHA · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "AREVALO CORTES LUIS ALBERTO",
@@ -439,7 +400,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "AREVALO HORMAZABAL LUIS ALEJANDRO",
@@ -454,7 +415,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "ARGOTE ROCHA CESAR",
@@ -463,7 +424,7 @@ window.DASHBOARD_DATA = {
       "courseList": [],
       "estado": "No hay registros cargados, confirmar en portales",
       "statusKey": "sin-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "ARREAZA REINA JOSE LUIS",
@@ -472,7 +433,7 @@ window.DASHBOARD_DATA = {
       "courseList": [],
       "estado": "No hay registros cargados, confirmar en portales",
       "statusKey": "sin-registros",
-      "detalle": "ENCARGADO DE SERVICIOS · Estado TARJA: VIGENTE"
+      "detalle": "ENCARGADO DE SERVICIOS · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "ARRIAGADA BAHAMONDE CARLOS RENE",
@@ -489,7 +450,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "ARRIAGADA TAPIA DIONEL DAVID",
@@ -507,7 +468,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "ARROYO CUEVAS NELSON ELOY",
@@ -521,7 +482,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "ARTEAGA CURAHUA RONALD",
@@ -533,7 +494,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "ARTEAGA SUBE JUAN PABLO",
@@ -548,7 +509,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "INGENIERO PROGRAMADOR · Estado TARJA: VIGENTE"
+      "detalle": "INGENIERO PROGRAMADOR · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "ASTETE GOMEZ MILTON GABRIEL",
@@ -560,7 +521,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "SOLDADOR PLANCHA · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "SOLDADOR PLANCHA · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "ASTETE ZENTENO LUCIANO FELIPE",
@@ -577,7 +538,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "AVELLO CHANDIA RODRIGO ANDRES",
@@ -590,7 +551,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER CAMIONETA MANTENCI · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "CHOFER CAMIONETA MANTENCI · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "AVILA VALENCIA MAURICIO ANDRES",
@@ -604,7 +565,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "BALMAZABAL GUTIERREZ RODRIGO EDUARDO",
@@ -618,7 +579,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: VIGENTE"
+      "detalle": "MECANICO · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "BARRA TEJEDA EMANUEL ABSALON",
@@ -633,7 +594,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER MINIBUS/VAN · Estado TARJA: VIGENTE"
+      "detalle": "CHOFER MINIBUS/VAN · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "BARRAULT DAVIES PABLO HENRY",
@@ -644,7 +605,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "BARRIENTOS ESCOBAR JERSON",
@@ -659,7 +620,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "EXPERTO HSEC MANTENCION · Estado TARJA: VIGENTE"
+      "detalle": "EXPERTO HSEC MANTENCION · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "BARRIGA ILLANES LEONARDO IVAN",
@@ -671,7 +632,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "SOLDADOR PLANCHA · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "SOLDADOR PLANCHA · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "BARRIOS TORREJON RODRIGO EDUARDO",
@@ -685,7 +646,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "OP RETROEXCAVADORA · Estado TARJA: VIGENTE"
+      "detalle": "OP RETROEXCAVADORA · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "BASCOURT GALINDO FABIAN ISMAEL",
@@ -696,7 +657,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "BASTIAS FIGUEROA ALEX ANTONIO",
@@ -711,7 +672,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "JEFE HSEC MANTENCION · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "JEFE HSEC MANTENCION · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "BAUTISTA CORIA ALEJANDRO ENRIQUE",
@@ -726,7 +687,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: VIGENTE"
+      "detalle": "MECANICO · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "BELMAR FICA MAURICIO ALEJANDRO",
@@ -737,7 +698,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "SUPERV DE ESTRUCTURA MANT · Estado TARJA: VIGENTE"
+      "detalle": "SUPERV DE ESTRUCTURA MANT · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "BENITEZ WERLINGER SEBASTIAN ANTONIO",
@@ -749,7 +710,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "BRAVO HERNANDEZ ALEXIS ARTURO",
@@ -765,7 +726,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "BRAVO ROA GUILLERMO IVAN",
@@ -782,7 +743,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "BRIONES IBAÑEZ MARCELL IGNACIO",
@@ -797,16 +758,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "ASEADORES INDUSTRIAL · Estado TARJA: VIGENTE"
-    },
-    {
-      "nombre": "BRIONES VEGA GUSTAVO WLADIMIR",
-      "rut": "12718280-9",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
-      "detalle": "RIGGER · Estado TARJA: VIGENTE"
+      "detalle": "ASEADORES INDUSTRIAL · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "BUSTAMANTE SEPULVEDA CAMILO ANDRES",
@@ -819,7 +771,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "ASEADORES INDUSTRIAL · Estado TARJA: VIGENTE"
+      "detalle": "ASEADORES INDUSTRIAL · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "BUSTOS VEGA WLADIMIR BORIS",
@@ -834,7 +786,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MECANICO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "CAAMAÑO QUIÑILEN CRISTIAN FELIPE",
@@ -849,7 +801,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "JEFE DE MANTENCION · Estado TARJA: VIGENTE"
+      "detalle": "JEFE DE MANTENCION · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "CABEZAS CABEZAS JOAQUIN ANDRES",
@@ -860,7 +812,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "CACERES MORALES BERNARDO GIOVANY",
@@ -876,34 +828,24 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
-    },
-    {
-      "nombre": "CAMPOS PLASENCIO FRANCISCO JAVIER",
-      "rut": "16690782-9",
-      "cursos": "AYB",
-      "courseList": [
-        "AYB"
-      ],
-      "estado": "Con registros",
-      "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "CANALES GARCIA ALLEX ROBERT",
       "rut": "19267410-7",
-      "cursos": "AYB, EPP, EXT, IRL GENERAL, IRL GENERAL FORMS, PA",
+      "cursos": "AYB, EPP, EXT, IRL ESPECIFICA, IRL GENERAL, IRL GENERAL FORMS, PA",
       "courseList": [
         "AYB",
         "EPP",
         "EXT",
+        "IRL ESPECIFICA",
         "IRL GENERAL",
         "IRL GENERAL FORMS",
         "PA"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO SEGUNDA · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MECANICO SEGUNDA · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "CANELO ROJAS DIEGO ESTEBAN",
@@ -920,7 +862,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "CANIO MARILUAN DANIEL ISAIAS",
@@ -936,7 +878,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "ASEADORES INDUSTRIAL · Estado TARJA: VIGENTE"
+      "detalle": "ASEADORES INDUSTRIAL · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "CARDENAS BELTRAN ALEXIS ERNESTO",
@@ -952,7 +894,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: VIGENTE · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MECANICO · Estado TARJA: ACTIVO · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "CAREAGA PEREZ LEONARDO",
@@ -969,7 +911,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "CARMONA OLIVARES PEDRO MIGUEL",
@@ -986,7 +928,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · incluye duplicados"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO · incluye duplicados"
     },
     {
       "nombre": "CARO LAVADO JUAN GABRIEL",
@@ -999,7 +941,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA /ANDAMIE · Estado TARJA: VIGENTE"
+      "detalle": "MECANICO PRIMERA /ANDAMIE · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "CARRASCO ORTEGA MATIAS IGNACIO",
@@ -1016,7 +958,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · incluye duplicados"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO · incluye duplicados"
     },
     {
       "nombre": "CARRASCO SHAW VICTOR DANIEL",
@@ -1034,7 +976,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: VIGENTE"
+      "detalle": "MECANICO · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "CARREÑO VERA ALEXIE MARCELO",
@@ -1045,7 +987,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA /RIGGER · Estado TARJA: VIGENTE · incluye duplicados"
+      "detalle": "MECANICO PRIMERA /RIGGER · Estado TARJA: ACTIVO · incluye duplicados"
     },
     {
       "nombre": "CARRILLO GONZALEZ MIRKO PAOLO",
@@ -1062,7 +1004,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "ASEADORES INDUSTRIAL · Estado TARJA: VIGENTE · incluye duplicados"
+      "detalle": "ASEADORES INDUSTRIAL · Estado TARJA: ACTIVO · incluye duplicados"
     },
     {
       "nombre": "CARVAJAL ALFARO RICARDO MAX",
@@ -1080,7 +1022,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MECANICO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "CARVAJAL DELGADO GLEN EDUARDO",
@@ -1097,7 +1039,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER CAMIONETA MANTENCI · Estado TARJA: VIGENTE"
+      "detalle": "CHOFER CAMIONETA MANTENCI · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "CASTILLO CASTILLO HECTOR ALEJANDRO",
@@ -1114,7 +1056,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "EXPERTO HSEC MANTENCION · Estado TARJA: VIGENTE"
+      "detalle": "EXPERTO HSEC MANTENCION · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "CASTILLO NEIRA MIGUEL ANGEL",
@@ -1130,7 +1072,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "CASTRO JARA JAVIER RENATO",
@@ -1146,7 +1088,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: VIGENTE · incluye duplicados"
+      "detalle": "MECANICO · Estado TARJA: ACTIVO · incluye duplicados"
     },
     {
       "nombre": "CELEDON GUTIERREZ LUIS ALEJANDRO",
@@ -1160,7 +1102,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "CERDA RAMOS JESUS VICTORIANO",
@@ -1174,7 +1116,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "CID LAGOS JULIO EDUARDO",
@@ -1192,7 +1134,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER CAMIONETA MANTENCI · Estado TARJA: VIGENTE · incluye duplicados"
+      "detalle": "CHOFER CAMIONETA MANTENCI · Estado TARJA: ACTIVO · incluye duplicados"
     },
     {
       "nombre": "CIFUENTES SAAVEDRA BAYRON PATRICIO",
@@ -1209,16 +1151,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
-    },
-    {
-      "nombre": "CISTERNA CISTERNA BERNARDO ANDRES",
-      "rut": "15681428-8",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
-      "detalle": "OPERADOR CAMION PLUMA · Estado TARJA: VIGENTE"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "CONTRERAS GAMBOA LUIS GUILLERMO",
@@ -1234,7 +1167,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · incluye duplicados"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO · incluye duplicados"
     },
     {
       "nombre": "CORNEJO FLORES JULIANO ENRIQUE",
@@ -1251,7 +1184,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA /ANDAMIERO · Estado TARJA: VIGENTE"
+      "detalle": "MECANICO PRIMERA /ANDAMIERO · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "CORTES ORTIZ DAVIS EMILIO",
@@ -1268,7 +1201,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · incluye duplicados"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO · incluye duplicados"
     },
     {
       "nombre": "CORTES VALLEJOS CRISTOFER ALEJANDRO",
@@ -1283,7 +1216,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: VIGENTE"
+      "detalle": "MECANICO · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "CRUZ MARTINEZ RAFAEL CRISTOBAL",
@@ -1297,7 +1230,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "DANUS PROVOSTE GIOVANNY EVANHOLY",
@@ -1312,18 +1245,19 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "EXPERTO HSEC MANTENCION · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "EXPERTO HSEC MANTENCION · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "DE LA BARRA GONZALEZ MARCO IGNACIO",
       "rut": "18945191-1",
-      "cursos": "IRL GENERAL FORMS",
+      "cursos": "IRL ESPECIFICA, IRL GENERAL FORMS",
       "courseList": [
+        "IRL ESPECIFICA",
         "IRL GENERAL FORMS"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA /ANDAMIE · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MECANICO PRIMERA /ANDAMIE · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "DEPAOLI CAMPOS JUAN MAURICIO",
@@ -1339,19 +1273,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE"
-    },
-    {
-      "nombre": "DIAZ ALARCON ADAN MAURICIO",
-      "rut": "12782048-1",
-      "cursos": "AYB, EXT",
-      "courseList": [
-        "AYB",
-        "EXT"
-      ],
-      "estado": "Con registros",
-      "statusKey": "con-registros",
-      "detalle": "CHOFER CAMION PLANO C/EQ · Estado TARJA: VIGENTE"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "DIAZ MERINO JORGE ANDRES",
@@ -1366,7 +1288,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "DIAZ MONTECINOS BRYAN NICOLAS",
@@ -1384,7 +1306,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER CAMIONETA MANTENCI · Estado TARJA: VIGENTE"
+      "detalle": "CHOFER CAMIONETA MANTENCI · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "DIAZ PRAY GUILLERMO ALBERTO",
@@ -1395,7 +1317,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "DIAZ VILLALOBOS EDUARDO ENRIQUE",
@@ -1408,21 +1330,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
-    },
-    {
-      "nombre": "DURAN AMACHUYU FRANZ",
-      "rut": "24113509-8",
-      "cursos": "EPP, EXT, OPR, PA",
-      "courseList": [
-        "EPP",
-        "EXT",
-        "OPR",
-        "PA"
-      ],
-      "estado": "Con registros",
-      "statusKey": "con-registros",
-      "detalle": "OP RETROEXCAVADORA · Estado TARJA: DE BAJA"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "DURAN DURAN MARCOS ANDRES",
@@ -1433,16 +1341,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER MINIBUS/VAN · Estado TARJA: VIGENTE"
-    },
-    {
-      "nombre": "EGAÑA SUAREZ MAURICIO RAUL",
-      "rut": "10436463-2",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
-      "detalle": "RIGGER · Estado TARJA: VIGENTE"
+      "detalle": "CHOFER MINIBUS/VAN · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "ESCALONA JARPA CARLOS EUGENIO",
@@ -1456,7 +1355,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "SUPERV MECANICO MANTENCIO · Estado TARJA: VIGENTE · incluye duplicados"
+      "detalle": "SUPERV MECANICO MANTENCIO · Estado TARJA: ACTIVO · incluye duplicados"
     },
     {
       "nombre": "ESCOBAR ESCOBAR JUAN CARLOS",
@@ -1470,7 +1369,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER MINIBUS/VAN · Estado TARJA: VIGENTE"
+      "detalle": "CHOFER MINIBUS/VAN · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "ESCOBAR MUÑOZ FRANCISCO EUSEBIO",
@@ -1487,7 +1386,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · incluye duplicados"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO · incluye duplicados"
     },
     {
       "nombre": "ESPERGUEL OÑATE CRISTIAN ALFREDO",
@@ -1500,7 +1399,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "ESPINOZA MORALES ERNESTO AURELIO",
@@ -1513,7 +1412,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: VIGENTE"
+      "detalle": "MECANICO · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "ESTRADA ZAMBRANO HECTOR ALEXIS",
@@ -1526,7 +1425,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "FARIAS CARCAMO JORGE CRISTIAN",
@@ -1538,7 +1437,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "FERNANDEZ MADARIAGA MARIA JOSE",
@@ -1552,7 +1451,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "ENCARGADO DE RRHH MANTENC · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "ENCARGADO DE RRHH MANTENC · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "FERNANDEZ ZAVARIA LEONARDO ALFREDO",
@@ -1563,7 +1462,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "EXPERTO HSEC MANTENCION · Estado TARJA: VIGENTE"
+      "detalle": "EXPERTO HSEC MANTENCION · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "FERREIRA DIAZ ANGELO NICOLAS",
@@ -1578,7 +1477,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · incluye duplicados"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO · incluye duplicados"
     },
     {
       "nombre": "FIGUEROA FIGUEROA CARLOS MIGUEL",
@@ -1592,7 +1491,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "SOLDADOR PLANCHA · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "SOLDADOR PLANCHA · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "FLORES VIDAL EMMANUEL JESUS",
@@ -1608,7 +1507,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "FOSTER CUEVAS ROBERTO CARLOS",
@@ -1621,7 +1520,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA /ANDAMIE · Estado TARJA: VIGENTE"
+      "detalle": "MECANICO PRIMERA /ANDAMIE · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "FRIZ ERICES LUIS ALFONSO",
@@ -1636,7 +1535,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: VIGENTE · incluye duplicados"
+      "detalle": "MECANICO · Estado TARJA: ACTIVO · incluye duplicados"
     },
     {
       "nombre": "FUENTES CONTRERAS EDUARDO IGNACIO",
@@ -1650,7 +1549,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER MINIBUS/VAN · Estado TARJA: VIGENTE · incluye duplicados"
+      "detalle": "CHOFER MINIBUS/VAN · Estado TARJA: ACTIVO · incluye duplicados"
     },
     {
       "nombre": "FUENTES PAREDES OSCAR SERGIO",
@@ -1662,7 +1561,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "FUENTES VERDUGO ALEXIS ALEXANDER",
@@ -1671,7 +1570,7 @@ window.DASHBOARD_DATA = {
       "courseList": [],
       "estado": "No hay registros cargados, confirmar en portales",
       "statusKey": "sin-registros",
-      "detalle": "CHOFER MINIBUS/VAN · Estado TARJA: VIGENTE"
+      "detalle": "CHOFER MINIBUS/VAN · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "FUENZALIDA MEJIAS OSCAR RODRIGO",
@@ -1684,7 +1583,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER DE BUS · Estado TARJA: VIGENTE · incluye duplicados"
+      "detalle": "CHOFER DE BUS · Estado TARJA: ACTIVO · incluye duplicados"
     },
     {
       "nombre": "GAETE CURIPAN MANUEL ALEJANDRO",
@@ -1696,21 +1595,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "OP PUENTE GRUA · Estado TARJA: VIGENTE"
-    },
-    {
-      "nombre": "GAETE FUENTES RODRIGO ALEJANDRO",
-      "rut": "16002713-4",
-      "cursos": "EPP, EXT, OPR, PA",
-      "courseList": [
-        "EPP",
-        "EXT",
-        "OPR",
-        "PA"
-      ],
-      "estado": "Con registros",
-      "statusKey": "con-registros",
-      "detalle": "SUBGERENTE CONTROL MANTEN · Estado TARJA: VIGENTE"
+      "detalle": "OP PUENTE GRUA · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "GAJARDO GAJARDO JORGE LUIS",
@@ -1728,7 +1613,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "SOLDADOR PLANCHA · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "SOLDADOR PLANCHA · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "GALARCE BAEZA JUAN OSVALDO",
@@ -1741,7 +1626,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "GALDAMES PEREZ LORENZO RAUL",
@@ -1755,7 +1640,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "SOLDADOR PLANCHA · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "SOLDADOR PLANCHA · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "GALLARDO BORQUEZ ERWIN LORENZO",
@@ -1771,7 +1656,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "GALLARDO GONZALEZ FRANCISCO JAVIER",
@@ -1783,29 +1668,21 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
-    },
-    {
-      "nombre": "GALLARDO MULLER HUGO MAURICIO",
-      "rut": "10638989-6",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
-      "detalle": "RIGGER · Estado TARJA: VIGENTE"
+      "detalle": "MECANICO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "GALLARDO PONCE JERALDINE ALEJANDRA",
       "rut": "18580029-6",
-      "cursos": "EVALUACIONES IRL, IRL GENERAL, IRL GENERAL FORMS",
+      "cursos": "EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL, IRL GENERAL FORMS",
       "courseList": [
         "EVALUACIONES IRL",
+        "IRL ESPECIFICA",
         "IRL GENERAL",
         "IRL GENERAL FORMS"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "ENCARGADO DE RRHH MANTENC · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "ENCARGADO DE RRHH MANTENC · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "GALLARDO VERGARA GONZALO ALONSO",
@@ -1817,7 +1694,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "GALLEGOS FUENTES EDGARDO ELEAZER",
@@ -1833,20 +1710,21 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "GALVEZ VILLALOBOS DANIEL FELIPE",
       "rut": "16154365-9",
-      "cursos": "AYB, IRL GENERAL, IRL GENERAL FORMS",
+      "cursos": "AYB, IRL ESPECIFICA, IRL GENERAL, IRL GENERAL FORMS",
       "courseList": [
         "AYB",
+        "IRL ESPECIFICA",
         "IRL GENERAL",
         "IRL GENERAL FORMS"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "GANA DUARTE CESAR ANTONIO",
@@ -1861,16 +1739,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "SUPERV MECANICO MANTENCIO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
-    },
-    {
-      "nombre": "GARCIA URBINA LUIS ANDRES",
-      "rut": "12818289-6",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
-      "detalle": "OPERADOR CAMION PLUMA · Estado TARJA: VIGENTE"
+      "detalle": "SUPERV MECANICO MANTENCIO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "GARRIDO FIGUEROA SEBASTIAN MARCELO",
@@ -1883,7 +1752,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER MINIBUS/VAN · Estado TARJA: VIGENTE"
+      "detalle": "CHOFER MINIBUS/VAN · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "GODOY CANDIA ELIAS ANTONIO",
@@ -1898,7 +1767,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "ASEADORES INDUSTRIAL · Estado TARJA: VIGENTE"
+      "detalle": "ASEADORES INDUSTRIAL · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "GODOY JURE MAURICIO ROLANDO",
@@ -1911,7 +1780,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER CAMION PLANO C/EQ · Estado TARJA: VIGENTE"
+      "detalle": "CHOFER CAMION PLANO C/EQ · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "GONZALEZ MUÑOZ PABLO SILVANO",
@@ -1926,22 +1795,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "SOLDADOR PLANCHA · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
-    },
-    {
-      "nombre": "GONZALEZ RIVERA NESTOR MARCELO",
-      "rut": "10306782-0",
-      "cursos": "AYB, EPP, EXT, OPR, PA",
-      "courseList": [
-        "AYB",
-        "EPP",
-        "EXT",
-        "OPR",
-        "PA"
-      ],
-      "estado": "Con registros",
-      "statusKey": "con-registros",
-      "detalle": "PAÑOLERO · Estado TARJA: VIGENTE · incluye duplicados"
+      "detalle": "SOLDADOR PLANCHA · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "GONZALEZ ROMERO MARIO ERSHELL",
@@ -1953,22 +1807,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE"
-    },
-    {
-      "nombre": "GONZALEZ VARELA MATIAS ALEJANDRO",
-      "rut": "18198299-3",
-      "cursos": "AYB, EPP, EXT, OPR, PA",
-      "courseList": [
-        "AYB",
-        "EPP",
-        "EXT",
-        "OPR",
-        "PA"
-      ],
-      "estado": "Con registros",
-      "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "GONZALEZ ZUÑIGA FRANCISCO EDUARDO",
@@ -1981,7 +1820,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA /ANDAMIE · Estado TARJA: VIGENTE"
+      "detalle": "MECANICO PRIMERA /ANDAMIE · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "GROLLMUS MELLADO DIEGO ALEJANDRO",
@@ -1992,7 +1831,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER MINIBUS/VAN · Estado TARJA: VIGENTE"
+      "detalle": "CHOFER MINIBUS/VAN · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "GUTIERREZ ARRIAGADA NELSON PATRICIO",
@@ -2005,16 +1844,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: VIGENTE · incluye duplicados"
-    },
-    {
-      "nombre": "GUTIERREZ CACERES RODRIGO ALEJANDRO",
-      "rut": "15696772-6",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
-      "detalle": "OPERADOR CAMION PLUMA · Estado TARJA: VIGENTE"
+      "detalle": "MECANICO · Estado TARJA: ACTIVO · incluye duplicados"
     },
     {
       "nombre": "GUTIERREZ OJEDA MARCELO DOMINGO",
@@ -2027,7 +1857,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "SOLDADOR PLANCHA · Estado TARJA: VIGENTE"
+      "detalle": "SOLDADOR PLANCHA · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "GUTIERREZ VILLEGA ARIEL ESTEBAN",
@@ -2040,7 +1870,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "GUZMAN DIAZ ARTURO MARCELO",
@@ -2054,7 +1884,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "JEFE DE BODEGA MANTENCION · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "JEFE DE BODEGA MANTENCION · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "GUZMAN MORENO ANGEL CUSTODIO",
@@ -2070,30 +1900,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE"
-    },
-    {
-      "nombre": "HAUSER CARRILLO GUILLERMO HERNAN",
-      "rut": "09845283-4",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
-      "detalle": "EXPEDITOR DE MATERIALES · Estado TARJA: VIGENTE"
-    },
-    {
-      "nombre": "HERRERA CAMPOS JAIME ESTEBAN",
-      "rut": "16619520-9",
-      "cursos": "AYB, EXT, OPR, PA",
-      "courseList": [
-        "AYB",
-        "EXT",
-        "OPR",
-        "PA"
-      ],
-      "estado": "Con registros",
-      "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA /RIGGER · Estado TARJA: DE BAJA"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "HERRERA CUETO LUIS FELIPE",
@@ -2111,16 +1918,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER CAMIONETA MANTENCI · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
-    },
-    {
-      "nombre": "INOSTROZA PEREZ ALEX ANDY",
-      "rut": "17320516-3",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
-      "detalle": "INGENIERO DE PLANIFICACION · Estado TARJA: VIGENTE"
+      "detalle": "CHOFER CAMIONETA MANTENCI · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "INOSTROZA URIBE EDGARD MILLORSI",
@@ -2132,7 +1930,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "INZUNZA MUÑOZ CRISTIAN ALEXIS",
@@ -2146,16 +1944,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
-    },
-    {
-      "nombre": "IVANOVIC SEGURA ERICK ALEXANDER",
-      "rut": "19736579-K",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
-      "detalle": "RIGGER · Estado TARJA: VIGENTE"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "JARA NAVARRETE MANUEL EDUARDO",
@@ -2170,7 +1959,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MECANICO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "JELDES GONZALEZ ALEX ANTONIO",
@@ -2179,7 +1968,7 @@ window.DASHBOARD_DATA = {
       "courseList": [],
       "estado": "No hay registros cargados, confirmar en portales",
       "statusKey": "sin-registros",
-      "detalle": "JEFE DE SERVICIOS MANTENC · Estado TARJA: VIGENTE"
+      "detalle": "JEFE DE SERVICIOS MANTENC · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "JELDEZ VARGAS FRANCISCO JAVIER",
@@ -2193,16 +1982,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "JEFE DE BODEGA MANTENCION · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
-    },
-    {
-      "nombre": "JERIA CONSTANZO CESAR ALEJANDRO",
-      "rut": "18761544-5",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE"
+      "detalle": "JEFE DE BODEGA MANTENCION · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "LACAMPRETT ROCO MARCO ANTONIO",
@@ -2216,7 +1996,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA /ANDAMIE · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MECANICO PRIMERA /ANDAMIE · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "LAGOS ALBURQUENQUE HANS YAID",
@@ -2231,7 +2011,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "INGENIERO PROGRAMADOR · Estado TARJA: VIGENTE"
+      "detalle": "INGENIERO PROGRAMADOR · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "LAGOS LAGOS PABLO ANDRES",
@@ -2247,7 +2027,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "LAZCANO CARRILLO ANTONIO ANDRES",
@@ -2259,27 +2039,19 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "LEIVA PASCAL ISRAEL SEGUNDO",
       "rut": "10336496-5",
-      "cursos": "IRL GENERAL",
+      "cursos": "IRL ESPECIFICA, IRL GENERAL",
       "courseList": [
+        "IRL ESPECIFICA",
         "IRL GENERAL"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "EXPERTO HSEC MANTENCION · Estado TARJA: VIGENTE"
-    },
-    {
-      "nombre": "LOPEZ COFRE DENIS ARMANDO",
-      "rut": "18894589-9",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
-      "detalle": "MECANICO PRIMERA /RIGGER · Estado TARJA: VIGENTE"
+      "detalle": "EXPERTO HSEC MANTENCION · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "LOPEZ OTEY SERGIO ANDRES",
@@ -2294,7 +2066,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: VIGENTE · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MECANICO · Estado TARJA: ACTIVO · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "LOPEZ RIFO PAULO ANDRES",
@@ -2305,7 +2077,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: VIGENTE"
+      "detalle": "MECANICO · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "LUCO MEZA JUAN MANUEL",
@@ -2314,7 +2086,7 @@ window.DASHBOARD_DATA = {
       "courseList": [],
       "estado": "No hay registros cargados, confirmar en portales",
       "statusKey": "sin-registros",
-      "detalle": "CHOFER DE BUS · Estado TARJA: VIGENTE"
+      "detalle": "CHOFER DE BUS · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "LUHMANN RODRIGUEZ RAMON ORLANDO",
@@ -2327,7 +2099,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "MALDONADO ARAVENA JOSE ARMANDO",
@@ -2341,7 +2113,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "MAMANI BARRERA MICHAEL LEE",
@@ -2353,15 +2125,16 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "OP PUENTE GRUA · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "OP PUENTE GRUA · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "MANRIQUEZ GONZALEZ WILSON ANDRES",
       "rut": "10072925-3",
-      "cursos": "EPP, EVALUACIONES IRL, IRL GENERAL, IRL GENERAL FORMS, OPR, PA",
+      "cursos": "EPP, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL, IRL GENERAL FORMS, OPR, PA",
       "courseList": [
         "EPP",
         "EVALUACIONES IRL",
+        "IRL ESPECIFICA",
         "IRL GENERAL",
         "IRL GENERAL FORMS",
         "OPR",
@@ -2369,7 +2142,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "SUPERV MECANICO MANTENCIO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "SUPERV MECANICO MANTENCIO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "MANRIQUEZ JARA JORGE ANDRES",
@@ -2384,7 +2157,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: VIGENTE"
+      "detalle": "MECANICO · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "MANZO URIBE JORGE PATRICIO",
@@ -2401,7 +2174,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ANDAMIOS · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MONTAJE ANDAMIOS · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "MARAMBIO SOTO BLANCA FRANCISCA",
@@ -2412,7 +2185,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO SEGUNDA · Estado TARJA: DE BAJA"
+      "detalle": "MECANICO SEGUNDA · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "MARAMBIO VERGARA ORLANDO DAVID",
@@ -2424,7 +2197,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER MINIBUS/VAN · Estado TARJA: VIGENTE"
+      "detalle": "CHOFER MINIBUS/VAN · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "MARTEL COFRE CRISTOBAL ALFREDO",
@@ -2441,7 +2214,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "ALARIFE DE MANTENCION · Estado TARJA: VIGENTE"
+      "detalle": "ALARIFE DE MANTENCION · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "MARTINEZ SAAVEDRA ROBERTO CARLOS",
@@ -2450,7 +2223,7 @@ window.DASHBOARD_DATA = {
       "courseList": [],
       "estado": "No hay registros cargados, confirmar en portales",
       "statusKey": "sin-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "MASIAS RODRIGUEZ DAVID SALOMON",
@@ -2468,41 +2241,22 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "ASEADORES INDUSTRIAL · Estado TARJA: VIGENTE"
-    },
-    {
-      "nombre": "MATUS ALVAREZ CRISTIAN MAURICIO",
-      "rut": "11823947-4",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
-      "detalle": "JEFE ADMINISTRATIVO · Estado TARJA: VIGENTE"
+      "detalle": "ASEADORES INDUSTRIAL · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "MELLA CUEVAS JUAN CARLOS",
       "rut": "14214639-8",
-      "cursos": "EPP, EXT, IRL GENERAL, OPR",
+      "cursos": "EPP, EXT, IRL ESPECIFICA, IRL GENERAL, OPR",
       "courseList": [
         "EPP",
         "EXT",
+        "IRL ESPECIFICA",
         "IRL GENERAL",
         "OPR"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: VIGENTE"
-    },
-    {
-      "nombre": "MELLADO LOPEZ MAXIMILIANO ENRIQUE",
-      "rut": "14390227-7",
-      "cursos": "AYB",
-      "courseList": [
-        "AYB"
-      ],
-      "estado": "Con registros",
-      "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE"
+      "detalle": "MECANICO · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "MENDEZ CORDOVA FRANCISCO JAVIER",
@@ -2515,22 +2269,23 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · incluye duplicados"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO · incluye duplicados"
     },
     {
       "nombre": "MENDOZA AYALA DIEGO NICOLAS",
       "rut": "19139767-3",
-      "cursos": "AYB, EVALUACIONES IRL, EXT, IRL GENERAL, IRL GENERAL FORMS",
+      "cursos": "AYB, EVALUACIONES IRL, EXT, IRL ESPECIFICA, IRL GENERAL, IRL GENERAL FORMS",
       "courseList": [
         "AYB",
         "EVALUACIONES IRL",
         "EXT",
+        "IRL ESPECIFICA",
         "IRL GENERAL",
         "IRL GENERAL FORMS"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "MENDOZA SAEZ FLORINDO ANDRES",
@@ -2547,7 +2302,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "SUPERV MECANICO MANTENCIO · Estado TARJA: VIGENTE · incluye duplicados"
+      "detalle": "SUPERV MECANICO MANTENCIO · Estado TARJA: ACTIVO · incluye duplicados"
     },
     {
       "nombre": "MERA CAMPOS FERNANDO ANTONIO",
@@ -2556,7 +2311,7 @@ window.DASHBOARD_DATA = {
       "courseList": [],
       "estado": "No hay registros cargados, confirmar en portales",
       "statusKey": "sin-registros",
-      "detalle": "COMPRADOR/COTIZADOR MANTE · Estado TARJA: VIGENTE"
+      "detalle": "COMPRADOR/COTIZADOR MANTE · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "MERINO SOTO PABLO ALEXIS",
@@ -2567,7 +2322,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "MOLINA CONTRERAS RODRIGO ALEJANDRO",
@@ -2578,19 +2333,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
-    },
-    {
-      "nombre": "MOLINA MONTERO SAMUEL",
-      "rut": "25453585-0",
-      "cursos": "AYB, IRL GENERAL FORMS",
-      "courseList": [
-        "AYB",
-        "IRL GENERAL FORMS"
-      ],
-      "estado": "Con registros",
-      "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: DE BAJA · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MECANICO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "MONTOYA SEPULVEDA ANANIAS ALBERTO",
@@ -2599,7 +2342,7 @@ window.DASHBOARD_DATA = {
       "courseList": [],
       "estado": "No hay registros cargados, confirmar en portales",
       "statusKey": "sin-registros",
-      "detalle": "JEFE DE MANTENCION · Estado TARJA: VIGENTE"
+      "detalle": "JEFE DE MANTENCION · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "MONTOYA ZAMBRANO CRISTIAN ANDRES",
@@ -2617,7 +2360,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "SUPERV DE ESTRUCTURA MANT · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "SUPERV DE ESTRUCTURA MANT · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "MORA ECHEVERRIA JUAN JOSE",
@@ -2630,7 +2373,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "MORAGA GONZALEZ JAIME MAURICIO",
@@ -2642,7 +2385,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "MORALES DURAN EDUARDO BENJAMIN",
@@ -2659,7 +2402,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "MORALES GAMBOA ANTONIO ENRIQUE",
@@ -2675,7 +2418,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER MINIBUS/VAN · Estado TARJA: VIGENTE"
+      "detalle": "CHOFER MINIBUS/VAN · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "MORENO FUENTES CRISTIAN MAURICIO",
@@ -2689,7 +2432,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "ING DE CALIDAD Y MEJORAMI · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "ING DE CALIDAD Y MEJORAMI · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "MUÑOZ DIAZ MAURICIO ANTONIO",
@@ -2700,7 +2443,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "MUÑOZ HIDALGO CELIA DEL CARMEN",
@@ -2709,7 +2452,7 @@ window.DASHBOARD_DATA = {
       "courseList": [],
       "estado": "No hay registros cargados, confirmar en portales",
       "statusKey": "sin-registros",
-      "detalle": "PAÑOLERO · Estado TARJA: VIGENTE"
+      "detalle": "PAÑOLERO · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "MUÑOZ RIVERA SEBASTIAN ALEJANDRO",
@@ -2720,7 +2463,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO DE MANTENCION A · Estado TARJA: VIGENTE"
+      "detalle": "MECANICO DE MANTENCION A · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "MUÑOZ VARGAS RODRIGO ANDRES",
@@ -2737,16 +2480,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "ASEADORES INDUSTRIAL · Estado TARJA: VIGENTE"
-    },
-    {
-      "nombre": "NEIRA ABACA JULIO ANTONIO",
-      "rut": "11766092-3",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
-      "detalle": "OPERADOR CAMION PLUMA · Estado TARJA: VIGENTE"
+      "detalle": "ASEADORES INDUSTRIAL · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "NOVAS GIMENEZ MIGUEL ANGEL",
@@ -2760,7 +2494,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MECANICO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "NOVOA CUEVAS NICOLAS IGNACIO",
@@ -2775,7 +2509,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · incluye duplicados"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO · incluye duplicados"
     },
     {
       "nombre": "NUÑEZ LARA LUIS OMER",
@@ -2793,7 +2527,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER DE BUS · Estado TARJA: VIGENTE"
+      "detalle": "CHOFER DE BUS · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "OLIVA TAPIA JONATHAN JESUS",
@@ -2809,21 +2543,22 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "OLIVARES ACUÑA PEDRO ANTONIO",
       "rut": "08683574-6",
-      "cursos": "AYB, EVALUACIONES IRL, EXT, IRL GENERAL",
+      "cursos": "AYB, EVALUACIONES IRL, EXT, IRL ESPECIFICA, IRL GENERAL",
       "courseList": [
         "AYB",
         "EVALUACIONES IRL",
         "EXT",
+        "IRL ESPECIFICA",
         "IRL GENERAL"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "JEFE DE MANTENCION · Estado TARJA: VIGENTE"
+      "detalle": "JEFE DE MANTENCION · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "OLIVARES VERGARA LEOPOLDO MIGUEL",
@@ -2840,7 +2575,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "OÑATE SALAZAR ALEJANDRO JAVIER",
@@ -2854,7 +2589,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "SUPERV MECANICO MANTENCIO · Estado TARJA: VIGENTE · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "SUPERV MECANICO MANTENCIO · Estado TARJA: ACTIVO · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "ORELLANA ANTEZANA NOEL",
@@ -2869,7 +2604,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "ORELLANA ARRAIN RODOLFO VALENTIN",
@@ -2883,7 +2618,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "ASEADORES INDUSTRIAL · Estado TARJA: DE BAJA · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "ASEADORES INDUSTRIAL · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "ORELLANA OPAZO HUMBERTO",
@@ -2892,7 +2627,7 @@ window.DASHBOARD_DATA = {
       "courseList": [],
       "estado": "No hay registros cargados, confirmar en portales",
       "statusKey": "sin-registros",
-      "detalle": "PAÑOLERO · Estado TARJA: VIGENTE"
+      "detalle": "PAÑOLERO · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "ORELLANA SEPÚLVEDA FRANK PAUL",
@@ -2907,7 +2642,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "ASEADORES INDUSTRIAL · Estado TARJA: VIGENTE"
+      "detalle": "ASEADORES INDUSTRIAL · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "ORTIZ ORTIZ VICTOR ALFONSO",
@@ -2923,7 +2658,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "OSORIO LARA RODRIGO AARON",
@@ -2937,7 +2672,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER DE BUS · Estado TARJA: VIGENTE"
+      "detalle": "CHOFER DE BUS · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "OSSA OSSA JEISON BORIS",
@@ -2950,7 +2685,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MECANICO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "OTEIZA VARGAS DIEGO EMMANUEL",
@@ -2965,7 +2700,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "EXPERTO HSEC MANTENCION · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "EXPERTO HSEC MANTENCION · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "OYANEDER CACERES HECTOR ANDRES",
@@ -2981,23 +2716,24 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "EXPEDITOR DE MATERIALES · Estado TARJA: VIGENTE · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "EXPEDITOR DE MATERIALES · Estado TARJA: ACTIVO · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "PACHECO MANSILLA DIEGO ARIEL",
       "rut": "17893574-7",
-      "cursos": "AYB, EPP, EVALUACIONES IRL, EXT, IRL GENERAL FORMS, OPR",
+      "cursos": "AYB, EPP, EVALUACIONES IRL, EXT, IRL ESPECIFICA, IRL GENERAL FORMS, OPR",
       "courseList": [
         "AYB",
         "EPP",
         "EVALUACIONES IRL",
         "EXT",
+        "IRL ESPECIFICA",
         "IRL GENERAL FORMS",
         "OPR"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "PALACIOS RUIZ JUAN CARLOS",
@@ -3013,7 +2749,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "SOLDADOR PLANCHA · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "SOLDADOR PLANCHA · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "PALMA HENRIQUEZ BASTIAN RODRIGO",
@@ -3027,7 +2763,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "PALMA NAVARRO ALFONSO ROBINSON",
@@ -3036,7 +2772,7 @@ window.DASHBOARD_DATA = {
       "courseList": [],
       "estado": "No hay registros cargados, confirmar en portales",
       "statusKey": "sin-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "PANIRE QUISPE LUIS ROBERTO",
@@ -3054,7 +2790,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "PAREDES AREVALO PEDRO NICOLAS",
@@ -3068,7 +2804,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER DE BUS · Estado TARJA: VIGENTE"
+      "detalle": "CHOFER DE BUS · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "PAREDES HERRERA WALDO JORGE",
@@ -3084,7 +2820,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER CAMIONETA MANTENCI · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "CHOFER CAMIONETA MANTENCI · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "PARRA HENRIQUEZ JUAN PABLO",
@@ -3098,7 +2834,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "JEFE DE PLANIFICACION Y M · Estado TARJA: VIGENTE · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "JEFE DE PLANIFICACION Y M · Estado TARJA: ACTIVO · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "PARRA MANSILLA LUIS ALFREDO",
@@ -3109,7 +2845,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "SOLDADOR PLANCHA · Estado TARJA: VIGENTE"
+      "detalle": "SOLDADOR PLANCHA · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "PASTEN CASTRO HUGO CHRISTIAN",
@@ -3128,7 +2864,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MECANICO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "PAVEZ URIBE FERNANDO ALEJANDRO",
@@ -3142,7 +2878,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "ASISTENTE SAP · Estado TARJA: VIGENTE · incluye duplicados"
+      "detalle": "ASISTENTE SAP · Estado TARJA: ACTIVO · incluye duplicados"
     },
     {
       "nombre": "PEDRERO VEAS MAURICIO ALEJANDRO",
@@ -3160,7 +2896,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER CAMION PLANO C/EQ IZAMIENTO 12 TO · Estado TARJA: VIGENTE"
+      "detalle": "CHOFER CAMION PLANO C/EQ IZAMIENTO 12 TO · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "PEÑA SAEZ GUSTAVO ANDRES",
@@ -3172,7 +2908,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "PEREZ ACEVEDO LUIS ALBERTO",
@@ -3185,7 +2921,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "PEREZ CATALAN JORGE ANDRES",
@@ -3201,7 +2937,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "TOPOGRAFO DE MANTENCION · Estado TARJA: VIGENTE"
+      "detalle": "TOPOGRAFO DE MANTENCION · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "PEREZ CORTES PEDRO ORLANDO",
@@ -3216,7 +2952,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: VIGENTE · incluye duplicados"
+      "detalle": "MECANICO · Estado TARJA: ACTIVO · incluye duplicados"
     },
     {
       "nombre": "PEREZ MARDONES IVAN ANDRES",
@@ -3230,7 +2966,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ANDAMIOS · Estado TARJA: VIGENTE"
+      "detalle": "MONTAJE ANDAMIOS · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "PEREZ RODRIGUEZ HERNAN RIGOBERTO",
@@ -3245,7 +2981,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · incluye duplicados"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO · incluye duplicados"
     },
     {
       "nombre": "PEREZ SALAS EDUARDO ANDRES",
@@ -3256,7 +2992,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "SOLDADOR PLANCHA · Estado TARJA: VIGENTE"
+      "detalle": "SOLDADOR PLANCHA · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "PINAR LIZAMA LUIS ENRIQUE",
@@ -3270,7 +3006,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER MINIBUS/VAN · Estado TARJA: VIGENTE · incluye duplicados"
+      "detalle": "CHOFER MINIBUS/VAN · Estado TARJA: ACTIVO · incluye duplicados"
     },
     {
       "nombre": "PINILLA VASQUEZ ROBERTO IGNACIO",
@@ -3284,7 +3020,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "INGENIERO DE COSTOS · Estado TARJA: VIGENTE"
+      "detalle": "INGENIERO DE COSTOS · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "PINO AVILEZ LUIS ELIER",
@@ -3297,7 +3033,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "EXPERTO HSEC MANTENCION · Estado TARJA: VIGENTE"
+      "detalle": "EXPERTO HSEC MANTENCION · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "PLACENCIA GARRIDO BERNARDO ANDRES",
@@ -3311,7 +3047,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA /ANDAMIE · Estado TARJA: VIGENTE"
+      "detalle": "MECANICO PRIMERA /ANDAMIE · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "POZA SANCHEZ GUILLERMO ESTEBAN",
@@ -3327,7 +3063,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO SEGUNDA · Estado TARJA: VIGENTE"
+      "detalle": "MECANICO SEGUNDA · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "QUEZADA TRUJILLO CARLOS PATRICIO",
@@ -3338,16 +3074,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "SUPERV MECANICO MANTENCIO · Estado TARJA: VIGENTE"
-    },
-    {
-      "nombre": "QUINTERO DIAZ TEODORO ALBERTO",
-      "rut": "26378033-7",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
-      "detalle": "OP MODULO MULTIEJE GOLDHO · Estado TARJA: VIGENTE"
+      "detalle": "SUPERV MECANICO MANTENCIO · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "QUIROZ MENDOZA IVAN ESTEBAN",
@@ -3359,7 +3086,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "QUISPE SANTOS LUIS HUMBERTO",
@@ -3374,7 +3101,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "EXPERTO HSEC MANTENCION · Estado TARJA: VIGENTE"
+      "detalle": "EXPERTO HSEC MANTENCION · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "RAMIREZ NUÑEZ FERNANDO RODOLFO",
@@ -3389,30 +3116,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "ASEADORES INDUSTRIAL · Estado TARJA: VIGENTE"
-    },
-    {
-      "nombre": "RAMOS ARCE EDUARDO ESCOT",
-      "rut": "19814219-0",
-      "cursos": "EPP, EXT, OPR, PA",
-      "courseList": [
-        "EPP",
-        "EXT",
-        "OPR",
-        "PA"
-      ],
-      "estado": "Con registros",
-      "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE"
-    },
-    {
-      "nombre": "REBOLLEDO GUERRA JUAN ANDRES",
-      "rut": "18644450-7",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE"
+      "detalle": "ASEADORES INDUSTRIAL · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "RETAMAL RODRIGUEZ NISEN ANDRES",
@@ -3425,29 +3129,21 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "REYES JIMENEZ JULIAN ERWIN",
       "rut": "17207469-3",
-      "cursos": "AYB, IRL GENERAL, IRL GENERAL FORMS",
+      "cursos": "AYB, IRL ESPECIFICA, IRL GENERAL, IRL GENERAL FORMS",
       "courseList": [
         "AYB",
+        "IRL ESPECIFICA",
         "IRL GENERAL",
         "IRL GENERAL FORMS"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
-    },
-    {
-      "nombre": "RIFFO AREVALO EDISON ISAAC",
-      "rut": "14334805-9",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
-      "detalle": "JEFE DE OPERACIONES · Estado TARJA: VIGENTE"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "RIFFO GUIÑEZ JUAN ANDRES ANDRES",
@@ -3461,7 +3157,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER TRACTO CAMION CAMA · Estado TARJA: VIGENTE"
+      "detalle": "CHOFER TRACTO CAMION CAMA · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "RIOS CHANDIA JOSE RAINIER",
@@ -3476,7 +3172,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER MINIBUS/VAN · Estado TARJA: VIGENTE"
+      "detalle": "CHOFER MINIBUS/VAN · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "RIOS DIAZ JUAN JOSE",
@@ -3488,16 +3184,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER DE BUS · Estado TARJA: VIGENTE"
-    },
-    {
-      "nombre": "RIQUELME AHUMADA RAUL CESAR",
-      "rut": "12718661-8",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
-      "detalle": "CHOFER TRACTO CAMION CAMA · Estado TARJA: VIGENTE"
+      "detalle": "CHOFER DE BUS · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "RIQUELME CARRASCO JULIO AARON ESTEBAN",
@@ -3510,7 +3197,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA /ANDAMIE · Estado TARJA: VIGENTE"
+      "detalle": "MECANICO PRIMERA /ANDAMIE · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "RIQUELME ROCA PATRICIO FERNANDO",
@@ -3526,7 +3213,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "RIQUELME SANDOVAL JAIME ENRIQUE",
@@ -3545,7 +3232,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "SUPERV MECANICO MANTENCIO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "SUPERV MECANICO MANTENCIO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "RIVAS PARRA ALEXIS EDUARDO",
@@ -3561,7 +3248,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · incluye duplicados"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO · incluye duplicados"
     },
     {
       "nombre": "RIVERA ESTAY EDUARDO ANTONIO",
@@ -3576,7 +3263,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER CAMION PLANO C/EQ · Estado TARJA: VIGENTE"
+      "detalle": "CHOFER CAMION PLANO C/EQ · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "RIVERA MENESES JOSE ALEJANDRO",
@@ -3592,7 +3279,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "RIVERA VERGARA HUMBERTO ENRIQUE",
@@ -3607,7 +3294,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "ASEADORES INDUSTRIAL · Estado TARJA: VIGENTE"
+      "detalle": "ASEADORES INDUSTRIAL · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "ROBLES CARIZ PEDRO NOLASCO",
@@ -3621,7 +3308,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: VIGENTE"
+      "detalle": "MECANICO · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "RODRIGUEZ DURAN JOSUE MANUEL",
@@ -3640,7 +3327,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MECANICO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "RODRIGUEZ ULLOA LEONARDO ALEXIS",
@@ -3655,7 +3342,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: VIGENTE"
+      "detalle": "MECANICO · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "ROJAS CORNEJO PABLO ANDRES",
@@ -3671,7 +3358,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER CAMION PLANO C/EQ · Estado TARJA: VIGENTE · incluye duplicados"
+      "detalle": "CHOFER CAMION PLANO C/EQ · Estado TARJA: ACTIVO · incluye duplicados"
     },
     {
       "nombre": "ROJAS ORTEGA GUIDO DAMIAN",
@@ -3686,16 +3373,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER MINIBUS/VAN · Estado TARJA: DE BAJA"
-    },
-    {
-      "nombre": "ROJAS SANZ NATALIA FRANCHESKA",
-      "rut": "18583209-0",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
-      "detalle": "ASISTENTE ADMINISTRATIVO · Estado TARJA: DE BAJA"
+      "detalle": "CHOFER MINIBUS/VAN · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "ROSALES ALARCON WALTER FABRICIO",
@@ -3709,21 +3387,22 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "ROSAS SILVA CARLOS GUILLERMO",
       "rut": "10436709-7",
-      "cursos": "EXT, IRL GENERAL, OPR, PA",
+      "cursos": "EXT, IRL ESPECIFICA, IRL GENERAL, OPR, PA",
       "courseList": [
         "EXT",
+        "IRL ESPECIFICA",
         "IRL GENERAL",
         "OPR",
         "PA"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA /ANDAMIERO · Estado TARJA: VIGENTE"
+      "detalle": "MECANICO PRIMERA /ANDAMIERO · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "RUBILAR GONZALEZ ALEXI ERBE",
@@ -3737,7 +3416,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "RUBILAR RUMINOT PEDRO ANDRES",
@@ -3750,7 +3429,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · incluye no legibles"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO · incluye no legibles"
     },
     {
       "nombre": "RUIZ BRICEÑO LUCIANO NICOLAS",
@@ -3764,7 +3443,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · incluye duplicados"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO · incluye duplicados"
     },
     {
       "nombre": "RUIZ VIDAL JEAN PAUL LUIS",
@@ -3779,7 +3458,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "RUIZ ZAMARCA FABIAN LEONARDO",
@@ -3794,7 +3473,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "PAÑOLERO · Estado TARJA: VIGENTE"
+      "detalle": "PAÑOLERO · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "SAAVEDRA ABARCA RONALD MICHAEL",
@@ -3812,22 +3491,23 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: VIGENTE · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MECANICO · Estado TARJA: ACTIVO · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "SAAVEDRA ESQUIVEL CARLOS GUSTAVO",
       "rut": "09032467-5",
-      "cursos": "AYB, EPP, IRL GENERAL, OPR, PA",
+      "cursos": "AYB, EPP, IRL ESPECIFICA, IRL GENERAL, OPR, PA",
       "courseList": [
         "AYB",
         "EPP",
+        "IRL ESPECIFICA",
         "IRL GENERAL",
         "OPR",
         "PA"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: VIGENTE"
+      "detalle": "MECANICO · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "SAEZ CORREA MARCO ANTONIO",
@@ -3841,7 +3521,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA /ANDAMIE · Estado TARJA: VIGENTE"
+      "detalle": "MECANICO PRIMERA /ANDAMIE · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "SAEZ MORA RENE WILLIAM",
@@ -3852,7 +3532,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "JEFE DE PLANIFICACION Y M · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "JEFE DE PLANIFICACION Y M · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "SALAZAR DEL PINO CLAUDIO HERIBERTO",
@@ -3868,7 +3548,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MECANICO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "SALGADO HUILIPAN ANGELO JEREMIAS",
@@ -3883,29 +3563,21 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE"
-    },
-    {
-      "nombre": "SALGADO MORALES RODRIGO ANDRES",
-      "rut": "14109431-9",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
-      "detalle": "ADMINISTRADOR DE CONTRATO DE MANTENCION · Estado TARJA: VIGENTE"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "SALGADO VASQUEZ MARCO ANTONIO",
       "rut": "12651492-1",
-      "cursos": "AYB, EVALUACIONES IRL, IRL GENERAL",
+      "cursos": "AYB, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
       "courseList": [
         "AYB",
         "EVALUACIONES IRL",
+        "IRL ESPECIFICA",
         "IRL GENERAL"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "SUPERV MECANICO MANTENCIO · Estado TARJA: VIGENTE"
+      "detalle": "SUPERV MECANICO MANTENCIO · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "SALVATIERRA PANIRE TANIA CAROLINA DEL PILAR",
@@ -3921,7 +3593,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "PAÑOLERO · Estado TARJA: VIGENTE · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "PAÑOLERO · Estado TARJA: ACTIVO · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "SAN MARTIN FERREIRA IVAN ALEJANDRO",
@@ -3935,7 +3607,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "SANCHEZ CAIMANQUE JARITZA NICOLL",
@@ -3946,7 +3618,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "PAÑOLERO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "PAÑOLERO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "SANCHEZ SAAVEDRA LUIS HUMBERTO",
@@ -3961,7 +3633,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO DE MANTENCION A · Estado TARJA: VIGENTE · incluye duplicados"
+      "detalle": "MECANICO DE MANTENCION A · Estado TARJA: ACTIVO · incluye duplicados"
     },
     {
       "nombre": "SANHUEZA SOTO JAIME ANDRES",
@@ -3974,7 +3646,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER DE BUS · Estado TARJA: VIGENTE"
+      "detalle": "CHOFER DE BUS · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "SANHUEZA VEGA JAIME LUIS",
@@ -3989,7 +3661,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: VIGENTE · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MECANICO · Estado TARJA: ACTIVO · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "SANTIBAÑEZ ROJAS ROBERTO PATRICIO",
@@ -4004,7 +3676,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "EXPERTO HSEC MANTENCION · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "EXPERTO HSEC MANTENCION · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "SARAVIA ESTAY HECTOR MAURICIO",
@@ -4018,16 +3690,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "JEFE DE MANTENCION · Estado TARJA: VIGENTE"
-    },
-    {
-      "nombre": "SEGUEL FARIÑA VICTOR RODRIGO",
-      "rut": "14273817-1",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
-      "detalle": "OP MODULO MULTIEJE GOLDHO · Estado TARJA: VIGENTE"
+      "detalle": "JEFE DE MANTENCION · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "SEGUEL PASTOR JUAN JOSE",
@@ -4040,7 +3703,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MECANICO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "SEPULVEDA OLSEN MANUEL ALEJANDRO",
@@ -4057,16 +3720,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE"
-    },
-    {
-      "nombre": "SEVERINO DE FIGUEIREDO JOAO ALFREDO",
-      "rut": "17283217-2",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
-      "detalle": "RIGGER · Estado TARJA: VIGENTE"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "SILVA CIFUENTES JONNATAN MAX",
@@ -4082,7 +3736,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "SILVA SOTO CRISTIAN EDUARDO",
@@ -4098,7 +3752,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "INGENIERO DE COSTOS · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "INGENIERO DE COSTOS · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "SOTOMAYOR ESCOBAR EDUARDO JILBERTO",
@@ -4112,7 +3766,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "JEFE DE MANTENCION · Estado TARJA: VIGENTE"
+      "detalle": "JEFE DE MANTENCION · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "SUAZO TORRES FRANCISCO ESTEBAN",
@@ -4129,7 +3783,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "SOLDADOR PLANCHA · Estado TARJA: VIGENTE"
+      "detalle": "SOLDADOR PLANCHA · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "TAPIA FERNANDEZ RICARDO JAVIER",
@@ -4145,7 +3799,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · incluye duplicados"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO · incluye duplicados"
     },
     {
       "nombre": "TAPIA GAETE MIGUEL VLADIMIR",
@@ -4159,7 +3813,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "TARBES CARRASCO CHRISTIAN ANDRE",
@@ -4175,7 +3829,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER MINIBUS/VAN · Estado TARJA: VIGENTE"
+      "detalle": "CHOFER MINIBUS/VAN · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "TOBAR RIVAS NELSON EDUARDO",
@@ -4193,7 +3847,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "TOBAR RIVAS SALOMON EDUARDO",
@@ -4211,7 +3865,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "SOLDADOR PLANCHA · Estado TARJA: VIGENTE · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "SOLDADOR PLANCHA · Estado TARJA: ACTIVO · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "TOBAR VALENZUELA JAIME FABIAN",
@@ -4230,7 +3884,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: VIGENTE · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MECANICO · Estado TARJA: ACTIVO · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "TORO ALVARADO FRANCISCO ALONSO DEL CARMEN",
@@ -4243,21 +3897,22 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · incluye duplicados"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO · incluye duplicados"
     },
     {
       "nombre": "TORO CARRIL FRANCO IGNACIO",
       "rut": "18745524-3",
-      "cursos": "EPP, IRL GENERAL, OPR, PA",
+      "cursos": "EPP, IRL ESPECIFICA, IRL GENERAL, OPR, PA",
       "courseList": [
         "EPP",
+        "IRL ESPECIFICA",
         "IRL GENERAL",
         "OPR",
         "PA"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "TORO FUENTES PEDRO ENRIQUE",
@@ -4270,18 +3925,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE"
-    },
-    {
-      "nombre": "TORREJON MUÑOZ LEONEL HUMBERTO",
-      "rut": "20006965-K",
-      "cursos": "EXT",
-      "courseList": [
-        "EXT"
-      ],
-      "estado": "Con registros",
-      "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: DE BAJA"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "TORRES PAILLAO EUGENIO ROBERTO",
@@ -4299,7 +3943,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "TORRES TASSARA OSCAR FRANCISCO",
@@ -4312,7 +3956,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "TRIGO VALDIVIA CAROLINA DEL CARMEN",
@@ -4327,19 +3971,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "ASISTENTE SAP · Estado TARJA: VIGENTE"
-    },
-    {
-      "nombre": "TUDELA SALDIAS RAUL GERMAN",
-      "rut": "13266171-5",
-      "cursos": "OPR, PA",
-      "courseList": [
-        "OPR",
-        "PA"
-      ],
-      "estado": "Con registros",
-      "statusKey": "con-registros",
-      "detalle": "CHOFER DE BUS · Estado TARJA: DE BAJA · incluye duplicados"
+      "detalle": "ASISTENTE SAP · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "URETA CISTERNAS CARLOS HUMBERTO",
@@ -4357,16 +3989,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
-    },
-    {
-      "nombre": "VALDES GARCES JORGE ANDRES",
-      "rut": "13108032-8",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
-      "detalle": "RIGGER · Estado TARJA: VIGENTE"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "VALDIVIA SALDAÑA PEDRO JOEL",
@@ -4379,7 +4002,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA /ANDAMIE · Estado TARJA: VIGENTE"
+      "detalle": "MECANICO PRIMERA /ANDAMIE · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "VALENCIA FERNANDEZ HUGO HERNAN",
@@ -4394,7 +4017,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "VALENZUELA CAMPOS FELIPE ANDRES",
@@ -4413,16 +4036,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
-    },
-    {
-      "nombre": "VALENZUELA CARCAMO VICTOR MANUEL",
-      "rut": "16120818-3",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
-      "detalle": "CHOFER BUS · Estado TARJA: DE BAJA"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "VALENZUELA ORELLANA BASTIAN ALEXANDER",
@@ -4436,7 +4050,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "SOLDADOR PLANCHA · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "SOLDADOR PLANCHA · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "VARGAS MENA FRANKO JOSE",
@@ -4451,7 +4065,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "VASQUEZ SANHUEZA ESTEBAN VLADIMIR",
@@ -4470,7 +4084,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "VEGA QUIROGA MATIAS ANDRES",
@@ -4483,34 +4097,23 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
-    },
-    {
-      "nombre": "VEGA SUAZO FERNANDO IVAN",
-      "rut": "9752903-5",
-      "cursos": "IRL ESPECIFICA, IRL GENERAL",
-      "courseList": [
-        "IRL ESPECIFICA",
-        "IRL GENERAL"
-      ],
-      "estado": "Con registros",
-      "statusKey": "con-registros",
-      "detalle": "JEFE DE MANTENCION · Estado TARJA: VIGENTE"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "VEGA VEGA JAIRO ALEXANDER",
       "rut": "19050463-8",
-      "cursos": "AYB, EPP, EXT, IRL GENERAL, IRL GENERAL FORMS",
+      "cursos": "AYB, EPP, EXT, IRL ESPECIFICA, IRL GENERAL, IRL GENERAL FORMS",
       "courseList": [
         "AYB",
         "EPP",
         "EXT",
+        "IRL ESPECIFICA",
         "IRL GENERAL",
         "IRL GENERAL FORMS"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "VELASQUEZ ARAYA GONZALO JAVIER",
@@ -4522,7 +4125,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "EXPERTO HSEC MANTENCION · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "EXPERTO HSEC MANTENCION · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "VELOZO PAREDES GONZALO ANTONIO",
@@ -4536,7 +4139,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "VERGARA IBACACHE RODRIGO ALEJANDRO",
@@ -4551,7 +4154,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "ADMINISTRADOR DE CONTRATO · Estado TARJA: VIGENTE · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "ADMINISTRADOR DE CONTRATO · Estado TARJA: ACTIVO · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "VERGARA MORALES HUGO EDUARDO",
@@ -4568,33 +4171,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: VIGENTE"
-    },
-    {
-      "nombre": "VERGARA SAEZ RICARDO EXEQUIEL",
-      "rut": "19000455-4",
-      "cursos": "AYB",
-      "courseList": [
-        "AYB"
-      ],
-      "estado": "Con registros",
-      "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE"
-    },
-    {
-      "nombre": "VERGARA YAUPE JUAN ROBERTO",
-      "rut": "11904453-7",
-      "cursos": "AYB, EPP, EXT, OPR, PA",
-      "courseList": [
-        "AYB",
-        "EPP",
-        "EXT",
-        "OPR",
-        "PA"
-      ],
-      "estado": "Con registros",
-      "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA /ANDAMIE · Estado TARJA: VIGENTE"
+      "detalle": "MECANICO · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "VILCHES LEIVA EMERSON ENRIQUE",
@@ -4608,7 +4185,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER CAMION TOLVA · Estado TARJA: DE BAJA · incluye duplicados"
+      "detalle": "CHOFER CAMION TOLVA · Estado TARJA: ACTIVO · incluye duplicados"
     },
     {
       "nombre": "VILLAGRA BASUALTO DIEGO EDUARDO",
@@ -4619,7 +4196,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "SUPERV MECANICO MANTENCIO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "SUPERV MECANICO MANTENCIO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "VILLENA POBLETE PABLO SEBASTIAN",
@@ -4633,16 +4210,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "SOLDADOR PLANCHA · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
-    },
-    {
-      "nombre": "YAÑEZ AROS JORGE BERNARDO",
-      "rut": "13533366-2",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
-      "detalle": "CHOFER CAMIONETA MANTENCI · Estado TARJA: DE BAJA"
+      "detalle": "SOLDADOR PLANCHA · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "ZAMBRANA SALVATIERRA OMAR",
@@ -4656,7 +4224,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "ZENTENO SANDOVAL JOSE LUIS",
@@ -4674,7 +4242,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MECANICO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
     },
     {
       "nombre": "ZULETA SOUZA CRISTIAN ANDRES",
@@ -4686,38 +4254,40 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "ZURITA ANDIA FLAVIO NELSON",
       "rut": "09701410-8",
-      "cursos": "EPP, EVALUACIONES IRL, IRL GENERAL, OPR, PA",
+      "cursos": "EPP, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL, OPR, PA",
       "courseList": [
         "EPP",
         "EVALUACIONES IRL",
+        "IRL ESPECIFICA",
         "IRL GENERAL",
         "OPR",
         "PA"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: VIGENTE"
+      "detalle": "MECANICO · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "ZURITA BRAVO HECTOR PATRICIO",
       "rut": "08417042-9",
-      "cursos": "AYB, EPP, EXT, IRL GENERAL, OPR, PA",
+      "cursos": "AYB, EPP, EXT, IRL ESPECIFICA, IRL GENERAL, OPR, PA",
       "courseList": [
         "AYB",
         "EPP",
         "EXT",
+        "IRL ESPECIFICA",
         "IRL GENERAL",
         "OPR",
         "PA"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "SOLDADOR PLANCHA · Estado TARJA: VIGENTE"
+      "detalle": "SOLDADOR PLANCHA · Estado TARJA: ACTIVO"
     }
   ],
   "irlFormsNote": "Los registros asociados a IRL GENERAL FORMS corresponden a respaldos cargados por los trabajadores mediante Forms. Para una validación formal, se recomienda revisar directamente el archivo original en la carpeta documental, a fin de confirmar su legibilidad, integridad y correcta carga. Los accesos disponibles a continuación funcionan solo para personal previamente autorizado en SharePoint.",
@@ -4746,7 +4316,7 @@ window.DASHBOARD_DATA = {
     },
     {
       "title": "Cruce con TARJA",
-      "detail": "Se detectaron 41 trabajadores sin evidencias cargadas en el sistema."
+      "detail": "Se detectaron 16 trabajadores sin evidencias cargadas en el sistema."
     },
     {
       "title": "Calidad del registro",

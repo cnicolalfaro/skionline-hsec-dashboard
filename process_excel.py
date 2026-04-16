@@ -31,9 +31,9 @@ def find_excel_path() -> Path:
         BASE_DIR.parent / PREFERRED_EXCEL_NAME,
     ]
 
-    for path in search_paths:
-        if path.exists():
-            return path
+    preferred_existing = [path for path in search_paths if path.exists()]
+    if preferred_existing:
+        return max(preferred_existing, key=lambda item: item.stat().st_mtime)
 
     candidates: list[Path] = []
     for folder in [DATA_DIR, BASE_DIR, BASE_DIR.parent]:
@@ -161,7 +161,11 @@ def format_rut(value: Any) -> str:
 
 
 def clean_rut(value: Any) -> str:
-    return re.sub(r'[^0-9kK]', '', '' if value is None else str(value)).upper()
+    cleaned = re.sub(r'[^0-9kK]', '', '' if value is None else str(value)).upper()
+    if len(cleaned) >= 2:
+        body = cleaned[:-1].lstrip('0') or '0'
+        return body + cleaned[-1]
+    return cleaned
 
 
 def extract_rut_candidates(value: Any) -> list[str]:

@@ -49,7 +49,9 @@ def normalize_text(value: Any) -> str:
     text = '' if value is None else str(value)
     text = unicodedata.normalize('NFD', text)
     text = ''.join(char for char in text if unicodedata.category(char) != 'Mn')
-    text = re.sub(r'[^A-Za-z0-9 ]+', ' ', text).lower()
+    text = re.sub(r'\bforms\b', ' ', text, flags=re.IGNORECASE)
+    text = re.sub(r'\birl\s*general\b', ' ', text, flags=re.IGNORECASE)
+    text = re.sub(r'[^A-Za-z ]+', ' ', text).lower()
     return ' '.join(text.split())
 
 

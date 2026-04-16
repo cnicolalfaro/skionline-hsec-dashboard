@@ -1,14 +1,14 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "16/04/2026 14:01",
+  "generatedAt": "16/04/2026 17:51",
   "sourceFile": "REGISTRO_FINAL_CURSOS.xlsx",
   "kpis": {
-    "totalArchivos": 1574,
-    "documentosUnicos": 1298,
+    "totalArchivos": 1732,
+    "documentosUnicos": 1456,
     "duplicados": 114,
     "noLegibles": 11,
     "trabajadoresTarja": 291,
-    "conRegistros": 252,
-    "sinRegistros": 39
+    "conRegistros": 253,
+    "sinRegistros": 38
   },
   "courseTotals": [
     {
@@ -38,17 +38,21 @@ window.DASHBOARD_DATA = {
     {
       "curso": "IRL GENERAL FORMS",
       "total": 118
+    },
+    {
+      "curso": "IRL ESPECIFICA",
+      "total": 158
     }
   ],
   "statusBreakdown": [
     {
       "label": "Con registros",
-      "value": 252,
+      "value": 253,
       "color": "#51b847"
     },
     {
       "label": "Sin registros",
-      "value": 39,
+      "value": 38,
       "color": "#ff7a59"
     },
     {
@@ -99,6 +103,11 @@ window.DASHBOARD_DATA = {
       "unicos": 117
     },
     {
+      "curso": "IRL_ESPECIFICA",
+      "total": 158,
+      "unicos": 158
+    },
+    {
       "curso": "NO_LEGIBLE",
       "total": 11,
       "unicos": 10
@@ -110,7 +119,7 @@ window.DASHBOARD_DATA = {
     },
     {
       "curso": "TOTAL",
-      "total": 1574,
+      "total": 1732,
       "unicos": null
     }
   ],
@@ -809,10 +818,11 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "CAREAGA PEREZ LEONARDO",
       "rut": "13726035-2",
-      "cursos": "EPP, EXT, IRL GENERAL FORMS, OPR, PA",
+      "cursos": "EPP, EXT, IRL ESPECIFICA, IRL GENERAL FORMS, OPR, PA",
       "courseList": [
         "EPP",
         "EXT",
+        "IRL ESPECIFICA",
         "IRL GENERAL FORMS",
         "OPR",
         "PA"
@@ -954,10 +964,11 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "CASTRO JARA JAVIER RENATO",
       "rut": "10004766-7",
-      "cursos": "EPP, EXT, IRL GENERAL, OPR, PA",
+      "cursos": "EPP, EXT, IRL ESPECIFICA, IRL GENERAL, OPR, PA",
       "courseList": [
         "EPP",
         "EXT",
+        "IRL ESPECIFICA",
         "IRL GENERAL",
         "OPR",
         "PA"
@@ -1826,10 +1837,11 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "LOPEZ OTEY SERGIO ANDRES",
       "rut": "10178433-9",
-      "cursos": "AYB, EPP, IRL GENERAL, IRL GENERAL FORMS",
+      "cursos": "AYB, EPP, IRL ESPECIFICA, IRL GENERAL, IRL GENERAL FORMS",
       "courseList": [
         "AYB",
         "EPP",
+        "IRL ESPECIFICA",
         "IRL GENERAL",
         "IRL GENERAL FORMS"
       ],
@@ -2200,8 +2212,9 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "NOVAS GIMENEZ MIGUEL ANGEL",
       "rut": "14209310-3",
-      "cursos": "IRL GENERAL, IRL GENERAL FORMS, PA",
+      "cursos": "IRL ESPECIFICA, IRL GENERAL, IRL GENERAL FORMS, PA",
       "courseList": [
+        "IRL ESPECIFICA",
         "IRL GENERAL",
         "IRL GENERAL FORMS",
         "PA"
@@ -2806,10 +2819,12 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "RIQUELME CARRASCO JULIO AARON ESTEBAN",
       "rut": "18389440-4",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
+      "cursos": "IRL ESPECIFICA",
+      "courseList": [
+        "IRL ESPECIFICA"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
       "detalle": "MECANICO PRIMERA /ANDAMIE · Estado TARJA: ACTIVO"
     },
     {
@@ -3244,8 +3259,9 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "SEPULVEDA OLSEN MANUEL ALEJANDRO",
       "rut": "17344472-9",
-      "cursos": "IRL GENERAL",
+      "cursos": "IRL ESPECIFICA, IRL GENERAL",
       "courseList": [
+        "IRL ESPECIFICA",
         "IRL GENERAL"
       ],
       "estado": "Con registros",
@@ -3762,7 +3778,7 @@ window.DASHBOARD_DATA = {
     },
     {
       "title": "Cruce con TARJA",
-      "detail": "Se detectaron 39 trabajadores sin evidencias cargadas en el sistema."
+      "detail": "Se detectaron 38 trabajadores sin evidencias cargadas en el sistema."
     },
     {
       "title": "Calidad del registro",

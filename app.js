@@ -13,18 +13,17 @@ function normalizeText(value) {
 
 function renderCards(data) {
   const cards = [
-    { label: 'Total archivos', value: data.kpis.totalArchivos, color: '#2d7ff9' },
-    { label: 'Trabajadores en TARJA', value: data.kpis.trabajadoresTarja, color: '#8c63ff' },
-    { label: 'Con registros', value: data.kpis.conRegistros, color: '#51b847' },
-    { label: 'Sin registros', value: data.kpis.sinRegistros, color: '#ff7a59' },
-    { label: 'Duplicados', value: data.kpis.duplicados, color: '#f4c430' },
-    { label: 'No legibles', value: data.kpis.noLegibles, color: '#f53b4d' }
+    { label: 'Total de archivos', value: data.kpis.totalArchivos, color: '#2d7ff9', help: 'Cantidad total de evidencias y documentos encontrados en el consolidado.' },
+    { label: 'Total trabajadores en TARJA', value: data.kpis.trabajadoresTarja, color: '#8c63ff', help: 'Dotación total considerada en la hoja TARJA para el cruce.' },
+    { label: 'Trabajadores con registros', value: data.kpis.conRegistros, color: '#51b847', help: 'Personas que sí presentan al menos una evidencia asociada en el sistema.' },
+    { label: 'Trabajadores sin registro', value: data.kpis.sinRegistros, color: '#ff7a59', help: 'Personas sin evidencia encontrada; conviene confirmar en portales.' }
   ];
 
   document.getElementById('kpiCards').innerHTML = cards.map(card => `
     <div class="card" style="--accent:${card.color}">
       <div class="label">${card.label}</div>
       <div class="value">${formatNumber(card.value)}</div>
+      <div class="card-help">${card.help}</div>
     </div>
   `).join('');
 }

@@ -4,6 +4,7 @@ import json
 import re
 import unicodedata
 from datetime import datetime
+from difflib import SequenceMatcher
 from pathlib import Path
 from typing import Any
 
@@ -51,15 +52,67 @@ def normalize_text(value: Any) -> str:
     text = ''.join(char for char in text if unicodedata.category(char) != 'Mn')
     text = re.sub(r'\bforms\b', ' ', text, flags=re.IGNORECASE)
     text = re.sub(r'\birl\s*general\b', ' ', text, flags=re.IGNORECASE)
+    text = re.sub(r'\birl\s*especifica\b', ' ', text, flags=re.IGNORECASE)
     text = re.sub(r'[^A-Za-z ]+', ' ', text).lower()
     return ' '.join(text.split())
+
+
+def split_name_tokens(value: Any) -> list[str]:
+    return normalize_text(value).split()
 
 
 def fingerprint(*values: Any) -> str:
     words: list[str] = []
     for value in values:
-        words.extend(normalize_text(value).split())
+        words.extend(split_name_tokens(value))
     return ' '.join(sorted(words))
+
+
+def names_match(evidence_name: Any, nombre: Any, paterno: Any, materno: Any) -> bool:
+    evidence_tokens = split_name_tokens(evidence_name)
+    nombre_tokens = split_name_tokens(nombre)
+    paterno_tokens = split_name_tokens(paterno)
+    materno_tokens = split_name_tokens(materno)
+
+    if not evidence_tokens:
+        return False
+
+    full_tokens = nombre_tokens + paterno_tokens + materno_tokens
+    if evidence_tokens and set(evidence_tokens) == set(full_tokens):
+        return True
+
+    surname_tokens = [*paterno_tokens[:1], *materno_tokens[:1]]
+    if not surname_tokens or not all(token in evidence_tokens for token in surname_tokens):
+        return False
+
+    if any(token in evidence_tokens for token in nombre_tokens):
+        return True
+
+    if nombre_tokens:
+        evidence_first = evidence_tokens[0]
+        similarity = max((SequenceMatcher(None, evidence_first, token).ratio() for token in nombre_tokens), default=0)
+        return similarity >= 0.84
+
+    return False
+
+
+def collect_person_evidence(evidence_entries: list[dict[str, Any]], nombre: Any, paterno: Any, materno: Any) -> dict[str, set[str]]:
+    courses: set[str] = set()
+    flags: set[str] = set()
+    notes: set[str] = set()
+
+    for entry in evidence_entries:
+        if not names_match(entry.get('name'), nombre, paterno, materno):
+            continue
+
+        if entry.get('course'):
+            courses.add(entry['course'])
+        if entry.get('flag'):
+            flags.add(entry['flag'])
+        if entry.get('note'):
+            notes.add(entry['note'])
+
+    return {'courses': courses, 'flags': flags, 'notes': notes}
 
 
 def get_cell_value(row: tuple[Any, ...], headers: list[str], column_name: str, default: str = '') -> str:
@@ -144,7 +197,7 @@ def load_external_rut_lookup() -> dict[str, str]:
     return lookup
 
 
-def build_tarja_records(wb, evidence_map: dict[str, dict[str, Any]], external_rut_lookup: dict[str, str]) -> tuple[list[dict[str, Any]], int]:
+def build_tarja_records(wb, evidence_entries: list[dict[str, Any]], external_rut_lookup: dict[str, str]) -> tuple[list[dict[str, Any]], int]:
     if 'TARJA' not in wb.sheetnames:
         return [], 0
 
@@ -169,7 +222,7 @@ def build_tarja_records(wb, evidence_map: dict[str, dict[str, Any]], external_ru
 
         nombre_mostrado = ' '.join(part for part in [paterno, materno, nombre] if part).strip() or 'Sin nombre'
         person_key = fingerprint(nombre, paterno, materno)
-        evidence = evidence_map.get(person_key, {'courses': set(), 'flags': set(), 'notes': set()})
+        evidence = collect_person_evidence(evidence_entries, nombre, paterno, materno)
         courses = sorted(evidence.get('courses', set()))
         flags = evidence.get('flags', set())
         notes = evidence.get('notes', set())
@@ -241,7 +294,7 @@ def main() -> None:
             summary_map[curso] = parsed
 
     course_totals: list[dict[str, Any]] = []
-    evidence_map: dict[str, dict[str, Any]] = {}
+    evidence_entries: list[dict[str, Any]] = []
 
     for sheet_name in wb.sheetnames:
         if sheet_name in {'RESUMEN', 'TARJA'}:
@@ -273,19 +326,27 @@ def main() -> None:
             if not person_key:
                 continue
 
-            current = evidence_map.setdefault(person_key, {'courses': set(), 'flags': set(), 'notes': set()})
+            course_name = format_course_name(sheet_name)
+            entry = {
+                'name': nombre_persona,
+                'course': '',
+                'flag': '',
+                'note': '',
+            }
 
             if is_evidence_sheet(sheet_name):
-                current['courses'].add(format_course_name(sheet_name))
-                if format_course_name(sheet_name) == 'IRL GENERAL FORMS':
-                    current['notes'].add('irl-forms')
+                entry['course'] = course_name
+                if course_name == 'IRL GENERAL FORMS':
+                    entry['note'] = 'irl-forms'
             elif sheet_name == 'NO_LEGIBLE':
-                current['flags'].add('no-legible')
+                entry['flag'] = 'no-legible'
             elif sheet_name == 'DUPLICADOS':
-                current['flags'].add('duplicado')
+                entry['flag'] = 'duplicado'
+
+            evidence_entries.append(entry)
 
     external_rut_lookup = load_external_rut_lookup()
-    records, sin_registros = build_tarja_records(wb, evidence_map, external_rut_lookup)
+    records, sin_registros = build_tarja_records(wb, evidence_entries, external_rut_lookup)
 
     total_archivos = summary_map.get('TOTAL', {}).get('total', sum(item['total'] for item in course_totals))
     documentos_unicos = sum(item['unicos'] for item in summary_rows if isinstance(item.get('unicos'), int))

@@ -1,9 +1,9 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "16/04/2026 18:28",
+  "generatedAt": "16/04/2026 18:46",
   "sourceFile": "REGISTRO_FINAL_CURSOS.xlsx",
   "kpis": {
     "totalArchivos": 1732,
-    "documentosUnicos": 1456,
+    "documentosUnicos": 1455,
     "duplicados": 114,
     "noLegibles": 11,
     "trabajadoresTarja": 291,
@@ -105,7 +105,7 @@ window.DASHBOARD_DATA = {
     {
       "curso": "IRL_ESPECIFICA",
       "total": 158,
-      "unicos": 158
+      "unicos": 157
     },
     {
       "curso": "NO_LEGIBLE",
@@ -815,12 +815,11 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "CANALES GARCIA ALLEX ROBERT",
       "rut": "19267410-7",
-      "cursos": "AYB, EPP, EXT, IRL ESPECIFICA, IRL GENERAL, IRL GENERAL FORMS, PA",
+      "cursos": "AYB, EPP, EXT, IRL GENERAL, IRL GENERAL FORMS, PA",
       "courseList": [
         "AYB",
         "EPP",
         "EXT",
-        "IRL ESPECIFICA",
         "IRL GENERAL",
         "IRL GENERAL FORMS",
         "PA"
@@ -1647,9 +1646,8 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "GALLARDO PONCE JERALDINE ALEJANDRA",
       "rut": "18580029-6",
-      "cursos": "IRL ESPECIFICA, IRL GENERAL, IRL GENERAL FORMS",
+      "cursos": "IRL GENERAL, IRL GENERAL FORMS",
       "courseList": [
-        "IRL ESPECIFICA",
         "IRL GENERAL",
         "IRL GENERAL FORMS"
       ],
@@ -2013,9 +2011,8 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "LEIVA PASCAL ISRAEL SEGUNDO",
       "rut": "10336496-5",
-      "cursos": "IRL ESPECIFICA, IRL GENERAL",
+      "cursos": "IRL GENERAL",
       "courseList": [
-        "IRL ESPECIFICA",
         "IRL GENERAL"
       ],
       "estado": "Con registros",
@@ -3833,7 +3830,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO · incluye duplicados"
     },
     {
       "nombre": "TORO CARRIL FRANCO IGNACIO",

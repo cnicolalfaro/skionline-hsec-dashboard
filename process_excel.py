@@ -50,6 +50,8 @@ def normalize_text(value: Any) -> str:
     text = '' if value is None else str(value)
     text = unicodedata.normalize('NFD', text)
     text = ''.join(char for char in text if unicodedata.category(char) != 'Mn')
+    text = re.sub(r'\bfalta\s*firma\b', ' ', text, flags=re.IGNORECASE)
+    text = re.sub(r'\bfaltafirma\b', ' ', text, flags=re.IGNORECASE)
     text = re.sub(r'\bforms\b', ' ', text, flags=re.IGNORECASE)
     text = re.sub(r'\birl\s*general\b', ' ', text, flags=re.IGNORECASE)
     text = re.sub(r'\birl\s*especifica\b', ' ', text, flags=re.IGNORECASE)
@@ -58,7 +60,7 @@ def normalize_text(value: Any) -> str:
 
 
 def split_name_tokens(value: Any) -> list[str]:
-    return normalize_text(value).split()
+    return [token for token in normalize_text(value).split() if len(token) > 1]
 
 
 def fingerprint(*values: Any) -> str:
@@ -82,7 +84,18 @@ def names_match(evidence_name: Any, nombre: Any, paterno: Any, materno: Any) -> 
         return True
 
     surname_tokens = [*paterno_tokens[:1], *materno_tokens[:1]]
-    if not surname_tokens or not all(token in evidence_tokens for token in surname_tokens):
+    if not surname_tokens:
+        return False
+
+    surname_match_count = 0
+    for surname in surname_tokens:
+        if any(
+            token == surname or SequenceMatcher(None, token, surname).ratio() >= 0.82
+            for token in evidence_tokens
+        ):
+            surname_match_count += 1
+
+    if surname_match_count < len(surname_tokens):
         return False
 
     if any(token in evidence_tokens for token in nombre_tokens):
@@ -91,7 +104,7 @@ def names_match(evidence_name: Any, nombre: Any, paterno: Any, materno: Any) -> 
     if nombre_tokens:
         evidence_first = evidence_tokens[0]
         similarity = max((SequenceMatcher(None, evidence_first, token).ratio() for token in nombre_tokens), default=0)
-        return similarity >= 0.84
+        return similarity >= 0.80
 
     return False
 

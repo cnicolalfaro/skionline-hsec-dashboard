@@ -79,24 +79,72 @@ def format_course_name(sheet_name: str) -> str:
     return sheet_name.replace('_', ' ').strip()
 
 
-def extract_rut_from_text(value: Any) -> str:
-    text = '' if value is None else str(value)
-    matches = re.findall(r'\d{7,10}[0-9kK]?', text)
-    if not matches:
-        return ''
-    matches.sort(key=len, reverse=True)
-    return matches[0]
+def format_rut(value: Any) -> str:
+    text = '' if value is None else str(value).strip()
+    cleaned = re.sub(r'[^0-9kK]', '', text)
+    if len(cleaned) < 2:
+        return text
+    return f'{cleaned[:-1]}-{cleaned[-1].upper()}'
 
 
 def get_first_available_cell(row: tuple[Any, ...], headers: list[str], column_names: list[str], default: str = '') -> str:
+    normalized_headers = [header.upper().replace('.', '').strip() for header in headers]
     for column_name in column_names:
-        value = get_cell_value(row, headers, column_name, '')
+        normalized_name = column_name.upper().replace('.', '').strip()
+        if normalized_name not in normalized_headers:
+            continue
+        idx = normalized_headers.index(normalized_name)
+        if len(row) <= idx or row[idx] is None:
+            continue
+        value = str(row[idx]).strip()
         if value:
             return value
     return default
 
 
-def build_tarja_records(wb, evidence_map: dict[str, dict[str, Any]]) -> tuple[list[dict[str, Any]], int]:
+def load_external_rut_lookup() -> dict[str, str]:
+    lookup: dict[str, str] = {}
+    search_folders = [BASE_DIR, BASE_DIR.parent, DATA_DIR]
+
+    for folder in search_folders:
+        for path in sorted(folder.glob('TARJA*.xlsx')):
+            try:
+                wb = load_workbook(path, data_only=True)
+            except Exception:
+                continue
+
+            if 'TARJA' not in wb.sheetnames:
+                continue
+
+            ws = wb['TARJA']
+            rows = list(ws.iter_rows(values_only=True))
+            if not rows:
+                continue
+
+            headers = [str(h).strip() if h is not None else '' for h in rows[0]]
+            if 'RUT' not in [header.upper().strip() for header in headers]:
+                continue
+
+            for row in rows[1:]:
+                if not row or all(value is None or str(value).strip() == '' for value in row):
+                    continue
+
+                nombre = get_first_available_cell(row, headers, ['NOMBRE'])
+                paterno = get_first_available_cell(row, headers, ['A. PATERNO'])
+                materno = get_first_available_cell(row, headers, ['A. MATERNO'])
+                rut = format_rut(get_first_available_cell(row, headers, ['RUT']))
+                person_key = fingerprint(nombre, paterno, materno)
+
+                if person_key and rut:
+                    lookup[person_key] = rut
+
+            if lookup:
+                return lookup
+
+    return lookup
+
+
+def build_tarja_records(wb, evidence_map: dict[str, dict[str, Any]], external_rut_lookup: dict[str, str]) -> tuple[list[dict[str, Any]], int]:
     if 'TARJA' not in wb.sheetnames:
         return [], 0
 
@@ -118,15 +166,15 @@ def build_tarja_records(wb, evidence_map: dict[str, dict[str, Any]]) -> tuple[li
         materno = get_cell_value(row, headers, 'A. MATERNO')
         especialidad = get_cell_value(row, headers, 'ESPECIALIDAD', 'Sin especialidad informada')
         estado_tarja = get_cell_value(row, headers, 'ESTADO', 'Sin estado')
-        rut_tarja = get_first_available_cell(row, headers, ['RUT', 'Nª PERSONAL', 'N° PERSONAL', 'Nº PERSONAL'], '')
 
         nombre_mostrado = ' '.join(part for part in [paterno, materno, nombre] if part).strip() or 'Sin nombre'
         person_key = fingerprint(nombre, paterno, materno)
-        evidence = evidence_map.get(person_key, {'courses': set(), 'flags': set(), 'ruts': set(), 'notes': set()})
+        evidence = evidence_map.get(person_key, {'courses': set(), 'flags': set(), 'notes': set()})
         courses = sorted(evidence.get('courses', set()))
         flags = evidence.get('flags', set())
         notes = evidence.get('notes', set())
-        rut = sorted(evidence.get('ruts', set()), key=len, reverse=True)[0] if evidence.get('ruts') else rut_tarja
+        rut_tarja = format_rut(get_first_available_cell(row, headers, ['RUT', 'R.U.T', 'R U T'], ''))
+        rut = rut_tarja or external_rut_lookup.get(person_key, '')
 
         if not courses and not flags:
             estado = 'No hay registros cargados, confirmar en portales'
@@ -225,12 +273,7 @@ def main() -> None:
             if not person_key:
                 continue
 
-            current = evidence_map.setdefault(person_key, {'courses': set(), 'flags': set(), 'ruts': set(), 'notes': set()})
-
-            nombre_archivo = get_cell_value(row, headers, 'NOMBRE_ARCHIVO', '')
-            rut_detectado = extract_rut_from_text(nombre_archivo)
-            if rut_detectado:
-                current['ruts'].add(rut_detectado)
+            current = evidence_map.setdefault(person_key, {'courses': set(), 'flags': set(), 'notes': set()})
 
             if is_evidence_sheet(sheet_name):
                 current['courses'].add(format_course_name(sheet_name))
@@ -241,7 +284,8 @@ def main() -> None:
             elif sheet_name == 'DUPLICADOS':
                 current['flags'].add('duplicado')
 
-    records, sin_registros = build_tarja_records(wb, evidence_map)
+    external_rut_lookup = load_external_rut_lookup()
+    records, sin_registros = build_tarja_records(wb, evidence_map, external_rut_lookup)
 
     total_archivos = summary_map.get('TOTAL', {}).get('total', sum(item['total'] for item in course_totals))
     documentos_unicos = sum(item['unicos'] for item in summary_rows if isinstance(item.get('unicos'), int))

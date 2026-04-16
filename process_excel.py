@@ -13,7 +13,7 @@ BASE_DIR = Path(__file__).resolve().parent
 DATA_DIR = BASE_DIR / 'data'
 OUTPUT_PATH = DATA_DIR / 'dashboard_data.js'
 PREFERRED_EXCEL_NAME = 'REGISTRO_FINAL_CURSOS.xlsx'
-MAIN_COURSES = {'AYB', 'EPP', 'EXT', 'OPR', 'PA'}
+SPECIAL_SHEETS = {'RESUMEN', 'TARJA', 'NO_LEGIBLE', 'DUPLICADOS'}
 
 
 def to_int(value: Any) -> int:
@@ -24,15 +24,25 @@ def to_int(value: Any) -> int:
 
 
 def find_excel_path() -> Path:
-    preferred = DATA_DIR / PREFERRED_EXCEL_NAME
-    if preferred.exists():
-        return preferred
+    search_paths = [
+        DATA_DIR / PREFERRED_EXCEL_NAME,
+        BASE_DIR / PREFERRED_EXCEL_NAME,
+        BASE_DIR.parent / PREFERRED_EXCEL_NAME,
+    ]
 
-    candidates = sorted(DATA_DIR.glob('*.xlsx'), key=lambda item: item.stat().st_mtime, reverse=True)
+    for path in search_paths:
+        if path.exists():
+            return path
+
+    candidates: list[Path] = []
+    for folder in [DATA_DIR, BASE_DIR, BASE_DIR.parent]:
+        candidates.extend(folder.glob('*.xlsx'))
+
+    candidates = sorted(set(candidates), key=lambda item: item.stat().st_mtime, reverse=True)
     if candidates:
         return candidates[0]
 
-    raise FileNotFoundError('No se encontró ningún archivo Excel en la carpeta data.')
+    raise FileNotFoundError('No se encontró ningún archivo Excel para procesar.')
 
 
 def normalize_text(value: Any) -> str:
@@ -57,6 +67,14 @@ def get_cell_value(row: tuple[Any, ...], headers: list[str], column_name: str, d
     if len(row) <= idx or row[idx] is None:
         return default
     return str(row[idx]).strip()
+
+
+def is_evidence_sheet(sheet_name: str) -> bool:
+    return sheet_name not in SPECIAL_SHEETS
+
+
+def format_course_name(sheet_name: str) -> str:
+    return sheet_name.replace('_', ' ').strip()
 
 
 def build_tarja_records(wb, evidence_map: dict[str, dict[str, Any]]) -> tuple[list[dict[str, Any]], int]:
@@ -167,9 +185,9 @@ def main() -> None:
             if any(cell is not None and str(cell).strip() != '' for cell in row)
         ]
 
-        if sheet_name in MAIN_COURSES:
+        if is_evidence_sheet(sheet_name):
             course_totals.append({
-                'curso': sheet_name,
+                'curso': format_course_name(sheet_name),
                 'total': summary_map.get(sheet_name, {}).get('total', len(data_rows))
             })
 
@@ -183,8 +201,8 @@ def main() -> None:
                 continue
 
             current = evidence_map.setdefault(person_key, {'courses': set(), 'flags': set()})
-            if sheet_name in MAIN_COURSES:
-                current['courses'].add(sheet_name)
+            if is_evidence_sheet(sheet_name):
+                current['courses'].add(format_course_name(sheet_name))
             elif sheet_name == 'NO_LEGIBLE':
                 current['flags'].add('no-legible')
             elif sheet_name == 'DUPLICADOS':

@@ -1,19 +1,19 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "15/04/2026 17:27",
+  "generatedAt": "16/04/2026 12:39",
   "sourceFile": "REGISTRO_FINAL_CURSOS.xlsx",
   "kpis": {
-    "totalArchivos": 1273,
-    "documentosUnicos": 1160,
-    "duplicados": 112,
+    "totalArchivos": 1455,
+    "documentosUnicos": 1180,
+    "duplicados": 114,
     "noLegibles": 11,
     "trabajadoresTarja": 291,
-    "conRegistros": 167,
-    "sinRegistros": 124
+    "conRegistros": 227,
+    "sinRegistros": 64
   },
   "courseTotals": [
     {
       "curso": "AYB",
-      "total": 174
+      "total": 185
     },
     {
       "curso": "EPP",
@@ -30,22 +30,26 @@ window.DASHBOARD_DATA = {
     {
       "curso": "PA",
       "total": 230
+    },
+    {
+      "curso": "IRL GENERAL",
+      "total": 169
     }
   ],
   "statusBreakdown": [
     {
       "label": "Con registros",
-      "value": 167,
+      "value": 227,
       "color": "#51b847"
     },
     {
       "label": "Sin registros",
-      "value": 124,
+      "value": 64,
       "color": "#ff7a59"
     },
     {
       "label": "Duplicados",
-      "value": 112,
+      "value": 114,
       "color": "#f4c430"
     },
     {
@@ -57,8 +61,8 @@ window.DASHBOARD_DATA = {
   "summaryRows": [
     {
       "curso": "AYB",
-      "total": 174,
-      "unicos": 174
+      "total": 185,
+      "unicos": 185
     },
     {
       "curso": "EPP",
@@ -81,18 +85,23 @@ window.DASHBOARD_DATA = {
       "unicos": 230
     },
     {
+      "curso": "IRL_GENERAL",
+      "total": 169,
+      "unicos": 9
+    },
+    {
       "curso": "NO_LEGIBLE",
       "total": 11,
       "unicos": 10
     },
     {
       "curso": "DUPLICADOS",
-      "total": 112,
+      "total": 114,
       "unicos": null
     },
     {
       "curso": "TOTAL",
-      "total": 1273,
+      "total": 1455,
       "unicos": null
     }
   ],
@@ -159,10 +168,12 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "AGUIRRE BRIZUELA VALERIA JAZMIN",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
+      "cursos": "IRL GENERAL",
+      "courseList": [
+        "IRL GENERAL"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
       "detalle": "ASISTENTE ADMINISTRATIVO · Estado TARJA: ACTIVO"
     },
     {
@@ -183,9 +194,10 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "ALEGRIA VASQUEZ PABLO CESAR",
-      "cursos": "EPP, OPR, PA",
+      "cursos": "EPP, IRL GENERAL, OPR, PA",
       "courseList": [
         "EPP",
+        "IRL GENERAL",
         "OPR",
         "PA"
       ],
@@ -221,9 +233,10 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "AMAYA RIQUELME VICTOR RENATO",
-      "cursos": "EPP, OPR, PA",
+      "cursos": "EPP, IRL GENERAL, OPR, PA",
       "courseList": [
         "EPP",
+        "IRL GENERAL",
         "OPR",
         "PA"
       ],
@@ -233,11 +246,12 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "ANABALON ESCOBAR HUGO ALBERTO",
-      "cursos": "AYB, EPP, EXT, PA",
+      "cursos": "AYB, EPP, EXT, IRL GENERAL, PA",
       "courseList": [
         "AYB",
         "EPP",
         "EXT",
+        "IRL GENERAL",
         "PA"
       ],
       "estado": "Con registros",
@@ -246,10 +260,11 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "ARAGON URIBE MIGUEL ANGEL",
-      "cursos": "EPP, EXT, OPR, PA",
+      "cursos": "EPP, EXT, IRL GENERAL, OPR, PA",
       "courseList": [
         "EPP",
         "EXT",
+        "IRL GENERAL",
         "OPR",
         "PA"
       ],
@@ -259,10 +274,12 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "ARANCIBIA MUÑOZ FRANCO DARIO",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
+      "cursos": "IRL GENERAL",
+      "courseList": [
+        "IRL GENERAL"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
       "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO"
     },
     {
@@ -275,9 +292,10 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "ARANGUIZ BETANZO FERNANDO DANIEL",
-      "cursos": "EXT, PA",
+      "cursos": "EXT, IRL GENERAL, PA",
       "courseList": [
         "EXT",
+        "IRL GENERAL",
         "PA"
       ],
       "estado": "Con registros",
@@ -298,10 +316,12 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "AREVALO CORTES LUIS ALBERTO",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
+      "cursos": "IRL GENERAL",
+      "courseList": [
+        "IRL GENERAL"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
       "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO"
     },
     {
@@ -335,11 +355,12 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "ARRIAGADA BAHAMONDE CARLOS RENE",
-      "cursos": "AYB, EPP, EXT, OPR, PA",
+      "cursos": "AYB, EPP, EXT, IRL GENERAL, OPR, PA",
       "courseList": [
         "AYB",
         "EPP",
         "EXT",
+        "IRL GENERAL",
         "OPR",
         "PA"
       ],
@@ -349,10 +370,11 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "ARRIAGADA TAPIA DIONEL DAVID",
-      "cursos": "EPP, EXT, OPR, PA",
+      "cursos": "EPP, EXT, IRL GENERAL, OPR, PA",
       "courseList": [
         "EPP",
         "EXT",
+        "IRL GENERAL",
         "OPR",
         "PA"
       ],
@@ -362,10 +384,12 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "ARROYO CUEVAS NELSON ELOY",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
+      "cursos": "IRL GENERAL",
+      "courseList": [
+        "IRL GENERAL"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
       "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO"
     },
     {
@@ -403,10 +427,11 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "ASTETE ZENTENO LUCIANO FELIPE",
-      "cursos": "EPP, EXT, OPR, PA",
+      "cursos": "EPP, EXT, IRL GENERAL, OPR, PA",
       "courseList": [
         "EPP",
         "EXT",
+        "IRL GENERAL",
         "OPR",
         "PA"
       ],
@@ -427,18 +452,22 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "AVILA VALENCIA MAURICIO ANDRES",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
+      "cursos": "IRL GENERAL",
+      "courseList": [
+        "IRL GENERAL"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
       "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "BALMAZABAL GUTIERREZ RODRIGO EDUARDO",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
+      "cursos": "IRL GENERAL",
+      "courseList": [
+        "IRL GENERAL"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
       "detalle": "MECANICO · Estado TARJA: ACTIVO"
     },
     {
@@ -532,10 +561,12 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "BENITEZ WERLINGER SEBASTIAN ANTONIO",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
+      "cursos": "IRL GENERAL",
+      "courseList": [
+        "IRL GENERAL"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
       "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO"
     },
     {
@@ -552,11 +583,12 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "BRAVO ROA GUILLERMO IVAN",
-      "cursos": "AYB, EPP, EXT, OPR, PA",
+      "cursos": "AYB, EPP, EXT, IRL GENERAL, OPR, PA",
       "courseList": [
         "AYB",
         "EPP",
         "EXT",
+        "IRL GENERAL",
         "OPR",
         "PA"
       ],
@@ -566,9 +598,10 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "BRIONES IBAÑEZ MARCELL IGNACIO",
-      "cursos": "EPP, OPR",
+      "cursos": "EPP, IRL GENERAL, OPR",
       "courseList": [
         "EPP",
+        "IRL GENERAL",
         "OPR"
       ],
       "estado": "Con registros",
@@ -577,10 +610,12 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "BUSTAMANTE SEPULVEDA CAMILO ANDRES",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
+      "cursos": "IRL GENERAL",
+      "courseList": [
+        "IRL GENERAL"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
       "detalle": "ASEADORES INDUSTRIAL · Estado TARJA: ACTIVO"
     },
     {
@@ -593,9 +628,10 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "CAAMAÑO QUIÑILEN CRISTIAN FELIPE",
-      "cursos": "EXT, PA",
+      "cursos": "EXT, IRL GENERAL, PA",
       "courseList": [
         "EXT",
+        "IRL GENERAL",
         "PA"
       ],
       "estado": "Con registros",
@@ -625,10 +661,11 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "CANALES GARCIA ALLEX ROBERT",
-      "cursos": "EPP, EXT, PA",
+      "cursos": "EPP, EXT, IRL GENERAL, PA",
       "courseList": [
         "EPP",
         "EXT",
+        "IRL GENERAL",
         "PA"
       ],
       "estado": "Con registros",
@@ -637,10 +674,11 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "CANELO ROJAS DIEGO ESTEBAN",
-      "cursos": "EPP, EXT, OPR, PA",
+      "cursos": "EPP, EXT, IRL GENERAL, OPR, PA",
       "courseList": [
         "EPP",
         "EXT",
+        "IRL GENERAL",
         "OPR",
         "PA"
       ],
@@ -650,11 +688,12 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "CANIO MARILUAN DANIEL ISAIAS",
-      "cursos": "AYB, EPP, EXT, OPR, PA",
+      "cursos": "AYB, EPP, EXT, IRL GENERAL, OPR, PA",
       "courseList": [
         "AYB",
         "EPP",
         "EXT",
+        "IRL GENERAL",
         "OPR",
         "PA"
       ],
@@ -701,9 +740,10 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "CARO LAVADO JUAN GABRIEL",
-      "cursos": "AYB",
+      "cursos": "AYB, IRL GENERAL",
       "courseList": [
-        "AYB"
+        "AYB",
+        "IRL GENERAL"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
@@ -711,9 +751,10 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "CARRASCO ORTEGA MATIAS IGNACIO",
-      "cursos": "AYB",
+      "cursos": "AYB, IRL GENERAL",
       "courseList": [
-        "AYB"
+        "AYB",
+        "IRL GENERAL"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
@@ -721,10 +762,11 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "CARRASCO SHAW VICTOR DANIEL",
-      "cursos": "EPP, EXT, OPR, PA",
+      "cursos": "EPP, EXT, IRL GENERAL, OPR, PA",
       "courseList": [
         "EPP",
         "EXT",
+        "IRL GENERAL",
         "OPR",
         "PA"
       ],
@@ -742,10 +784,11 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "CARRILLO GONZALEZ MIRKO PAOLO",
-      "cursos": "EPP, EXT, OPR, PA",
+      "cursos": "EPP, EXT, IRL GENERAL, OPR, PA",
       "courseList": [
         "EPP",
         "EXT",
+        "IRL GENERAL",
         "OPR",
         "PA"
       ],
@@ -755,10 +798,11 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "CARVAJAL ALFARO RICARDO MAX",
-      "cursos": "EPP, EXT, OPR, PA",
+      "cursos": "EPP, EXT, IRL GENERAL, OPR, PA",
       "courseList": [
         "EPP",
         "EXT",
+        "IRL GENERAL",
         "OPR",
         "PA"
       ],
@@ -768,10 +812,11 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "CARVAJAL DELGADO GLEN EDUARDO",
-      "cursos": "EPP, EXT, OPR, PA",
+      "cursos": "EPP, EXT, IRL GENERAL, OPR, PA",
       "courseList": [
         "EPP",
         "EXT",
+        "IRL GENERAL",
         "OPR",
         "PA"
       ],
@@ -781,17 +826,20 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "CASTILLO CASTILLO HECTOR ALEJANDRO",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
+      "cursos": "IRL GENERAL",
+      "courseList": [
+        "IRL GENERAL"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
       "detalle": "EXPERTO HSEC MANTENCION · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "CASTILLO NEIRA MIGUEL ANGEL",
-      "cursos": "EXT, PA",
+      "cursos": "EXT, IRL GENERAL, PA",
       "courseList": [
         "EXT",
+        "IRL GENERAL",
         "PA"
       ],
       "estado": "Con registros",
@@ -800,10 +848,11 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "CASTRO JARA JAVIER RENATO",
-      "cursos": "EPP, EXT, OPR, PA",
+      "cursos": "EPP, EXT, IRL GENERAL, OPR, PA",
       "courseList": [
         "EPP",
         "EXT",
+        "IRL GENERAL",
         "OPR",
         "PA"
       ],
@@ -829,11 +878,12 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "CID LAGOS JULIO EDUARDO",
-      "cursos": "AYB, EPP, EXT, OPR, PA",
+      "cursos": "AYB, EPP, EXT, IRL GENERAL, OPR, PA",
       "courseList": [
         "AYB",
         "EPP",
         "EXT",
+        "IRL GENERAL",
         "OPR",
         "PA"
       ],
@@ -843,10 +893,11 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "CIFUENTES SAAVEDRA BAYRON PATRICIO",
-      "cursos": "EPP, EXT, OPR, PA",
+      "cursos": "EPP, EXT, IRL GENERAL, OPR, PA",
       "courseList": [
         "EPP",
         "EXT",
+        "IRL GENERAL",
         "OPR",
         "PA"
       ],
@@ -856,19 +907,22 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "CONTRERAS GAMBOA LUIS GUILLERMO",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
+      "cursos": "IRL GENERAL",
+      "courseList": [
+        "IRL GENERAL"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
       "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "CORNEJO FLORES JULIANO ENRIQUE",
-      "cursos": "AYB, EPP, EXT, OPR, PA",
+      "cursos": "AYB, EPP, EXT, IRL GENERAL, OPR, PA",
       "courseList": [
         "AYB",
         "EPP",
         "EXT",
+        "IRL GENERAL",
         "OPR",
         "PA"
       ],
@@ -878,9 +932,10 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "CORTES ORTIZ DAVIS EMILIO",
-      "cursos": "AYB",
+      "cursos": "AYB, IRL GENERAL",
       "courseList": [
-        "AYB"
+        "AYB",
+        "IRL GENERAL"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
@@ -901,10 +956,12 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "CRUZ MARTINEZ RAFAEL CRISTOBAL",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
+      "cursos": "IRL GENERAL",
+      "courseList": [
+        "IRL GENERAL"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
       "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO"
     },
     {
@@ -930,10 +987,11 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "DEPAOLI CAMPOS JUAN MAURICIO",
-      "cursos": "EPP, EXT, OPR, PA",
+      "cursos": "EPP, EXT, IRL GENERAL, OPR, PA",
       "courseList": [
         "EPP",
         "EXT",
+        "IRL GENERAL",
         "OPR",
         "PA"
       ],
@@ -951,9 +1009,10 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "DIAZ MONTECINOS BRYAN NICOLAS",
-      "cursos": "AYB",
+      "cursos": "AYB, IRL GENERAL",
       "courseList": [
-        "AYB"
+        "AYB",
+        "IRL GENERAL"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
@@ -1019,18 +1078,22 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "ESPERGUEL OÑATE CRISTIAN ALFREDO",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
+      "cursos": "IRL GENERAL",
+      "courseList": [
+        "IRL GENERAL"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
       "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "ESPINOZA MORALES ERNESTO AURELIO",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
+      "cursos": "IRL GENERAL",
+      "courseList": [
+        "IRL GENERAL"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
       "detalle": "MECANICO · Estado TARJA: ACTIVO"
     },
     {
@@ -1056,10 +1119,12 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "FERNANDEZ MADARIAGA MARIA JOSE",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
+      "cursos": "IRL GENERAL",
+      "courseList": [
+        "IRL GENERAL"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
       "detalle": "ENCARGADO DE RRHH MANTENC · Estado TARJA: ACTIVO"
     },
     {
@@ -1074,9 +1139,10 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "FERREIRA DIAZ ANGELO NICOLAS",
-      "cursos": "EXT, OPR, PA",
+      "cursos": "EXT, IRL GENERAL, OPR, PA",
       "courseList": [
         "EXT",
+        "IRL GENERAL",
         "OPR",
         "PA"
       ],
@@ -1086,17 +1152,20 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "FIGUEROA FIGUEROA CARLOS MIGUEL",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
+      "cursos": "IRL GENERAL",
+      "courseList": [
+        "IRL GENERAL"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
       "detalle": "SOLDADOR PLANCHA · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "FLORES VIDAL EMMANUEL JESUS",
-      "cursos": "EXT, OPR, PA",
+      "cursos": "EXT, IRL GENERAL, OPR, PA",
       "courseList": [
         "EXT",
+        "IRL GENERAL",
         "OPR",
         "PA"
       ],
@@ -1106,9 +1175,10 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "FOSTER CUEVAS ROBERTO CARLOS",
-      "cursos": "AYB",
+      "cursos": "AYB, IRL GENERAL",
       "courseList": [
-        "AYB"
+        "AYB",
+        "IRL GENERAL"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
@@ -1173,17 +1243,20 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "GAETE CURIPAN MANUEL ALEJANDRO",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
+      "cursos": "IRL GENERAL",
+      "courseList": [
+        "IRL GENERAL"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
       "detalle": "OP PUENTE GRUA · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "GAJARDO GAJARDO JORGE LUIS",
-      "cursos": "AYB",
+      "cursos": "AYB, IRL GENERAL",
       "courseList": [
-        "AYB"
+        "AYB",
+        "IRL GENERAL"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
@@ -1191,17 +1264,20 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "GALARCE BAEZA JUAN OSVALDO",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
+      "cursos": "IRL GENERAL",
+      "courseList": [
+        "IRL GENERAL"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
       "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "GALDAMES PEREZ LORENZO RAUL",
-      "cursos": "AYB",
+      "cursos": "AYB, IRL GENERAL",
       "courseList": [
-        "AYB"
+        "AYB",
+        "IRL GENERAL"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
@@ -1209,9 +1285,10 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "GALLARDO BORQUEZ ERWIN LORENZO",
-      "cursos": "EPP, PA",
+      "cursos": "EPP, IRL GENERAL, PA",
       "courseList": [
         "EPP",
+        "IRL GENERAL",
         "PA"
       ],
       "estado": "Con registros",
@@ -1228,10 +1305,12 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "GALLARDO PONCE JERALDINE ALEJANDRA",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
+      "cursos": "IRL GENERAL",
+      "courseList": [
+        "IRL GENERAL"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
       "detalle": "ENCARGADO DE RRHH MANTENC · Estado TARJA: ACTIVO"
     },
     {
@@ -1246,10 +1325,11 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "GALLEGOS FUENTES EDGARDO ELEAZER",
-      "cursos": "AYB, EPP, OPR, PA",
+      "cursos": "AYB, EPP, IRL GENERAL, OPR, PA",
       "courseList": [
         "AYB",
         "EPP",
+        "IRL GENERAL",
         "OPR",
         "PA"
       ],
@@ -1259,10 +1339,12 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "GALVEZ VILLALOBOS DANIEL FELIPE",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
+      "cursos": "IRL GENERAL",
+      "courseList": [
+        "IRL GENERAL"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
       "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO"
     },
     {
@@ -1300,10 +1382,12 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "GODOY JURE MAURICIO ROLANDO",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
+      "cursos": "IRL GENERAL",
+      "courseList": [
+        "IRL GENERAL"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
       "detalle": "CHOFER CAMION PLANO C/EQ · Estado TARJA: ACTIVO"
     },
     {
@@ -1331,10 +1415,12 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "GONZALEZ ZUÑIGA FRANCISCO EDUARDO",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
+      "cursos": "IRL GENERAL",
+      "courseList": [
+        "IRL GENERAL"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
       "detalle": "MECANICO PRIMERA /ANDAMIE · Estado TARJA: ACTIVO"
     },
     {
@@ -1361,18 +1447,22 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "GUTIERREZ OJEDA MARCELO DOMINGO",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
+      "cursos": "IRL GENERAL",
+      "courseList": [
+        "IRL GENERAL"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
       "detalle": "SOLDADOR PLANCHA · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "GUTIERREZ VILLEGA ARIEL ESTEBAN",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
+      "cursos": "IRL GENERAL",
+      "courseList": [
+        "IRL GENERAL"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
       "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO"
     },
     {
@@ -1402,10 +1492,11 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "HERRERA CUETO LUIS FELIPE",
-      "cursos": "EPP, EXT, OPR, PA",
+      "cursos": "EPP, EXT, IRL GENERAL, OPR, PA",
       "courseList": [
         "EPP",
         "EXT",
+        "IRL GENERAL",
         "OPR",
         "PA"
       ],
@@ -1415,17 +1506,20 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "INOSTROZA URIBE EDGARD MILLORSI",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
+      "cursos": "IRL GENERAL",
+      "courseList": [
+        "IRL GENERAL"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
       "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "INZUNZA MUÑOZ CRISTIAN ALEXIS",
-      "cursos": "EPP",
+      "cursos": "EPP, IRL GENERAL",
       "courseList": [
-        "EPP"
+        "EPP",
+        "IRL GENERAL"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
@@ -1433,9 +1527,10 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "JARA NAVARRETE MANUEL EDUARDO",
-      "cursos": "AYB",
+      "cursos": "AYB, IRL GENERAL",
       "courseList": [
-        "AYB"
+        "AYB",
+        "IRL GENERAL"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
@@ -1459,10 +1554,11 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "LACAMPRETT ROCO MARCO ANTONIO",
-      "cursos": "AYB, EXT",
+      "cursos": "AYB, EXT, IRL GENERAL",
       "courseList": [
         "AYB",
-        "EXT"
+        "EXT",
+        "IRL GENERAL"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
@@ -1470,9 +1566,10 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "LAGOS ALBURQUENQUE HANS YAID",
-      "cursos": "EPP, OPR, PA",
+      "cursos": "EPP, IRL GENERAL, OPR, PA",
       "courseList": [
         "EPP",
+        "IRL GENERAL",
         "OPR",
         "PA"
       ],
@@ -1505,18 +1602,21 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "LEIVA PASCAL ISRAEL SEGUNDO",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
+      "cursos": "IRL GENERAL",
+      "courseList": [
+        "IRL GENERAL"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
       "detalle": "EXPERTO HSEC MANTENCION · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "LOPEZ OTEY SERGIO ANDRES",
-      "cursos": "AYB, EPP",
+      "cursos": "AYB, EPP, IRL GENERAL",
       "courseList": [
         "AYB",
-        "EPP"
+        "EPP",
+        "IRL GENERAL"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
@@ -1566,9 +1666,10 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "MANRIQUEZ GONZALEZ WILSON ANDRES",
-      "cursos": "EPP, OPR, PA",
+      "cursos": "EPP, IRL GENERAL, OPR, PA",
       "courseList": [
         "EPP",
+        "IRL GENERAL",
         "OPR",
         "PA"
       ],
@@ -1578,10 +1679,11 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "MANRIQUEZ JARA JORGE ANDRES",
-      "cursos": "AYB, EPP, OPR",
+      "cursos": "AYB, EPP, IRL GENERAL, OPR",
       "courseList": [
         "AYB",
         "EPP",
+        "IRL GENERAL",
         "OPR"
       ],
       "estado": "Con registros",
@@ -1590,10 +1692,11 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "MANZO URIBE JORGE PATRICIO",
-      "cursos": "EPP, EXT, OPR",
+      "cursos": "EPP, EXT, IRL GENERAL, OPR",
       "courseList": [
         "EPP",
         "EXT",
+        "IRL GENERAL",
         "OPR"
       ],
       "estado": "Con registros",
@@ -1622,10 +1725,11 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "MARTEL COFRE CRISTOBAL ALFREDO",
-      "cursos": "EPP, EXT, OPR, PA",
+      "cursos": "EPP, EXT, IRL GENERAL, OPR, PA",
       "courseList": [
         "EPP",
         "EXT",
+        "IRL GENERAL",
         "OPR",
         "PA"
       ],
@@ -1643,10 +1747,11 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "MASIAS RODRIGUEZ DAVID SALOMON",
-      "cursos": "EPP, EXT, OPR, PA",
+      "cursos": "EPP, EXT, IRL GENERAL, OPR, PA",
       "courseList": [
         "EPP",
         "EXT",
+        "IRL GENERAL",
         "OPR",
         "PA"
       ],
@@ -1656,17 +1761,20 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "MELLA CUEVAS JUAN CARLOS",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
+      "cursos": "IRL GENERAL",
+      "courseList": [
+        "IRL GENERAL"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
       "detalle": "MECANICO · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "MENDEZ CORDOVA FRANCISCO JAVIER",
-      "cursos": "EXT",
+      "cursos": "EXT, IRL GENERAL",
       "courseList": [
-        "EXT"
+        "EXT",
+        "IRL GENERAL"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
@@ -1674,18 +1782,22 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "MENDOZA AYALA DIEGO NICOLAS",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
+      "cursos": "IRL GENERAL",
+      "courseList": [
+        "IRL GENERAL"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
       "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "MENDOZA SAEZ FLORINDO ANDRES",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
+      "cursos": "IRL GENERAL",
+      "courseList": [
+        "IRL GENERAL"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
       "detalle": "SUPERV MECANICO MANTENCIO · Estado TARJA: ACTIVO"
     },
     {
@@ -1722,10 +1834,12 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "MONTOYA ZAMBRANO CRISTIAN ANDRES",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
+      "cursos": "IRL GENERAL",
+      "courseList": [
+        "IRL GENERAL"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
       "detalle": "SUPERV DE ESTRUCTURA MANT · Estado TARJA: ACTIVO"
     },
     {
@@ -1749,10 +1863,11 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "MORALES DURAN EDUARDO BENJAMIN",
-      "cursos": "EPP, EXT, OPR, PA",
+      "cursos": "EPP, EXT, IRL GENERAL, OPR, PA",
       "courseList": [
         "EPP",
         "EXT",
+        "IRL GENERAL",
         "OPR",
         "PA"
       ],
@@ -1762,10 +1877,11 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "MORALES GAMBOA ANTONIO ENRIQUE",
-      "cursos": "EPP, EXT, OPR, PA",
+      "cursos": "EPP, EXT, IRL GENERAL, OPR, PA",
       "courseList": [
         "EPP",
         "EXT",
+        "IRL GENERAL",
         "OPR",
         "PA"
       ],
@@ -1775,10 +1891,12 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "MORENO FUENTES CRISTIAN MAURICIO",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
+      "cursos": "IRL GENERAL",
+      "courseList": [
+        "IRL GENERAL"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
       "detalle": "ING DE CALIDAD Y MEJORAMI · Estado TARJA: ACTIVO"
     },
     {
@@ -1807,10 +1925,11 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "MUÑOZ VARGAS RODRIGO ANDRES",
-      "cursos": "EPP, EXT, OPR, PA",
+      "cursos": "EPP, EXT, IRL GENERAL, OPR, PA",
       "courseList": [
         "EPP",
         "EXT",
+        "IRL GENERAL",
         "OPR",
         "PA"
       ],
@@ -1820,8 +1939,9 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "NOVAS GIMENEZ MIGUEL ANGEL",
-      "cursos": "PA",
+      "cursos": "IRL GENERAL, PA",
       "courseList": [
+        "IRL GENERAL",
         "PA"
       ],
       "estado": "Con registros",
@@ -1857,10 +1977,11 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "OLIVA TAPIA JONATHAN JESUS",
-      "cursos": "AYB, EPP, OPR, PA",
+      "cursos": "AYB, EPP, IRL GENERAL, OPR, PA",
       "courseList": [
         "AYB",
         "EPP",
+        "IRL GENERAL",
         "OPR",
         "PA"
       ],
@@ -1870,9 +1991,10 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "OLIVARES ACUÑA PEDRO ANTONIO",
-      "cursos": "EXT",
+      "cursos": "EXT, IRL GENERAL",
       "courseList": [
-        "EXT"
+        "EXT",
+        "IRL GENERAL"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
@@ -1880,10 +2002,11 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "OLIVARES VERGARA LEOPOLDO MIGUEL",
-      "cursos": "EPP, EXT, OPR, PA",
+      "cursos": "EPP, EXT, IRL GENERAL, OPR, PA",
       "courseList": [
         "EPP",
         "EXT",
+        "IRL GENERAL",
         "OPR",
         "PA"
       ],
@@ -1893,10 +2016,12 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "OÑATE SALAZAR ALEJANDRO JAVIER",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "Duplicado",
-      "statusKey": "duplicado",
+      "cursos": "IRL GENERAL",
+      "courseList": [
+        "IRL GENERAL"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
       "detalle": "SUPERV MECANICO MANTENCIO · Estado TARJA: ACTIVO · incluye duplicados"
     },
     {
@@ -1915,10 +2040,12 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "ORELLANA ARRAIN RODOLFO VALENTIN",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
+      "cursos": "IRL GENERAL",
+      "courseList": [
+        "IRL GENERAL"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
       "detalle": "ASEADORES INDUSTRIAL · Estado TARJA: ACTIVO"
     },
     {
@@ -1931,18 +2058,22 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "ORELLANA SEPÚLVEDA FRANK PAUL",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
+      "cursos": "IRL GENERAL",
+      "courseList": [
+        "IRL GENERAL"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
       "detalle": "ASEADORES INDUSTRIAL · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "ORTIZ ORTIZ VICTOR ALFONSO",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
+      "cursos": "IRL GENERAL",
+      "courseList": [
+        "IRL GENERAL"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
       "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO"
     },
     {
@@ -2007,10 +2138,12 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "PALMA HENRIQUEZ BASTIAN RODRIGO",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
+      "cursos": "IRL GENERAL",
+      "courseList": [
+        "IRL GENERAL"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
       "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO"
     },
     {
@@ -2023,10 +2156,12 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "PANIRE QUISPE LUIS ROBERTO",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
+      "cursos": "IRL GENERAL",
+      "courseList": [
+        "IRL GENERAL"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
       "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO"
     },
     {
@@ -2079,9 +2214,10 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "PASTEN CASTRO HUGO CHRISTIAN",
-      "cursos": "AYB",
+      "cursos": "AYB, IRL GENERAL",
       "courseList": [
-        "AYB"
+        "AYB",
+        "IRL GENERAL"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
@@ -2089,18 +2225,21 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "PAVEZ URIBE FERNANDO ALEJANDRO",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
+      "cursos": "IRL GENERAL",
+      "courseList": [
+        "IRL GENERAL"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
       "detalle": "ASISTENTE SAP · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "PEDRERO VEAS MAURICIO ALEJANDRO",
-      "cursos": "EPP, EXT, OPR, PA",
+      "cursos": "EPP, EXT, IRL GENERAL, OPR, PA",
       "courseList": [
         "EPP",
         "EXT",
+        "IRL GENERAL",
         "OPR",
         "PA"
       ],
@@ -2118,18 +2257,21 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "PEREZ ACEVEDO LUIS ALBERTO",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
+      "cursos": "IRL GENERAL",
+      "courseList": [
+        "IRL GENERAL"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
       "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "PEREZ CATALAN JORGE ANDRES",
-      "cursos": "EPP, EXT, OPR, PA",
+      "cursos": "EPP, EXT, IRL GENERAL, OPR, PA",
       "courseList": [
         "EPP",
         "EXT",
+        "IRL GENERAL",
         "OPR",
         "PA"
       ],
@@ -2165,9 +2307,10 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "PEREZ RODRIGUEZ HERNAN RIGOBERTO",
-      "cursos": "EPP, OPR",
+      "cursos": "EPP, IRL GENERAL, OPR",
       "courseList": [
         "EPP",
+        "IRL GENERAL",
         "OPR"
       ],
       "estado": "Con registros",
@@ -2239,10 +2382,12 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "QUEZADA TRUJILLO CARLOS PATRICIO",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
+      "cursos": "AYB",
+      "courseList": [
+        "AYB"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
       "detalle": "SUPERV MECANICO MANTENCIO · Estado TARJA: ACTIVO"
     },
     {
@@ -2268,10 +2413,12 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "RAMIREZ NUÑEZ FERNANDO RODOLFO",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
+      "cursos": "IRL GENERAL",
+      "courseList": [
+        "IRL GENERAL"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
       "detalle": "ASEADORES INDUSTRIAL · Estado TARJA: ACTIVO"
     },
     {
@@ -2287,10 +2434,12 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "REYES JIMENEZ JULIAN ERWIN",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
+      "cursos": "IRL GENERAL",
+      "courseList": [
+        "IRL GENERAL"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
       "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO"
     },
     {
@@ -2303,8 +2452,9 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "RIOS CHANDIA JOSE RAINIER",
-      "cursos": "EPP, EXT, OPR, PA",
+      "cursos": "AYB, EPP, EXT, OPR, PA",
       "courseList": [
+        "AYB",
         "EPP",
         "EXT",
         "OPR",
@@ -2334,9 +2484,10 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "RIQUELME ROCA PATRICIO FERNANDO",
-      "cursos": "EXT, OPR, PA",
+      "cursos": "EXT, IRL GENERAL, OPR, PA",
       "courseList": [
         "EXT",
+        "IRL GENERAL",
         "OPR",
         "PA"
       ],
@@ -2346,11 +2497,12 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "RIQUELME SANDOVAL JAIME ENRIQUE",
-      "cursos": "AYB, EPP, EXT, OPR, PA",
+      "cursos": "AYB, EPP, EXT, IRL GENERAL, OPR, PA",
       "courseList": [
         "AYB",
         "EPP",
         "EXT",
+        "IRL GENERAL",
         "OPR",
         "PA"
       ],
@@ -2360,11 +2512,12 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "RIVAS PARRA ALEXIS EDUARDO",
-      "cursos": "AYB, EPP, EXT, PA",
+      "cursos": "AYB, EPP, EXT, IRL GENERAL, PA",
       "courseList": [
         "AYB",
         "EPP",
         "EXT",
+        "IRL GENERAL",
         "PA"
       ],
       "estado": "Con registros",
@@ -2373,26 +2526,31 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "RIVERA ESTAY EDUARDO ANTONIO",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
+      "cursos": "IRL GENERAL",
+      "courseList": [
+        "IRL GENERAL"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
       "detalle": "CHOFER CAMION PLANO C/EQ · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "RIVERA MENESES JOSE ALEJANDRO",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
+      "cursos": "IRL GENERAL",
+      "courseList": [
+        "IRL GENERAL"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
       "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "RIVERA VERGARA HUMBERTO ENRIQUE",
-      "cursos": "EPP, EXT, OPR, PA",
+      "cursos": "EPP, EXT, IRL GENERAL, OPR, PA",
       "courseList": [
         "EPP",
         "EXT",
+        "IRL GENERAL",
         "OPR",
         "PA"
       ],
@@ -2415,11 +2573,12 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "RODRIGUEZ DURAN JOSUE MANUEL",
-      "cursos": "AYB, EPP, EXT, OPR, PA",
+      "cursos": "AYB, EPP, EXT, IRL GENERAL, OPR, PA",
       "courseList": [
         "AYB",
         "EPP",
         "EXT",
+        "IRL GENERAL",
         "OPR",
         "PA"
       ],
@@ -2429,18 +2588,21 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "RODRIGUEZ ULLOA LEONARDO ALEXIS",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
+      "cursos": "IRL GENERAL",
+      "courseList": [
+        "IRL GENERAL"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
       "detalle": "MECANICO · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "ROJAS CORNEJO PABLO ANDRES",
-      "cursos": "EPP, EXT, OPR, PA",
+      "cursos": "EPP, EXT, IRL GENERAL, OPR, PA",
       "courseList": [
         "EPP",
         "EXT",
+        "IRL GENERAL",
         "OPR",
         "PA"
       ],
@@ -2450,9 +2612,10 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "ROJAS ORTEGA GUIDO DAMIAN",
-      "cursos": "EXT, PA",
+      "cursos": "EXT, IRL GENERAL, PA",
       "courseList": [
         "EXT",
+        "IRL GENERAL",
         "PA"
       ],
       "estado": "Con registros",
@@ -2461,9 +2624,10 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "ROSALES ALARCON WALTER FABRICIO",
-      "cursos": "AYB",
+      "cursos": "AYB, IRL GENERAL",
       "courseList": [
-        "AYB"
+        "AYB",
+        "IRL GENERAL"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
@@ -2471,9 +2635,10 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "ROSAS SILVA CARLOS GUILLERMO",
-      "cursos": "EXT, OPR, PA",
+      "cursos": "EXT, IRL GENERAL, OPR, PA",
       "courseList": [
         "EXT",
+        "IRL GENERAL",
         "OPR",
         "PA"
       ],
@@ -2491,18 +2656,22 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "RUBILAR RUMINOT PEDRO ANDRES",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
+      "cursos": "IRL GENERAL",
+      "courseList": [
+        "IRL GENERAL"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
       "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "RUIZ BRICEÑO LUCIANO NICOLAS",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
+      "cursos": "IRL GENERAL",
+      "courseList": [
+        "IRL GENERAL"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
       "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO"
     },
     {
@@ -2529,9 +2698,10 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "SAAVEDRA ABARCA RONALD MICHAEL",
-      "cursos": "AYB",
+      "cursos": "AYB, IRL GENERAL",
       "courseList": [
-        "AYB"
+        "AYB",
+        "IRL GENERAL"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
@@ -2539,9 +2709,10 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "SAAVEDRA ESQUIVEL CARLOS GUSTAVO",
-      "cursos": "EPP, OPR, PA",
+      "cursos": "EPP, IRL GENERAL, OPR, PA",
       "courseList": [
         "EPP",
+        "IRL GENERAL",
         "OPR",
         "PA"
       ],
@@ -2551,9 +2722,10 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "SAEZ CORREA MARCO ANTONIO",
-      "cursos": "EPP, OPR",
+      "cursos": "EPP, IRL GENERAL, OPR",
       "courseList": [
         "EPP",
+        "IRL GENERAL",
         "OPR"
       ],
       "estado": "Con registros",
@@ -2570,10 +2742,12 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "SALAZAR DEL PINO CLAUDIO HERIBERTO",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
+      "cursos": "IRL GENERAL",
+      "courseList": [
+        "IRL GENERAL"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
       "detalle": "MECANICO · Estado TARJA: ACTIVO"
     },
     {
@@ -2590,10 +2764,12 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "SALGADO VASQUEZ MARCO ANTONIO",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
+      "cursos": "IRL GENERAL",
+      "courseList": [
+        "IRL GENERAL"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
       "detalle": "SUPERV MECANICO MANTENCIO · Estado TARJA: ACTIVO"
     },
     {
@@ -2606,10 +2782,12 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "SAN MARTIN FERREIRA IVAN ALEJANDRO",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
+      "cursos": "IRL GENERAL",
+      "courseList": [
+        "IRL GENERAL"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
       "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO"
     },
     {
@@ -2644,9 +2822,10 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "SANHUEZA VEGA JAIME LUIS",
-      "cursos": "AYB",
+      "cursos": "AYB, IRL GENERAL",
       "courseList": [
-        "AYB"
+        "AYB",
+        "IRL GENERAL"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
@@ -2675,26 +2854,31 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "SEGUEL PASTOR JUAN JOSE",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
+      "cursos": "IRL GENERAL",
+      "courseList": [
+        "IRL GENERAL"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
       "detalle": "MECANICO · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "SEPULVEDA OLSEN MANUEL ALEJANDRO",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
+      "cursos": "IRL GENERAL",
+      "courseList": [
+        "IRL GENERAL"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
       "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "SILVA CIFUENTES JONNATAN MAX",
-      "cursos": "EPP, EXT",
+      "cursos": "EPP, EXT, IRL GENERAL",
       "courseList": [
         "EPP",
-        "EXT"
+        "EXT",
+        "IRL GENERAL"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
@@ -2702,9 +2886,10 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "SILVA SOTO CRISTIAN EDUARDO",
-      "cursos": "EPP, OPR, PA",
+      "cursos": "EPP, IRL GENERAL, OPR, PA",
       "courseList": [
         "EPP",
+        "IRL GENERAL",
         "OPR",
         "PA"
       ],
@@ -2722,18 +2907,21 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "SUAZO TORRES FRANCISCO ESTEBAN",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
+      "cursos": "IRL GENERAL",
+      "courseList": [
+        "IRL GENERAL"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
       "detalle": "SOLDADOR PLANCHA · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "TAPIA FERNANDEZ RICARDO JAVIER",
-      "cursos": "EPP, EXT, OPR, PA",
+      "cursos": "EPP, EXT, IRL GENERAL, OPR, PA",
       "courseList": [
         "EPP",
         "EXT",
+        "IRL GENERAL",
         "OPR",
         "PA"
       ],
@@ -2743,9 +2931,10 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "TAPIA GAETE MIGUEL VLADIMIR",
-      "cursos": "EPP",
+      "cursos": "EPP, IRL GENERAL",
       "courseList": [
-        "EPP"
+        "EPP",
+        "IRL GENERAL"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
@@ -2753,9 +2942,10 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "TARBES CARRASCO CHRISTIAN ANDRE",
-      "cursos": "EPP, PA",
+      "cursos": "EPP, IRL GENERAL, PA",
       "courseList": [
         "EPP",
+        "IRL GENERAL",
         "PA"
       ],
       "estado": "Con registros",
@@ -2764,11 +2954,12 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "TOBAR RIVAS NELSON EDUARDO",
-      "cursos": "AYB, EPP, EXT, OPR, PA",
+      "cursos": "AYB, EPP, EXT, IRL GENERAL, OPR, PA",
       "courseList": [
         "AYB",
         "EPP",
         "EXT",
+        "IRL GENERAL",
         "OPR",
         "PA"
       ],
@@ -2778,18 +2969,21 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "TOBAR RIVAS SALOMON EDUARDO",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
+      "cursos": "IRL GENERAL",
+      "courseList": [
+        "IRL GENERAL"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
       "detalle": "SOLDADOR PLANCHA · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "TOBAR VALENZUELA JAIME FABIAN",
-      "cursos": "AYB, EXT",
+      "cursos": "AYB, EXT, IRL GENERAL",
       "courseList": [
         "AYB",
-        "EXT"
+        "EXT",
+        "IRL GENERAL"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
@@ -2805,9 +2999,10 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "TORO CARRIL FRANCO IGNACIO",
-      "cursos": "EPP, OPR, PA",
+      "cursos": "EPP, IRL GENERAL, OPR, PA",
       "courseList": [
         "EPP",
+        "IRL GENERAL",
         "OPR",
         "PA"
       ],
@@ -2817,9 +3012,10 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "TORO FUENTES PEDRO ENRIQUE",
-      "cursos": "AYB",
+      "cursos": "AYB, IRL GENERAL",
       "courseList": [
-        "AYB"
+        "AYB",
+        "IRL GENERAL"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
@@ -2827,10 +3023,11 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "TORRES PAILLAO EUGENIO ROBERTO",
-      "cursos": "EPP, EXT, OPR, PA",
+      "cursos": "EPP, EXT, IRL GENERAL, OPR, PA",
       "courseList": [
         "EPP",
         "EXT",
+        "IRL GENERAL",
         "OPR",
         "PA"
       ],
@@ -2840,10 +3037,12 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "TORRES TASSARA OSCAR FRANCISCO",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
+      "cursos": "IRL GENERAL",
+      "courseList": [
+        "IRL GENERAL"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
       "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO"
     },
     {
@@ -2856,17 +3055,20 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "URETA CISTERNAS CARLOS HUMBERTO",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
+      "cursos": "IRL GENERAL",
+      "courseList": [
+        "IRL GENERAL"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
       "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "VALDIVIA SALDAÑA PEDRO JOEL",
-      "cursos": "AYB",
+      "cursos": "AYB, IRL GENERAL",
       "courseList": [
-        "AYB"
+        "AYB",
+        "IRL GENERAL"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
@@ -2887,10 +3089,11 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "VALENZUELA CAMPOS FELIPE ANDRES",
-      "cursos": "EPP, EXT, OPR, PA",
+      "cursos": "EPP, EXT, IRL GENERAL, OPR, PA",
       "courseList": [
         "EPP",
         "EXT",
+        "IRL GENERAL",
         "OPR",
         "PA"
       ],
@@ -2900,10 +3103,12 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "VALENZUELA ORELLANA BASTIAN ALEXANDER",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
+      "cursos": "IRL GENERAL",
+      "courseList": [
+        "IRL GENERAL"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
       "detalle": "SOLDADOR PLANCHA · Estado TARJA: ACTIVO"
     },
     {
@@ -2921,10 +3126,11 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "VASQUEZ SANHUEZA ESTEBAN VLADIMIR",
-      "cursos": "EPP, EXT, OPR, PA",
+      "cursos": "EPP, EXT, IRL GENERAL, OPR, PA",
       "courseList": [
         "EPP",
         "EXT",
+        "IRL GENERAL",
         "OPR",
         "PA"
       ],
@@ -2934,19 +3140,22 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "VEGA QUIROGA MATIAS ANDRES",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
+      "cursos": "IRL GENERAL",
+      "courseList": [
+        "IRL GENERAL"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
       "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "VEGA VEGA JAIRO ALEXANDER",
-      "cursos": "AYB, EPP, EXT",
+      "cursos": "AYB, EPP, EXT, IRL GENERAL",
       "courseList": [
         "AYB",
         "EPP",
-        "EXT"
+        "EXT",
+        "IRL GENERAL"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
@@ -2962,10 +3171,12 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "VELOZO PAREDES GONZALO ANTONIO",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
+      "cursos": "IRL GENERAL",
+      "courseList": [
+        "IRL GENERAL"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
       "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO"
     },
     {
@@ -2983,10 +3194,11 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "VERGARA MORALES HUGO EDUARDO",
-      "cursos": "EPP, EXT, OPR, PA",
+      "cursos": "EPP, EXT, IRL GENERAL, OPR, PA",
       "courseList": [
         "EPP",
         "EXT",
+        "IRL GENERAL",
         "OPR",
         "PA"
       ],
@@ -3017,10 +3229,12 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "VILLENA POBLETE PABLO SEBASTIAN",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
+      "cursos": "IRL GENERAL",
+      "courseList": [
+        "IRL GENERAL"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
       "detalle": "SOLDADOR PLANCHA · Estado TARJA: ACTIVO"
     },
     {
@@ -3036,11 +3250,12 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "ZENTENO SANDOVAL JOSE LUIS",
-      "cursos": "AYB, EPP, EXT, OPR, PA",
+      "cursos": "AYB, EPP, EXT, IRL GENERAL, OPR, PA",
       "courseList": [
         "AYB",
         "EPP",
         "EXT",
+        "IRL GENERAL",
         "OPR",
         "PA"
       ],
@@ -3050,26 +3265,31 @@ window.DASHBOARD_DATA = {
     },
     {
       "nombre": "ZULETA SOUZA CRISTIAN ANDRES",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
+      "cursos": "IRL GENERAL",
+      "courseList": [
+        "IRL GENERAL"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
       "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "ZURITA ANDIA FLAVIO NELSON",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
+      "cursos": "IRL GENERAL",
+      "courseList": [
+        "IRL GENERAL"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
       "detalle": "MECANICO · Estado TARJA: ACTIVO"
     },
     {
       "nombre": "ZURITA BRAVO HECTOR PATRICIO",
-      "cursos": "EPP, EXT, OPR, PA",
+      "cursos": "EPP, EXT, IRL GENERAL, OPR, PA",
       "courseList": [
         "EPP",
         "EXT",
+        "IRL GENERAL",
         "OPR",
         "PA"
       ],
@@ -3085,11 +3305,11 @@ window.DASHBOARD_DATA = {
     },
     {
       "title": "Cruce con TARJA",
-      "detail": "Se detectaron 124 trabajadores sin evidencias cargadas en el sistema."
+      "detail": "Se detectaron 64 trabajadores sin evidencias cargadas en el sistema."
     },
     {
       "title": "Calidad del registro",
-      "detail": "Se identificaron 112 duplicados y 11 documentos no legibles."
+      "detail": "Se identificaron 114 duplicados y 11 documentos no legibles."
     }
   ]
 };

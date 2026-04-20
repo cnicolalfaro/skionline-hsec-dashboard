@@ -1,9 +1,9 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "20/04/2026 14:19",
+  "generatedAt": "20/04/2026 17:02",
   "sourceFile": "REGISTRO_FINAL_CURSOS.xlsx",
   "kpis": {
-    "totalArchivos": 1776,
-    "documentosUnicos": 1655,
+    "totalArchivos": 1843,
+    "documentosUnicos": 1722,
     "duplicados": 114,
     "noLegibles": 11,
     "trabajadoresTarja": 344,
@@ -45,7 +45,7 @@ window.DASHBOARD_DATA = {
     },
     {
       "curso": "EVALUACIONES IRL",
-      "total": 44
+      "total": 111
     }
   ],
   "statusBreakdown": [
@@ -113,8 +113,8 @@ window.DASHBOARD_DATA = {
     },
     {
       "curso": "EVALUACIONES_IRL",
-      "total": 44,
-      "unicos": 44
+      "total": 111,
+      "unicos": 111
     },
     {
       "curso": "NO_LEGIBLE",
@@ -128,7 +128,7 @@ window.DASHBOARD_DATA = {
     },
     {
       "curso": "TOTAL",
-      "total": 1776,
+      "total": 1843,
       "unicos": null
     }
   ],
@@ -364,10 +364,11 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "ALEGRIA VASQUEZ PABLO CESAR",
       "rut": "16601700-9",
-      "cursos": "AYB, EPP, IRL ESPECIFICA, IRL GENERAL, IRL GENERAL FORMS, OPR, PA",
+      "cursos": "AYB, EPP, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL, IRL GENERAL FORMS, OPR, PA",
       "courseList": [
         "AYB",
         "EPP",
+        "EVALUACIONES IRL",
         "IRL ESPECIFICA",
         "IRL GENERAL",
         "IRL GENERAL FORMS",
@@ -1418,9 +1419,10 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "CAAMAÑO QUIÑILEN CRISTIAN FELIPE",
       "rut": "18745758-0",
-      "cursos": "AYB, EXT, IRL ESPECIFICA, IRL GENERAL, PA",
+      "cursos": "AYB, EVALUACIONES IRL, EXT, IRL ESPECIFICA, IRL GENERAL, PA",
       "courseList": [
         "AYB",
+        "EVALUACIONES IRL",
         "EXT",
         "IRL ESPECIFICA",
         "IRL GENERAL",
@@ -2754,9 +2756,10 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "FIGUEROA FIGUEROA CARLOS MIGUEL",
       "rut": "09342182-5",
-      "cursos": "AYB, IRL ESPECIFICA, IRL GENERAL, IRL GENERAL FORMS",
+      "cursos": "AYB, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL, IRL GENERAL FORMS",
       "courseList": [
         "AYB",
+        "EVALUACIONES IRL",
         "IRL ESPECIFICA",
         "IRL GENERAL",
         "IRL GENERAL FORMS"
@@ -3061,9 +3064,10 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "GALDAMES PEREZ LORENZO RAUL",
       "rut": "11903248-2",
-      "cursos": "AYB, IRL ESPECIFICA, IRL GENERAL, IRL GENERAL FORMS",
+      "cursos": "AYB, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL, IRL GENERAL FORMS",
       "courseList": [
         "AYB",
+        "EVALUACIONES IRL",
         "IRL ESPECIFICA",
         "IRL GENERAL",
         "IRL GENERAL FORMS"
@@ -4031,8 +4035,9 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "LEIVA PASCAL ISRAEL SEGUNDO",
       "rut": "10336496-5",
-      "cursos": "IRL ESPECIFICA, IRL GENERAL",
+      "cursos": "EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
       "courseList": [
+        "EVALUACIONES IRL",
         "IRL ESPECIFICA",
         "IRL GENERAL"
       ],
@@ -5755,8 +5760,9 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "PEREZ ACEVEDO LUIS ALBERTO",
       "rut": "15066122-6",
-      "cursos": "IRL ESPECIFICA, IRL GENERAL, IRL GENERAL FORMS",
+      "cursos": "EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL, IRL GENERAL FORMS",
       "courseList": [
+        "EVALUACIONES IRL",
         "IRL ESPECIFICA",
         "IRL GENERAL",
         "IRL GENERAL FORMS"
@@ -5783,10 +5789,11 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "PEREZ CATALAN JORGE ANDRES",
       "rut": "16049051-9",
-      "cursos": "AYB, EPP, EXT, IRL GENERAL, OPR, PA",
+      "cursos": "AYB, EPP, EVALUACIONES IRL, EXT, IRL GENERAL, OPR, PA",
       "courseList": [
         "AYB",
         "EPP",
+        "EVALUACIONES IRL",
         "EXT",
         "IRL GENERAL",
         "OPR",
@@ -6618,10 +6625,11 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "ROJAS CORNEJO PABLO ANDRES",
       "rut": "12084128-9",
-      "cursos": "AYB, EPP, EXT, IRL GENERAL, OPR, PA",
+      "cursos": "AYB, EPP, EVALUACIONES IRL, EXT, IRL GENERAL, OPR, PA",
       "courseList": [
         "AYB",
         "EPP",
+        "EVALUACIONES IRL",
         "EXT",
         "IRL GENERAL",
         "OPR",
@@ -8137,8 +8145,9 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "VEGA SUAZO FERNANDO IVAN",
       "rut": "9752903-5",
-      "cursos": "IRL ESPECIFICA, IRL GENERAL",
+      "cursos": "EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
       "courseList": [
+        "EVALUACIONES IRL",
         "IRL ESPECIFICA",
         "IRL GENERAL"
       ],

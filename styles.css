@@ -257,6 +257,20 @@ h1 {
   margin-bottom: 14px;
 }
 
+.export-btn {
+  border: 1px solid rgba(66,183,255,.45);
+  background: linear-gradient(135deg, rgba(45,127,249,.3), rgba(66,183,255,.28));
+  color: #eaf7ff;
+  border-radius: 999px;
+  padding: 10px 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.export-btn:hover {
+  filter: brightness(1.08);
+}
+
 .access-panel {
   min-height: unset;
 }
@@ -385,6 +399,14 @@ th, td {
   border-bottom: 1px solid rgba(255,255,255,.08);
   vertical-align: top;
 }
+
+.status-note {
+  display: inline-block;
+  margin-top: 4px;
+  color: var(--muted);
+  font-size: .78rem;
+}
+
 th { color: #9fd1ff; }
 tr:hover td { background: rgba(255,255,255,.03); }
 

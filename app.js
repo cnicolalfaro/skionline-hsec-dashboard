@@ -15,6 +15,38 @@ function normalizeRut(value) {
   return (value || '').toString().replace(/[^0-9kK]/g, '').toLowerCase();
 }
 
+let currentFilteredRows = [];
+
+function exportFilteredToExcel(rows) {
+  if (!rows.length) {
+    alert('No hay resultados filtrados para exportar.');
+    return;
+  }
+
+  if (typeof XLSX === 'undefined') {
+    alert('No se pudo cargar la libreria de exportacion Excel.');
+    return;
+  }
+
+  const exportRows = rows.map(row => ({
+    Nombre: row.nombre || '',
+    RUT: row.rut || '',
+    'Cursos encontrados': row.cursos || '-',
+    'Estado documental': row.estado || '',
+    'Nota estado': 'Estado de su documentacion digitalizada',
+    'ACR. SUCAL': row.acrSucal || '-',
+    'Cursos Codelco Aprobados': row.certFinal || '-',
+    Observacion: row.detalle || '',
+  }));
+
+  const worksheet = XLSX.utils.json_to_sheet(exportRows);
+  const workbook = XLSX.utils.book_new();
+  XLSX.utils.book_append_sheet(workbook, worksheet, 'Resultados');
+
+  const stamp = new Date().toISOString().slice(0, 19).replace(/[:T]/g, '-');
+  XLSX.writeFile(workbook, `dashboard_filtrado_${stamp}.xlsx`);
+}
+
 function renderCards(data) {
   const cards = [
     { label: 'Total de archivos', value: data.kpis.totalArchivos, color: '#2d7ff9', help: 'Cantidad total de evidencias y documentos encontrados en el consolidado.' },
@@ -103,7 +135,7 @@ function renderAccess(data) {
 function renderRecords(rows) {
   const body = document.getElementById('recordsTableBody');
   if (!rows.length) {
-    body.innerHTML = '<tr><td colspan="6">No se encontraron coincidencias.</td></tr>';
+    body.innerHTML = '<tr><td colspan="7">No se encontraron coincidencias.</td></tr>';
     return;
   }
 
@@ -121,7 +153,11 @@ function renderRecords(rows) {
       <td>${row.nombre}</td>
       <td>${row.rut || '-'}</td>
       <td>${row.cursos}</td>
-      <td>${row.estado}</td>
+      <td>
+        <div>${row.estado}</div>
+        <small class="status-note">Estado de su documentacion digitalizada</small>
+      </td>
+      <td>${row.acrSucal || '-'}</td>
       <td><span class="cert-badge ${certClass}">${certLabel}</span></td>
       <td>${row.detalle}${detalleExtra}</td>
     </tr>
@@ -136,6 +172,7 @@ function setupFilters(data) {
   const statusFilter = document.getElementById('statusFilter');
   const acrFilter = document.getElementById('acrFilter');
   const resultsCount = document.getElementById('resultsCount');
+  const exportBtn = document.getElementById('exportFilteredBtn');
 
   // Poblar filtro de cursos
   const courses = [...new Set((data.records || []).flatMap(item => item.courseList || []))].sort();
@@ -184,6 +221,8 @@ function setupFilters(data) {
       return matchesName && matchesRut && matchesCourse && matchesStatus && matchesAcr && matchesMissing;
     });
 
+    currentFilteredRows = filtered;
+
     const limited = filtered.slice(0, 250);
     renderRecords(limited);
     resultsCount.textContent = `${formatNumber(filtered.length)} resultado(s)` + (filtered.length > 250 ? ' · mostrando 250' : '');
@@ -194,6 +233,7 @@ function setupFilters(data) {
   courseFilter.addEventListener('change', applyFilters);
   statusFilter.addEventListener('change', applyFilters);
   acrFilter.addEventListener('change', applyFilters);
+  exportBtn.addEventListener('click', () => exportFilteredToExcel(currentFilteredRows));
   applyFilters();
 }
 

@@ -116,6 +116,7 @@ nombre<!DOCTYPE html>
         <div class="results-summary">
           <span class="mini-chip" id="resultsCount">0 resultados</span>
           <span class="mini-chip">Sugerencia: busca por primer apellido o por RUT</span>
+          <button id="exportFilteredBtn" class="export-btn" type="button">Exportar Excel filtrado</button>
         </div>
 
         <div class="table-wrap">
@@ -125,7 +126,8 @@ nombre<!DOCTYPE html>
                 <th>Nombre</th>
                 <th>RUT</th>
                 <th>Cursos encontrados</th>
-                <th>Estado</th>
+                <th>Estado documental</th>
+                <th>ACR. SUCAL</th>
                 <th>Cursos Codelco Aprobados</th>
                 <th>Observación</th>
               </tr>
@@ -175,6 +177,7 @@ nombre<!DOCTYPE html>
   </div>
 
   <script src="data/dashboard_data.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
   <script src="app.js"></script>
 </body>
 </html>

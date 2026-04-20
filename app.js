@@ -134,23 +134,54 @@ function setupFilters(data) {
   const rutInput = document.getElementById('rutSearch');
   const courseFilter = document.getElementById('courseFilter');
   const statusFilter = document.getElementById('statusFilter');
+  const acrFilter = document.getElementById('acrFilter');
   const resultsCount = document.getElementById('resultsCount');
 
+  // Poblar filtro de cursos
   const courses = [...new Set((data.records || []).flatMap(item => item.courseList || []))].sort();
-  courseFilter.innerHTML = '<option value="">Todos</option>' + courses.map(course => `<option value="${course}">${course}</option>`).join('');
+  courseFilter.innerHTML = '<option value="">Todos</option>' + courses.map(c => `<option value="${c}">${c}</option>`).join('');
+
+  // Poblar filtro ACR. SUCAL
+  const acrValues = [...new Set((data.records || []).map(item => (item.acrSucal || '').trim()).filter(Boolean))].sort();
+  acrFilter.innerHTML = '<option value="">Todos</option>' + acrValues.map(v => `<option value="${v}">${v}</option>`).join('');
+
+  // Botones filtro rápido "Sin evidencia de X curso"
+  let activeMissingCourse = '';
+  const btnGroup = document.getElementById('courseMissingButtons');
+  btnGroup.innerHTML = courses.map(c => `
+    <button class="missing-btn" data-course="${c}">Sin ${c}</button>
+  `).join('');
+
+  btnGroup.querySelectorAll('.missing-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const course = btn.dataset.course;
+      if (activeMissingCourse === course) {
+        activeMissingCourse = '';
+        btn.classList.remove('active');
+      } else {
+        activeMissingCourse = course;
+        btnGroup.querySelectorAll('.missing-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+      }
+      applyFilters();
+    });
+  });
 
   function applyFilters() {
     const query = normalizeText(nameInput.value);
     const rutQuery = normalizeRut(rutInput.value);
     const selectedCourse = courseFilter.value;
     const selectedStatus = statusFilter.value;
+    const selectedAcr = acrFilter.value;
 
     const filtered = (data.records || []).filter(item => {
       const matchesName = !query || normalizeText(item.nombre).includes(query);
       const matchesRut = !rutQuery || normalizeRut(item.rut).includes(rutQuery);
       const matchesCourse = !selectedCourse || (item.courseList || []).includes(selectedCourse);
       const matchesStatus = !selectedStatus || item.statusKey === selectedStatus;
-      return matchesName && matchesRut && matchesCourse && matchesStatus;
+      const matchesAcr = !selectedAcr || (item.acrSucal || '').trim() === selectedAcr;
+      const matchesMissing = !activeMissingCourse || !(item.courseList || []).includes(activeMissingCourse);
+      return matchesName && matchesRut && matchesCourse && matchesStatus && matchesAcr && matchesMissing;
     });
 
     const limited = filtered.slice(0, 250);
@@ -162,6 +193,7 @@ function setupFilters(data) {
   rutInput.addEventListener('input', applyFilters);
   courseFilter.addEventListener('change', applyFilters);
   statusFilter.addEventListener('change', applyFilters);
+  acrFilter.addEventListener('change', applyFilters);
   applyFilters();
 }
 

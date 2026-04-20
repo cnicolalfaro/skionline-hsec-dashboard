@@ -234,15 +234,21 @@ def extract_headers_and_rows(raw_rows: list[tuple[Any, ...]]) -> tuple[list[str]
 def find_external_tarja_workbook():
     search_folders = [BASE_DIR, BASE_DIR.parent, DATA_DIR]
 
+    candidates: list[Path] = []
     for folder in search_folders:
-        for path in sorted(folder.glob('TARJA*.xlsx')):
-            try:
-                wb = load_workbook(path, data_only=True)
-            except Exception:
-                continue
+        candidates.extend(folder.glob('TARJA*.xlsx'))
 
-            if 'TARJA' in wb.sheetnames:
-                return wb
+    # Ordenar por fecha de modificación descendente (más reciente primero)
+    candidates = sorted(set(candidates), key=lambda p: p.stat().st_mtime, reverse=True)
+
+    for path in candidates:
+        try:
+            wb = load_workbook(path, data_only=True)
+        except Exception:
+            continue
+        if 'TARJA' in wb.sheetnames:
+            print(f'Usando TARJA externo: {path.name}')
+            return wb
 
     return None
 
@@ -306,8 +312,13 @@ def build_tarja_records(wb, evidence_entries: list[dict[str, Any]], external_rut
 
         categoria = get_first_available_cell(row, headers, ['CATEGORIA'])
         turno = get_first_available_cell(row, headers, ['TURNO'])
+        acr_sucal = get_first_available_cell(row, headers, ['ACR. SUCAL', 'ACR SUCAL', 'ACRSUCAL']).strip()
         cert_final_raw = get_first_available_cell(row, headers, ['CERTIFICADO FINAL'])
         cert_final = format_date_str(cert_final_raw) if cert_final_raw else ''
+        if not cert_final:
+            pendiente_raw = get_first_available_cell(row, headers, ['PENDIENTE'])
+            if pendiente_raw and 'PENDIENTE' in pendiente_raw.upper():
+                cert_final = 'PENDIENTE'
         examen_salud_raw = get_first_available_cell(row, headers, ['ESTATUS VENCIMIENTO EXAMEN DE SALUD'])
         examen_salud = format_date_str(examen_salud_raw) if examen_salud_raw else ''
 
@@ -327,6 +338,8 @@ def build_tarja_records(wb, evidence_entries: list[dict[str, Any]], external_rut
         notes = evidence.get('notes', set())
 
         tarja_extra_parts: list[str] = []
+        if acr_sucal:
+            tarja_extra_parts.append(f'ACR: {acr_sucal}')
         if categoria:
             tarja_extra_parts.append(f'Cat: {categoria}')
         if turno:
@@ -373,6 +386,7 @@ def build_tarja_records(wb, evidence_entries: list[dict[str, Any]], external_rut
             'examenSalud': examen_salud,
             'categoria': categoria,
             'turno': turno,
+            'acrSucal': acr_sucal,
             'inducionesOk': len(inducciones_ok),
             'inducionesTotal': len(INDUCCION_COLS),
             'inducionesList': inducciones_ok,

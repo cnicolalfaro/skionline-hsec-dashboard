@@ -99,6 +99,18 @@ nombre<!DOCTYPE html>
               <option value="sin-registros">Sin registros</option>
             </select>
           </label>
+
+          <label class="field">
+            <span>ACR. SUCAL</span>
+            <select id="acrFilter">
+              <option value="">Todos</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="course-missing-filters">
+          <span class="filter-group-label">Trabajadores SIN evidencia de:</span>
+          <div id="courseMissingButtons" class="course-missing-btn-group"></div>
         </div>
 
         <div class="results-summary">
@@ -114,7 +126,7 @@ nombre<!DOCTYPE html>
                 <th>RUT</th>
                 <th>Cursos encontrados</th>
                 <th>Estado</th>
-                <th>Cert. Final TARJA</th>
+                <th>Cursos Codelco Aprobados</th>
                 <th>Observación</th>
               </tr>
             </thead>

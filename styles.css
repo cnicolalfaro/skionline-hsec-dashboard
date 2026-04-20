@@ -167,7 +167,53 @@ h1 {
 }
 
 .filters-four {
-  grid-template-columns: 1.6fr 1.2fr 1fr 1fr;
+  grid-template-columns: 1.4fr 1.1fr 1fr 1fr 1fr;
+}
+
+.course-missing-filters {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 14px;
+  padding: 12px 14px;
+  background: rgba(255,255,255,.04);
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,.07);
+}
+
+.filter-group-label {
+  color: #9fd1ff;
+  font-size: .88rem;
+  white-space: nowrap;
+  margin-top: 6px;
+}
+
+.course-missing-btn-group {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.missing-btn {
+  padding: 6px 14px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,122,89,.4);
+  background: rgba(255,122,89,.1);
+  color: #ffaa91;
+  font-size: .82rem;
+  cursor: pointer;
+  transition: background .15s, color .15s;
+}
+.missing-btn:hover {
+  background: rgba(255,122,89,.25);
+  color: #fff;
+}
+.missing-btn.active {
+  background: rgba(255,122,89,.7);
+  color: #fff;
+  border-color: #ff7a59;
+  font-weight: 700;
 }
 
 .field {

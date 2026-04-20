@@ -15,6 +15,29 @@ DATA_DIR = BASE_DIR / 'data'
 OUTPUT_PATH = DATA_DIR / 'dashboard_data.js'
 PREFERRED_EXCEL_NAME = 'REGISTRO_FINAL_CURSOS.xlsx'
 SPECIAL_SHEETS = {'RESUMEN', 'TARJA', 'NO_LEGIBLE', 'DUPLICADOS'}
+INDUCCION_COLS = [
+    'CHARLA ADMINISTRATIVA',
+    'CHARLA LEY KARIN',
+    'CHARLA IRL',
+    'CURSO DE ALTURA',
+    'Inducción Persona Nueva',
+    'Inducción a Geomecánica Básica',
+    'Inducción Refugios Mineros',
+    'Inducción Reglamento de Emergencias MCH',
+    'Inducción al Reglamento de Tránsito en Mina',
+    'Inducción de Cartillas de Evacuación',
+    'Inducción General Mina Chuquicamata Subterránea',
+    'Inducción uso Cintas de Confinamiento',
+]
+
+
+def format_date_str(value: str) -> str:
+    """Convierte string de fecha openpyxl (YYYY-MM-DD HH:MM:SS) a dd/mm/yyyy si aplica."""
+    try:
+        dt = datetime.strptime(str(value).strip()[:10], '%Y-%m-%d')
+        return dt.strftime('%d/%m/%Y')
+    except (ValueError, TypeError):
+        return str(value).strip()
 
 
 def to_int(value: Any) -> int:
@@ -281,6 +304,19 @@ def build_tarja_records(wb, evidence_entries: list[dict[str, Any]], external_rut
         especialidad = get_cell_value(row, headers, 'ESPECIALIDAD', 'Sin especialidad informada')
         estado_tarja = get_cell_value(row, headers, 'ESTADO', 'Sin estado')
 
+        categoria = get_first_available_cell(row, headers, ['CATEGORIA'])
+        turno = get_first_available_cell(row, headers, ['TURNO'])
+        cert_final_raw = get_first_available_cell(row, headers, ['CERTIFICADO FINAL'])
+        cert_final = format_date_str(cert_final_raw) if cert_final_raw else ''
+        examen_salud_raw = get_first_available_cell(row, headers, ['ESTATUS VENCIMIENTO EXAMEN DE SALUD'])
+        examen_salud = format_date_str(examen_salud_raw) if examen_salud_raw else ''
+
+        inducciones_ok: list[str] = []
+        for ind_col in INDUCCION_COLS:
+            ind_val = get_first_available_cell(row, headers, [ind_col])
+            if ind_val and ind_val.upper().strip() not in ('PENDIENTE', '-', 'NO', ''):
+                inducciones_ok.append(ind_col)
+
         nombre_mostrado = ' '.join(part for part in [paterno, materno, nombre] if part).strip() or 'Sin nombre'
         person_key = fingerprint(nombre, paterno, materno)
         rut_tarja = format_rut(get_first_available_cell(row, headers, ['RUT', 'R.U.T', 'R U T'], ''))
@@ -290,10 +326,19 @@ def build_tarja_records(wb, evidence_entries: list[dict[str, Any]], external_rut
         flags = evidence.get('flags', set())
         notes = evidence.get('notes', set())
 
+        tarja_extra_parts: list[str] = []
+        if categoria:
+            tarja_extra_parts.append(f'Cat: {categoria}')
+        if turno:
+            tarja_extra_parts.append(f'Turno: {turno}')
+        if examen_salud:
+            tarja_extra_parts.append(f'Exam. salud: {examen_salud}')
+        tarja_extra = (' · ' + ' · '.join(tarja_extra_parts)) if tarja_extra_parts else ''
+
         if not courses and not flags:
             estado = 'No hay registros cargados, confirmar en portales'
             status_key = 'sin-registros'
-            detalle = f'{especialidad} · Estado TARJA: {estado_tarja}'
+            detalle = f'{especialidad} · Estado TARJA: {estado_tarja}{tarja_extra}'
             sin_registros += 1
         else:
             if courses:
@@ -314,7 +359,7 @@ def build_tarja_records(wb, evidence_entries: list[dict[str, Any]], external_rut
             if 'irl-forms' in notes:
                 observaciones.append('respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental')
             extra = f" · {', '.join(observaciones)}" if observaciones else ''
-            detalle = f'{especialidad} · Estado TARJA: {estado_tarja}{extra}'
+            detalle = f'{especialidad} · Estado TARJA: {estado_tarja}{extra}{tarja_extra}'
 
         records.append({
             'nombre': nombre_mostrado,
@@ -324,6 +369,13 @@ def build_tarja_records(wb, evidence_entries: list[dict[str, Any]], external_rut
             'estado': estado,
             'statusKey': status_key,
             'detalle': detalle,
+            'certFinal': cert_final,
+            'examenSalud': examen_salud,
+            'categoria': categoria,
+            'turno': turno,
+            'inducionesOk': len(inducciones_ok),
+            'inducionesTotal': len(INDUCCION_COLS),
+            'inducionesList': inducciones_ok,
         })
 
     records.sort(key=lambda item: normalize_text(item['nombre']))
@@ -417,6 +469,8 @@ def main() -> None:
     no_legibles = summary_map.get('NO_LEGIBLE', {}).get('total', 0)
     trabajadores_tarja = len(records)
     con_registros = max(trabajadores_tarja - sin_registros, 0)
+    aprobados_tarja = sum(1 for r in records if 'APROBADO' in (r.get('certFinal') or '').upper())
+    pendientes_tarja = sum(1 for r in records if 'PENDIENTE' in (r.get('certFinal') or '').upper())
 
     curso_top = max(course_totals, key=lambda item: item['total']) if course_totals else {'curso': '-', 'total': 0}
     payload = {
@@ -450,7 +504,8 @@ def main() -> None:
         'insights': [
             {'title': 'Curso con mayor volumen', 'detail': f"{curso_top['curso']} concentra {curso_top['total']} archivos."},
             {'title': 'Cruce con TARJA', 'detail': f'Se detectaron {sin_registros} trabajadores sin evidencias cargadas en el sistema.'},
-            {'title': 'Calidad del registro', 'detail': f'Se identificaron {duplicados} duplicados y {no_legibles} documentos no legibles.'}
+            {'title': 'Calidad del registro', 'detail': f'Se identificaron {duplicados} duplicados y {no_legibles} documentos no legibles.'},
+            {'title': 'Certificados finales (TARJA)', 'detail': f'{aprobados_tarja} trabajadores aprobados y {pendientes_tarja} pendientes según hoja TARJA.'},
         ],
     }
 

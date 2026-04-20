@@ -103,19 +103,30 @@ function renderAccess(data) {
 function renderRecords(rows) {
   const body = document.getElementById('recordsTableBody');
   if (!rows.length) {
-    body.innerHTML = '<tr><td colspan="5">No se encontraron coincidencias.</td></tr>';
+    body.innerHTML = '<tr><td colspan="6">No se encontraron coincidencias.</td></tr>';
     return;
   }
 
-  body.innerHTML = rows.map(row => `
+  body.innerHTML = rows.map(row => {
+    const certUpper = (row.certFinal || '').toUpperCase().trim();
+    const certClass = certUpper.includes('APROBADO') ? 'cert-ok'
+      : certUpper.includes('PENDIENTE') ? 'cert-pending'
+      : 'cert-na';
+    const certLabel = row.certFinal || '-';
+    const indText = row.inducionesTotal
+      ? `${row.inducionesOk}/${row.inducionesTotal} ind.` : '';
+    const detalleExtra = indText ? ` · ${indText}` : '';
+    return `
     <tr>
       <td>${row.nombre}</td>
       <td>${row.rut || '-'}</td>
       <td>${row.cursos}</td>
       <td>${row.estado}</td>
-      <td>${row.detalle}</td>
+      <td><span class="cert-badge ${certClass}">${certLabel}</span></td>
+      <td>${row.detalle}${detalleExtra}</td>
     </tr>
-  `).join('');
+  `;
+  }).join('');
 }
 
 function setupFilters(data) {

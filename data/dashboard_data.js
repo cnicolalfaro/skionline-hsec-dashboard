@@ -1,14 +1,14 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "16/04/2026 19:26",
+  "generatedAt": "20/04/2026 13:58",
   "sourceFile": "REGISTRO_FINAL_CURSOS.xlsx",
   "kpis": {
     "totalArchivos": 1776,
     "documentosUnicos": 1655,
     "duplicados": 114,
     "noLegibles": 11,
-    "trabajadoresTarja": 291,
-    "conRegistros": 275,
-    "sinRegistros": 16
+    "trabajadoresTarja": 333,
+    "conRegistros": 292,
+    "sinRegistros": 41
   },
   "courseTotals": [
     {
@@ -51,12 +51,12 @@ window.DASHBOARD_DATA = {
   "statusBreakdown": [
     {
       "label": "Con registros",
-      "value": 275,
+      "value": 292,
       "color": "#51b847"
     },
     {
       "label": "Sin registros",
-      "value": 16,
+      "value": 41,
       "color": "#ff7a59"
     },
     {
@@ -145,7 +145,17 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "INGENIERO PROGRAMADOR · Estado TARJA: ACTIVO"
+      "detalle": "INGENIERO PROGRAMADOR · Estado TARJA: VIGENTE · Cat: . · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 A",
+      "inducionesOk": 2,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN"
+      ]
     },
     {
       "nombre": "ACEVEDO PEREIRA ALDO FELIPE",
@@ -154,7 +164,36 @@ window.DASHBOARD_DATA = {
       "courseList": [],
       "estado": "No hay registros cargados, confirmar en portales",
       "statusKey": "sin-registros",
-      "detalle": "CHOFER CAMION PLANO C/EQ · Estado TARJA: ACTIVO"
+      "detalle": "CHOFER CAMION PLANO C/EQ · Estado TARJA: VIGENTE · Cat: .",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
+    },
+    {
+      "nombre": "AGUAYO CIFUENTES FELIPE IGNACIO",
+      "rut": "19554837-4",
+      "cursos": "AYB, EPP, EXT, OPR, PA",
+      "courseList": [
+        "AYB",
+        "EPP",
+        "EXT",
+        "OPR",
+        "PA"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
+      "detalle": "TOPOGRAFO DE MANTENCION · Estado TARJA: VIGENTE",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": "",
+      "turno": "",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "AGUILAR CHOQUE SEVERINO",
@@ -163,7 +202,14 @@ window.DASHBOARD_DATA = {
       "courseList": [],
       "estado": "No hay registros cargados, confirmar en portales",
       "statusKey": "sin-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · Cat: MAESTRO PRIMERA · Turno: 10X10 B",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": "MAESTRO PRIMERA",
+      "turno": "10X10 B",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "AGUILAR RAMIREZ JORGE RAFAEL",
@@ -179,7 +225,21 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MECANICO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: MAESTRO MAYOR · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "MAESTRO MAYOR",
+      "turno": "10X10 A",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "AGUILERA BALBOA LUIS CARLOS",
@@ -194,7 +254,19 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "JEFE DE OPERACIONES · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "JEFE DE OPERACIONES · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: . · Turno: 4X3",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "4X3",
+      "inducionesOk": 4,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "AGUILERA CHAPARRO MIGUEL ANGEL",
@@ -206,7 +278,21 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MECANICO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: MAESTRO MAYOR · Turno: 10X10 B",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "MAESTRO MAYOR",
+      "turno": "10X10 B",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "AGUIRRE BRIZUELA VALERIA JAZMIN",
@@ -219,7 +305,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "ASISTENTE ADMINISTRATIVO · Estado TARJA: ACTIVO"
+      "detalle": "ASISTENTE ADMINISTRATIVO · Estado TARJA: VIGENTE · Cat: . · Turno: 5X2",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "5X2",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "ALAMOS ALAMOS ABELARDO ANTONIO",
@@ -228,7 +321,14 @@ window.DASHBOARD_DATA = {
       "courseList": [],
       "estado": "No hay registros cargados, confirmar en portales",
       "statusKey": "sin-registros",
-      "detalle": "ASEADORES INDUSTRIAL · Estado TARJA: ACTIVO"
+      "detalle": "ASEADORES INDUSTRIAL · Estado TARJA: VIGENTE · Cat: . · Turno: 10X10 B",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 B",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "ALCAINO ESSMANN WINSTON ALEXIS",
@@ -237,7 +337,19 @@ window.DASHBOARD_DATA = {
       "courseList": [],
       "estado": "No hay registros cargados, confirmar en portales",
       "statusKey": "sin-registros",
-      "detalle": "ENCARGADO DE SERVICIOS · Estado TARJA: ACTIVO"
+      "detalle": "ENCARGADO DE SERVICIOS · Estado TARJA: VIGENTE · Cat: . · Turno: 10x10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10x10 A",
+      "inducionesOk": 4,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "ALEGRIA VASQUEZ PABLO CESAR",
@@ -254,7 +366,21 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "EXPERTO HSEC MANTENCION · Estado TARJA: ACTIVO · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "EXPERTO HSEC MANTENCION · Estado TARJA: VIGENTE · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: . · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 A",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "ALFARO CALDERON CONSTANZA NICOL",
@@ -265,7 +391,19 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "EXPERTO GESTION HSEC OBRA · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "EXPERTO GESTION HSEC OBRA · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: . · Turno: 5X2",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "5X2",
+      "inducionesOk": 4,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "ALURRALDE LOPEZ VICTOR",
@@ -274,7 +412,21 @@ window.DASHBOARD_DATA = {
       "courseList": [],
       "estado": "No hay registros cargados, confirmar en portales",
       "statusKey": "sin-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · Cat: . · Turno: 10X10 B",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 B",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "ALVAREZ BECERRA JOSE LUIS",
@@ -286,7 +438,43 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: . · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 A",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
+    },
+    {
+      "nombre": "ALVIAL LAGOS GEORGE EDUARD",
+      "rut": "17421968-0",
+      "cursos": "AYB, EPP, EXT, OPR, PA",
+      "courseList": [
+        "AYB",
+        "EPP",
+        "EXT",
+        "OPR",
+        "PA"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
+      "detalle": "MECANICO PRIMERA /ANDAMIE · Estado TARJA: VIGENTE",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": "",
+      "turno": "",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "AMAYA RIQUELME VICTOR RENATO",
@@ -301,7 +489,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER CAMIONETA MANTENCI · Estado TARJA: ACTIVO"
+      "detalle": "CHOFER CAMIONETA MANTENCI · Estado TARJA: VIGENTE · Cat: . · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 A",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "ANABALON ESCOBAR HUGO ALBERTO",
@@ -317,7 +512,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO · incluye duplicados"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · incluye duplicados · Cat: . · Turno: 10X10 B",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 B",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "ARAGON URIBE MIGUEL ANGEL",
@@ -334,7 +536,21 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "EXPERTO HSEC MANTENCION · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "EXPERTO HSEC MANTENCION · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: . · Turno: 10x10 B",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10x10 B",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "ARANCIBIA MUÑOZ FRANCO DARIO",
@@ -348,7 +564,17 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · Cat: MAESTRO PRIMERA · Turno: 10X10 B",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "MAESTRO PRIMERA",
+      "turno": "10X10 B",
+      "inducionesOk": 2,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN"
+      ]
     },
     {
       "nombre": "ARANEDA ESCOBAR HERNAN OGGER",
@@ -359,7 +585,18 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "SOLDADOR PLANCHA · Estado TARJA: ACTIVO"
+      "detalle": "SOLDADOR PLANCHA · Estado TARJA: VIGENTE · Cat: CALIFICACIÓN III · Turno: 10X10 A",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": "CALIFICACIÓN III",
+      "turno": "10X10 A",
+      "inducionesOk": 3,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva"
+      ]
     },
     {
       "nombre": "ARANGUIZ BETANZO FERNANDO DANIEL",
@@ -374,7 +611,30 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER DE BUS · Estado TARJA: ACTIVO"
+      "detalle": "CHOFER DE BUS · Estado TARJA: VIGENTE · Cat: . · Turno: 10X10 A",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 A",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
+    },
+    {
+      "nombre": "ARAYA CONTRERAS CRISTIAN BRIAN",
+      "rut": "16969757-4",
+      "cursos": "-",
+      "courseList": [],
+      "estado": "No hay registros cargados, confirmar en portales",
+      "statusKey": "sin-registros",
+      "detalle": "MECANICO PRIMERA /RIGGER · Estado TARJA: VIGENTE",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": "",
+      "turno": "",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "ARENAS CAIRE NELSON ELIAS",
@@ -388,7 +648,21 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "SOLDADOR PLANCHA · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "SOLDADOR PLANCHA · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: CALIFICACIÓN III · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "CALIFICACIÓN III",
+      "turno": "10X10 A",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "AREVALO CORTES LUIS ALBERTO",
@@ -400,7 +674,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · Cat: MAESTRO PRIMERA · Turno: 10X10 A",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": "MAESTRO PRIMERA",
+      "turno": "10X10 A",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "AREVALO HORMAZABAL LUIS ALEJANDRO",
@@ -415,7 +696,21 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: CAPATAZ · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "CAPATAZ",
+      "turno": "10X10 A",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "ARGOTE ROCHA CESAR",
@@ -424,7 +719,14 @@ window.DASHBOARD_DATA = {
       "courseList": [],
       "estado": "No hay registros cargados, confirmar en portales",
       "statusKey": "sin-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": "",
+      "turno": "",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "ARREAZA REINA JOSE LUIS",
@@ -433,7 +735,14 @@ window.DASHBOARD_DATA = {
       "courseList": [],
       "estado": "No hay registros cargados, confirmar en portales",
       "statusKey": "sin-registros",
-      "detalle": "ENCARGADO DE SERVICIOS · Estado TARJA: ACTIVO"
+      "detalle": "ENCARGADO DE SERVICIOS · Estado TARJA: VIGENTE",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": "",
+      "turno": "",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "ARRIAGADA BAHAMONDE CARLOS RENE",
@@ -450,7 +759,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · Cat: . · Turno: 10X10 A",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 A",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "ARRIAGADA TAPIA DIONEL DAVID",
@@ -468,7 +784,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · Cat: MAESTRO PRIMERA · Turno: 10X10 A",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": "MAESTRO PRIMERA",
+      "turno": "10X10 A",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "ARROYO CUEVAS NELSON ELOY",
@@ -482,7 +805,21 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: MAESTRO MAYOR · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "MAESTRO MAYOR",
+      "turno": "10X10 A",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "ARTEAGA CURAHUA RONALD",
@@ -494,7 +831,21 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: . · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 A",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "ARTEAGA SUBE JUAN PABLO",
@@ -509,7 +860,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "INGENIERO PROGRAMADOR · Estado TARJA: ACTIVO"
+      "detalle": "INGENIERO PROGRAMADOR · Estado TARJA: VIGENTE · Cat: . · Turno: 8X6 B",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "8X6 B",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "ASTETE GOMEZ MILTON GABRIEL",
@@ -521,7 +879,17 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "SOLDADOR PLANCHA · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "SOLDADOR PLANCHA · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: CALIFICACIÓN III · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "CALIFICACIÓN III",
+      "turno": "10X10 A",
+      "inducionesOk": 2,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN"
+      ]
     },
     {
       "nombre": "ASTETE ZENTENO LUCIANO FELIPE",
@@ -538,7 +906,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · Cat: MAESTRO MAYOR · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "MAESTRO MAYOR",
+      "turno": "10X10 A",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "AVELLO CHANDIA RODRIGO ANDRES",
@@ -551,7 +926,18 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER CAMIONETA MANTENCI · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "CHOFER CAMIONETA MANTENCI · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: . · Turno: 10X10 B",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 B",
+      "inducionesOk": 3,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "AVILA VALENCIA MAURICIO ANDRES",
@@ -565,7 +951,21 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: MAESTRO PRIMERA · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "MAESTRO PRIMERA",
+      "turno": "10X10 A",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "BALMAZABAL GUTIERREZ RODRIGO EDUARDO",
@@ -579,7 +979,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: ACTIVO"
+      "detalle": "MECANICO · Estado TARJA: VIGENTE · Cat: CAPATAZ · Turno: 10X10 A",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": "CAPATAZ",
+      "turno": "10X10 A",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "BARRA TEJEDA EMANUEL ABSALON",
@@ -594,7 +1001,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER MINIBUS/VAN · Estado TARJA: ACTIVO"
+      "detalle": "CHOFER MINIBUS/VAN · Estado TARJA: VIGENTE · Turno: 10X10 B",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": "",
+      "turno": "10X10 B",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "BARRAULT DAVIES PABLO HENRY",
@@ -605,7 +1019,21 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: . · Turno: 10X10 B",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 B",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "BARRIENTOS ESCOBAR JERSON",
@@ -620,7 +1048,19 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "EXPERTO HSEC MANTENCION · Estado TARJA: ACTIVO"
+      "detalle": "EXPERTO HSEC MANTENCION · Estado TARJA: VIGENTE · Cat: . · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 A",
+      "inducionesOk": 4,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "BARRIGA ILLANES LEONARDO IVAN",
@@ -632,7 +1072,21 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "SOLDADOR PLANCHA · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "SOLDADOR PLANCHA · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: CALIFICACIÓN III · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "CALIFICACIÓN III",
+      "turno": "10X10 A",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "BARRIOS TORREJON RODRIGO EDUARDO",
@@ -646,7 +1100,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "OP RETROEXCAVADORA · Estado TARJA: ACTIVO"
+      "detalle": "OP RETROEXCAVADORA · Estado TARJA: VIGENTE · Cat: .",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "BASCOURT GALINDO FABIAN ISMAEL",
@@ -657,7 +1118,21 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · Cat: . · Turno: 10X10 B",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 B",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "BASTIAS FIGUEROA ALEX ANTONIO",
@@ -672,7 +1147,17 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "JEFE HSEC MANTENCION · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "JEFE HSEC MANTENCION · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: . · Turno: 4X3",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "4X3",
+      "inducionesOk": 2,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "Inducción Persona Nueva",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "BAUTISTA CORIA ALEJANDRO ENRIQUE",
@@ -687,7 +1172,21 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: ACTIVO"
+      "detalle": "MECANICO · Estado TARJA: VIGENTE · Cat: CAPATAZ · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "CAPATAZ",
+      "turno": "10X10 A",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "BELMAR FICA MAURICIO ALEJANDRO",
@@ -698,7 +1197,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "SUPERV DE ESTRUCTURA MANT · Estado TARJA: ACTIVO"
+      "detalle": "SUPERV DE ESTRUCTURA MANT · Estado TARJA: VIGENTE · Cat: . · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 A",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "BENITEZ WERLINGER SEBASTIAN ANTONIO",
@@ -710,7 +1216,18 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · Cat: MAESTRO PRIMERA · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "MAESTRO PRIMERA",
+      "turno": "10X10 A",
+      "inducionesOk": 3,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva"
+      ]
     },
     {
       "nombre": "BRAVO HERNANDEZ ALEXIS ARTURO",
@@ -726,7 +1243,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · Cat: . · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 A",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "BRAVO ROA GUILLERMO IVAN",
@@ -743,7 +1267,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · Cat: MAESTRO PRIMERA · Turno: 10X10 B",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": "MAESTRO PRIMERA",
+      "turno": "10X10 B",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "BRIONES IBAÑEZ MARCELL IGNACIO",
@@ -758,7 +1289,30 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "ASEADORES INDUSTRIAL · Estado TARJA: ACTIVO"
+      "detalle": "ASEADORES INDUSTRIAL · Estado TARJA: VIGENTE · Cat: . · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 A",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
+    },
+    {
+      "nombre": "BRIONES VEGA GUSTAVO WLADIMIR",
+      "rut": "12718280-9",
+      "cursos": "-",
+      "courseList": [],
+      "estado": "No hay registros cargados, confirmar en portales",
+      "statusKey": "sin-registros",
+      "detalle": "RIGGER · Estado TARJA: VIGENTE",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": "",
+      "turno": "",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "BUSTAMANTE SEPULVEDA CAMILO ANDRES",
@@ -771,7 +1325,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "ASEADORES INDUSTRIAL · Estado TARJA: ACTIVO"
+      "detalle": "ASEADORES INDUSTRIAL · Estado TARJA: VIGENTE · Cat: . · Turno: 10X10 B",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 B",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "BUSTOS VEGA WLADIMIR BORIS",
@@ -786,7 +1347,20 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MECANICO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: CAPATAZ · Turno: 10X10 B",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "CAPATAZ",
+      "turno": "10X10 B",
+      "inducionesOk": 5,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "CAAMAÑO QUIÑILEN CRISTIAN FELIPE",
@@ -801,7 +1375,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "JEFE DE MANTENCION · Estado TARJA: ACTIVO"
+      "detalle": "JEFE DE MANTENCION · Estado TARJA: VIGENTE · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "",
+      "turno": "10X10 A",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "CABEZAS CABEZAS JOAQUIN ANDRES",
@@ -812,7 +1393,21 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · Cat: CAPATAZ · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "CAPATAZ",
+      "turno": "10X10 A",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "CACERES MORALES BERNARDO GIOVANY",
@@ -828,7 +1423,35 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: . · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 A",
+      "inducionesOk": 2,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN"
+      ]
+    },
+    {
+      "nombre": "CAMPOS PLASENCIO FRANCISCO JAVIER",
+      "rut": "16690782-9",
+      "cursos": "AYB",
+      "courseList": [
+        "AYB"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
+      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": "",
+      "turno": "",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "CANALES GARCIA ALLEX ROBERT",
@@ -845,7 +1468,17 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO SEGUNDA · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MECANICO SEGUNDA · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: . · Turno: 10X10 B",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 B",
+      "inducionesOk": 2,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN"
+      ]
     },
     {
       "nombre": "CANELO ROJAS DIEGO ESTEBAN",
@@ -862,7 +1495,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · Cat: MAESTRO PRIMERA · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "MAESTRO PRIMERA",
+      "turno": "10X10 A",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "CANIO MARILUAN DANIEL ISAIAS",
@@ -878,7 +1518,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "ASEADORES INDUSTRIAL · Estado TARJA: ACTIVO"
+      "detalle": "ASEADORES INDUSTRIAL · Estado TARJA: VIGENTE · Cat: . · Turno: 10X10 B",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 B",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "CARDENAS BELTRAN ALEXIS ERNESTO",
@@ -894,7 +1541,21 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: ACTIVO · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MECANICO · Estado TARJA: VIGENTE · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: CAPATAZ · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "CAPATAZ",
+      "turno": "10X10 A",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "CAREAGA PEREZ LEONARDO",
@@ -911,7 +1572,21 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: MAESTRO PRIMERA · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "MAESTRO PRIMERA",
+      "turno": "10X10 A",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "CARMONA OLIVARES PEDRO MIGUEL",
@@ -928,7 +1603,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO · incluye duplicados"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · incluye duplicados · Cat: . · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 A",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "CARO LAVADO JUAN GABRIEL",
@@ -941,7 +1623,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA /ANDAMIE · Estado TARJA: ACTIVO"
+      "detalle": "MECANICO PRIMERA /ANDAMIE · Estado TARJA: VIGENTE · Cat: . · Turno: 10X10 B",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 B",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "CARRASCO ORTEGA MATIAS IGNACIO",
@@ -958,7 +1647,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO · incluye duplicados"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · incluye duplicados · Cat: . · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 A",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "CARRASCO SHAW VICTOR DANIEL",
@@ -976,7 +1672,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: ACTIVO"
+      "detalle": "MECANICO · Estado TARJA: VIGENTE · Cat: MAESTRO MAYOR · Turno: 10X10 B",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": "MAESTRO MAYOR",
+      "turno": "10X10 B",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "CARREÑO VERA ALEXIE MARCELO",
@@ -987,7 +1690,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA /RIGGER · Estado TARJA: ACTIVO · incluye duplicados"
+      "detalle": "MECANICO PRIMERA /RIGGER · Estado TARJA: VIGENTE · incluye duplicados",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": "",
+      "turno": "",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "CARRILLO GONZALEZ MIRKO PAOLO",
@@ -1004,7 +1714,21 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "ASEADORES INDUSTRIAL · Estado TARJA: ACTIVO · incluye duplicados"
+      "detalle": "ASEADORES INDUSTRIAL · Estado TARJA: VIGENTE · incluye duplicados · Cat: . · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 A",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "CARVAJAL ALFARO RICARDO MAX",
@@ -1022,7 +1746,21 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MECANICO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: CAPATAZ · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "CAPATAZ",
+      "turno": "10X10 A",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "CARVAJAL DELGADO GLEN EDUARDO",
@@ -1039,7 +1777,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER CAMIONETA MANTENCI · Estado TARJA: ACTIVO"
+      "detalle": "CHOFER CAMIONETA MANTENCI · Estado TARJA: VIGENTE · Cat: . · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 A",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "CASTILLO CASTILLO HECTOR ALEJANDRO",
@@ -1056,7 +1801,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "EXPERTO HSEC MANTENCION · Estado TARJA: ACTIVO"
+      "detalle": "EXPERTO HSEC MANTENCION · Estado TARJA: VIGENTE · Turno: 10x10 B",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "",
+      "turno": "10x10 B",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "CASTILLO NEIRA MIGUEL ANGEL",
@@ -1072,7 +1824,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: . · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 A",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "CASTRO JARA JAVIER RENATO",
@@ -1088,7 +1847,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: ACTIVO · incluye duplicados"
+      "detalle": "MECANICO · Estado TARJA: VIGENTE · incluye duplicados · Cat: MAESTRO MAYOR · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "MAESTRO MAYOR",
+      "turno": "10X10 A",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "CELEDON GUTIERREZ LUIS ALEJANDRO",
@@ -1102,7 +1868,17 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · Cat: MAESTRO PRIMERA · Turno: 10X10 A",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": "MAESTRO PRIMERA",
+      "turno": "10X10 A",
+      "inducionesOk": 2,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN"
+      ]
     },
     {
       "nombre": "CERDA RAMOS JESUS VICTORIANO",
@@ -1116,7 +1892,21 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · Cat: . · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 A",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "CID LAGOS JULIO EDUARDO",
@@ -1134,7 +1924,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER CAMIONETA MANTENCI · Estado TARJA: ACTIVO · incluye duplicados"
+      "detalle": "CHOFER CAMIONETA MANTENCI · Estado TARJA: VIGENTE · incluye duplicados · Cat: . · Turno: 10X10 A",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 A",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "CIFUENTES SAAVEDRA BAYRON PATRICIO",
@@ -1151,7 +1948,37 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: . · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 A",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
+    },
+    {
+      "nombre": "CISTERNA CISTERNA BERNARDO ANDRES",
+      "rut": "15681428-8",
+      "cursos": "-",
+      "courseList": [],
+      "estado": "No hay registros cargados, confirmar en portales",
+      "statusKey": "sin-registros",
+      "detalle": "OPERADOR CAMION PLUMA · Estado TARJA: VIGENTE",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": "",
+      "turno": "",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "CONTRERAS GAMBOA LUIS GUILLERMO",
@@ -1167,7 +1994,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO · incluye duplicados"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · incluye duplicados · Cat: MAESTRO MAYOR · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "MAESTRO MAYOR",
+      "turno": "10X10 A",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "CORNEJO FLORES JULIANO ENRIQUE",
@@ -1184,7 +2018,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA /ANDAMIERO · Estado TARJA: ACTIVO"
+      "detalle": "MECANICO PRIMERA /ANDAMIERO · Estado TARJA: VIGENTE · Cat: . · Turno: 10X10 A",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 A",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "CORTES ORTIZ DAVIS EMILIO",
@@ -1201,7 +2042,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO · incluye duplicados"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · incluye duplicados · Cat: . · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 A",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "CORTES VALLEJOS CRISTOFER ALEJANDRO",
@@ -1216,7 +2064,21 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: ACTIVO"
+      "detalle": "MECANICO · Estado TARJA: VIGENTE · Cat: CAPATAZ · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "CAPATAZ",
+      "turno": "10X10 A",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "CRUZ MARTINEZ RAFAEL CRISTOBAL",
@@ -1230,7 +2092,20 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · Cat: . · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 A",
+      "inducionesOk": 5,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "DANUS PROVOSTE GIOVANNY EVANHOLY",
@@ -1245,7 +2120,17 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "EXPERTO HSEC MANTENCION · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "EXPERTO HSEC MANTENCION · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: . · Turno: 10x10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10x10 A",
+      "inducionesOk": 2,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN"
+      ]
     },
     {
       "nombre": "DE LA BARRA GONZALEZ MARCO IGNACIO",
@@ -1257,7 +2142,21 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA /ANDAMIE · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MECANICO PRIMERA /ANDAMIE · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: . · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 A",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "DEPAOLI CAMPOS JUAN MAURICIO",
@@ -1273,7 +2172,33 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · Cat: . · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 A",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
+    },
+    {
+      "nombre": "DIAZ ALARCON ADAN MAURICIO",
+      "rut": "12782048-1",
+      "cursos": "AYB, EXT",
+      "courseList": [
+        "AYB",
+        "EXT"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
+      "detalle": "CHOFER CAMION PLANO C/EQ · Estado TARJA: VIGENTE",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": "",
+      "turno": "",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "DIAZ MERINO JORGE ANDRES",
@@ -1288,7 +2213,21 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: MAESTRO MAYOR · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "MAESTRO MAYOR",
+      "turno": "10X10 A",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "DIAZ MONTECINOS BRYAN NICOLAS",
@@ -1306,7 +2245,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER CAMIONETA MANTENCI · Estado TARJA: ACTIVO"
+      "detalle": "CHOFER CAMIONETA MANTENCI · Estado TARJA: VIGENTE · Cat: . · Turno: 10X10 A",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 A",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "DIAZ PRAY GUILLERMO ALBERTO",
@@ -1317,7 +2263,21 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: MAESTRO PRIMERA · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "MAESTRO PRIMERA",
+      "turno": "10X10 A",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "DIAZ VILLALOBOS EDUARDO ENRIQUE",
@@ -1330,7 +2290,48 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: . · Turno: 10X10 B",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 B",
+      "inducionesOk": 5,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
+    },
+    {
+      "nombre": "DURAN AMACHUYU FRANZ",
+      "rut": "24113509-8",
+      "cursos": "EPP, EXT, OPR, PA",
+      "courseList": [
+        "EPP",
+        "EXT",
+        "OPR",
+        "PA"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
+      "detalle": "OP RETROEXCAVADORA · Estado TARJA: DE BAJA · Cat: . · Turno: F",
+      "certFinal": "NO APLICA",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "F",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "DURAN DURAN MARCOS ANDRES",
@@ -1341,7 +2342,30 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER MINIBUS/VAN · Estado TARJA: ACTIVO"
+      "detalle": "CHOFER MINIBUS/VAN · Estado TARJA: VIGENTE · Turno: 10X10 B",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "",
+      "turno": "10X10 B",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
+    },
+    {
+      "nombre": "EGAÑA SUAREZ MAURICIO RAUL",
+      "rut": "10436463-2",
+      "cursos": "-",
+      "courseList": [],
+      "estado": "No hay registros cargados, confirmar en portales",
+      "statusKey": "sin-registros",
+      "detalle": "RIGGER · Estado TARJA: VIGENTE",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": "",
+      "turno": "",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "ESCALONA JARPA CARLOS EUGENIO",
@@ -1355,7 +2379,21 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "SUPERV MECANICO MANTENCIO · Estado TARJA: ACTIVO · incluye duplicados"
+      "detalle": "SUPERV MECANICO MANTENCIO · Estado TARJA: VIGENTE · incluye duplicados · Cat: . · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 A",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "ESCOBAR ESCOBAR JUAN CARLOS",
@@ -1369,7 +2407,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER MINIBUS/VAN · Estado TARJA: ACTIVO"
+      "detalle": "CHOFER MINIBUS/VAN · Estado TARJA: VIGENTE · Turno: 10X10 A",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": "",
+      "turno": "10X10 A",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "ESCOBAR MUÑOZ FRANCISCO EUSEBIO",
@@ -1386,7 +2431,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO · incluye duplicados"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · incluye duplicados · Cat: . · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 A",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "ESPERGUEL OÑATE CRISTIAN ALFREDO",
@@ -1399,7 +2451,20 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: MAESTRO MAYOR · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "MAESTRO MAYOR",
+      "turno": "10X10 A",
+      "inducionesOk": 5,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "ESPINOZA MORALES ERNESTO AURELIO",
@@ -1412,7 +2477,20 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: ACTIVO"
+      "detalle": "MECANICO · Estado TARJA: VIGENTE · Cat: CAPATAZ · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "CAPATAZ",
+      "turno": "10X10 A",
+      "inducionesOk": 5,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros"
+      ]
     },
     {
       "nombre": "ESTRADA ZAMBRANO HECTOR ALEXIS",
@@ -1425,7 +2503,20 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: MAESTRO MAYOR · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "MAESTRO MAYOR",
+      "turno": "10X10 A",
+      "inducionesOk": 5,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros"
+      ]
     },
     {
       "nombre": "FARIAS CARCAMO JORGE CRISTIAN",
@@ -1437,7 +2528,21 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: MAESTRO MAYOR · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "MAESTRO MAYOR",
+      "turno": "10X10 A",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "FERNANDEZ MADARIAGA MARIA JOSE",
@@ -1451,7 +2556,19 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "ENCARGADO DE RRHH MANTENC · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "ENCARGADO DE RRHH MANTENC · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: . · Turno: 5X2",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "5X2",
+      "inducionesOk": 4,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "FERNANDEZ ZAVARIA LEONARDO ALFREDO",
@@ -1462,7 +2579,17 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "EXPERTO HSEC MANTENCION · Estado TARJA: ACTIVO"
+      "detalle": "EXPERTO HSEC MANTENCION · Estado TARJA: VIGENTE · Cat: . · Turno: 10x10 B",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10x10 B",
+      "inducionesOk": 2,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN"
+      ]
     },
     {
       "nombre": "FERREIRA DIAZ ANGELO NICOLAS",
@@ -1477,7 +2604,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO · incluye duplicados"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · incluye duplicados · Cat: . · Turno: 10X10 A",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 A",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "FIGUEROA FIGUEROA CARLOS MIGUEL",
@@ -1491,7 +2625,21 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "SOLDADOR PLANCHA · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "SOLDADOR PLANCHA · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: CALIFICACIÓN III · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "CALIFICACIÓN III",
+      "turno": "10X10 A",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "FLORES VIDAL EMMANUEL JESUS",
@@ -1507,7 +2655,17 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: MAESTRO PRIMERA · Turno: 10X10 B",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "MAESTRO PRIMERA",
+      "turno": "10X10 B",
+      "inducionesOk": 2,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN"
+      ]
     },
     {
       "nombre": "FOSTER CUEVAS ROBERTO CARLOS",
@@ -1520,7 +2678,17 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA /ANDAMIE · Estado TARJA: ACTIVO"
+      "detalle": "MECANICO PRIMERA /ANDAMIE · Estado TARJA: VIGENTE · Cat: . · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 A",
+      "inducionesOk": 2,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN"
+      ]
     },
     {
       "nombre": "FRIZ ERICES LUIS ALFONSO",
@@ -1535,7 +2703,21 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: ACTIVO · incluye duplicados"
+      "detalle": "MECANICO · Estado TARJA: VIGENTE · incluye duplicados · Cat: CAPATAZ · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "CAPATAZ",
+      "turno": "10X10 A",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "FUENTES CONTRERAS EDUARDO IGNACIO",
@@ -1549,7 +2731,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER MINIBUS/VAN · Estado TARJA: ACTIVO · incluye duplicados"
+      "detalle": "CHOFER MINIBUS/VAN · Estado TARJA: VIGENTE · incluye duplicados · Cat: .",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "FUENTES PAREDES OSCAR SERGIO",
@@ -1561,7 +2750,21 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: CAPATAZ · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "CAPATAZ",
+      "turno": "10X10 A",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "FUENTES VERDUGO ALEXIS ALEXANDER",
@@ -1570,7 +2773,14 @@ window.DASHBOARD_DATA = {
       "courseList": [],
       "estado": "No hay registros cargados, confirmar en portales",
       "statusKey": "sin-registros",
-      "detalle": "CHOFER MINIBUS/VAN · Estado TARJA: ACTIVO"
+      "detalle": "CHOFER MINIBUS/VAN · Estado TARJA: VIGENTE",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": "",
+      "turno": "",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "FUENZALIDA MEJIAS OSCAR RODRIGO",
@@ -1583,7 +2793,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER DE BUS · Estado TARJA: ACTIVO · incluye duplicados"
+      "detalle": "CHOFER DE BUS · Estado TARJA: VIGENTE · incluye duplicados · Cat: . · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 A",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "GAETE CURIPAN MANUEL ALEJANDRO",
@@ -1595,7 +2812,42 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "OP PUENTE GRUA · Estado TARJA: ACTIVO"
+      "detalle": "OP PUENTE GRUA · Estado TARJA: VIGENTE · Cat: . · Turno: 10X10 B",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 B",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
+    },
+    {
+      "nombre": "GAETE FUENTES RODRIGO ALEJANDRO",
+      "rut": "16002713-4",
+      "cursos": "EPP, EXT, OPR, PA",
+      "courseList": [
+        "EPP",
+        "EXT",
+        "OPR",
+        "PA"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
+      "detalle": "SUBGERENTE CONTROL MANTEN · Estado TARJA: VIGENTE",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": "",
+      "turno": "",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "GAJARDO GAJARDO JORGE LUIS",
@@ -1613,7 +2865,21 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "SOLDADOR PLANCHA · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "SOLDADOR PLANCHA · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: CALIFICACIÓN III · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "CALIFICACIÓN III",
+      "turno": "10X10 A",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "GALARCE BAEZA JUAN OSVALDO",
@@ -1626,7 +2892,21 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: MAESTRO MAYOR · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "MAESTRO MAYOR",
+      "turno": "10X10 A",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "GALDAMES PEREZ LORENZO RAUL",
@@ -1640,7 +2920,21 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "SOLDADOR PLANCHA · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "SOLDADOR PLANCHA · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: CALIFICACIÓN III · Turno: 10X10 B",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": "CALIFICACIÓN III",
+      "turno": "10X10 B",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "GALLARDO BORQUEZ ERWIN LORENZO",
@@ -1656,7 +2950,21 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: MAESTRO PRIMERA · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "MAESTRO PRIMERA",
+      "turno": "10X10 A",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "GALLARDO GONZALEZ FRANCISCO JAVIER",
@@ -1668,7 +2976,37 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MECANICO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: CAPATAZ · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "CAPATAZ",
+      "turno": "10X10 A",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
+    },
+    {
+      "nombre": "GALLARDO MULLER HUGO MAURICIO",
+      "rut": "10638989-6",
+      "cursos": "-",
+      "courseList": [],
+      "estado": "No hay registros cargados, confirmar en portales",
+      "statusKey": "sin-registros",
+      "detalle": "RIGGER · Estado TARJA: VIGENTE",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": "",
+      "turno": "",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "GALLARDO PONCE JERALDINE ALEJANDRA",
@@ -1682,7 +3020,19 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "ENCARGADO DE RRHH MANTENC · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "ENCARGADO DE RRHH MANTENC · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: . · Turno: 5X2",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "5X2",
+      "inducionesOk": 4,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "GALLARDO VERGARA GONZALO ALONSO",
@@ -1694,7 +3044,21 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: MAESTRO PRIMERA · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "MAESTRO PRIMERA",
+      "turno": "10X10 A",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "GALLEGOS FUENTES EDGARDO ELEAZER",
@@ -1710,7 +3074,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · Cat: MAESTRO MAYOR · Turno: 10X10 B",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": "MAESTRO MAYOR",
+      "turno": "10X10 B",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "GALVEZ VILLALOBOS DANIEL FELIPE",
@@ -1724,7 +3095,20 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: MAESTRO MAYOR · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "MAESTRO MAYOR",
+      "turno": "10X10 A",
+      "inducionesOk": 5,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros"
+      ]
     },
     {
       "nombre": "GANA DUARTE CESAR ANTONIO",
@@ -1739,7 +3123,33 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "SUPERV MECANICO MANTENCIO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "SUPERV MECANICO MANTENCIO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: . · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 A",
+      "inducionesOk": 2,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN"
+      ]
+    },
+    {
+      "nombre": "GARCIA URBINA LUIS ANDRES",
+      "rut": "12818289-6",
+      "cursos": "-",
+      "courseList": [],
+      "estado": "No hay registros cargados, confirmar en portales",
+      "statusKey": "sin-registros",
+      "detalle": "OPERADOR CAMION PLUMA · Estado TARJA: VIGENTE",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": "",
+      "turno": "",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "GARRIDO FIGUEROA SEBASTIAN MARCELO",
@@ -1752,7 +3162,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER MINIBUS/VAN · Estado TARJA: ACTIVO"
+      "detalle": "CHOFER MINIBUS/VAN · Estado TARJA: VIGENTE",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": "",
+      "turno": "",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "GODOY CANDIA ELIAS ANTONIO",
@@ -1767,7 +3184,17 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "ASEADORES INDUSTRIAL · Estado TARJA: ACTIVO"
+      "detalle": "ASEADORES INDUSTRIAL · Estado TARJA: VIGENTE · Cat: . · Turno: 10X10 B",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 B",
+      "inducionesOk": 2,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN"
+      ]
     },
     {
       "nombre": "GODOY JURE MAURICIO ROLANDO",
@@ -1780,7 +3207,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER CAMION PLANO C/EQ · Estado TARJA: ACTIVO"
+      "detalle": "CHOFER CAMION PLANO C/EQ · Estado TARJA: VIGENTE · Cat: . · Turno: 10X10 B",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 B",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "GONZALEZ MUÑOZ PABLO SILVANO",
@@ -1795,7 +3229,39 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "SOLDADOR PLANCHA · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "SOLDADOR PLANCHA · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: CALIFICACIÓN III · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "CALIFICACIÓN III",
+      "turno": "10X10 A",
+      "inducionesOk": 2,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN"
+      ]
+    },
+    {
+      "nombre": "GONZALEZ RIVERA NESTOR MARCELO",
+      "rut": "10306782-0",
+      "cursos": "AYB, EPP, EXT, OPR, PA",
+      "courseList": [
+        "AYB",
+        "EPP",
+        "EXT",
+        "OPR",
+        "PA"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
+      "detalle": "PAÑOLERO · Estado TARJA: VIGENTE · incluye duplicados",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": "",
+      "turno": "",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "GONZALEZ ROMERO MARIO ERSHELL",
@@ -1807,7 +3273,36 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · Cat: . · Turno: 10X10 A",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 A",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
+    },
+    {
+      "nombre": "GONZALEZ VARELA MATIAS ALEJANDRO",
+      "rut": "18198299-3",
+      "cursos": "AYB, EPP, EXT, OPR, PA",
+      "courseList": [
+        "AYB",
+        "EPP",
+        "EXT",
+        "OPR",
+        "PA"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
+      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": "",
+      "turno": "",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "GONZALEZ ZUÑIGA FRANCISCO EDUARDO",
@@ -1820,7 +3315,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA /ANDAMIE · Estado TARJA: ACTIVO"
+      "detalle": "MECANICO PRIMERA /ANDAMIE · Estado TARJA: VIGENTE · Cat: . · Turno: 10X10 B",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 B",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "GROLLMUS MELLADO DIEGO ALEJANDRO",
@@ -1831,7 +3333,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER MINIBUS/VAN · Estado TARJA: ACTIVO"
+      "detalle": "CHOFER MINIBUS/VAN · Estado TARJA: VIGENTE",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": "",
+      "turno": "",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "GUTIERREZ ARRIAGADA NELSON PATRICIO",
@@ -1844,7 +3353,33 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: ACTIVO · incluye duplicados"
+      "detalle": "MECANICO · Estado TARJA: VIGENTE · incluye duplicados · Cat: CAPATAZ · Turno: 10X10 B",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "CAPATAZ",
+      "turno": "10X10 B",
+      "inducionesOk": 2,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN"
+      ]
+    },
+    {
+      "nombre": "GUTIERREZ CACERES RODRIGO ALEJANDRO",
+      "rut": "15696772-6",
+      "cursos": "-",
+      "courseList": [],
+      "estado": "No hay registros cargados, confirmar en portales",
+      "statusKey": "sin-registros",
+      "detalle": "OPERADOR CAMION PLUMA · Estado TARJA: VIGENTE",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": "",
+      "turno": "",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "GUTIERREZ OJEDA MARCELO DOMINGO",
@@ -1857,7 +3392,21 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "SOLDADOR PLANCHA · Estado TARJA: ACTIVO"
+      "detalle": "SOLDADOR PLANCHA · Estado TARJA: VIGENTE · Cat: CALIFICACIÓN III · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "CALIFICACIÓN III",
+      "turno": "10X10 A",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "GUTIERREZ VILLEGA ARIEL ESTEBAN",
@@ -1870,7 +3419,21 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: . · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 A",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "GUZMAN DIAZ ARTURO MARCELO",
@@ -1884,7 +3447,21 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "JEFE DE BODEGA MANTENCION · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "JEFE DE BODEGA MANTENCION · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: . · Turno: 10X10 A",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 A",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "GUZMAN MORENO ANGEL CUSTODIO",
@@ -1900,7 +3477,54 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · Cat: . · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 A",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
+    },
+    {
+      "nombre": "HAUSER CARRILLO GUILLERMO HERNAN",
+      "rut": "09845283-4",
+      "cursos": "-",
+      "courseList": [],
+      "estado": "No hay registros cargados, confirmar en portales",
+      "statusKey": "sin-registros",
+      "detalle": "EXPEDITOR DE MATERIALES · Estado TARJA: VIGENTE",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": "",
+      "turno": "",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
+    },
+    {
+      "nombre": "HERRERA CAMPOS JAIME ESTEBAN",
+      "rut": "16619520-9",
+      "cursos": "AYB, EXT, OPR, PA",
+      "courseList": [
+        "AYB",
+        "EXT",
+        "OPR",
+        "PA"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
+      "detalle": "MECANICO PRIMERA /RIGGER · Estado TARJA: DE BAJA · Cat: . · Turno: 10X10 B",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 B",
+      "inducionesOk": 2,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN"
+      ]
     },
     {
       "nombre": "HERRERA CUETO LUIS FELIPE",
@@ -1918,7 +3542,36 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER CAMIONETA MANTENCI · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "CHOFER CAMIONETA MANTENCI · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: . · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 A",
+      "inducionesOk": 5,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
+    },
+    {
+      "nombre": "INOSTROZA PEREZ ALEX ANDY",
+      "rut": "17320516-3",
+      "cursos": "-",
+      "courseList": [],
+      "estado": "No hay registros cargados, confirmar en portales",
+      "statusKey": "sin-registros",
+      "detalle": "INGENIERO DE PLANIFICACION · Estado TARJA: VIGENTE",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": "",
+      "turno": "",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "INOSTROZA URIBE EDGARD MILLORSI",
@@ -1930,7 +3583,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · Cat: . · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 A",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "INZUNZA MUÑOZ CRISTIAN ALEXIS",
@@ -1944,7 +3604,37 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: . · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 A",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
+    },
+    {
+      "nombre": "IVANOVIC SEGURA ERICK ALEXANDER",
+      "rut": "19736579-K",
+      "cursos": "-",
+      "courseList": [],
+      "estado": "No hay registros cargados, confirmar en portales",
+      "statusKey": "sin-registros",
+      "detalle": "RIGGER · Estado TARJA: VIGENTE",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": "",
+      "turno": "",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "JARA NAVARRETE MANUEL EDUARDO",
@@ -1959,7 +3649,21 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MECANICO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: MAESTRO MAYOR · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "MAESTRO MAYOR",
+      "turno": "10X10 A",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "JELDES GONZALEZ ALEX ANTONIO",
@@ -1968,7 +3672,14 @@ window.DASHBOARD_DATA = {
       "courseList": [],
       "estado": "No hay registros cargados, confirmar en portales",
       "statusKey": "sin-registros",
-      "detalle": "JEFE DE SERVICIOS MANTENC · Estado TARJA: ACTIVO"
+      "detalle": "JEFE DE SERVICIOS MANTENC · Estado TARJA: VIGENTE · Turno: 5X2",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": "",
+      "turno": "5X2",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "JELDEZ VARGAS FRANCISCO JAVIER",
@@ -1982,7 +3693,35 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "JEFE DE BODEGA MANTENCION · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "JEFE DE BODEGA MANTENCION · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: . · Turno: 10X10 B",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 B",
+      "inducionesOk": 4,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
+    },
+    {
+      "nombre": "JERIA CONSTANZO CESAR ALEJANDRO",
+      "rut": "18761544-5",
+      "cursos": "-",
+      "courseList": [],
+      "estado": "No hay registros cargados, confirmar en portales",
+      "statusKey": "sin-registros",
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": "",
+      "turno": "",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "LACAMPRETT ROCO MARCO ANTONIO",
@@ -1996,7 +3735,17 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA /ANDAMIE · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MECANICO PRIMERA /ANDAMIE · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: . · Turno: 10X10 B",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 B",
+      "inducionesOk": 2,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN"
+      ]
     },
     {
       "nombre": "LAGOS ALBURQUENQUE HANS YAID",
@@ -2011,7 +3760,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "INGENIERO PROGRAMADOR · Estado TARJA: ACTIVO"
+      "detalle": "INGENIERO PROGRAMADOR · Estado TARJA: VIGENTE · Turno: 8x6 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "",
+      "turno": "8x6 A",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "LAGOS LAGOS PABLO ANDRES",
@@ -2027,7 +3783,17 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: . · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 A",
+      "inducionesOk": 2,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN"
+      ]
     },
     {
       "nombre": "LAZCANO CARRILLO ANTONIO ANDRES",
@@ -2039,7 +3805,21 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · Cat: MAESTRO PRIMERA · Turno: 10X10 B",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "MAESTRO PRIMERA",
+      "turno": "10X10 B",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "LEIVA PASCAL ISRAEL SEGUNDO",
@@ -2051,7 +3831,30 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "EXPERTO HSEC MANTENCION · Estado TARJA: ACTIVO"
+      "detalle": "EXPERTO HSEC MANTENCION · Estado TARJA: VIGENTE · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "",
+      "turno": "10X10 A",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
+    },
+    {
+      "nombre": "LOPEZ COFRE DENIS ARMANDO",
+      "rut": "18894589-9",
+      "cursos": "-",
+      "courseList": [],
+      "estado": "No hay registros cargados, confirmar en portales",
+      "statusKey": "sin-registros",
+      "detalle": "MECANICO PRIMERA /RIGGER · Estado TARJA: VIGENTE",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": "",
+      "turno": "",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "LOPEZ OTEY SERGIO ANDRES",
@@ -2066,7 +3869,21 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: ACTIVO · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MECANICO · Estado TARJA: VIGENTE · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: CAPATAZ · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "CAPATAZ",
+      "turno": "10X10 A",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "LOPEZ RIFO PAULO ANDRES",
@@ -2077,7 +3894,17 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: ACTIVO"
+      "detalle": "MECANICO · Estado TARJA: VIGENTE · Cat: CAPATAZ · Turno: 10X10 B",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "CAPATAZ",
+      "turno": "10X10 B",
+      "inducionesOk": 2,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN"
+      ]
     },
     {
       "nombre": "LUCO MEZA JUAN MANUEL",
@@ -2086,7 +3913,17 @@ window.DASHBOARD_DATA = {
       "courseList": [],
       "estado": "No hay registros cargados, confirmar en portales",
       "statusKey": "sin-registros",
-      "detalle": "CHOFER DE BUS · Estado TARJA: ACTIVO"
+      "detalle": "CHOFER DE BUS · Estado TARJA: VIGENTE · Cat: . · Turno: 10X10 B",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 B",
+      "inducionesOk": 2,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN"
+      ]
     },
     {
       "nombre": "LUHMANN RODRIGUEZ RAMON ORLANDO",
@@ -2099,7 +3936,17 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · Cat: . · Turno: 10X10 B",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 B",
+      "inducionesOk": 2,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN"
+      ]
     },
     {
       "nombre": "MALDONADO ARAVENA JOSE ARMANDO",
@@ -2113,7 +3960,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · Cat: . · Turno: 10X10 B",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 B",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "MAMANI BARRERA MICHAEL LEE",
@@ -2125,7 +3979,19 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "OP PUENTE GRUA · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "OP PUENTE GRUA · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: . · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 A",
+      "inducionesOk": 4,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "MANRIQUEZ GONZALEZ WILSON ANDRES",
@@ -2142,7 +4008,21 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "SUPERV MECANICO MANTENCIO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "SUPERV MECANICO MANTENCIO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: . · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 A",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "MANRIQUEZ JARA JORGE ANDRES",
@@ -2157,7 +4037,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: ACTIVO"
+      "detalle": "MECANICO · Estado TARJA: VIGENTE · Cat: MAESTRO MAYOR · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "MAESTRO MAYOR",
+      "turno": "10X10 A",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "MANZO URIBE JORGE PATRICIO",
@@ -2174,7 +4061,21 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ANDAMIOS · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MONTAJE ANDAMIOS · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: CAPATAZ · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "CAPATAZ",
+      "turno": "10X10 A",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "MARAMBIO SOTO BLANCA FRANCISCA",
@@ -2185,7 +4086,17 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO SEGUNDA · Estado TARJA: ACTIVO"
+      "detalle": "MECANICO SEGUNDA · Estado TARJA: DE BAJA · Cat: . · Turno: 10X10 B",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 B",
+      "inducionesOk": 2,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN"
+      ]
     },
     {
       "nombre": "MARAMBIO VERGARA ORLANDO DAVID",
@@ -2197,7 +4108,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER MINIBUS/VAN · Estado TARJA: ACTIVO"
+      "detalle": "CHOFER MINIBUS/VAN · Estado TARJA: VIGENTE · Turno: 10X10 A",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": "",
+      "turno": "10X10 A",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "MARTEL COFRE CRISTOBAL ALFREDO",
@@ -2214,7 +4132,18 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "ALARIFE DE MANTENCION · Estado TARJA: ACTIVO"
+      "detalle": "ALARIFE DE MANTENCION · Estado TARJA: VIGENTE · Cat: . · Turno: 10X10 B",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 B",
+      "inducionesOk": 3,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva"
+      ]
     },
     {
       "nombre": "MARTINEZ SAAVEDRA ROBERTO CARLOS",
@@ -2223,7 +4152,14 @@ window.DASHBOARD_DATA = {
       "courseList": [],
       "estado": "No hay registros cargados, confirmar en portales",
       "statusKey": "sin-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · Cat: . · Turno: 10X10 B",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 B",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "MASIAS RODRIGUEZ DAVID SALOMON",
@@ -2241,7 +4177,33 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "ASEADORES INDUSTRIAL · Estado TARJA: ACTIVO"
+      "detalle": "ASEADORES INDUSTRIAL · Estado TARJA: VIGENTE · Cat: . · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 A",
+      "inducionesOk": 2,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN"
+      ]
+    },
+    {
+      "nombre": "MATUS ALVAREZ CRISTIAN MAURICIO",
+      "rut": "11823947-4",
+      "cursos": "-",
+      "courseList": [],
+      "estado": "No hay registros cargados, confirmar en portales",
+      "statusKey": "sin-registros",
+      "detalle": "JEFE ADMINISTRATIVO · Estado TARJA: VIGENTE",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": "",
+      "turno": "",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "MELLA CUEVAS JUAN CARLOS",
@@ -2256,7 +4218,32 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: ACTIVO"
+      "detalle": "MECANICO · Estado TARJA: VIGENTE · Cat: CAPATAZ · Turno: 10X10 A",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": "CAPATAZ",
+      "turno": "10X10 A",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
+    },
+    {
+      "nombre": "MELLADO LOPEZ MAXIMILIANO ENRIQUE",
+      "rut": "14390227-7",
+      "cursos": "AYB",
+      "courseList": [
+        "AYB"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
+      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": "",
+      "turno": "",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "MENDEZ CORDOVA FRANCISCO JAVIER",
@@ -2269,7 +4256,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO · incluye duplicados"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · incluye duplicados · Cat: MAESTRO PRIMERA · Turno: 10X10 B",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": "MAESTRO PRIMERA",
+      "turno": "10X10 B",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "MENDOZA AYALA DIEGO NICOLAS",
@@ -2285,7 +4279,20 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: MAESTRO PRIMERA · Turno: 10X10 A",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": "MAESTRO PRIMERA",
+      "turno": "10X10 A",
+      "inducionesOk": 5,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros"
+      ]
     },
     {
       "nombre": "MENDOZA SAEZ FLORINDO ANDRES",
@@ -2302,7 +4309,21 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "SUPERV MECANICO MANTENCIO · Estado TARJA: ACTIVO · incluye duplicados"
+      "detalle": "SUPERV MECANICO MANTENCIO · Estado TARJA: VIGENTE · incluye duplicados · Cat: . · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 A",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "MERA CAMPOS FERNANDO ANTONIO",
@@ -2311,7 +4332,14 @@ window.DASHBOARD_DATA = {
       "courseList": [],
       "estado": "No hay registros cargados, confirmar en portales",
       "statusKey": "sin-registros",
-      "detalle": "COMPRADOR/COTIZADOR MANTE · Estado TARJA: ACTIVO"
+      "detalle": "COMPRADOR/COTIZADOR MANTE · Estado TARJA: VIGENTE",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": "",
+      "turno": "",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "MERINO SOTO PABLO ALEXIS",
@@ -2322,7 +4350,21 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: MAESTRO PRIMERA · Turno: 10X10 B",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "MAESTRO PRIMERA",
+      "turno": "10X10 B",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "MOLINA CONTRERAS RODRIGO ALEJANDRO",
@@ -2333,7 +4375,47 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MECANICO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: MAESTRO MAYOR · Turno: 10X10 A",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": "MAESTRO MAYOR",
+      "turno": "10X10 A",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
+    },
+    {
+      "nombre": "MOLINA MONTERO SAMUEL",
+      "rut": "25453585-0",
+      "cursos": "AYB, IRL GENERAL FORMS",
+      "courseList": [
+        "AYB",
+        "IRL GENERAL FORMS"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
+      "detalle": "MECANICO PRIMERA · Estado TARJA: DE BAJA · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: . · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 A",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "MONTOYA SEPULVEDA ANANIAS ALBERTO",
@@ -2342,7 +4424,14 @@ window.DASHBOARD_DATA = {
       "courseList": [],
       "estado": "No hay registros cargados, confirmar en portales",
       "statusKey": "sin-registros",
-      "detalle": "JEFE DE MANTENCION · Estado TARJA: ACTIVO"
+      "detalle": "JEFE DE MANTENCION · Estado TARJA: VIGENTE · Cat: . · Turno: 5X2",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "5X2",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "MONTOYA ZAMBRANO CRISTIAN ANDRES",
@@ -2360,7 +4449,21 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "SUPERV DE ESTRUCTURA MANT · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "SUPERV DE ESTRUCTURA MANT · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: . · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 A",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "MORA ECHEVERRIA JUAN JOSE",
@@ -2373,7 +4476,17 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · Cat: MAESTRO PRIMERA · Turno: 10X10 B",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "MAESTRO PRIMERA",
+      "turno": "10X10 B",
+      "inducionesOk": 2,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN"
+      ]
     },
     {
       "nombre": "MORAGA GONZALEZ JAIME MAURICIO",
@@ -2385,7 +4498,17 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: MAESTRO PRIMERA · Turno: 10X10 B",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "MAESTRO PRIMERA",
+      "turno": "10X10 B",
+      "inducionesOk": 2,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN"
+      ]
     },
     {
       "nombre": "MORALES DURAN EDUARDO BENJAMIN",
@@ -2402,7 +4525,20 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · Cat: MAESTRO PRIMERA · Turno: 10X10 B",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "MAESTRO PRIMERA",
+      "turno": "10X10 B",
+      "inducionesOk": 5,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "MORALES GAMBOA ANTONIO ENRIQUE",
@@ -2418,7 +4554,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER MINIBUS/VAN · Estado TARJA: ACTIVO"
+      "detalle": "CHOFER MINIBUS/VAN · Estado TARJA: VIGENTE · Cat: . · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 A",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "MORENO FUENTES CRISTIAN MAURICIO",
@@ -2432,7 +4575,21 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "ING DE CALIDAD Y MEJORAMI · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "ING DE CALIDAD Y MEJORAMI · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: . · Turno: 10x10 A",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10x10 A",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "MUÑOZ DIAZ MAURICIO ANTONIO",
@@ -2443,7 +4600,21 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: MAESTRO MAYOR · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "MAESTRO MAYOR",
+      "turno": "10X10 A",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "MUÑOZ HIDALGO CELIA DEL CARMEN",
@@ -2452,7 +4623,21 @@ window.DASHBOARD_DATA = {
       "courseList": [],
       "estado": "No hay registros cargados, confirmar en portales",
       "statusKey": "sin-registros",
-      "detalle": "PAÑOLERO · Estado TARJA: ACTIVO"
+      "detalle": "PAÑOLERO · Estado TARJA: VIGENTE · Cat: . · Turno: 10X10 B",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 B",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "MUÑOZ RIVERA SEBASTIAN ALEJANDRO",
@@ -2463,7 +4648,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO DE MANTENCION A · Estado TARJA: ACTIVO"
+      "detalle": "MECANICO DE MANTENCION A · Estado TARJA: VIGENTE · Turno: 10X10 A",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": "",
+      "turno": "10X10 A",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "MUÑOZ VARGAS RODRIGO ANDRES",
@@ -2480,7 +4672,30 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "ASEADORES INDUSTRIAL · Estado TARJA: ACTIVO"
+      "detalle": "ASEADORES INDUSTRIAL · Estado TARJA: VIGENTE · Cat: . · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 A",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
+    },
+    {
+      "nombre": "NEIRA ABACA JULIO ANTONIO",
+      "rut": "11766092-3",
+      "cursos": "-",
+      "courseList": [],
+      "estado": "No hay registros cargados, confirmar en portales",
+      "statusKey": "sin-registros",
+      "detalle": "OPERADOR CAMION PLUMA · Estado TARJA: VIGENTE",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": "",
+      "turno": "",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "NOVAS GIMENEZ MIGUEL ANGEL",
@@ -2494,7 +4709,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MECANICO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: MAESTRO MAYOR · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "MAESTRO MAYOR",
+      "turno": "10X10 A",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "NOVOA CUEVAS NICOLAS IGNACIO",
@@ -2509,7 +4731,17 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO · incluye duplicados"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · incluye duplicados · Cat: MAESTRO PRIMERA · Turno: 10X10 B",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "MAESTRO PRIMERA",
+      "turno": "10X10 B",
+      "inducionesOk": 2,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN"
+      ]
     },
     {
       "nombre": "NUÑEZ LARA LUIS OMER",
@@ -2527,7 +4759,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER DE BUS · Estado TARJA: ACTIVO"
+      "detalle": "CHOFER DE BUS · Estado TARJA: VIGENTE · Turno: 10X10 B",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "",
+      "turno": "10X10 B",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "OLIVA TAPIA JONATHAN JESUS",
@@ -2543,7 +4782,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · Cat: MAESTRO MAYOR · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "MAESTRO MAYOR",
+      "turno": "10X10 A",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "OLIVARES ACUÑA PEDRO ANTONIO",
@@ -2558,7 +4804,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "JEFE DE MANTENCION · Estado TARJA: ACTIVO"
+      "detalle": "JEFE DE MANTENCION · Estado TARJA: VIGENTE",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "",
+      "turno": "",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "OLIVARES VERGARA LEOPOLDO MIGUEL",
@@ -2575,7 +4828,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · Cat: MAESTRO PRIMERA · Turno: 10X10 B",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": "MAESTRO PRIMERA",
+      "turno": "10X10 B",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "OÑATE SALAZAR ALEJANDRO JAVIER",
@@ -2589,7 +4849,21 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "SUPERV MECANICO MANTENCIO · Estado TARJA: ACTIVO · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "SUPERV MECANICO MANTENCIO · Estado TARJA: VIGENTE · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: . · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 A",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "ORELLANA ANTEZANA NOEL",
@@ -2604,7 +4878,20 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · Cat: . · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 A",
+      "inducionesOk": 5,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "ORELLANA ARRAIN RODOLFO VALENTIN",
@@ -2618,7 +4905,21 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "ASEADORES INDUSTRIAL · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "ASEADORES INDUSTRIAL · Estado TARJA: DE BAJA · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: . · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 A",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "ORELLANA OPAZO HUMBERTO",
@@ -2627,7 +4928,21 @@ window.DASHBOARD_DATA = {
       "courseList": [],
       "estado": "No hay registros cargados, confirmar en portales",
       "statusKey": "sin-registros",
-      "detalle": "PAÑOLERO · Estado TARJA: ACTIVO"
+      "detalle": "PAÑOLERO · Estado TARJA: VIGENTE · Cat: . · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 A",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "ORELLANA SEPÚLVEDA FRANK PAUL",
@@ -2642,7 +4957,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "ASEADORES INDUSTRIAL · Estado TARJA: ACTIVO"
+      "detalle": "ASEADORES INDUSTRIAL · Estado TARJA: VIGENTE · Cat: . · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 A",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "ORTIZ ORTIZ VICTOR ALFONSO",
@@ -2658,7 +4980,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · Cat: . · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 A",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "OSORIO LARA RODRIGO AARON",
@@ -2672,7 +5001,17 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER DE BUS · Estado TARJA: ACTIVO"
+      "detalle": "CHOFER DE BUS · Estado TARJA: VIGENTE · Cat: . · Turno: 10X10 B",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 B",
+      "inducionesOk": 2,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN"
+      ]
     },
     {
       "nombre": "OSSA OSSA JEISON BORIS",
@@ -2685,7 +5024,21 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MECANICO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: MAESTRO MAYOR · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "MAESTRO MAYOR",
+      "turno": "10X10 A",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "OTEIZA VARGAS DIEGO EMMANUEL",
@@ -2700,7 +5053,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "EXPERTO HSEC MANTENCION · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "EXPERTO HSEC MANTENCION · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: . · Turno: 10x10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10x10 A",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "OYANEDER CACERES HECTOR ANDRES",
@@ -2716,7 +5076,19 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "EXPEDITOR DE MATERIALES · Estado TARJA: ACTIVO · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "EXPEDITOR DE MATERIALES · Estado TARJA: VIGENTE · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: . · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 A",
+      "inducionesOk": 4,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "PACHECO MANSILLA DIEGO ARIEL",
@@ -2733,7 +5105,18 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: . · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 A",
+      "inducionesOk": 3,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva"
+      ]
     },
     {
       "nombre": "PALACIOS RUIZ JUAN CARLOS",
@@ -2749,7 +5132,19 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "SOLDADOR PLANCHA · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "SOLDADOR PLANCHA · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: CALIFICACIÓN III · Turno: 10X10 A",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": "CALIFICACIÓN III",
+      "turno": "10X10 A",
+      "inducionesOk": 4,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica"
+      ]
     },
     {
       "nombre": "PALMA HENRIQUEZ BASTIAN RODRIGO",
@@ -2763,7 +5158,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · Cat: . · Turno: 10X10 B",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 B",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "PALMA NAVARRO ALFONSO ROBINSON",
@@ -2772,7 +5174,17 @@ window.DASHBOARD_DATA = {
       "courseList": [],
       "estado": "No hay registros cargados, confirmar en portales",
       "statusKey": "sin-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · Cat: MAESTRO PRIMERA · Turno: 10X10 B",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": "MAESTRO PRIMERA",
+      "turno": "10X10 B",
+      "inducionesOk": 2,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN"
+      ]
     },
     {
       "nombre": "PANIRE QUISPE LUIS ROBERTO",
@@ -2790,7 +5202,21 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · Cat: . · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 A",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "PAREDES AREVALO PEDRO NICOLAS",
@@ -2804,7 +5230,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER DE BUS · Estado TARJA: ACTIVO"
+      "detalle": "CHOFER DE BUS · Estado TARJA: VIGENTE · Cat: .",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "PAREDES HERRERA WALDO JORGE",
@@ -2820,7 +5253,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER CAMIONETA MANTENCI · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "CHOFER CAMIONETA MANTENCI · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: . · Turno: 10X10 B",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 B",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "PARRA HENRIQUEZ JUAN PABLO",
@@ -2834,7 +5274,16 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "JEFE DE PLANIFICACION Y M · Estado TARJA: ACTIVO · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "JEFE DE PLANIFICACION Y M · Estado TARJA: VIGENTE · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: . · Turno: 8x6 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "8x6 A",
+      "inducionesOk": 1,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "Inducción Persona Nueva"
+      ]
     },
     {
       "nombre": "PARRA MANSILLA LUIS ALFREDO",
@@ -2845,7 +5294,20 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "SOLDADOR PLANCHA · Estado TARJA: ACTIVO"
+      "detalle": "SOLDADOR PLANCHA · Estado TARJA: VIGENTE · Cat: CALIFICACIÓN III · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "CALIFICACIÓN III",
+      "turno": "10X10 A",
+      "inducionesOk": 5,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "PASTEN CASTRO HUGO CHRISTIAN",
@@ -2864,7 +5326,17 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MECANICO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: CAPATAZ · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "CAPATAZ",
+      "turno": "10X10 A",
+      "inducionesOk": 2,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN"
+      ]
     },
     {
       "nombre": "PAVEZ URIBE FERNANDO ALEJANDRO",
@@ -2878,7 +5350,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "ASISTENTE SAP · Estado TARJA: ACTIVO · incluye duplicados"
+      "detalle": "ASISTENTE SAP · Estado TARJA: VIGENTE · incluye duplicados · Cat: . · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 A",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "PEDRERO VEAS MAURICIO ALEJANDRO",
@@ -2896,7 +5375,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER CAMION PLANO C/EQ IZAMIENTO 12 TO · Estado TARJA: ACTIVO"
+      "detalle": "CHOFER CAMION PLANO C/EQ IZAMIENTO 12 TO · Estado TARJA: VIGENTE · Turno: 10X10 A",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": "",
+      "turno": "10X10 A",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "PEÑA SAEZ GUSTAVO ANDRES",
@@ -2908,7 +5394,21 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: MAESTRO MAYOR · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "MAESTRO MAYOR",
+      "turno": "10X10 A",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "PEREZ ACEVEDO LUIS ALBERTO",
@@ -2921,7 +5421,21 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: MAESTRO PRIMERA · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "MAESTRO PRIMERA",
+      "turno": "10X10 A",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "PEREZ CATALAN JORGE ANDRES",
@@ -2937,7 +5451,17 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "TOPOGRAFO DE MANTENCION · Estado TARJA: ACTIVO"
+      "detalle": "TOPOGRAFO DE MANTENCION · Estado TARJA: VIGENTE · Cat: . · Turno: 10x10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10x10 A",
+      "inducionesOk": 2,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN"
+      ]
     },
     {
       "nombre": "PEREZ CORTES PEDRO ORLANDO",
@@ -2952,7 +5476,21 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: ACTIVO · incluye duplicados"
+      "detalle": "MECANICO · Estado TARJA: VIGENTE · incluye duplicados · Cat: CAPATAZ · Turno: 10X10 B",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": "CAPATAZ",
+      "turno": "10X10 B",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "PEREZ MARDONES IVAN ANDRES",
@@ -2966,7 +5504,17 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ANDAMIOS · Estado TARJA: ACTIVO"
+      "detalle": "MONTAJE ANDAMIOS · Estado TARJA: VIGENTE · Cat: CAPATAZ · Turno: 10X10 B",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "CAPATAZ",
+      "turno": "10X10 B",
+      "inducionesOk": 2,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN"
+      ]
     },
     {
       "nombre": "PEREZ RODRIGUEZ HERNAN RIGOBERTO",
@@ -2981,7 +5529,17 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO · incluye duplicados"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · incluye duplicados · Cat: MAESTRO PRIMERA · Turno: 10X10 B",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "MAESTRO PRIMERA",
+      "turno": "10X10 B",
+      "inducionesOk": 2,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN"
+      ]
     },
     {
       "nombre": "PEREZ SALAS EDUARDO ANDRES",
@@ -2992,7 +5550,17 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "SOLDADOR PLANCHA · Estado TARJA: ACTIVO"
+      "detalle": "SOLDADOR PLANCHA · Estado TARJA: VIGENTE · Cat: CALIFICACIÓN III · Turno: 10X10 A",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": "CALIFICACIÓN III",
+      "turno": "10X10 A",
+      "inducionesOk": 2,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN"
+      ]
     },
     {
       "nombre": "PINAR LIZAMA LUIS ENRIQUE",
@@ -3006,7 +5574,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER MINIBUS/VAN · Estado TARJA: ACTIVO · incluye duplicados"
+      "detalle": "CHOFER MINIBUS/VAN · Estado TARJA: VIGENTE · incluye duplicados · Cat: . · Turno: 10X10 A",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 A",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "PINILLA VASQUEZ ROBERTO IGNACIO",
@@ -3020,7 +5595,17 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "INGENIERO DE COSTOS · Estado TARJA: ACTIVO"
+      "detalle": "INGENIERO DE COSTOS · Estado TARJA: VIGENTE · Cat: . · Turno: 10X10 B",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 B",
+      "inducionesOk": 2,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN"
+      ]
     },
     {
       "nombre": "PINO AVILEZ LUIS ELIER",
@@ -3033,7 +5618,17 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "EXPERTO HSEC MANTENCION · Estado TARJA: ACTIVO"
+      "detalle": "EXPERTO HSEC MANTENCION · Estado TARJA: VIGENTE · Cat: . · Turno: 10x10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10x10 A",
+      "inducionesOk": 2,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN"
+      ]
     },
     {
       "nombre": "PLACENCIA GARRIDO BERNARDO ANDRES",
@@ -3047,7 +5642,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA /ANDAMIE · Estado TARJA: ACTIVO"
+      "detalle": "MECANICO PRIMERA /ANDAMIE · Estado TARJA: VIGENTE · Cat: . · Turno: 10X10 B",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 B",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "POZA SANCHEZ GUILLERMO ESTEBAN",
@@ -3063,7 +5665,20 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO SEGUNDA · Estado TARJA: ACTIVO"
+      "detalle": "MECANICO SEGUNDA · Estado TARJA: VIGENTE · Cat: . · Turno: 10X10 B",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 B",
+      "inducionesOk": 5,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "QUEZADA TRUJILLO CARLOS PATRICIO",
@@ -3074,7 +5689,30 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "SUPERV MECANICO MANTENCIO · Estado TARJA: ACTIVO"
+      "detalle": "SUPERV MECANICO MANTENCIO · Estado TARJA: VIGENTE",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": "",
+      "turno": "",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
+    },
+    {
+      "nombre": "QUINTERO DIAZ TEODORO ALBERTO",
+      "rut": "26378033-7",
+      "cursos": "-",
+      "courseList": [],
+      "estado": "No hay registros cargados, confirmar en portales",
+      "statusKey": "sin-registros",
+      "detalle": "OP MODULO MULTIEJE GOLDHO · Estado TARJA: VIGENTE",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": "",
+      "turno": "",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "QUIROZ MENDOZA IVAN ESTEBAN",
@@ -3086,7 +5724,21 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: MAESTRO PRIMERA · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "MAESTRO PRIMERA",
+      "turno": "10X10 A",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "QUISPE SANTOS LUIS HUMBERTO",
@@ -3101,7 +5753,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "EXPERTO HSEC MANTENCION · Estado TARJA: ACTIVO"
+      "detalle": "EXPERTO HSEC MANTENCION · Estado TARJA: VIGENTE · Cat: . · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 A",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "RAMIREZ NUÑEZ FERNANDO RODOLFO",
@@ -3116,7 +5775,54 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "ASEADORES INDUSTRIAL · Estado TARJA: ACTIVO"
+      "detalle": "ASEADORES INDUSTRIAL · Estado TARJA: VIGENTE · Cat: . · Turno: 10X10 B",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 B",
+      "inducionesOk": 2,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN"
+      ]
+    },
+    {
+      "nombre": "RAMOS ARCE EDUARDO ESCOT",
+      "rut": "19814219-0",
+      "cursos": "EPP, EXT, OPR, PA",
+      "courseList": [
+        "EPP",
+        "EXT",
+        "OPR",
+        "PA"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": "",
+      "turno": "",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
+    },
+    {
+      "nombre": "REBOLLEDO GUERRA JUAN ANDRES",
+      "rut": "18644450-7",
+      "cursos": "-",
+      "courseList": [],
+      "estado": "No hay registros cargados, confirmar en portales",
+      "statusKey": "sin-registros",
+      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": "",
+      "turno": "",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "RETAMAL RODRIGUEZ NISEN ANDRES",
@@ -3129,7 +5835,21 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: MAESTRO PRIMERA · Turno: 10X10 B",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "MAESTRO PRIMERA",
+      "turno": "10X10 B",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "REYES JIMENEZ JULIAN ERWIN",
@@ -3143,7 +5863,37 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: . · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 A",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
+    },
+    {
+      "nombre": "RIFFO AREVALO EDISON ISAAC",
+      "rut": "14334805-9",
+      "cursos": "-",
+      "courseList": [],
+      "estado": "No hay registros cargados, confirmar en portales",
+      "statusKey": "sin-registros",
+      "detalle": "JEFE DE OPERACIONES · Estado TARJA: VIGENTE",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": "",
+      "turno": "",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "RIFFO GUIÑEZ JUAN ANDRES ANDRES",
@@ -3157,7 +5907,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER TRACTO CAMION CAMA · Estado TARJA: ACTIVO"
+      "detalle": "CHOFER TRACTO CAMION CAMA · Estado TARJA: VIGENTE · Turno: 10X10 A",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": "",
+      "turno": "10X10 A",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "RIOS CHANDIA JOSE RAINIER",
@@ -3172,7 +5929,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER MINIBUS/VAN · Estado TARJA: ACTIVO"
+      "detalle": "CHOFER MINIBUS/VAN · Estado TARJA: VIGENTE · Turno: 10X10 A",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": "",
+      "turno": "10X10 A",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "RIOS DIAZ JUAN JOSE",
@@ -3184,7 +5948,30 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER DE BUS · Estado TARJA: ACTIVO"
+      "detalle": "CHOFER DE BUS · Estado TARJA: VIGENTE · Cat: . · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 A",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
+    },
+    {
+      "nombre": "RIQUELME AHUMADA RAUL CESAR",
+      "rut": "12718661-8",
+      "cursos": "-",
+      "courseList": [],
+      "estado": "No hay registros cargados, confirmar en portales",
+      "statusKey": "sin-registros",
+      "detalle": "CHOFER TRACTO CAMION CAMA · Estado TARJA: VIGENTE",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": "",
+      "turno": "",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "RIQUELME CARRASCO JULIO AARON ESTEBAN",
@@ -3197,7 +5984,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA /ANDAMIE · Estado TARJA: ACTIVO"
+      "detalle": "MECANICO PRIMERA /ANDAMIE · Estado TARJA: VIGENTE · Cat: . · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 A",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "RIQUELME ROCA PATRICIO FERNANDO",
@@ -3213,7 +6007,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · Cat: . · Turno: 10X10 B",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 B",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "RIQUELME SANDOVAL JAIME ENRIQUE",
@@ -3232,7 +6033,21 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "SUPERV MECANICO MANTENCIO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "SUPERV MECANICO MANTENCIO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: . · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 A",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "RIVAS PARRA ALEXIS EDUARDO",
@@ -3248,7 +6063,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO · incluye duplicados"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · incluye duplicados · Cat: . · Turno: 10X10 B",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 B",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "RIVERA ESTAY EDUARDO ANTONIO",
@@ -3263,7 +6085,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER CAMION PLANO C/EQ · Estado TARJA: ACTIVO"
+      "detalle": "CHOFER CAMION PLANO C/EQ · Estado TARJA: VIGENTE · Cat: . · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 A",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "RIVERA MENESES JOSE ALEJANDRO",
@@ -3279,7 +6108,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · Cat: MAESTRO PRIMERA · Turno: 10X10 A",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": "MAESTRO PRIMERA",
+      "turno": "10X10 A",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "RIVERA VERGARA HUMBERTO ENRIQUE",
@@ -3294,7 +6130,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "ASEADORES INDUSTRIAL · Estado TARJA: ACTIVO"
+      "detalle": "ASEADORES INDUSTRIAL · Estado TARJA: VIGENTE · Cat: . · Turno: 10X10 B",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 B",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "ROBLES CARIZ PEDRO NOLASCO",
@@ -3308,7 +6151,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: ACTIVO"
+      "detalle": "MECANICO · Estado TARJA: VIGENTE · Cat: CAPATAZ · Turno: 10X10 A",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": "CAPATAZ",
+      "turno": "10X10 A",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "RODRIGUEZ DURAN JOSUE MANUEL",
@@ -3327,7 +6177,21 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MECANICO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: MAESTRO MAYOR · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "MAESTRO MAYOR",
+      "turno": "10X10 A",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "RODRIGUEZ ULLOA LEONARDO ALEXIS",
@@ -3342,7 +6206,20 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: ACTIVO"
+      "detalle": "MECANICO · Estado TARJA: VIGENTE · Cat: MAESTRO MAYOR · Turno: 10X10 B",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "MAESTRO MAYOR",
+      "turno": "10X10 B",
+      "inducionesOk": 5,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "ROJAS CORNEJO PABLO ANDRES",
@@ -3358,7 +6235,17 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER CAMION PLANO C/EQ · Estado TARJA: ACTIVO · incluye duplicados"
+      "detalle": "CHOFER CAMION PLANO C/EQ · Estado TARJA: VIGENTE · incluye duplicados · Cat: NIVEL A · Turno: 10X10 B",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "NIVEL A",
+      "turno": "10X10 B",
+      "inducionesOk": 2,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN"
+      ]
     },
     {
       "nombre": "ROJAS ORTEGA GUIDO DAMIAN",
@@ -3373,7 +6260,37 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER MINIBUS/VAN · Estado TARJA: ACTIVO"
+      "detalle": "CHOFER MINIBUS/VAN · Estado TARJA: DE BAJA · Cat: PLENO · Turno: 10X10 B",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "PLENO",
+      "turno": "10X10 B",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
+    },
+    {
+      "nombre": "ROJAS SANZ NATALIA FRANCHESKA",
+      "rut": "18583209-0",
+      "cursos": "-",
+      "courseList": [],
+      "estado": "No hay registros cargados, confirmar en portales",
+      "statusKey": "sin-registros",
+      "detalle": "ASISTENTE ADMINISTRATIVO · Estado TARJA: DE BAJA · Cat: . · Turno: 5X2",
+      "certFinal": "NO APLICA",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "5X2",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "ROSALES ALARCON WALTER FABRICIO",
@@ -3387,7 +6304,21 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · Cat: MAESTRO MAYOR · Turno: 10X10 A",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": "MAESTRO MAYOR",
+      "turno": "10X10 A",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "ROSAS SILVA CARLOS GUILLERMO",
@@ -3402,7 +6333,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA /ANDAMIERO · Estado TARJA: ACTIVO"
+      "detalle": "MECANICO PRIMERA /ANDAMIERO · Estado TARJA: VIGENTE · Cat: . · Turno: 10X10 A",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 A",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "RUBILAR GONZALEZ ALEXI ERBE",
@@ -3416,7 +6354,21 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: MAESTRO MAYOR · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "MAESTRO MAYOR",
+      "turno": "10X10 A",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "RUBILAR RUMINOT PEDRO ANDRES",
@@ -3429,7 +6381,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO · incluye no legibles"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · incluye no legibles · Cat: MAESTRO PRIMERA · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "MAESTRO PRIMERA",
+      "turno": "10X10 A",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "RUIZ BRICEÑO LUCIANO NICOLAS",
@@ -3443,7 +6402,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO · incluye duplicados"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · incluye duplicados · Cat: MAESTRO PRIMERA · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "MAESTRO PRIMERA",
+      "turno": "10X10 A",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "RUIZ VIDAL JEAN PAUL LUIS",
@@ -3458,7 +6424,21 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: MAESTRO MAYOR · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "MAESTRO MAYOR",
+      "turno": "10X10 A",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "RUIZ ZAMARCA FABIAN LEONARDO",
@@ -3473,7 +6453,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "PAÑOLERO · Estado TARJA: ACTIVO"
+      "detalle": "PAÑOLERO · Estado TARJA: VIGENTE · Cat: . · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 A",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "SAAVEDRA ABARCA RONALD MICHAEL",
@@ -3491,7 +6478,21 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: ACTIVO · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MECANICO · Estado TARJA: VIGENTE · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: CAPATAZ · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "CAPATAZ",
+      "turno": "10X10 A",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "SAAVEDRA ESQUIVEL CARLOS GUSTAVO",
@@ -3507,7 +6508,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: ACTIVO"
+      "detalle": "MECANICO · Estado TARJA: VIGENTE · Cat: CAPATAZ · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "CAPATAZ",
+      "turno": "10X10 A",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "SAEZ CORREA MARCO ANTONIO",
@@ -3521,7 +6529,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA /ANDAMIE · Estado TARJA: ACTIVO"
+      "detalle": "MECANICO PRIMERA /ANDAMIE · Estado TARJA: VIGENTE · Cat: . · Turno: 10X10 B",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 B",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "SAEZ MORA RENE WILLIAM",
@@ -3532,7 +6547,19 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "JEFE DE PLANIFICACION Y M · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "JEFE DE PLANIFICACION Y M · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: . · Turno: 8X6 B",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "8X6 B",
+      "inducionesOk": 4,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "SALAZAR DEL PINO CLAUDIO HERIBERTO",
@@ -3548,7 +6575,21 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MECANICO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: MAESTRO MAYOR · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "MAESTRO MAYOR",
+      "turno": "10X10 A",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "SALGADO HUILIPAN ANGELO JEREMIAS",
@@ -3563,7 +6604,30 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · Cat: . · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 A",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
+    },
+    {
+      "nombre": "SALGADO MORALES RODRIGO ANDRES",
+      "rut": "14109431-9",
+      "cursos": "-",
+      "courseList": [],
+      "estado": "No hay registros cargados, confirmar en portales",
+      "statusKey": "sin-registros",
+      "detalle": "ADMINISTRADOR DE CONTRATO DE MANTENCION · Estado TARJA: VIGENTE",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": "",
+      "turno": "",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "SALGADO VASQUEZ MARCO ANTONIO",
@@ -3577,7 +6641,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "SUPERV MECANICO MANTENCIO · Estado TARJA: ACTIVO"
+      "detalle": "SUPERV MECANICO MANTENCIO · Estado TARJA: VIGENTE",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": "",
+      "turno": "",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "SALVATIERRA PANIRE TANIA CAROLINA DEL PILAR",
@@ -3593,7 +6664,17 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "PAÑOLERO · Estado TARJA: ACTIVO · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "PAÑOLERO · Estado TARJA: VIGENTE · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: . · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 A",
+      "inducionesOk": 2,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN"
+      ]
     },
     {
       "nombre": "SAN MARTIN FERREIRA IVAN ALEJANDRO",
@@ -3607,7 +6688,21 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: MAESTRO PRIMERA · Turno: 10X10 B",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "MAESTRO PRIMERA",
+      "turno": "10X10 B",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "SANCHEZ CAIMANQUE JARITZA NICOLL",
@@ -3618,7 +6713,20 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "PAÑOLERO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "PAÑOLERO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: . · Turno: 10X10 B",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 B",
+      "inducionesOk": 5,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "SANCHEZ SAAVEDRA LUIS HUMBERTO",
@@ -3633,7 +6741,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO DE MANTENCION A · Estado TARJA: ACTIVO · incluye duplicados"
+      "detalle": "MECANICO DE MANTENCION A · Estado TARJA: VIGENTE · incluye duplicados · Cat: . · Turno: 10x10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10x10 A",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "SANHUEZA SOTO JAIME ANDRES",
@@ -3646,7 +6761,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER DE BUS · Estado TARJA: ACTIVO"
+      "detalle": "CHOFER DE BUS · Estado TARJA: VIGENTE",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": "",
+      "turno": "",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "SANHUEZA VEGA JAIME LUIS",
@@ -3661,7 +6783,20 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: ACTIVO · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MECANICO · Estado TARJA: VIGENTE · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: MAESTRO MAYOR · Turno: 10X10 A",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": "MAESTRO MAYOR",
+      "turno": "10X10 A",
+      "inducionesOk": 5,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "SANTIBAÑEZ ROJAS ROBERTO PATRICIO",
@@ -3676,7 +6811,16 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "EXPERTO HSEC MANTENCION · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "EXPERTO HSEC MANTENCION · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: . · Turno: 10x10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10x10 A",
+      "inducionesOk": 1,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "Inducción Persona Nueva"
+      ]
     },
     {
       "nombre": "SARAVIA ESTAY HECTOR MAURICIO",
@@ -3690,7 +6834,33 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "JEFE DE MANTENCION · Estado TARJA: ACTIVO"
+      "detalle": "JEFE DE MANTENCION · Estado TARJA: VIGENTE · Cat: . · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 A",
+      "inducionesOk": 2,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN"
+      ]
+    },
+    {
+      "nombre": "SEGUEL FARIÑA VICTOR RODRIGO",
+      "rut": "14273817-1",
+      "cursos": "-",
+      "courseList": [],
+      "estado": "No hay registros cargados, confirmar en portales",
+      "statusKey": "sin-registros",
+      "detalle": "OP MODULO MULTIEJE GOLDHO · Estado TARJA: VIGENTE",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": "",
+      "turno": "",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "SEGUEL PASTOR JUAN JOSE",
@@ -3703,7 +6873,21 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MECANICO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: MAESTRO MAYOR · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "MAESTRO MAYOR",
+      "turno": "10X10 A",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "SEPULVEDA OLSEN MANUEL ALEJANDRO",
@@ -3720,7 +6904,30 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · Cat: CAPATAZ · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "CAPATAZ",
+      "turno": "10X10 A",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
+    },
+    {
+      "nombre": "SEVERINO DE FIGUEIREDO JOAO ALFREDO",
+      "rut": "17283217-2",
+      "cursos": "-",
+      "courseList": [],
+      "estado": "No hay registros cargados, confirmar en portales",
+      "statusKey": "sin-registros",
+      "detalle": "RIGGER · Estado TARJA: VIGENTE",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "",
+      "turno": "",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "SILVA CIFUENTES JONNATAN MAX",
@@ -3736,7 +6943,21 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: . · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 A",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "SILVA SOTO CRISTIAN EDUARDO",
@@ -3752,7 +6973,17 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "INGENIERO DE COSTOS · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "INGENIERO DE COSTOS · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: . · Turno: 10x10 B",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10x10 B",
+      "inducionesOk": 2,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN"
+      ]
     },
     {
       "nombre": "SOTOMAYOR ESCOBAR EDUARDO JILBERTO",
@@ -3766,7 +6997,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "JEFE DE MANTENCION · Estado TARJA: ACTIVO"
+      "detalle": "JEFE DE MANTENCION · Estado TARJA: VIGENTE · Cat: . · Turno: 10X10 A",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 A",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "SUAZO TORRES FRANCISCO ESTEBAN",
@@ -3783,7 +7021,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "SOLDADOR PLANCHA · Estado TARJA: ACTIVO"
+      "detalle": "SOLDADOR PLANCHA · Estado TARJA: VIGENTE · Cat: CALIFICACIÓN III · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "CALIFICACIÓN III",
+      "turno": "10X10 A",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "TAPIA FERNANDEZ RICARDO JAVIER",
@@ -3799,7 +7044,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO · incluye duplicados"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · incluye duplicados · Cat: MAESTRO PRIMERA · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "MAESTRO PRIMERA",
+      "turno": "10X10 A",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "TAPIA GAETE MIGUEL VLADIMIR",
@@ -3813,7 +7065,21 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: . · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 A",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "TARBES CARRASCO CHRISTIAN ANDRE",
@@ -3829,7 +7095,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER MINIBUS/VAN · Estado TARJA: ACTIVO"
+      "detalle": "CHOFER MINIBUS/VAN · Estado TARJA: VIGENTE · Cat: . · Turno: 10X10 B",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 B",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "TOBAR RIVAS NELSON EDUARDO",
@@ -3847,7 +7120,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: MAESTRO MAYOR · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "MAESTRO MAYOR",
+      "turno": "10X10 A",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "TOBAR RIVAS SALOMON EDUARDO",
@@ -3865,7 +7145,21 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "SOLDADOR PLANCHA · Estado TARJA: ACTIVO · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "SOLDADOR PLANCHA · Estado TARJA: VIGENTE · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: CALIFICACIÓN III · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "CALIFICACIÓN III",
+      "turno": "10X10 A",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "TOBAR VALENZUELA JAIME FABIAN",
@@ -3884,7 +7178,17 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: ACTIVO · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MECANICO · Estado TARJA: VIGENTE · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: CAPATAZ · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "CAPATAZ",
+      "turno": "10X10 A",
+      "inducionesOk": 2,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN"
+      ]
     },
     {
       "nombre": "TORO ALVARADO FRANCISCO ALONSO DEL CARMEN",
@@ -3897,7 +7201,21 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO · incluye duplicados"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · incluye duplicados · Cat: MAESTRO MAYOR · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "MAESTRO MAYOR",
+      "turno": "10X10 A",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "TORO CARRIL FRANCO IGNACIO",
@@ -3912,7 +7230,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · Cat: . · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 A",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "TORO FUENTES PEDRO ENRIQUE",
@@ -3925,7 +7250,32 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · Cat: MAESTRO PRIMERA · Turno: 10X10 B",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": "MAESTRO PRIMERA",
+      "turno": "10X10 B",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
+    },
+    {
+      "nombre": "TORREJON MUÑOZ LEONEL HUMBERTO",
+      "rut": "20006965-K",
+      "cursos": "EXT",
+      "courseList": [
+        "EXT"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: DE BAJA · Cat: MAESTRO SEGUNDA · Turno: 10X10 B",
+      "certFinal": "NO APLICA",
+      "examenSalud": "",
+      "categoria": "MAESTRO SEGUNDA",
+      "turno": "10X10 B",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "TORRES PAILLAO EUGENIO ROBERTO",
@@ -3943,7 +7293,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · Cat: . · Turno: 10X10 A",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 A",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "TORRES TASSARA OSCAR FRANCISCO",
@@ -3956,7 +7313,21 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: . · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 A",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "TRIGO VALDIVIA CAROLINA DEL CARMEN",
@@ -3971,7 +7342,40 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "ASISTENTE SAP · Estado TARJA: ACTIVO"
+      "detalle": "ASISTENTE SAP · Estado TARJA: VIGENTE · Cat: . · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 A",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
+    },
+    {
+      "nombre": "TUDELA SALDIAS RAUL GERMAN",
+      "rut": "13266171-5",
+      "cursos": "OPR, PA",
+      "courseList": [
+        "OPR",
+        "PA"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
+      "detalle": "CHOFER DE BUS · Estado TARJA: DE BAJA · incluye duplicados · Cat: . · Turno: 10X10 B",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 B",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "URETA CISTERNAS CARLOS HUMBERTO",
@@ -3989,7 +7393,37 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: CAPATAZ · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "CAPATAZ",
+      "turno": "10X10 A",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
+    },
+    {
+      "nombre": "VALDES GARCES JORGE ANDRES",
+      "rut": "13108032-8",
+      "cursos": "-",
+      "courseList": [],
+      "estado": "No hay registros cargados, confirmar en portales",
+      "statusKey": "sin-registros",
+      "detalle": "RIGGER · Estado TARJA: VIGENTE",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": "",
+      "turno": "",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "VALDIVIA SALDAÑA PEDRO JOEL",
@@ -4002,7 +7436,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA /ANDAMIE · Estado TARJA: ACTIVO"
+      "detalle": "MECANICO PRIMERA /ANDAMIE · Estado TARJA: VIGENTE · Cat: . · Turno: 10X10 B",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 B",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "VALENCIA FERNANDEZ HUGO HERNAN",
@@ -4017,7 +7458,21 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: MAESTRO MAYOR · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "MAESTRO MAYOR",
+      "turno": "10X10 A",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "VALENZUELA CAMPOS FELIPE ANDRES",
@@ -4036,7 +7491,37 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: . · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 A",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
+    },
+    {
+      "nombre": "VALENZUELA CARCAMO VICTOR MANUEL",
+      "rut": "16120818-3",
+      "cursos": "-",
+      "courseList": [],
+      "estado": "No hay registros cargados, confirmar en portales",
+      "statusKey": "sin-registros",
+      "detalle": "CHOFER BUS · Estado TARJA: DE BAJA · Cat: . · Turno: F",
+      "certFinal": "NO APLICA",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "F",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "VALENZUELA ORELLANA BASTIAN ALEXANDER",
@@ -4050,7 +7535,21 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "SOLDADOR PLANCHA · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "SOLDADOR PLANCHA · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: CALIFICACIÓN III · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "CALIFICACIÓN III",
+      "turno": "10X10 A",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "VARGAS MENA FRANKO JOSE",
@@ -4065,7 +7564,17 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · Cat: MAESTRO PRIMERA · Turno: 10X10 B",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "MAESTRO PRIMERA",
+      "turno": "10X10 B",
+      "inducionesOk": 2,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN"
+      ]
     },
     {
       "nombre": "VASQUEZ SANHUEZA ESTEBAN VLADIMIR",
@@ -4084,7 +7593,17 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: . · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 A",
+      "inducionesOk": 2,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN"
+      ]
     },
     {
       "nombre": "VEGA QUIROGA MATIAS ANDRES",
@@ -4097,7 +7616,39 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: . · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 A",
+      "inducionesOk": 5,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
+    },
+    {
+      "nombre": "VEGA SUAZO FERNANDO IVAN",
+      "rut": "9752903-5",
+      "cursos": "IRL ESPECIFICA, IRL GENERAL",
+      "courseList": [
+        "IRL ESPECIFICA",
+        "IRL GENERAL"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
+      "detalle": "JEFE DE MANTENCION · Estado TARJA: VIGENTE",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": "",
+      "turno": "",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "VEGA VEGA JAIRO ALEXANDER",
@@ -4113,7 +7664,17 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: MAESTRO PRIMERA · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "MAESTRO PRIMERA",
+      "turno": "10X10 A",
+      "inducionesOk": 2,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN"
+      ]
     },
     {
       "nombre": "VELASQUEZ ARAYA GONZALO JAVIER",
@@ -4125,7 +7686,17 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "EXPERTO HSEC MANTENCION · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "EXPERTO HSEC MANTENCION · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: . · Turno: 10x10 A",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10x10 A",
+      "inducionesOk": 2,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN"
+      ]
     },
     {
       "nombre": "VELOZO PAREDES GONZALO ANTONIO",
@@ -4139,7 +7710,21 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: MAESTRO PRIMERA · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "MAESTRO PRIMERA",
+      "turno": "10X10 A",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "VERGARA IBACACHE RODRIGO ALEJANDRO",
@@ -4154,7 +7739,17 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "ADMINISTRADOR DE CONTRATO · Estado TARJA: ACTIVO · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "ADMINISTRADOR DE CONTRATO · Estado TARJA: VIGENTE · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: . · Turno: 4X3 · Exam. salud: D",
+      "certFinal": "",
+      "examenSalud": "D",
+      "categoria": ".",
+      "turno": "4X3",
+      "inducionesOk": 2,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "Inducción Persona Nueva"
+      ]
     },
     {
       "nombre": "VERGARA MORALES HUGO EDUARDO",
@@ -4171,7 +7766,54 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: ACTIVO"
+      "detalle": "MECANICO · Estado TARJA: VIGENTE · Cat: CAPATAZ · Turno: 10X10 A",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": "CAPATAZ",
+      "turno": "10X10 A",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
+    },
+    {
+      "nombre": "VERGARA SAEZ RICARDO EXEQUIEL",
+      "rut": "19000455-4",
+      "cursos": "AYB",
+      "courseList": [
+        "AYB"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": "",
+      "turno": "",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
+    },
+    {
+      "nombre": "VERGARA YAUPE JUAN ROBERTO",
+      "rut": "11904453-7",
+      "cursos": "AYB, EPP, EXT, OPR, PA",
+      "courseList": [
+        "AYB",
+        "EPP",
+        "EXT",
+        "OPR",
+        "PA"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
+      "detalle": "MECANICO PRIMERA /ANDAMIE · Estado TARJA: VIGENTE",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": "",
+      "turno": "",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "VILCHES LEIVA EMERSON ENRIQUE",
@@ -4185,7 +7827,21 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER CAMION TOLVA · Estado TARJA: ACTIVO · incluye duplicados"
+      "detalle": "CHOFER CAMION TOLVA · Estado TARJA: DE BAJA · incluye duplicados · Cat: . · Turno: 10X10 B",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 B",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "VILLAGRA BASUALTO DIEGO EDUARDO",
@@ -4196,7 +7852,17 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "SUPERV MECANICO MANTENCIO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "SUPERV MECANICO MANTENCIO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: . · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 A",
+      "inducionesOk": 2,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN"
+      ]
     },
     {
       "nombre": "VILLENA POBLETE PABLO SEBASTIAN",
@@ -4210,7 +7876,37 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "SOLDADOR PLANCHA · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "SOLDADOR PLANCHA · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: CALIFICACIÓN III · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "CALIFICACIÓN III",
+      "turno": "10X10 A",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
+    },
+    {
+      "nombre": "YAÑEZ AROS JORGE BERNARDO",
+      "rut": "13533366-2",
+      "cursos": "-",
+      "courseList": [],
+      "estado": "No hay registros cargados, confirmar en portales",
+      "statusKey": "sin-registros",
+      "detalle": "CHOFER CAMIONETA MANTENCI · Estado TARJA: DE BAJA · Cat: . · Turno: 10X10 B",
+      "certFinal": "NO APLICA",
+      "examenSalud": "",
+      "categoria": ".",
+      "turno": "10X10 B",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "ZAMBRANA SALVATIERRA OMAR",
@@ -4224,7 +7920,21 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · Cat: MAESTRO MAYOR · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "MAESTRO MAYOR",
+      "turno": "10X10 A",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     },
     {
       "nombre": "ZENTENO SANDOVAL JOSE LUIS",
@@ -4242,7 +7952,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: ACTIVO · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental"
+      "detalle": "MECANICO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · Cat: MAESTRO MAYOR · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "MAESTRO MAYOR",
+      "turno": "10X10 A",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "ZULETA SOUZA CRISTIAN ANDRES",
@@ -4254,7 +7971,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: ACTIVO"
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · Cat: MAESTRO PRIMERA · Turno: 10X10 B",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": "MAESTRO PRIMERA",
+      "turno": "10X10 B",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "ZURITA ANDIA FLAVIO NELSON",
@@ -4270,7 +7994,14 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: ACTIVO"
+      "detalle": "MECANICO · Estado TARJA: VIGENTE · Cat: MAESTRO MAYOR · Turno: 10X10 A",
+      "certFinal": "",
+      "examenSalud": "",
+      "categoria": "MAESTRO MAYOR",
+      "turno": "10X10 A",
+      "inducionesOk": 0,
+      "inducionesTotal": 12,
+      "inducionesList": []
     },
     {
       "nombre": "ZURITA BRAVO HECTOR PATRICIO",
@@ -4287,7 +8018,21 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "SOLDADOR PLANCHA · Estado TARJA: ACTIVO"
+      "detalle": "SOLDADOR PLANCHA · Estado TARJA: VIGENTE · Cat: CALIFICACIÓN III · Turno: 10X10 A",
+      "certFinal": "APROBADO",
+      "examenSalud": "",
+      "categoria": "CALIFICACIÓN III",
+      "turno": "10X10 A",
+      "inducionesOk": 6,
+      "inducionesTotal": 12,
+      "inducionesList": [
+        "CHARLA ADMINISTRATIVA",
+        "CHARLA LEY KARIN",
+        "Inducción Persona Nueva",
+        "Inducción a Geomecánica Básica",
+        "Inducción Refugios Mineros",
+        "Inducción Reglamento de Emergencias MCH"
+      ]
     }
   ],
   "irlFormsNote": "Los registros asociados a IRL GENERAL FORMS corresponden a respaldos cargados por los trabajadores mediante Forms. Para una validación formal, se recomienda revisar directamente el archivo original en la carpeta documental, a fin de confirmar su legibilidad, integridad y correcta carga. Los accesos disponibles a continuación funcionan solo para personal previamente autorizado en SharePoint.",
@@ -4316,11 +8061,15 @@ window.DASHBOARD_DATA = {
     },
     {
       "title": "Cruce con TARJA",
-      "detail": "Se detectaron 16 trabajadores sin evidencias cargadas en el sistema."
+      "detail": "Se detectaron 41 trabajadores sin evidencias cargadas en el sistema."
     },
     {
       "title": "Calidad del registro",
       "detail": "Se identificaron 114 duplicados y 11 documentos no legibles."
+    },
+    {
+      "title": "Certificados finales (TARJA)",
+      "detail": "211 trabajadores aprobados y 0 pendientes según hoja TARJA."
     }
   ]
 };

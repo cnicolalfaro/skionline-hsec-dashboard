@@ -284,18 +284,41 @@ def load_external_rut_lookup() -> dict[str, str]:
     return lookup
 
 
-def build_tarja_records(wb, evidence_entries: list[dict[str, Any]], external_rut_lookup: dict[str, str]) -> tuple[list[dict[str, Any]], int]:
+def build_tarja_records(wb, evidence_entries: list[dict[str, Any]], external_rut_lookup: dict[str, str]) -> tuple[list[dict[str, Any]], int, list[str]]:
     if 'TARJA' in wb.sheetnames:
         ws = wb['TARJA']
     else:
         external_wb = find_external_tarja_workbook()
         if external_wb is None or 'TARJA' not in external_wb.sheetnames:
-            return [], 0
+            return [], 0, []
         ws = external_wb['TARJA']
     raw_rows = list(ws.iter_rows(values_only=True))
     headers, rows = extract_headers_and_rows(raw_rows)
     if not headers or not rows:
-        return [], 0
+        return [], 0, []
+
+    # Detectar columnas con fechas de turno (datetime o strings comunes)
+    shift_cols: list[int] = []
+    shift_dates_iso: list[str] = []
+    dmy_pattern = re.compile(r'^(\d{2})-(\d{2})-(\d{4})$')
+    ymd_pattern = re.compile(r'^(\d{4})-(\d{2})-(\d{2})')
+    for idx, h in enumerate(headers):
+        iso = ''
+        if isinstance(h, datetime):
+            iso = h.strftime('%Y-%m-%d')
+        else:
+            s = str(h).strip()
+            m = dmy_pattern.match(s)
+            if m:
+                dd, mm, yyyy = m.groups()
+                iso = f'{yyyy}-{mm}-{dd}'
+            else:
+                m2 = ymd_pattern.match(s)
+                if m2:
+                    iso = f'{m2.group(1)}-{m2.group(2)}-{m2.group(3)}'
+        if iso:
+            shift_cols.append(idx)
+            shift_dates_iso.append(iso)
 
     records: list[dict[str, Any]] = []
     sin_registros = 0
@@ -394,10 +417,14 @@ def build_tarja_records(wb, evidence_entries: list[dict[str, Any]], external_rut
             'inducionesOk': len(inducciones_ok),
             'inducionesTotal': len(INDUCCION_COLS),
             'inducionesList': inducciones_ok,
+            'shifts': [
+                (str(row[c]).strip().upper() if c < len(row) and row[c] is not None else '')
+                for c in shift_cols
+            ],
         })
 
     records.sort(key=lambda item: normalize_text(item['nombre']))
-    return records, sin_registros
+    return records, sin_registros, shift_dates_iso
 
 
 def main() -> None:
@@ -479,7 +506,7 @@ def main() -> None:
             evidence_entries.append(entry)
 
     external_rut_lookup = load_external_rut_lookup()
-    records, sin_registros = build_tarja_records(wb, evidence_entries, external_rut_lookup)
+    records, sin_registros, shift_dates = build_tarja_records(wb, evidence_entries, external_rut_lookup)
 
     total_archivos = summary_map.get('TOTAL', {}).get('total', sum(item['total'] for item in course_totals))
     documentos_unicos = sum(item['unicos'] for item in summary_rows if isinstance(item.get('unicos'), int))
@@ -512,6 +539,7 @@ def main() -> None:
         ],
         'summaryRows': summary_rows,
         'records': records,
+        'shiftDates': shift_dates,
         'irlFormsNote': 'Los registros asociados a IRL GENERAL FORMS corresponden a respaldos cargados por los trabajadores mediante Forms. Para una validación formal, se recomienda revisar directamente el archivo original en la carpeta documental, a fin de confirmar su legibilidad, integridad y correcta carga. Los accesos disponibles a continuación funcionan solo para personal previamente autorizado en SharePoint.',
         'accessLinks': [
             {'label': 'Evidencias de certificaciones', 'url': 'https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/3-%20Registros%20capacitaciones%20-%20difusiones/3-%20Evidencias%20de%20Certificaciones?csf=1&web=1&e=ovhAFT'},

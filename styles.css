@@ -493,6 +493,215 @@ th, td {
 th { color: #9fd1ff; }
 tr:hover td { background: rgba(255,255,255,.03); }
 
+/* === Filtro y resumen de turno por día === */
+.shift-filter-row {
+  margin-top: 16px;
+  padding: 14px 16px;
+  background: rgba(45,127,249,.05);
+  border: 1px solid rgba(45,127,249,.18);
+  border-radius: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 12px;
+}
+.field-inline {
+  min-width: 150px;
+}
+.shift-clear-btn {
+  padding: 8px 14px;
+  background: rgba(255,255,255,.06);
+  color: var(--text);
+  border: 1px solid rgba(255,255,255,.12);
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: .82rem;
+  height: 36px;
+}
+.shift-clear-btn:hover { background: rgba(255,255,255,.1); }
+.shift-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  flex: 1 1 100%;
+}
+.shift-legend-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 3px 8px;
+  border-radius: 999px;
+  border: 1px solid;
+  font-size: .7rem;
+}
+.shift-legend-chip strong { font-weight: 700; }
+
+.shift-summary {
+  margin-top: 12px;
+}
+.shift-summary:empty { display: none; }
+.shift-summary-head {
+  font-size: .85rem;
+  color: var(--muted);
+  margin-bottom: 8px;
+  text-transform: capitalize;
+}
+.shift-summary-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.shift-summary-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 12px;
+  border-radius: 10px;
+  border: 1px solid;
+  font-size: .85rem;
+}
+.shift-summary-chip strong {
+  font-size: .95rem;
+  font-weight: 700;
+}
+
+.shift-col.hidden { display: none; }
+.shift-cell { text-align: center; }
+.shift-chip {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 999px;
+  border: 1px solid;
+  font-weight: 700;
+  font-size: .78rem;
+  letter-spacing: .02em;
+}
+
+/* === Panel de cumplimiento de acreditados === */
+.acr-panel {
+  background: linear-gradient(180deg, rgba(45,127,249,.06), rgba(140,99,255,.04)), var(--panel);
+}
+.acr-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.acr-summary {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.acr-summary-item {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 8px 14px;
+  background: rgba(255,255,255,.04);
+  border: 1px solid rgba(255,255,255,.06);
+  border-radius: 10px;
+  min-width: 92px;
+}
+.acr-summary-label {
+  font-size: .72rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: .04em;
+}
+.acr-summary-value {
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--text);
+  line-height: 1.1;
+}
+.acr-buckets {
+  margin-top: 18px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 14px;
+}
+@media (max-width: 1100px) {
+  .acr-buckets { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 600px) {
+  .acr-buckets { grid-template-columns: 1fr; }
+}
+.acr-bucket {
+  position: relative;
+  padding: 16px 16px 14px;
+  border-radius: 14px;
+  background: rgba(255,255,255,.035);
+  border: 1px solid rgba(255,255,255,.06);
+  border-top: 3px solid var(--bucket-color);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  transition: transform .15s ease, background .15s ease;
+}
+.acr-bucket:hover {
+  transform: translateY(-2px);
+  background: rgba(255,255,255,.06);
+}
+.acr-bucket-head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.acr-bucket-dot {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: color-mix(in srgb, var(--bucket-color) 22%, transparent);
+  color: var(--bucket-color);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: .95rem;
+  flex-shrink: 0;
+}
+.acr-bucket-labels {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.15;
+}
+.acr-bucket-labels strong {
+  color: var(--text);
+  font-size: .82rem;
+  font-weight: 700;
+}
+.acr-bucket-labels span {
+  color: var(--muted);
+  font-size: .7rem;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+}
+.acr-bucket-count {
+  font-size: 2.1rem;
+  font-weight: 800;
+  color: var(--text);
+  line-height: 1;
+  letter-spacing: -.02em;
+}
+.acr-bucket-bar {
+  height: 6px;
+  border-radius: 6px;
+  background: rgba(255,255,255,.08);
+  overflow: hidden;
+}
+.acr-bucket-bar > span {
+  display: block;
+  height: 100%;
+  border-radius: 6px;
+  background: var(--bucket-color);
+  transition: width .35s ease;
+}
+.acr-bucket-foot {
+  font-size: .72rem;
+  color: var(--muted);
+}
+
 .sample-list {
   margin: 0;
   padding-left: 18px;

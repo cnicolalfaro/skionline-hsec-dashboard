@@ -53,6 +53,17 @@ nombre<!DOCTYPE html>
         </article>
       </section>
 
+      <section class="panel acr-panel">
+        <div class="panel-header acr-header">
+          <div>
+            <h2>Cumplimiento de cursos — trabajadores acreditados</h2>
+            <p id="acrComplianceNote">Distribución del porcentaje de cursos encontrados entre quienes figuran con ACR. SUCAL = Acreditado</p>
+          </div>
+          <div class="acr-summary" id="acrSummary"></div>
+        </div>
+        <div id="acrComplianceBars" class="acr-buckets"></div>
+      </section>
+
       <section class="panel access-panel">
         <div class="access-layout">
           <div>
@@ -113,6 +124,24 @@ nombre<!DOCTYPE html>
           <div id="courseMissingButtons" class="course-missing-btn-group"></div>
         </div>
 
+        <div class="shift-filter-row">
+          <span class="filter-group-label">Filtrar por turno en fecha:</span>
+          <label class="field field-inline">
+            <span>Fecha</span>
+            <input id="shiftDate" type="date" />
+          </label>
+          <label class="field field-inline">
+            <span>Código</span>
+            <select id="shiftCode">
+              <option value="">Todos</option>
+            </select>
+          </label>
+          <button id="shiftClearBtn" class="shift-clear-btn" type="button">Limpiar</button>
+          <div id="shiftLegend" class="shift-legend"></div>
+        </div>
+
+        <div id="shiftSummary" class="shift-summary"></div>
+
         <div class="results-summary">
           <span class="mini-chip" id="resultsCount">0 resultados</span>
           <span class="mini-chip">Sugerencia: busca por primer apellido o por RUT</span>
@@ -126,11 +155,12 @@ nombre<!DOCTYPE html>
                 <th rowspan="2">Nombre</th>
                 <th rowspan="2">RUT</th>
                 <th rowspan="2">Estado <br>documental <span class="help-icon" title="Estado de su documentación digitalizada">&#9432;</span></th>
+                <th rowspan="2">Cumplimiento <br>cursos</th>
                 <th rowspan="2">ACR. <br>SUCAL</th>
                 <th colspan="9" class="group-header">Cursos encontrados</th>
                 <th rowspan="2">Cursos <br>Codelco <br>Aprobados</th>
                 <th rowspan="2">Observación</th>
-                <th rowspan="2">Cumplimiento <br>cursos</th>
+                <th rowspan="2" id="shiftHeader" class="shift-col hidden">Turno</th>
               </tr>
               <tr>
                 <th class="course-col">EVALUACIONES<br>IRL</th>
@@ -188,8 +218,19 @@ nombre<!DOCTYPE html>
     </footer>
   </div>
 
-  <script src="data/dashboard_data.js"></script>
+  <script>
+    // Cache-buster: fuerza la recarga del JS de datos y del script principal
+    (function() {
+      var v = Date.now();
+      document.write('<script src="data/dashboard_data.js?v=' + v + '"><\/script>');
+    })();
+  </script>
   <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
-  <script src="app.js"></script>
+  <script>
+    (function() {
+      var v = Date.now();
+      document.write('<script src="app.js?v=' + v + '"><\/script>');
+    })();
+  </script>
 </body>
 </html>

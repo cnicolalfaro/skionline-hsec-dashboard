@@ -14,6 +14,35 @@ const COURSE_COLUMNS = [
   'PA',
 ];
 
+// Leyenda de códigos que pueden aparecer en la TARJA (col por día)
+const SHIFT_CODES = {
+  'T':   { label: 'Trabajando',                      color: '#51b847' },
+  'D':   { label: 'Descanso',                        color: '#6ca2d9' },
+  'TN':  { label: 'Turno noche',                     color: '#8c63ff' },
+  'TT':  { label: 'Teletrabajo',                     color: '#42b7ff' },
+  'TD':  { label: 'Turno día',                       color: '#2d7ff9' },
+  'DT':  { label: 'Descanso / turno',                color: '#7dd87a' },
+  'F':   { label: 'Falla',                           color: '#f53b4d' },
+  'FN':  { label: 'Finiquitado',                     color: '#8a8a8a' },
+  'AC':  { label: 'En acreditación (Calama)',        color: '#ffcc66' },
+  'LM':  { label: 'Licencia médica',                 color: '#ff7a59' },
+  'P':   { label: 'Permiso sin goce de sueldo',      color: '#d07ab6' },
+  'P/G': { label: 'Permiso con goce',                color: '#a38bff' },
+  'PL':  { label: 'Permiso legal',                   color: '#b678ff' },
+  'AX':  { label: 'Ausente',                         color: '#e74c3c' },
+  '0':   { label: 'Sin actividad registrada',        color: '#4a5a72' },
+};
+
+function shiftStyle(code) {
+  const def = SHIFT_CODES[code];
+  return def ? def.color : '#556070';
+}
+
+function shiftLabel(code) {
+  const def = SHIFT_CODES[code];
+  return def ? def.label : (code ? 'Otro' : 'Sin dato');
+}
+
 function normalizeText(value) {
   return (value || '')
     .toString()
@@ -43,9 +72,10 @@ function exportFilteredToExcel(rows) {
   const courseCols = COURSE_COLUMNS;
   const headers = [
     'Nombre', 'RUT', 'Teléfono', 'Correo',
-    'Estado documental', 'ACR. SUCAL',
-    ...courseCols,
+    'Estado documental',
     'Cumplimiento (N/Total)', 'Cumplimiento (%)',
+    'ACR. SUCAL',
+    ...courseCols,
     'Cursos Codelco Aprobados', 'Observación'
   ];
 
@@ -61,10 +91,10 @@ function exportFilteredToExcel(rows) {
       row.fono || '',
       row.correo || '',
       row.estado || '',
-      row.acrSucal || '-',
-      ...courseCols.map(c => set.has(c) ? 'SÍ' : 'NO'),
       `${found}/${total}`,
       pct,
+      row.acrSucal || '-',
+      ...courseCols.map(c => set.has(c) ? 'SÍ' : 'NO'),
       row.certFinal || '-',
       row.detalle || ''
     ]);
@@ -73,9 +103,9 @@ function exportFilteredToExcel(rows) {
   const worksheet = XLSX.utils.aoa_to_sheet(aoa);
 
   // Anchos de columna
-  const fixedWidths = [28, 13, 14, 30, 22, 16];
+  const fixedWidths = [28, 13, 14, 30, 22, 14, 14, 16];
   const courseWidths = courseCols.map(() => 10);
-  const tailWidths = [16, 14, 22, 60];
+  const tailWidths = [22, 60];
   worksheet['!cols'] = [...fixedWidths, ...courseWidths, ...tailWidths].map(w => ({ wch: w }));
 
   // Convertir en Tabla de Excel (autofilter + referencia de tabla)
@@ -133,8 +163,7 @@ function renderBars(items) {
   }).join('');
 }
 
-function renderDonut(items) {
-  const total = items.reduce((sum, item) => sum + item.value, 0) || 1;
+function renderDonut(items) {  const total = items.reduce((sum, item) => sum + item.value, 0) || 1;
   let current = 0;
   const segments = items.map(item => {
     const start = (current / total) * 360;
@@ -155,6 +184,78 @@ function renderDonut(items) {
       <strong>${formatNumber(item.value)}</strong>
     </div>
   `).join('');
+}
+
+function renderAcrCompliance(records) {
+  const container = document.getElementById('acrComplianceBars');
+  const note = document.getElementById('acrComplianceNote');
+  const summaryEl = document.getElementById('acrSummary');
+  if (!container) return;
+
+  const totalCourses = COURSE_COLUMNS.length;
+  const acreditados = records.filter(r => normalizeText(r.acrSucal) === 'acreditado');
+
+  const buckets = [
+    { label: '100% completo', short: 'Completo',    min: 100, max: 100, color: '#51b847', icon: '✓' },
+    { label: '75% - 99%',     short: 'Avanzado',    min: 75,  max: 99,  color: '#7dd87a', icon: '◐' },
+    { label: '50% - 74%',     short: 'Medio',       min: 50,  max: 74,  color: '#f4c430', icon: '◑' },
+    { label: '25% - 49%',     short: 'Bajo',        min: 25,  max: 49,  color: '#ff7a59', icon: '◔' },
+    { label: '0% - 24%',      short: 'Crítico',     min: 0,   max: 24,  color: '#f53b4d', icon: '!' },
+  ];
+
+  const counts = buckets.map(b => ({ ...b, total: 0 }));
+  let sumPct = 0;
+  acreditados.forEach(r => {
+    const set = new Set(r.courseList || []);
+    const found = COURSE_COLUMNS.filter(c => set.has(c)).length;
+    const pct = totalCourses ? Math.round((found / totalCourses) * 100) : 0;
+    sumPct += pct;
+    const b = counts.find(x => pct >= x.min && pct <= x.max);
+    if (b) b.total += 1;
+  });
+
+  const totalAcr = acreditados.length;
+  const promedio = totalAcr ? Math.round(sumPct / totalAcr) : 0;
+  const completos = counts[0].total;
+  const criticos = counts[4].total + counts[3].total;
+
+  if (note) {
+    note.textContent = `Distribución de cumplimiento entre ${formatNumber(totalAcr)} trabajadores acreditados (de ${formatNumber(records.length)} totales).`;
+  }
+  if (summaryEl) {
+    summaryEl.innerHTML = `
+      <div class="acr-summary-item">
+        <span class="acr-summary-label">Promedio</span>
+        <span class="acr-summary-value">${promedio}%</span>
+      </div>
+      <div class="acr-summary-item">
+        <span class="acr-summary-label">Completos</span>
+        <span class="acr-summary-value" style="color:#7dd87a">${formatNumber(completos)}</span>
+      </div>
+      <div class="acr-summary-item">
+        <span class="acr-summary-label">Críticos &lt;50%</span>
+        <span class="acr-summary-value" style="color:#ff7a59">${formatNumber(criticos)}</span>
+      </div>
+    `;
+  }
+
+  container.innerHTML = counts.map(item => {
+    const pctAcr = totalAcr ? Math.round((item.total / totalAcr) * 100) : 0;
+    return `
+      <div class="acr-bucket" style="--bucket-color:${item.color}">
+        <div class="acr-bucket-head">
+          <span class="acr-bucket-dot">${item.icon}</span>
+          <div class="acr-bucket-labels">
+            <strong>${item.label}</strong>
+            <span>${item.short}</span>
+          </div>
+        </div>
+        <div class="acr-bucket-count">${formatNumber(item.total)}</div>
+        <div class="acr-bucket-bar"><span style="width:${pctAcr}%"></span></div>
+        <div class="acr-bucket-foot">${pctAcr}% de acreditados</div>
+      </div>
+    `;
+  }).join('');
 }
 
 function renderTable(rows) {
@@ -183,9 +284,10 @@ function renderAccess(data) {
   `).join('');
 }
 
-function renderRecords(rows) {
+function renderRecords(rows, shiftContext) {
   const body = document.getElementById('recordsTableBody');
-  const colspan = 6 + COURSE_COLUMNS.length;
+  const shiftActive = shiftContext && shiftContext.dateIndex >= 0;
+  const colspan = 7 + COURSE_COLUMNS.length + (shiftActive ? 1 : 0);
   if (!rows.length) {
     body.innerHTML = `<tr><td colspan="${colspan}">No se encontraron coincidencias.</td></tr>`;
     return;
@@ -213,21 +315,30 @@ function renderRecords(rows) {
     const pctClass = pct >= 80 ? 'pct-high' : pct >= 50 ? 'pct-mid' : 'pct-low';
     const barColor = pct >= 80 ? '#51b847' : pct >= 50 ? '#ffcc66' : '#ff7a59';
 
+    let shiftCell = '';
+    if (shiftActive) {
+      const code = (row.shifts && row.shifts[shiftContext.dateIndex]) || '';
+      const color = shiftStyle(code);
+      const label = shiftLabel(code);
+      shiftCell = `<td class="shift-cell"><span class="shift-chip" title="${label}" style="background:${color}22;color:${color};border-color:${color}55">${code || '—'}</span></td>`;
+    }
+
     return `
     <tr>
       <td class="nombre-cell">${row.nombre}</td>
       <td>${row.rut || '-'}</td>
       <td>${row.estado}</td>
-      <td>${row.acrSucal || '-'}</td>
-      ${coursesCells}
-      <td><span class="cert-badge ${certClass}">${certLabel}</span></td>
-      <td class="obs-cell">${row.detalle}${detalleExtra}</td>
       <td class="compliance-cell">
         <div class="compliance-wrap">
           <div class="compliance-text"><span>${found} / ${total}</span><span class="pct ${pctClass}">${pct}%</span></div>
           <div class="compliance-bar"><span style="width:${pct}%;background:${barColor}"></span></div>
         </div>
       </td>
+      <td>${row.acrSucal || '-'}</td>
+      ${coursesCells}
+      <td><span class="cert-badge ${certClass}">${certLabel}</span></td>
+      <td class="obs-cell">${row.detalle}${detalleExtra}</td>
+      ${shiftCell}
     </tr>
   `;
   }).join('');
@@ -241,6 +352,26 @@ function setupFilters(data) {
   const acrFilter = document.getElementById('acrFilter');
   const resultsCount = document.getElementById('resultsCount');
   const exportBtn = document.getElementById('exportFilteredBtn');
+  const shiftDateInput = document.getElementById('shiftDate');
+  const shiftCodeSelect = document.getElementById('shiftCode');
+  const shiftClearBtn = document.getElementById('shiftClearBtn');
+  const shiftLegend = document.getElementById('shiftLegend');
+  const shiftSummary = document.getElementById('shiftSummary');
+  const shiftHeader = document.getElementById('shiftHeader');
+
+  const shiftDates = data.shiftDates || [];
+  if (shiftDateInput && shiftDates.length) {
+    shiftDateInput.min = shiftDates[0];
+    shiftDateInput.max = shiftDates[shiftDates.length - 1];
+  }
+  // Poblar leyenda visual
+  if (shiftLegend) {
+    shiftLegend.innerHTML = Object.entries(SHIFT_CODES).map(([code, def]) => `
+      <span class="shift-legend-chip" title="${def.label}" style="background:${def.color}22;color:${def.color};border-color:${def.color}55">
+        <strong>${code}</strong> ${def.label}
+      </span>
+    `).join('');
+  }
 
   // Poblar filtro de cursos
   const courses = [...new Set((data.records || []).flatMap(item => item.courseList || []))].sort();
@@ -272,12 +403,73 @@ function setupFilters(data) {
     });
   });
 
+  function computeShiftContext() {
+    const selected = shiftDateInput ? shiftDateInput.value : '';
+    if (!selected) return { dateIndex: -1, dateIso: '' };
+    const idx = shiftDates.indexOf(selected);
+    return { dateIndex: idx, dateIso: selected };
+  }
+
+  function updateShiftCodeOptions(shiftCtx) {
+    if (!shiftCodeSelect) return;
+    const prev = shiftCodeSelect.value;
+    if (shiftCtx.dateIndex < 0) {
+      shiftCodeSelect.innerHTML = '<option value="">Todos</option>';
+      shiftCodeSelect.disabled = true;
+      return;
+    }
+    shiftCodeSelect.disabled = false;
+    const codes = new Set();
+    (data.records || []).forEach(r => {
+      const c = (r.shifts && r.shifts[shiftCtx.dateIndex]) || '';
+      if (c) codes.add(c);
+    });
+    const sorted = [...codes].sort();
+    shiftCodeSelect.innerHTML = '<option value="">Todos</option>'
+      + sorted.map(c => `<option value="${c}">${c} — ${shiftLabel(c)}</option>`).join('');
+    if (sorted.includes(prev)) shiftCodeSelect.value = prev;
+  }
+
+  function updateShiftSummary(shiftCtx) {
+    if (!shiftSummary) return;
+    if (shiftCtx.dateIndex < 0) {
+      shiftSummary.innerHTML = '';
+      return;
+    }
+    const counts = {};
+    (data.records || []).forEach(r => {
+      const c = (r.shifts && r.shifts[shiftCtx.dateIndex]) || '';
+      const key = c || '—';
+      counts[key] = (counts[key] || 0) + 1;
+    });
+    const entries = Object.entries(counts).sort((a, b) => b[1] - a[1]);
+    const dateLabel = new Date(shiftCtx.dateIso + 'T00:00:00').toLocaleDateString('es-CL', { weekday: 'long', day: '2-digit', month: 'long', year: 'numeric' });
+    shiftSummary.innerHTML = `
+      <div class="shift-summary-head">Resumen turno · ${dateLabel}</div>
+      <div class="shift-summary-chips">
+        ${entries.map(([code, n]) => {
+          const color = shiftStyle(code === '—' ? '' : code);
+          return `<span class="shift-summary-chip" style="background:${color}22;color:${color};border-color:${color}55" title="${shiftLabel(code === '—' ? '' : code)}">
+            <strong>${code}</strong> ${formatNumber(n)}
+          </span>`;
+        }).join('')}
+      </div>
+    `;
+  }
+
   function applyFilters() {
     const query = normalizeText(nameInput.value);
     const rutQuery = normalizeRut(rutInput.value);
     const selectedCourse = courseFilter.value;
     const selectedStatus = statusFilter.value;
     const selectedAcr = acrFilter.value;
+    const shiftCtx = computeShiftContext();
+    const selectedShiftCode = shiftCodeSelect ? shiftCodeSelect.value : '';
+
+    // Mostrar/ocultar columna y refrescar resumen / opciones
+    if (shiftHeader) shiftHeader.classList.toggle('hidden', shiftCtx.dateIndex < 0);
+    updateShiftCodeOptions(shiftCtx);
+    updateShiftSummary(shiftCtx);
 
     const filtered = (data.records || []).filter(item => {
       const matchesName = !query || normalizeText(item.nombre).includes(query);
@@ -286,13 +478,18 @@ function setupFilters(data) {
       const matchesStatus = !selectedStatus || item.statusKey === selectedStatus;
       const matchesAcr = !selectedAcr || (item.acrSucal || '').trim() === selectedAcr;
       const matchesMissing = !activeMissingCourse || !(item.courseList || []).includes(activeMissingCourse);
-      return matchesName && matchesRut && matchesCourse && matchesStatus && matchesAcr && matchesMissing;
+      let matchesShift = true;
+      if (shiftCtx.dateIndex >= 0 && selectedShiftCode) {
+        const cell = (item.shifts && item.shifts[shiftCtx.dateIndex]) || '';
+        matchesShift = cell === selectedShiftCode;
+      }
+      return matchesName && matchesRut && matchesCourse && matchesStatus && matchesAcr && matchesMissing && matchesShift;
     });
 
     currentFilteredRows = filtered;
 
     const limited = filtered.slice(0, 250);
-    renderRecords(limited);
+    renderRecords(limited, shiftCtx);
     resultsCount.textContent = `${formatNumber(filtered.length)} resultado(s)` + (filtered.length > 250 ? ' · mostrando 250' : '');
   }
 
@@ -301,6 +498,13 @@ function setupFilters(data) {
   courseFilter.addEventListener('change', applyFilters);
   statusFilter.addEventListener('change', applyFilters);
   acrFilter.addEventListener('change', applyFilters);
+  if (shiftDateInput) shiftDateInput.addEventListener('change', applyFilters);
+  if (shiftCodeSelect) shiftCodeSelect.addEventListener('change', applyFilters);
+  if (shiftClearBtn) shiftClearBtn.addEventListener('click', () => {
+    if (shiftDateInput) shiftDateInput.value = '';
+    if (shiftCodeSelect) shiftCodeSelect.value = '';
+    applyFilters();
+  });
   exportBtn.addEventListener('click', () => exportFilteredToExcel(currentFilteredRows));
   applyFilters();
 }
@@ -316,6 +520,7 @@ function setupFilters(data) {
   renderCards(data);
   renderBars(data.courseTotals || []);
   renderDonut(data.statusBreakdown || []);
+  renderAcrCompliance(data.records || []);
   renderAccess(data);
   renderTable(data.summaryRows || []);
   renderInsights(data.insights || []);

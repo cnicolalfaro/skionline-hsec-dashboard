@@ -2,3 +2,6 @@
 __pycache__/
 *.pyc
 data/REGISTRO_FINAL_CURSOS.xlsx
+config_correo.json
+reportes_ejecutivos/
+logs/

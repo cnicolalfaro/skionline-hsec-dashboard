@@ -2,6 +2,18 @@ function formatNumber(value) {
   return new Intl.NumberFormat('es-CL').format(value || 0);
 }
 
+const COURSE_COLUMNS = [
+  'EVALUACIONES IRL',
+  'IRL ESPECIFICA',
+  'IRL GENERAL',
+  'IRL GENERAL FORMS',
+  'AYB',
+  'EPP',
+  'EXT',
+  'OPR',
+  'PA',
+];
+
 function normalizeText(value) {
   return (value || '')
     .toString()
@@ -28,20 +40,59 @@ function exportFilteredToExcel(rows) {
     return;
   }
 
-  const exportRows = rows.map(row => ({
-    Nombre: row.nombre || '',
-    RUT: row.rut || '',
-    'Cursos encontrados': row.cursos || '-',
-    'Estado documental': row.estado || '',
-    'Nota estado': 'Estado de su documentacion digitalizada',
-    'ACR. SUCAL': row.acrSucal || '-',
-    'Cursos Codelco Aprobados': row.certFinal || '-',
-    Observacion: row.detalle || '',
-  }));
+  const courseCols = COURSE_COLUMNS;
+  const headers = [
+    'Nombre', 'RUT', 'Teléfono', 'Correo',
+    'Estado documental', 'ACR. SUCAL',
+    ...courseCols,
+    'Cumplimiento (N/Total)', 'Cumplimiento (%)',
+    'Cursos Codelco Aprobados', 'Observación'
+  ];
 
-  const worksheet = XLSX.utils.json_to_sheet(exportRows);
+  const aoa = [headers];
+  rows.forEach(row => {
+    const set = new Set(row.courseList || []);
+    const found = courseCols.filter(c => set.has(c)).length;
+    const total = courseCols.length;
+    const pct = total ? Math.round((found / total) * 100) : 0;
+    aoa.push([
+      row.nombre || '',
+      row.rut || '',
+      row.fono || '',
+      row.correo || '',
+      row.estado || '',
+      row.acrSucal || '-',
+      ...courseCols.map(c => set.has(c) ? 'SÍ' : 'NO'),
+      `${found}/${total}`,
+      pct,
+      row.certFinal || '-',
+      row.detalle || ''
+    ]);
+  });
+
+  const worksheet = XLSX.utils.aoa_to_sheet(aoa);
+
+  // Anchos de columna
+  const fixedWidths = [28, 13, 14, 30, 22, 16];
+  const courseWidths = courseCols.map(() => 10);
+  const tailWidths = [16, 14, 22, 60];
+  worksheet['!cols'] = [...fixedWidths, ...courseWidths, ...tailWidths].map(w => ({ wch: w }));
+
+  // Convertir en Tabla de Excel (autofilter + referencia de tabla)
+  const lastCol = XLSX.utils.encode_col(headers.length - 1);
+  const lastRow = aoa.length;
+  const ref = `A1:${lastCol}${lastRow}`;
+  worksheet['!autofilter'] = { ref };
+  worksheet['!ref'] = ref;
+
   const workbook = XLSX.utils.book_new();
   XLSX.utils.book_append_sheet(workbook, worksheet, 'Resultados');
+
+  // Registrar como Tabla estructurada de Excel (ListObjects)
+  if (!workbook.Workbook) workbook.Workbook = {};
+  workbook.Workbook.Names = workbook.Workbook.Names || [];
+  const wsRef = `Resultados!$A$1:$${lastCol}$${lastRow}`;
+  workbook.Workbook.Names.push({ Name: 'TablaResultados', Ref: wsRef });
 
   const stamp = new Date().toISOString().slice(0, 19).replace(/[:T]/g, '-');
   XLSX.writeFile(workbook, `dashboard_filtrado_${stamp}.xlsx`);
@@ -134,8 +185,9 @@ function renderAccess(data) {
 
 function renderRecords(rows) {
   const body = document.getElementById('recordsTableBody');
+  const colspan = 6 + COURSE_COLUMNS.length;
   if (!rows.length) {
-    body.innerHTML = '<tr><td colspan="7">No se encontraron coincidencias.</td></tr>';
+    body.innerHTML = `<tr><td colspan="${colspan}">No se encontraron coincidencias.</td></tr>`;
     return;
   }
 
@@ -148,18 +200,34 @@ function renderRecords(rows) {
     const indText = row.inducionesTotal
       ? `${row.inducionesOk}/${row.inducionesTotal} ind.` : '';
     const detalleExtra = indText ? ` · ${indText}` : '';
+
+    const courseSet = new Set(row.courseList || []);
+    const coursesCells = COURSE_COLUMNS.map(c => {
+      const ok = courseSet.has(c);
+      return `<td class="course-cell"><span class="${ok ? 'check-ok' : 'check-no'}">${ok ? '✓' : '✕'}</span></td>`;
+    }).join('');
+
+    const total = COURSE_COLUMNS.length;
+    const found = COURSE_COLUMNS.filter(c => courseSet.has(c)).length;
+    const pct = Math.round((found / total) * 100);
+    const pctClass = pct >= 80 ? 'pct-high' : pct >= 50 ? 'pct-mid' : 'pct-low';
+    const barColor = pct >= 80 ? '#51b847' : pct >= 50 ? '#ffcc66' : '#ff7a59';
+
     return `
     <tr>
-      <td>${row.nombre}</td>
+      <td class="nombre-cell">${row.nombre}</td>
       <td>${row.rut || '-'}</td>
-      <td>${row.cursos}</td>
-      <td>
-        <div>${row.estado}</div>
-        <small class="status-note">Estado de su documentacion digitalizada</small>
-      </td>
+      <td>${row.estado}</td>
       <td>${row.acrSucal || '-'}</td>
+      ${coursesCells}
       <td><span class="cert-badge ${certClass}">${certLabel}</span></td>
-      <td>${row.detalle}${detalleExtra}</td>
+      <td class="obs-cell">${row.detalle}${detalleExtra}</td>
+      <td class="compliance-cell">
+        <div class="compliance-wrap">
+          <div class="compliance-text"><span>${found} / ${total}</span><span class="pct ${pctClass}">${pct}%</span></div>
+          <div class="compliance-bar"><span style="width:${pct}%;background:${barColor}"></span></div>
+        </div>
+      </td>
     </tr>
   `;
   }).join('');

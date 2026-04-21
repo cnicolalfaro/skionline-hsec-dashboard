@@ -400,6 +400,89 @@ th, td {
   vertical-align: top;
 }
 
+.records-table {
+  font-size: .72rem;
+  table-layout: auto;
+}
+.records-table th,
+.records-table td {
+  padding: 6px 5px;
+  line-height: 1.25;
+}
+.records-table th {
+  font-size: .7rem;
+  text-align: center;
+  vertical-align: middle;
+}
+.records-table .group-header {
+  text-align: center;
+  border-bottom: 1px solid rgba(255,255,255,.2);
+  font-weight: 700;
+}
+.records-table .course-col {
+  width: 58px;
+  min-width: 58px;
+  writing-mode: horizontal-tb;
+  font-size: .62rem;
+  letter-spacing: .2px;
+}
+.records-table td.course-cell {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 1rem;
+}
+.records-table .check-ok { color: #51b847; font-weight: 700; }
+.records-table .check-no { color: #ff7a59; font-weight: 700; }
+.records-table td.nombre-cell {
+  font-weight: 600;
+  min-width: 120px;
+  max-width: 150px;
+}
+.records-table td.obs-cell {
+  font-size: .7rem;
+  max-width: 220px;
+  min-width: 160px;
+  white-space: normal;
+}
+.records-table td.compliance-cell {
+  min-width: 110px;
+  text-align: center;
+  vertical-align: middle;
+}
+.compliance-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+.compliance-text {
+  display: flex;
+  gap: 6px;
+  align-items: baseline;
+  font-size: .78rem;
+}
+.compliance-text .pct { font-weight: 700; }
+.compliance-text .pct-high { color: #7edb74; }
+.compliance-text .pct-mid  { color: #ffcc66; }
+.compliance-text .pct-low  { color: #ff7a59; }
+.compliance-bar {
+  width: 90px;
+  height: 5px;
+  border-radius: 4px;
+  background: rgba(255,255,255,.1);
+  overflow: hidden;
+}
+.compliance-bar > span {
+  display: block;
+  height: 100%;
+  border-radius: 4px;
+}
+.records-table .help-icon {
+  color: var(--muted);
+  font-size: .75rem;
+  cursor: help;
+}
+
 .status-note {
   display: inline-block;
   margin-top: 4px;

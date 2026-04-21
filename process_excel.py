@@ -313,6 +313,8 @@ def build_tarja_records(wb, evidence_entries: list[dict[str, Any]], external_rut
         categoria = get_first_available_cell(row, headers, ['CATEGORIA'])
         turno = get_first_available_cell(row, headers, ['TURNO'])
         acr_sucal = get_first_available_cell(row, headers, ['ACR. SUCAL', 'ACR SUCAL', 'ACRSUCAL']).strip()
+        correo = get_first_available_cell(row, headers, ['CORREO', 'EMAIL', 'E-MAIL', 'MAIL']).strip()
+        fono = get_first_available_cell(row, headers, ['FONO', 'TELEFONO', 'TELÉFONO', 'CELULAR']).strip()
         cert_final_raw = get_first_available_cell(row, headers, ['CERTIFICADO FINAL'])
         cert_final = format_date_str(cert_final_raw) if cert_final_raw else ''
         if not cert_final:
@@ -387,6 +389,8 @@ def build_tarja_records(wb, evidence_entries: list[dict[str, Any]], external_rut
             'categoria': categoria,
             'turno': turno,
             'acrSucal': acr_sucal,
+            'correo': correo,
+            'fono': fono,
             'inducionesOk': len(inducciones_ok),
             'inducionesTotal': len(INDUCCION_COLS),
             'inducionesList': inducciones_ok,

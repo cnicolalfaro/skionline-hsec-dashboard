@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "21/04/2026 09:57",
+  "generatedAt": "21/04/2026 10:17",
   "sourceFile": "REGISTRO_FINAL_CURSOS.xlsx",
   "kpis": {
     "totalArchivos": 1841,
@@ -151,6 +151,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "ESTEBAN.ACEVEDO.L24@GMAIL.COM",
+      "fono": "926369428",
       "inducionesOk": 2,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -171,6 +173,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "",
       "acrSucal": "Finiquitado",
+      "correo": "ALDOACEVEDOPEREIRA@GMAIL.COM",
+      "fono": "9 8615 7081",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -194,6 +198,8 @@ window.DASHBOARD_DATA = {
       "categoria": "",
       "turno": "",
       "acrSucal": "En revisión Codelco",
+      "correo": "TOPOGRAFIA.AGUAYO1997@GMAIL.COM",
+      "fono": "944384831",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -211,6 +217,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO PRIMERA",
       "turno": "10X10 B",
       "acrSucal": "En revisión Codelco",
+      "correo": "SEVEROAGUILAR40@GMAIL.COM",
+      "fono": "965884387",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -235,6 +243,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO MAYOR",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "JORGE11294993@GMAIL.COM",
+      "fono": "965357330",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -265,6 +275,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "4X3",
       "acrSucal": "Acreditado",
+      "correo": "LUIS.AGUILERAB@SKIC.COM",
+      "fono": "939332372",
       "inducionesOk": 4,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -290,6 +302,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO MAYOR",
       "turno": "10X10 B",
       "acrSucal": "Acreditado",
+      "correo": "MIGUELAGUILERACHAPARRO58@GMAIL.COM",
+      "fono": "979524085",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -318,6 +332,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "5X2",
       "acrSucal": "Acreditado",
+      "correo": "VAGUIRRE.BRIZUELA@GMAIL.COM",
+      "fono": "934244842",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -335,6 +351,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 B",
       "acrSucal": "Acreditado",
+      "correo": "ABELARDOALAMOS@GMAIL.COM",
+      "fono": "9 7386 0423",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -352,6 +370,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10x10 A",
       "acrSucal": "Acreditado",
+      "correo": "ALEXIS.ALCAINO@GMAIL.COM",
+      "fono": "968482628",
       "inducionesOk": 4,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -383,6 +403,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "PABLOALEGRIA.PREV@GMAIL.COM",
+      "fono": "9 5516 1103",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -409,6 +431,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "5X2",
       "acrSucal": "Acreditado",
+      "correo": "C.NICOL.ALFARO@GMAIL.COM",
+      "fono": "983078180",
       "inducionesOk": 4,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -431,6 +455,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 B",
       "acrSucal": "Teletrabajo",
+      "correo": "ALURRALDELOPEZVICTOR@GMAIL.COM",
+      "fono": "983725357",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -458,6 +484,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "ALVAREZBECERRAJOSELUIS@GMAIL.COM",
+      "fono": "975574526",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -488,6 +516,8 @@ window.DASHBOARD_DATA = {
       "categoria": "",
       "turno": "",
       "acrSucal": "Acreditado",
+      "correo": "GEORGE.ALVIAL@HOTMAIL.COM",
+      "fono": "979577896",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -512,6 +542,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "VICTORAMAYAR@GMAIL.COM",
+      "fono": "951200046",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -536,6 +568,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 B",
       "acrSucal": "Acreditado",
+      "correo": "ANABALONHUGOALBERTO2170@GMAIL.COM",
+      "fono": "995064250",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -562,6 +596,8 @@ window.DASHBOARD_DATA = {
       "categoria": "",
       "turno": "10x10 B",
       "acrSucal": "Acreditado",
+      "correo": "MARAGON1978@GMAIL.COM",
+      "fono": "977796171",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -591,6 +627,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO PRIMERA",
       "turno": "10X10 B",
       "acrSucal": "Acreditado",
+      "correo": "ARAANCIBIAAMUNOZ.25@GMAIL.COM",
+      "fono": "968678769",
       "inducionesOk": 2,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -613,6 +651,8 @@ window.DASHBOARD_DATA = {
       "categoria": "CALIFICACIÓN III",
       "turno": "10X10 A",
       "acrSucal": "Finiquitado",
+      "correo": "ESTRUCTURASRUAKJ@GMAIL.COM",
+      "fono": "977462379",
       "inducionesOk": 3,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -640,6 +680,8 @@ window.DASHBOARD_DATA = {
       "categoria": "",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "FERNANDOOOARANGUIZBETANZOOO@GMAIL.COM",
+      "fono": "999116340",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -657,6 +699,8 @@ window.DASHBOARD_DATA = {
       "categoria": "",
       "turno": "",
       "acrSucal": "Acreditado",
+      "correo": "CRISTIAN.AAARAYA.C@GMAIL.COM",
+      "fono": "974952824",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -679,6 +723,8 @@ window.DASHBOARD_DATA = {
       "categoria": "CALIFICACIÓN III",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "NELSON.ARENASCAIRE9@GMAIL.COM",
+      "fono": "997775172/962442560",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -707,6 +753,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO PRIMERA",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "LUIS.AREVALO.C9@GMAIL.COM",
+      "fono": "985556344",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -730,6 +778,8 @@ window.DASHBOARD_DATA = {
       "categoria": "CAPATAZ",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "LUISAREVALOH2@GMAIL.COM",
+      "fono": "994747914",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -754,6 +804,8 @@ window.DASHBOARD_DATA = {
       "categoria": "",
       "turno": "",
       "acrSucal": "Observada",
+      "correo": "ARGOTECESAR25@GMAIL.COM",
+      "fono": "931817819",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -771,6 +823,8 @@ window.DASHBOARD_DATA = {
       "categoria": "",
       "turno": "",
       "acrSucal": "Acreditado",
+      "correo": "JOSEARREAZA51@GMAIL.COM",
+      "fono": "920130713",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -797,6 +851,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "ARRIAGADA.C1234@GMAIL.COM",
+      "fono": "931307446",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -823,6 +879,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO PRIMERA",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "ARRIAGADA.DIONEL@GMAIL.COM",
+      "fono": "966708163",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -845,6 +903,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO MAYOR",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "NELSONARROYO.CUEVAS@GMAIL.COM",
+      "fono": "944285308//966823648",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -872,6 +932,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "ARTEYCUR3301@GMAIL.COM",
+      "fono": "978414405 (WHAT 956989435)",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -902,6 +964,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "8X6 B",
       "acrSucal": "Acreditado",
+      "correo": "JP.ARTEAGASUBE@GMAIL.COM",
+      "fono": "935079760",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -922,6 +986,8 @@ window.DASHBOARD_DATA = {
       "categoria": "CALIFICACIÓN III",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "MILTONASTETEGOMEZ@GMAIL.COM",
+      "fono": "9 50764965",
       "inducionesOk": 2,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -951,6 +1017,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO MAYOR",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "ASTETE386@GMAIL.COM",
+      "fono": "974679925",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -972,6 +1040,8 @@ window.DASHBOARD_DATA = {
       "categoria": "",
       "turno": "10X10 B",
       "acrSucal": "Acreditado",
+      "correo": "RODRIGOAVELLOCHANDIA@GMAIL.COM",
+      "fono": "947988205",
       "inducionesOk": 3,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -998,6 +1068,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO PRIMERA",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "MAURICIOANDRESAVILAVALENCIA@GMAIL.COM",
+      "fono": "982787419",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -1027,6 +1099,8 @@ window.DASHBOARD_DATA = {
       "categoria": "CAPATAZ",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "RODRIGO71EDUARDO@HOTMAIL.COM",
+      "fono": "997593002",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -1050,6 +1124,8 @@ window.DASHBOARD_DATA = {
       "categoria": "",
       "turno": "10X10 B",
       "acrSucal": "Acreditado",
+      "correo": "EBARRATEJEDA@GMAIL.COM",
+      "fono": "96416 5447",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -1069,6 +1145,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 B",
       "acrSucal": "Acreditado",
+      "correo": "BARRAULTPABLO77@GMAIL.COM",
+      "fono": "969167958",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -1099,6 +1177,8 @@ window.DASHBOARD_DATA = {
       "categoria": "",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "JBARRIESCO@GMAIL.COM",
+      "fono": "973575525",
       "inducionesOk": 4,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -1124,6 +1204,8 @@ window.DASHBOARD_DATA = {
       "categoria": "CALIFICACIÓN III",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "BARRIGALEONARDO02@GMAIL.COM",
+      "fono": "+56 944045459",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -1153,6 +1235,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "",
       "acrSucal": "Acreditado",
+      "correo": "RODRIBARRIOS83@GMAIL.COM",
+      "fono": "950477127",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -1172,6 +1256,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 B",
       "acrSucal": "Acreditado",
+      "correo": "FABIANBASCOURT7@GMAIL.COM",
+      "fono": "928021722",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -1202,6 +1288,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "4X3",
       "acrSucal": "Acreditado",
+      "correo": "ALEXBASTIAS@YAHOO.ES",
+      "fono": "93550231",
       "inducionesOk": 2,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -1228,6 +1316,8 @@ window.DASHBOARD_DATA = {
       "categoria": "CAPATAZ",
       "turno": "10X10 A",
       "acrSucal": "Finiquitado",
+      "correo": "ALEBAUTISTACORIA@GMAIL.COM",
+      "fono": "967897410",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -1254,6 +1344,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "MAURICIO.BELMAR.FICA@GMAIL.COM",
+      "fono": "971061199",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -1274,6 +1366,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO PRIMERA",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "SEBASTIAN.BENI16@GMAIL.COM",
+      "fono": "933104636",
       "inducionesOk": 3,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -1303,6 +1397,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "BRAVO381978@GMAIL.COM",
+      "fono": "966109789",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -1328,6 +1424,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO PRIMERA",
       "turno": "10X10 B",
       "acrSucal": "Acreditado",
+      "correo": "GUILLERMOBRAVOROA@GMAIL.COM",
+      "fono": "932512220",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -1352,6 +1450,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "BRIONESMARCEL@GMAIL.COM",
+      "fono": "949404691",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -1369,6 +1469,8 @@ window.DASHBOARD_DATA = {
       "categoria": "",
       "turno": "",
       "acrSucal": "Acreditado",
+      "correo": "GUSTAVOWLADIMIRBRIONESVEGA@GMAIL.COM",
+      "fono": "#N/A",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -1390,6 +1492,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 B",
       "acrSucal": "Acreditado",
+      "correo": "CAMILOBUSTAMANTE1988@GMAIL.COM",
+      "fono": "9 8648 7006",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -1413,6 +1517,8 @@ window.DASHBOARD_DATA = {
       "categoria": "CAPATAZ",
       "turno": "10X10 B",
       "acrSucal": "Acreditado",
+      "correo": "BUSTOSV654@GMAIL.COM",
+      "fono": "959565925",
       "inducionesOk": 5,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -1443,6 +1549,8 @@ window.DASHBOARD_DATA = {
       "categoria": "",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "CRISTIANCAAMANOQ@GMAIL.COM",
+      "fono": "947704524",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -1462,6 +1570,8 @@ window.DASHBOARD_DATA = {
       "categoria": "CAPATAZ",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "JOAQUIN.CABEZAS97@GMAIL.COM",
+      "fono": "+56 9 6546 1574",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -1493,6 +1603,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "BERNARDO.CACERES.1994@GMAIL.COM",
+      "fono": "982783767",
       "inducionesOk": 2,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -1515,6 +1627,8 @@ window.DASHBOARD_DATA = {
       "categoria": "",
       "turno": "",
       "acrSucal": "Acreditado",
+      "correo": "FCPLASENCIO@HOTMAIL.COM",
+      "fono": "984420914",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -1540,6 +1654,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 B",
       "acrSucal": "Acreditado",
+      "correo": "GARCIA209520@GMAIL.COM",
+      "fono": "56 9 3412 1011",
       "inducionesOk": 2,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -1569,6 +1685,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO PRIMERA",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "DROJASCANELO@GMAIL.COM",
+      "fono": "957339561",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -1593,6 +1711,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 B",
       "acrSucal": "Acreditado",
+      "correo": "DACANIO2626@GMAIL.COM",
+      "fono": "940645861",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -1617,6 +1737,8 @@ window.DASHBOARD_DATA = {
       "categoria": "CAPATAZ",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "ALEXISCARDE@GMAIL.COM",
+      "fono": "999310169",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -1649,6 +1771,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO PRIMERA",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "CAREAGAPEREZLEONARDOALBERTO@GMAIL.COM",
+      "fono": "977772321",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -1682,6 +1806,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "CARMONAOLIVARESPEDROMIGUEL@GMAIL.COM",
+      "fono": "931912742 /930777013",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -1703,6 +1829,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 B",
       "acrSucal": "Acreditado",
+      "correo": "CAROJ8752@GMAIL.COM",
+      "fono": "957225954 / 942783296 / 986238405",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -1729,6 +1857,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "MCARRASCOORTEGA099@GMAIL.COM",
+      "fono": "931758954",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -1755,6 +1885,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO MAYOR",
       "turno": "10X10 B",
       "acrSucal": "Acreditado",
+      "correo": "VDCSHAW2012@GMAIL.COM",
+      "fono": "957599309",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -1774,6 +1906,8 @@ window.DASHBOARD_DATA = {
       "categoria": "",
       "turno": "",
       "acrSucal": "Acreditado",
+      "correo": "MARCEAZUL331@HOTMAIL.COM",
+      "fono": "945399270",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -1799,6 +1933,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "CARRILLOGONZALEZMIRKO26@GMAIL.COM",
+      "fono": "986713224",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -1832,6 +1968,8 @@ window.DASHBOARD_DATA = {
       "categoria": "CAPATAZ",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "RMAXCA1965@GMAIL.COM",
+      "fono": "993838976",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -1864,6 +2002,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "CARVAJALGLEN1986@GMAIL.COM",
+      "fono": "98434 2359",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -1890,6 +2030,8 @@ window.DASHBOARD_DATA = {
       "categoria": "",
       "turno": "10x10 B",
       "acrSucal": "Acreditado",
+      "correo": "CASTILLOCASTILLOHECTOR@GMAIL.COM",
+      "fono": "94499308",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -1915,6 +2057,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "MIGUELCCTLO@GMAIL.COM",
+      "fono": "926316228",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -1939,6 +2083,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO MAYOR",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "RENATO.CASTRO.JARA@GMAIL.COM",
+      "fono": "963348632",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -1961,6 +2107,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO PRIMERA",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "ALEJANDROCELEDONG6@GMAIL.COM",
+      "fono": "981849959",
       "inducionesOk": 2,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -1986,6 +2134,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "CERDA2321@GAMAIL.COM",
+      "fono": "999811003",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -2019,6 +2169,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "CIDLAGOSJULIOEDUARDO@GMAIL.COM",
+      "fono": "955107359",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -2036,6 +2188,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO PRIMERA",
       "turno": "",
       "acrSucal": "Acreditado",
+      "correo": "",
+      "fono": "",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -2062,6 +2216,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "BAYRONCFTS@GMAIL.COM",
+      "fono": "976458944",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -2086,6 +2242,8 @@ window.DASHBOARD_DATA = {
       "categoria": "",
       "turno": "",
       "acrSucal": "Acreditado",
+      "correo": "CISTERNA.ANDRES@GMAIL.COM",
+      "fono": "#N/A",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -2103,6 +2261,8 @@ window.DASHBOARD_DATA = {
       "categoria": "",
       "turno": "",
       "acrSucal": "Acreditado",
+      "correo": "SIMPLEDAY17@GMAIL.COM",
+      "fono": "#N/A",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -2128,6 +2288,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO MAYOR",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "TOTOLUISCONTRERAS65@GMAIL.COM",
+      "fono": "966195361",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -2154,6 +2316,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "JULIANOENRIQUECORNEJOFLORES@GMAIL.COM",
+      "fono": "952090417 - 966212548",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -2180,6 +2344,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "DAVIS.CORTES.ORTIZ@GMAIL.COM",
+      "fono": "984333645",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -2203,6 +2369,8 @@ window.DASHBOARD_DATA = {
       "categoria": "CAPATAZ",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "CRISTOFER.CORTESVALLEJOS@HOTMAIL.COM",
+      "fono": "987507562//942886656",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -2232,6 +2400,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "RAFAEL-CCM@HOTMAIL.COM",
+      "fono": "995840195 ( WHAT 933810444)",
       "inducionesOk": 5,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -2261,6 +2431,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10x10 A",
       "acrSucal": "Acreditado",
+      "correo": "GIOVANNYDANUSPROVOSTE@GMAIL.COM",
+      "fono": "965161656",
       "inducionesOk": 2,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -2284,6 +2456,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "MARCODELABARRA82@GMAIL.COM",
+      "fono": "920924894",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -2316,6 +2490,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "MAURICIODEPA@HOTMAIL.COM",
+      "fono": "942729157",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -2336,6 +2512,8 @@ window.DASHBOARD_DATA = {
       "categoria": "",
       "turno": "",
       "acrSucal": "Acreditado",
+      "correo": "MAUROTOP01@HOTMAIL.COM",
+      "fono": "923858674",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -2359,6 +2537,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO MAYOR",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "JORGEDIAZM87@GMAIL.COM",
+      "fono": "963916538",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -2392,6 +2572,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "BRYANDIAZMONTECINOS@GMAIL.COM",
+      "fono": "954940542",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -2411,6 +2593,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO PRIMERA",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "DIAZPRAY.GUILLERMO@GMAIL.COM",
+      "fono": "9 71365533",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -2439,6 +2623,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 B",
       "acrSucal": "Finiquitado",
+      "correo": "EDUARDO.ENRIQUEDIAZ62@GMAIL.COM",
+      "fono": "975238188",
       "inducionesOk": 5,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -2467,6 +2653,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "F",
       "acrSucal": "Finiquitado",
+      "correo": "THIAGODURAN1991@GMAIL.COM",
+      "fono": "985585111",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -2493,6 +2681,8 @@ window.DASHBOARD_DATA = {
       "categoria": "",
       "turno": "10X10 B",
       "acrSucal": "Acreditado",
+      "correo": "MARCOS.D.1978@HOTMAIL.COM",
+      "fono": "964303665",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -2510,6 +2700,8 @@ window.DASHBOARD_DATA = {
       "categoria": "",
       "turno": "",
       "acrSucal": "Acreditado",
+      "correo": "MAURO.SK1529@GMAIL.COM",
+      "fono": "#N/A",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -2532,6 +2724,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "C.ESCALONA67@GMAIL.COM",
+      "fono": "990056812",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -2561,6 +2755,8 @@ window.DASHBOARD_DATA = {
       "categoria": "",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "ESCOBARJUANCARLOS.E@GMAIL.COM",
+      "fono": "9 9876 9544",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -2587,6 +2783,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "FRANCISCO4ESCOBAR@GMAIL.COM",
+      "fono": "972148155",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -2608,6 +2806,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO MAYOR",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "BURTON27@GMAIL.COM",
+      "fono": "985425970",
       "inducionesOk": 5,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -2635,6 +2835,8 @@ window.DASHBOARD_DATA = {
       "categoria": "CAPATAZ",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "ESPINOZA.ERNESTO83@GMAIL.COM",
+      "fono": "999666370",
       "inducionesOk": 5,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -2662,6 +2864,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO MAYOR",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "ESTRADAHTC87@GMAIL.COM",
+      "fono": "967120087",
       "inducionesOk": 5,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -2688,6 +2892,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO MAYOR",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "CRISTIANFARIAS490@GMAIL.COM",
+      "fono": "997357445",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -2717,6 +2923,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "5X2",
       "acrSucal": "Acreditado",
+      "correo": "FERN.920@HOTMAIL.CL",
+      "fono": "948453632",
       "inducionesOk": 4,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -2741,6 +2949,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10x10 B",
       "acrSucal": "Acreditado",
+      "correo": "LFERNANDEZZAVARIA@GMAIL.COM",
+      "fono": "940587052/224043496",
       "inducionesOk": 2,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -2768,6 +2978,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "ANGELONICOFERRI@GMAIL.COM",
+      "fono": "956303013",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -2791,6 +3003,8 @@ window.DASHBOARD_DATA = {
       "categoria": "CALIFICACIÓN III",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "CMFIGUE4050@GMAIL.COM",
+      "fono": "988888798",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -2822,6 +3036,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO PRIMERA",
       "turno": "10X10 B",
       "acrSucal": "Acreditado",
+      "correo": "FLORESEMMANUEL300@GMAIL.COM",
+      "fono": "965017035 - 944274244 ESPOSA",
       "inducionesOk": 2,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -2846,6 +3062,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "ROBERTOFOSTERCUEVAS@GMAIL.COM",
+      "fono": "922441221LLAMADA/9 8855 2315 WSP",
       "inducionesOk": 2,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -2872,6 +3090,8 @@ window.DASHBOARD_DATA = {
       "categoria": "CAPATAZ",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "FRIZERICES24@GMAIL.COM",
+      "fono": "931180962",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -2901,6 +3121,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "",
       "acrSucal": "Acreditado",
+      "correo": "IGNACIOEFC92@GMAIL.COM",
+      "fono": "945525399",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -2921,6 +3143,8 @@ window.DASHBOARD_DATA = {
       "categoria": "CAPATAZ",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "KIRITO_30@HOTMAIL.COM",
+      "fono": "982417868",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -2945,6 +3169,8 @@ window.DASHBOARD_DATA = {
       "categoria": "",
       "turno": "",
       "acrSucal": "Acreditado",
+      "correo": "ALEXIS.FUENTES2019@GMAIL.COM",
+      "fono": "+58 9 7141 0267",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -2966,6 +3192,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "FUENZALIDA.OSCAR14@GMAIL.COM",
+      "fono": "941258446",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -2987,6 +3215,8 @@ window.DASHBOARD_DATA = {
       "categoria": "",
       "turno": "10X10 B",
       "acrSucal": "Acreditado",
+      "correo": "GAETECURIPAN@GMAIL.COM",
+      "fono": "963729439",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -3016,6 +3246,8 @@ window.DASHBOARD_DATA = {
       "categoria": "",
       "turno": "",
       "acrSucal": "Acreditado",
+      "correo": "",
+      "fono": "#N/A",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -3042,6 +3274,8 @@ window.DASHBOARD_DATA = {
       "categoria": "CALIFICACIÓN III",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "JORGEGAJARDO73@GMAIL.COM",
+      "fono": "981388666",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -3070,6 +3304,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO MAYOR",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "JUANGALARCEBAEZA@GMAIL.COM",
+      "fono": "965882329",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -3100,6 +3336,8 @@ window.DASHBOARD_DATA = {
       "categoria": "CALIFICACIÓN III",
       "turno": "10X10 B",
       "acrSucal": "Acreditado",
+      "correo": "LORENZO.GALDAMES71@GMAIL.COM",
+      "fono": "953261992",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -3131,6 +3369,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO PRIMERA",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "TRINIDADMATHEOSCARLET43@GMAIL.COM",
+      "fono": "989167004",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -3158,6 +3398,8 @@ window.DASHBOARD_DATA = {
       "categoria": "CAPATAZ",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "PANCHOLANDA32@GMAIL.COM",
+      "fono": "979828057",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -3182,6 +3424,8 @@ window.DASHBOARD_DATA = {
       "categoria": "",
       "turno": "",
       "acrSucal": "Acreditado",
+      "correo": "GALLADOR2016@GMAIL.COM",
+      "fono": "#N/A",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -3204,6 +3448,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "5X2",
       "acrSucal": "Acreditado",
+      "correo": "JGALLARDOP13@GMAIL.COM",
+      "fono": "949907501",
       "inducionesOk": 4,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -3229,6 +3475,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO PRIMERA",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "G.GALLARDOVERGARA@GMAIL.COM",
+      "fono": "978197783",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -3261,6 +3509,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO MAYOR",
       "turno": "10X10 B",
       "acrSucal": "Acreditado",
+      "correo": "ED_GALLEGO@HOTMAIL.COM",
+      "fono": "948401480",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -3283,6 +3533,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO MAYOR",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "DANIELGALVEZ0001@GMAIL.COM",
+      "fono": "975478321",
       "inducionesOk": 5,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -3312,6 +3564,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "CESARGANAD@GMAIL.COM",
+      "fono": "942482769",
       "inducionesOk": 2,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -3332,6 +3586,8 @@ window.DASHBOARD_DATA = {
       "categoria": "",
       "turno": "",
       "acrSucal": "Acreditado",
+      "correo": "GARCIGRUAS9@OUTLOOK.COM",
+      "fono": "#N/A",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -3353,6 +3609,8 @@ window.DASHBOARD_DATA = {
       "categoria": "",
       "turno": "",
       "acrSucal": "Acreditado",
+      "correo": "SEBAGARRIDOF33@GMAIL.COM",
+      "fono": "9 7160 7709",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -3376,6 +3634,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 B",
       "acrSucal": "Acreditado",
+      "correo": "ELIASGODOYCANDIA@GMAIL.COM",
+      "fono": "988818466",
       "inducionesOk": 2,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -3400,6 +3660,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 B",
       "acrSucal": "Acreditado",
+      "correo": "GODOYJUREMAURCIO@GMAIL.COM",
+      "fono": "945250941//989745611",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -3423,6 +3685,8 @@ window.DASHBOARD_DATA = {
       "categoria": "CALIFICACIÓN III",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "PABLOGONZA1965@GMAIL.COM",
+      "fono": "78782697",
       "inducionesOk": 2,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -3449,6 +3713,8 @@ window.DASHBOARD_DATA = {
       "categoria": "",
       "turno": "",
       "acrSucal": "Acreditado",
+      "correo": "NESTOR.GONZALEZ@HOTMAIL.CL",
+      "fono": "987884280",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -3469,6 +3735,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "ERSHELL.GR@GMAIL.COM",
+      "fono": "989428645",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -3492,6 +3760,8 @@ window.DASHBOARD_DATA = {
       "categoria": "",
       "turno": "",
       "acrSucal": "Acreditado",
+      "correo": "ALEJANDRO.MCONDOR@GMAIL.COM",
+      "fono": "961738514",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -3514,6 +3784,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 B",
       "acrSucal": "Observada",
+      "correo": "FCOGONZALEZZ@ICLOUD.COM",
+      "fono": "954687946",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -3531,6 +3803,8 @@ window.DASHBOARD_DATA = {
       "categoria": "CAPATAZ",
       "turno": "",
       "acrSucal": "Acreditado",
+      "correo": "",
+      "fono": "",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -3550,6 +3824,8 @@ window.DASHBOARD_DATA = {
       "categoria": "",
       "turno": "",
       "acrSucal": "Acreditado",
+      "correo": "DIEGO.MELLADO.GROLLMUS@GMAIL.COM",
+      "fono": "971891958",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -3571,6 +3847,8 @@ window.DASHBOARD_DATA = {
       "categoria": "CAPATAZ",
       "turno": "10X10 B",
       "acrSucal": "Acreditado",
+      "correo": "NELSONGUTIERREZA@GMAIL.COM",
+      "fono": "998924930",
       "inducionesOk": 2,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -3591,6 +3869,8 @@ window.DASHBOARD_DATA = {
       "categoria": "",
       "turno": "",
       "acrSucal": "Acreditado",
+      "correo": "RODRIGO-LIQUID@HOTMAIL.COM",
+      "fono": "#N/A",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -3612,6 +3892,8 @@ window.DASHBOARD_DATA = {
       "categoria": "CALIFICACIÓN III",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "MARCELO1975.GUTIERREZ@GMAIL.COM",
+      "fono": "940726975",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -3641,6 +3923,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "ARIEELGUTY@GMAIL.COM",
+      "fono": "973020750",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -3670,6 +3954,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "ARTURO.GUZMAND@GMAIL.COM",
+      "fono": "950579925 - 87123857",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -3702,6 +3988,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "MORENOGUZMANANGEL10@GMAIL.COM",
+      "fono": "932353939",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -3719,6 +4007,8 @@ window.DASHBOARD_DATA = {
       "categoria": "",
       "turno": "",
       "acrSucal": "Acreditado",
+      "correo": "",
+      "fono": "#N/A",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -3741,6 +4031,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 B",
       "acrSucal": "Finiquitado",
+      "correo": "JAIMEH.CAMPOS@HOTMAIL.COM",
+      "fono": "958095237",
       "inducionesOk": 2,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -3770,6 +4062,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "FELIPEHERRERACUETO.17@HOTMAIL.COM",
+      "fono": "950845757- 947097319",
       "inducionesOk": 5,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -3793,6 +4087,8 @@ window.DASHBOARD_DATA = {
       "categoria": "",
       "turno": "",
       "acrSucal": "Acreditado",
+      "correo": "",
+      "fono": "#N/A",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -3814,6 +4110,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "EDGARDINOSTROZA@GMAIL.COM",
+      "fono": "962575760",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -3836,6 +4134,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "CRIS14.INZUNZA@GMAIL.COM",
+      "fono": "933985276",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -3860,6 +4160,8 @@ window.DASHBOARD_DATA = {
       "categoria": "",
       "turno": "",
       "acrSucal": "Acreditado",
+      "correo": "ERICKIVCCC@GMAIL.COM",
+      "fono": "#N/A",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -3883,6 +4185,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO MAYOR",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "MANUELEJARA96@GMAIL.COM",
+      "fono": "947108262",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -3907,6 +4211,8 @@ window.DASHBOARD_DATA = {
       "categoria": "",
       "turno": "5X2",
       "acrSucal": "Acreditado",
+      "correo": "ALEXJELDESNUEVO2@GMAIL.COM",
+      "fono": "932425926",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -3929,6 +4235,8 @@ window.DASHBOARD_DATA = {
       "categoria": "",
       "turno": "10X10 B",
       "acrSucal": "Acreditado",
+      "correo": "FRAN.JELDEZ@GMAIL.COM",
+      "fono": "931983532",
       "inducionesOk": 4,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -3951,6 +4259,8 @@ window.DASHBOARD_DATA = {
       "categoria": "",
       "turno": "",
       "acrSucal": "Acreditado",
+      "correo": "CESAR.JERIA10@GMAIL.COM",
+      "fono": "983004468",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -3973,6 +4283,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 B",
       "acrSucal": "Acreditado",
+      "correo": "LACAMPRETT10@GMAIL.COM",
+      "fono": "959319102‬",
       "inducionesOk": 2,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -4000,6 +4312,8 @@ window.DASHBOARD_DATA = {
       "categoria": "",
       "turno": "8x6 A",
       "acrSucal": "Acreditado",
+      "correo": "HANSLAGOS1993@GMAIL.COM",
+      "fono": "944575553",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -4024,6 +4338,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "KANAKA2485@GMAIL.COM",
+      "fono": "962583557",
       "inducionesOk": 2,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -4047,6 +4363,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO PRIMERA",
       "turno": "10X10 B",
       "acrSucal": "Acreditado",
+      "correo": "ANNDREEWW0@GMAIL.COM",
+      "fono": "966797274",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -4075,6 +4393,8 @@ window.DASHBOARD_DATA = {
       "categoria": "",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "ILEIVAPASCAL@GMAIL.COM",
+      "fono": "994455472",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -4092,6 +4412,8 @@ window.DASHBOARD_DATA = {
       "categoria": "",
       "turno": "",
       "acrSucal": "Acreditado",
+      "correo": "DENI.LOPEZ.COFRE@GMAIL.COM",
+      "fono": "949893188",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -4115,6 +4437,8 @@ window.DASHBOARD_DATA = {
       "categoria": "CAPATAZ",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "SERLOPEZ@OUTLOOK.COM",
+      "fono": "989214449",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -4141,6 +4465,8 @@ window.DASHBOARD_DATA = {
       "categoria": "CAPATAZ",
       "turno": "10X10 B",
       "acrSucal": "Acreditado",
+      "correo": "LOPEZRIFO30@GMAIL.COM",
+      "fono": "997963874",
       "inducionesOk": 2,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -4161,6 +4487,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 B",
       "acrSucal": "Observada",
+      "correo": "JM.LUCOMEZA1963@GMAIL.COM",
+      "fono": "9 9151 6257",
       "inducionesOk": 2,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -4186,6 +4514,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 B",
       "acrSucal": "Acreditado",
+      "correo": "RAMON.LUHMANN@GMAIL.COM",
+      "fono": "984500409",
       "inducionesOk": 2,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -4211,6 +4541,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 B",
       "acrSucal": "Acreditado",
+      "correo": "MALDONADOJOSE0811@GMAIL.COM",
+      "fono": "935694701-985047245",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -4231,6 +4563,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "NGPRYNCE@GMAIL.COM",
+      "fono": "965137139",
       "inducionesOk": 4,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -4261,6 +4595,8 @@ window.DASHBOARD_DATA = {
       "categoria": "",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "WILSON.TRABAJO1926@GMAIL.COM",
+      "fono": "948681567",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -4292,6 +4628,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO MAYOR",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "MANRIQUEZJARA@GMAIL.COM",
+      "fono": "987448698",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -4317,6 +4655,8 @@ window.DASHBOARD_DATA = {
       "categoria": "CAPATAZ",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "JMANZO3010@GMAIL.COM",
+      "fono": "964258978",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -4343,6 +4683,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 B",
       "acrSucal": "Finiquitado",
+      "correo": "BLANQUITA010394@GMAIL.COM",
+      "fono": "964903135",
       "inducionesOk": 2,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -4366,6 +4708,8 @@ window.DASHBOARD_DATA = {
       "categoria": "",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "ORLANDOMARAMBIO@HOTMAIL.COM",
+      "fono": "9 4261 7090",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -4392,6 +4736,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 B",
       "acrSucal": "Acreditado",
+      "correo": "CRISMARTELCOFRE@GMAIL.COM",
+      "fono": "939058725",
       "inducionesOk": 3,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -4413,6 +4759,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 B",
       "acrSucal": "Acreditado",
+      "correo": "AXEL18LUAN@GMAIL.COM",
+      "fono": "935164687",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -4439,6 +4787,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "MASIASRODRIGUEZDAVIDSALOMON@GMAIL.COM",
+      "fono": "953225554",
       "inducionesOk": 2,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -4459,6 +4809,8 @@ window.DASHBOARD_DATA = {
       "categoria": "",
       "turno": "",
       "acrSucal": "Acreditado",
+      "correo": "",
+      "fono": "#N/A",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -4476,6 +4828,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO MAYOR",
       "turno": "",
       "acrSucal": "Acreditado",
+      "correo": "",
+      "fono": "",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -4500,6 +4854,8 @@ window.DASHBOARD_DATA = {
       "categoria": "CAPATAZ",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "CARLOSMELLACUEVAS@GMAIL.COM",
+      "fono": "984789911",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -4519,6 +4875,8 @@ window.DASHBOARD_DATA = {
       "categoria": "",
       "turno": "",
       "acrSucal": "Acreditado",
+      "correo": "MAXIQUIQUE61@GMAIL.COM",
+      "fono": "991770991",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -4540,6 +4898,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO PRIMERA",
       "turno": "10X10 B",
       "acrSucal": "Acreditado",
+      "correo": "PANCHOMENDEZCORDOVA@GMAIL.COM",
+      "fono": "979708304",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -4564,6 +4924,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO PRIMERA",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "DMA.MENDOZA95@GMAIL.COM",
+      "fono": "940131921",
       "inducionesOk": 5,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -4595,6 +4957,8 @@ window.DASHBOARD_DATA = {
       "categoria": "",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "MENDOZAANDRES031@GMAIL.COM",
+      "fono": "9 7182 1279",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -4619,6 +4983,8 @@ window.DASHBOARD_DATA = {
       "categoria": "",
       "turno": "",
       "acrSucal": "Teletrabajo",
+      "correo": "FMERACAMPOS@GMAIL.COM",
+      "fono": "968156286",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -4638,6 +5004,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO PRIMERA",
       "turno": "10X10 B",
       "acrSucal": "Acreditado",
+      "correo": "PABLOALEXMS@GMAIL.COM",
+      "fono": "996114849",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -4664,6 +5032,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO MAYOR",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "MOLINACONTRERASR@GMAIL.COM",
+      "fono": "926310224 / 976943092/975239516",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -4691,6 +5061,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 A",
       "acrSucal": "Finiquitado",
+      "correo": "MOLINASAMUEL489@GMAIL.COM",
+      "fono": "965824352",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -4715,6 +5087,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO PRIMERA",
       "turno": "",
       "acrSucal": "Acreditado",
+      "correo": "",
+      "fono": "",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -4732,6 +5106,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "5X2",
       "acrSucal": "Acreditado",
+      "correo": "ANANIAS.MONTOYA@SKIC.COM",
+      "fono": "984056455",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -4758,6 +5134,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "CRISTIANMONTOYA278@GMAIL.COM",
+      "fono": "933901138",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -4786,6 +5164,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO PRIMERA",
       "turno": "10X10 B",
       "acrSucal": "Acreditado",
+      "correo": "JUANMORAECHEVERRIA@GMAIL.COM",
+      "fono": "946628545",
       "inducionesOk": 2,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -4809,6 +5189,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO PRIMERA",
       "turno": "10X10 B",
       "acrSucal": "Acreditado",
+      "correo": "JAIMEMORAGA82@GMAIL.COM",
+      "fono": "981713500",
       "inducionesOk": 2,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -4838,6 +5220,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO PRIMERA",
       "turno": "10X10 B",
       "acrSucal": "Acreditado",
+      "correo": "DURANMORALES5171@GMAIL.COM",
+      "fono": "979329932",
       "inducionesOk": 5,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -4869,6 +5253,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "ANENMOGA2701@GMAIL.COM",
+      "fono": "9 7451 7354",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -4892,6 +5278,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10x10 A",
       "acrSucal": "Acreditado",
+      "correo": "CRISTIAN.MORENOF@GMAIL.COM",
+      "fono": "956568540",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -4918,6 +5306,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO MAYOR",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "MAURI.MMD88@GMAIL.COM",
+      "fono": "978016656",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -4942,6 +5332,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 B",
       "acrSucal": "Acreditado",
+      "correo": "CELIA.MUNOZ.HIDALGO@GMAIL.COM",
+      "fono": "9 57072030",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -4968,6 +5360,8 @@ window.DASHBOARD_DATA = {
       "categoria": "",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "SEBASTIANMUNOZRIVERA@GMAIL.COM",
+      "fono": "991021212",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -4994,6 +5388,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "RODRIGOMUNOZ121@GMAIL.COM",
+      "fono": "940278567‬",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -5011,6 +5407,8 @@ window.DASHBOARD_DATA = {
       "categoria": "",
       "turno": "",
       "acrSucal": "Acreditado",
+      "correo": "PEHUENCHE115@GMAIL.COM",
+      "fono": "#N/A",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -5034,6 +5432,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO MAYOR",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "SERVICIOSESTRUCTURALESNOVAS@GMAIL.COM",
+      "fono": "966220907",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -5057,6 +5457,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO PRIMERA",
       "turno": "10X10 B",
       "acrSucal": "Acreditado",
+      "correo": "NICOLAS.NOVOA@SANSANO.USM.CL",
+      "fono": "947377565",
       "inducionesOk": 2,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -5086,6 +5488,8 @@ window.DASHBOARD_DATA = {
       "categoria": "",
       "turno": "10X10 B",
       "acrSucal": "Acreditado",
+      "correo": "OMER@LIVE.CL",
+      "fono": "982167238",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -5103,6 +5507,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO MAYOR",
       "turno": "",
       "acrSucal": "Acreditado",
+      "correo": "",
+      "fono": "",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -5128,6 +5534,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO MAYOR",
       "turno": "10X10 A",
       "acrSucal": "Observada",
+      "correo": "OLIVAJONATHAN164@GMAIL.COM",
+      "fono": "940260987 (WHAT 951957866 )",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -5151,6 +5559,8 @@ window.DASHBOARD_DATA = {
       "categoria": "",
       "turno": "",
       "acrSucal": "Acreditado",
+      "correo": "P.OLIVARES.ACUNA@GMAIL.COM",
+      "fono": "976154344",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -5176,6 +5586,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO PRIMERA",
       "turno": "10X10 B",
       "acrSucal": "Acreditado",
+      "correo": "OLIOLIVARES270@GMAIL.COM",
+      "fono": "991378474",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -5198,6 +5610,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "ONATEA549@GMAIL.COM",
+      "fono": "952388874 -  wtsap 995634609",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -5228,6 +5642,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "ORELLANANOEL995@GMAIL.COM",
+      "fono": "973846915",
       "inducionesOk": 5,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -5256,6 +5672,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 A",
       "acrSucal": "Finiquitado",
+      "correo": "RODOLFO.ORELLANA@VIRGINIOGOMEZ.CL",
+      "fono": "933637285",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -5280,6 +5698,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "HUMBERTOORELLANAOPAZO24@GMAIL.COM",
+      "fono": "975802321- WSP +56926207019",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -5311,6 +5731,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "FRANKISI32174@GMAIL.COM",
+      "fono": "920887334",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -5336,6 +5758,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "VICTOR.1989ORTIZ@GMAIL.COM",
+      "fono": "966342592/937736480",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -5358,6 +5782,8 @@ window.DASHBOARD_DATA = {
       "categoria": "",
       "turno": "10X10 B",
       "acrSucal": "Acreditado",
+      "correo": "RODRIGOSORIOLARA@GMAIL.COM",
+      "fono": "946102948",
       "inducionesOk": 2,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -5382,6 +5808,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO MAYOR",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "JSN.OSSA.9090@GMAIL.COM",
+      "fono": "984966915",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -5412,6 +5840,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10x10 A",
       "acrSucal": "Acreditado",
+      "correo": "DIEGOOTEIZAV@GMAIL.COM",
+      "fono": "988305972",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -5436,6 +5866,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "OYANEDERHECTOR@GMAIL.COM",
+      "fono": "978113542",
       "inducionesOk": 4,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -5466,6 +5898,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "JYJ.SENDOHK@GMAIL.COM",
+      "fono": "992138583",
       "inducionesOk": 3,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -5494,6 +5928,8 @@ window.DASHBOARD_DATA = {
       "categoria": "CALIFICACIÓN III",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "PALACIOSRUIZJUANCARLOS79@GMAIL.COM",
+      "fono": "938980500",
       "inducionesOk": 4,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -5521,6 +5957,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 B",
       "acrSucal": "Acreditado",
+      "correo": "BASTIANPALMA20@GMAIL.COM",
+      "fono": "975528751",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -5538,6 +5976,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO PRIMERA",
       "turno": "10X10 B",
       "acrSucal": "Acreditado",
+      "correo": "ALFONSO.ROBISON.PALMA.NAVARRO@GMAIL.COM",
+      "fono": "985532838",
       "inducionesOk": 2,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -5567,6 +6007,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "LUISPANIRE77@GMAIL.COM",
+      "fono": "931729657",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -5591,6 +6033,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO PRIMERA",
       "turno": "",
       "acrSucal": "Acreditado",
+      "correo": "",
+      "fono": "",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -5613,6 +6057,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "",
       "acrSucal": "Acreditado",
+      "correo": "P.PAREDES.AREVALO@GMAIL.COM",
+      "fono": "974108478",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -5637,6 +6083,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 B",
       "acrSucal": "Observada",
+      "correo": "WP.PAREDES@GMAIL.COM",
+      "fono": "950208720",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -5659,6 +6107,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "8x6 A",
       "acrSucal": "Observada",
+      "correo": "JPPH2011@GMAIL.COM",
+      "fono": "971427301",
       "inducionesOk": 1,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -5680,6 +6130,8 @@ window.DASHBOARD_DATA = {
       "categoria": "CALIFICACIÓN III",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "PAULINALBA88@GMAIL.COM",
+      "fono": "995880933",
       "inducionesOk": 5,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -5713,6 +6165,8 @@ window.DASHBOARD_DATA = {
       "categoria": "CAPATAZ",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "H.PASTENCASTRO36@GMAIL.COM",
+      "fono": "946972063",
       "inducionesOk": 2,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -5739,6 +6193,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "FPAVEZURIBE@GMAIL.COM",
+      "fono": "954159900",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -5765,6 +6221,8 @@ window.DASHBOARD_DATA = {
       "categoria": "",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "MAURICIO.PEDRERO12@GMAIL.COM",
+      "fono": "9 8736 6721",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -5785,6 +6243,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO MAYOR",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "GAPS.2016.18@GMAIL.COM",
+      "fono": "982655209",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -5814,6 +6274,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO PRIMERA",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "CASANOVA1982.PLR35@GMAIL.COM",
+      "fono": "937897021",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -5846,6 +6308,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10x10 A",
       "acrSucal": "Acreditado",
+      "correo": "JAPC.PEREZ@GMAIL.COM",
+      "fono": "934482219/963880756",
       "inducionesOk": 2,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -5872,6 +6336,8 @@ window.DASHBOARD_DATA = {
       "categoria": "CAPATAZ",
       "turno": "10X10 B",
       "acrSucal": "Finiquitado",
+      "correo": "PEDRO.PEREZ.OR@HOTMAIL.COM",
+      "fono": "972812890",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -5901,6 +6367,8 @@ window.DASHBOARD_DATA = {
       "categoria": "CAPATAZ",
       "turno": "10X10 B",
       "acrSucal": "Acreditado",
+      "correo": "IVANANDRESPEREZMARDONES88@GMAIL.COM",
+      "fono": "997967750",
       "inducionesOk": 2,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -5927,6 +6395,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO PRIMERA",
       "turno": "10X10 B",
       "acrSucal": "Acreditado",
+      "correo": "HERNANPEREZRODRIGUEZ100@GMAIL.COM",
+      "fono": "945712817",
       "inducionesOk": 2,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -5949,6 +6419,8 @@ window.DASHBOARD_DATA = {
       "categoria": "CALIFICACIÓN III",
       "turno": "10X10 A",
       "acrSucal": "Finiquitado",
+      "correo": "EDUARDOANDRESPEREZSALAS@GMAIL.COM",
+      "fono": "957803386",
       "inducionesOk": 2,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -5974,6 +6446,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "PINARLIZAMALUIS@GMAIL.COM",
+      "fono": "+56990131708",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -5996,6 +6470,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 B",
       "acrSucal": "Acreditado",
+      "correo": "ROBERTO.PINILLA.VASQUEZ@GMAIL.COM",
+      "fono": "967799886",
       "inducionesOk": 2,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -6020,6 +6496,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10x10 A",
       "acrSucal": "Acreditado",
+      "correo": "PREVENCION.LUISPINO@GMAIL.COM",
+      "fono": "931900172",
       "inducionesOk": 2,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -6045,6 +6523,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 B",
       "acrSucal": "Acreditado",
+      "correo": "PLACENCIAGARRIDOBERNARDOANDRES@GMAIL.COM",
+      "fono": "956280711",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -6069,6 +6549,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 B",
       "acrSucal": "Acreditado",
+      "correo": "GPOZA.SANCHEZ96@GMAIL.COM",
+      "fono": "988204573",
       "inducionesOk": 5,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -6094,6 +6576,8 @@ window.DASHBOARD_DATA = {
       "categoria": "",
       "turno": "",
       "acrSucal": "Acreditado",
+      "correo": "CQUEZADA.VI@GMAIL.COM",
+      "fono": "982024120",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -6111,6 +6595,8 @@ window.DASHBOARD_DATA = {
       "categoria": "",
       "turno": "",
       "acrSucal": "Observada",
+      "correo": "TAQ1288@HOTMAIL.COM",
+      "fono": "933994035",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -6131,6 +6617,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO PRIMERA",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "IVANESTEBANQM@OUTLOOK.CL",
+      "fono": "953116006",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -6161,6 +6649,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "LUISQUISPESANTOS@GMAIL.COM",
+      "fono": "974946554",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -6184,6 +6674,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 B",
       "acrSucal": "Acreditado",
+      "correo": "ANAMARIA01964@GMAIL.COM",
+      "fono": "940595161",
       "inducionesOk": 2,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -6209,6 +6701,8 @@ window.DASHBOARD_DATA = {
       "categoria": "",
       "turno": "",
       "acrSucal": "Acreditado",
+      "correo": "EDUARDOIGNA5@GMAIL.COM",
+      "fono": "958549790",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -6226,6 +6720,8 @@ window.DASHBOARD_DATA = {
       "categoria": "",
       "turno": "",
       "acrSucal": "Observada",
+      "correo": "JUANITOANDRES1404REBOLLEDO@GMAIL.COM",
+      "fono": "972862073",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -6247,6 +6743,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO PRIMERA",
       "turno": "10X10 B",
       "acrSucal": "Acreditado",
+      "correo": "NISENRETAMAL@HOTMAIL.COM",
+      "fono": "982416688 (what 995737268)",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -6276,6 +6774,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "JULIAN35REYES@GMAIL.COM",
+      "fono": "931961762",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -6300,6 +6800,8 @@ window.DASHBOARD_DATA = {
       "categoria": "",
       "turno": "",
       "acrSucal": "Observada",
+      "correo": "EDISON.RIFFO@SKIC.COM",
+      "fono": "77191281",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -6322,6 +6824,8 @@ window.DASHBOARD_DATA = {
       "categoria": "",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "RIFFO198339@GMAIL.COM",
+      "fono": "990945798",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -6345,6 +6849,8 @@ window.DASHBOARD_DATA = {
       "categoria": "",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "JOSE.RIOSCHANDIA@GMAIL.COM",
+      "fono": "933044932",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -6365,6 +6871,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "JUANJOJUST437@GMAIL.COM",
+      "fono": "956273888",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -6382,6 +6890,8 @@ window.DASHBOARD_DATA = {
       "categoria": "",
       "turno": "",
       "acrSucal": "En revisión Codelco",
+      "correo": "RAUL.RIQUELMEAHUMADA@GMAIL.COM",
+      "fono": "965130642",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -6404,6 +6914,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "JAUEL751@GMAIL.COM",
+      "fono": "986049494",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -6428,6 +6940,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 B",
       "acrSucal": "Acreditado",
+      "correo": "PATORIQUELMEROCA@GMAIL.COM",
+      "fono": "964782063",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -6455,6 +6969,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "RIQUELMEJAIME1968@GMAIL.COM",
+      "fono": "968278140",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -6486,6 +7002,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 B",
       "acrSucal": "Acreditado",
+      "correo": "ALEXIS.EDUARDO.1979Z@GMAIL.COM",
+      "fono": "988017989",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -6510,6 +7028,8 @@ window.DASHBOARD_DATA = {
       "categoria": "",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "EDUARDO.RIVERA197451@GMAIL.COM",
+      "fono": "936587874",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -6535,6 +7055,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO PRIMERA",
       "turno": "10X10 A",
       "acrSucal": "En revisión Codelco",
+      "correo": "JOSE.RIVERA.M2014@GMAIL.COM",
+      "fono": "952087760",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -6558,6 +7080,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 B",
       "acrSucal": "Observada",
+      "correo": "NANCHOHONORES@GMAIL.COM",
+      "fono": "947731363",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -6575,6 +7099,8 @@ window.DASHBOARD_DATA = {
       "categoria": "CAPATAZ",
       "turno": "",
       "acrSucal": "Acreditado",
+      "correo": "",
+      "fono": "",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -6597,6 +7123,8 @@ window.DASHBOARD_DATA = {
       "categoria": "CAPATAZ",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "PEDRO.ROBLES.CARIZ@GMAIL.COM",
+      "fono": "938715150/966180334",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -6624,6 +7152,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO MAYOR",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "MANU35LINNOE@GMAIL.COM",
+      "fono": "928589620",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -6655,6 +7185,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO MAYOR",
       "turno": "10X10 B",
       "acrSucal": "Acreditado",
+      "correo": "RODRIGUEZULLOAL@GMAIL.COM",
+      "fono": "968977207",
       "inducionesOk": 5,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -6686,6 +7218,8 @@ window.DASHBOARD_DATA = {
       "categoria": "NIVEL A",
       "turno": "10X10 B",
       "acrSucal": "Acreditado",
+      "correo": "PABLO.ROJAS.C@HOTMAIL.COM",
+      "fono": "9 8221 3040",
       "inducionesOk": 2,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -6706,6 +7240,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "",
       "acrSucal": "Acreditado",
+      "correo": "",
+      "fono": "",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -6729,6 +7265,8 @@ window.DASHBOARD_DATA = {
       "categoria": "PLENO",
       "turno": "10X10 B",
       "acrSucal": "Finiquitado",
+      "correo": "GUIDOROJASORTEGA@GMAIL.COM",
+      "fono": "972233648",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -6753,6 +7291,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "5X2",
       "acrSucal": "Finiquitado",
+      "correo": "NATALIA.ROJASSANZ@GMAIL.COM",
+      "fono": "965025702",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -6775,6 +7315,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO MAYOR",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "WALTERFABRICIOR@GMAIL.COM",
+      "fono": "996105154",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -6806,6 +7348,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "CARLOSGUILLERMOROSASSILVA@GMAIL.COM",
+      "fono": "920850430",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -6828,6 +7372,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO MAYOR",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "ALEXIRUBILAR81@GMAIL.COM",
+      "fono": "944707865",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -6857,6 +7403,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO PRIMERA",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "RUBILARRUMINOTP@GMAIL.COM",
+      "fono": "991749808",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -6880,6 +7428,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO PRIMERA",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "LUCIANONICOLAS.R.B.2910@GMAIL.COM",
+      "fono": "968212755",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -6903,6 +7453,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO MAYOR",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "JEAN.RUIZ18@HOTMAIL.COM",
+      "fono": "982002177",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -6933,6 +7485,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "SMFZ2003@GMAIL.COM",
+      "fono": "971014527 - 994900405",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -6959,6 +7513,8 @@ window.DASHBOARD_DATA = {
       "categoria": "CAPATAZ",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "RABARCAMANTENCION@GMAIL.COM",
+      "fono": "974676619",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -6991,6 +7547,8 @@ window.DASHBOARD_DATA = {
       "categoria": "CAPATAZ",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "SAAVEDRACARLO628@GMAIL.COM",
+      "fono": "973927172",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -7013,6 +7571,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 B",
       "acrSucal": "Acreditado",
+      "correo": "MARCO.SAEZCORREA@GMAIL.COM",
+      "fono": "952143448",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -7032,6 +7592,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "8X6 B",
       "acrSucal": "Acreditado",
+      "correo": "RENE.SAEZ@SKIC.COM",
+      "fono": "76069489",
       "inducionesOk": 4,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -7061,6 +7623,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO MAYOR",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "SALAZARDELPINO@GMAIL.COM",
+      "fono": "986093582/985979568",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -7092,6 +7656,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "ANGELOSALGADO2000@GMAIL.COM",
+      "fono": "926157750",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -7109,6 +7675,8 @@ window.DASHBOARD_DATA = {
       "categoria": "",
       "turno": "",
       "acrSucal": "Acreditado",
+      "correo": "",
+      "fono": "#N/A",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -7131,6 +7699,8 @@ window.DASHBOARD_DATA = {
       "categoria": "",
       "turno": "",
       "acrSucal": "Acreditado",
+      "correo": "MA.SALGADO1988@GMAIL.COM",
+      "fono": "934196746",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -7155,6 +7725,8 @@ window.DASHBOARD_DATA = {
       "categoria": "",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "TDELPILAR2020@GMAIL.COM",
+      "fono": "935034101",
       "inducionesOk": 2,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -7181,6 +7753,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO PRIMERA",
       "turno": "10X10 B",
       "acrSucal": "Acreditado",
+      "correo": "IVAN.ALE.FERREIRA3@GMAIL.COM",
+      "fono": "932459749 - (what 922510820)",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -7207,6 +7781,8 @@ window.DASHBOARD_DATA = {
       "categoria": "",
       "turno": "10X10 B",
       "acrSucal": "Acreditado",
+      "correo": "JARITZASANCHEZ@GMAIL.COM",
+      "fono": "944140951",
       "inducionesOk": 5,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -7236,6 +7812,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10x10 A",
       "acrSucal": "Acreditado",
+      "correo": "LUIS.SS2886@GMAIL.COM",
+      "fono": "942107255",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -7257,6 +7835,8 @@ window.DASHBOARD_DATA = {
       "categoria": "",
       "turno": "",
       "acrSucal": "Acreditado",
+      "correo": "SANHUEZALATA@GMAIL.COM",
+      "fono": "957828095",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -7280,6 +7860,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO MAYOR",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "SANHUEZAVEGAJAIME@GMAIL.COM",
+      "fono": "994163755",
       "inducionesOk": 5,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -7309,6 +7891,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10x10 A",
       "acrSucal": "Acreditado",
+      "correo": "ROBERTOPSR@GMAIL.COM",
+      "fono": "966049502",
       "inducionesOk": 1,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -7333,6 +7917,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "TITO_SARAVIAESTAY@HOTMAIL.COM",
+      "fono": "975845105",
       "inducionesOk": 2,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -7353,6 +7939,8 @@ window.DASHBOARD_DATA = {
       "categoria": "",
       "turno": "",
       "acrSucal": "En revisión Codelco",
+      "correo": "SEGUEL.VICTOR74@GMAIL.COM",
+      "fono": "934471283",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -7374,6 +7962,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO MAYOR",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "JSEGUEL99@HOTMAIL.COM",
+      "fono": "936176037",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -7407,6 +7997,8 @@ window.DASHBOARD_DATA = {
       "categoria": "CAPATAZ",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "SEPULVEDA.OLSEN.MANUEL@GMAIL.COM",
+      "fono": "971472163 / 951686377",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -7424,6 +8016,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO PRIMERA",
       "turno": "",
       "acrSucal": "Acreditado",
+      "correo": "",
+      "fono": "",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -7441,6 +8035,8 @@ window.DASHBOARD_DATA = {
       "categoria": "",
       "turno": "",
       "acrSucal": "Acreditado",
+      "correo": "JOAOALFREDOSEVERINO@GMAIL.COM",
+      "fono": "#N/A",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -7465,6 +8061,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "GOON.01.JS@GMAIL.COM",
+      "fono": "920929753 WTSP // 979879914 MOVIL",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -7489,6 +8087,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO PRIMERA",
       "turno": "",
       "acrSucal": "Acreditado",
+      "correo": "",
+      "fono": "",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -7514,6 +8114,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10x10 B",
       "acrSucal": "Acreditado",
+      "correo": "CRISTIAN.SILVAS.CSS@GMAIL.COM",
+      "fono": "978079953",
       "inducionesOk": 2,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -7539,6 +8141,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "EDUARDOSOTOMAYOR1063@GMAIL.COM",
+      "fono": "957680555",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -7564,6 +8168,8 @@ window.DASHBOARD_DATA = {
       "categoria": "CALIFICACIÓN III",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "FRANCISCOSUAZO976@GMAIL.COM",
+      "fono": "927721593",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -7589,6 +8195,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO PRIMERA",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "RICARDOJAVIERTAPIAFERNANDEZ18@GMAIL.COM",
+      "fono": "958634901",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -7611,6 +8219,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "MIGUEL.TAPIA.0410@GMAIL.COM",
+      "fono": "966738182",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -7642,6 +8252,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 B",
       "acrSucal": "Acreditado",
+      "correo": "TARBES23@GMAIL.COM",
+      "fono": "98253 2662",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -7669,6 +8281,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO MAYOR",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "NELSONTOBAR1@HOTMAIL.COM",
+      "fono": "944550056",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -7696,6 +8310,8 @@ window.DASHBOARD_DATA = {
       "categoria": "CALIFICACIÓN III",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "SALO-TOBAR@HOTMAIL.COM",
+      "fono": "992634802 / (993071220 señora) ESPOSA",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -7730,6 +8346,8 @@ window.DASHBOARD_DATA = {
       "categoria": "CAPATAZ",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "TOBARVALENZUELAJAIME@HOTMAIL.COM",
+      "fono": "984714028",
       "inducionesOk": 2,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -7754,6 +8372,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO MAYOR",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "FRANCISCOTOROBULL70@GMAIL.COM",
+      "fono": "940466528",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -7785,6 +8405,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "F.TORO0026@GMAIL.COM",
+      "fono": "951699149-CASA FIJO 223151709",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -7806,6 +8428,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO PRIMERA",
       "turno": "10X10 B",
       "acrSucal": "En revisión Codelco",
+      "correo": "PEDROTFUENTES2@GMAIL.COM",
+      "fono": "9 4446 5677",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -7825,6 +8449,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO SEGUNDA",
       "turno": "10X10 B",
       "acrSucal": "Finiquitado",
+      "correo": "TORREJONLEONEL89@GMAIL.COM",
+      "fono": "974615854",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -7851,6 +8477,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "EUGENIO.TORRESZE@GMAIL.COM",
+      "fono": "951675068",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -7872,6 +8500,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "OSCAR.TORRESTASSARA89@GMAIL.COM",
+      "fono": "998358379",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -7902,6 +8532,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "CAROLTRIGO-25@HOTMAIL.COM",
+      "fono": "984560210",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -7922,6 +8554,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 B",
       "acrSucal": "Finiquitado",
+      "correo": "RAULGTUDELA@GMAIL.COM",
+      "fono": "9 5424 2535",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -7955,6 +8589,8 @@ window.DASHBOARD_DATA = {
       "categoria": "CAPATAZ",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "C.URETA.CISTERNAS@GMAIL.COM",
+      "fono": "923783787",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -7979,6 +8615,8 @@ window.DASHBOARD_DATA = {
       "categoria": "",
       "turno": "",
       "acrSucal": "Acreditado",
+      "correo": "riggerjorgevaldes@gmail.com",
+      "fono": "#N/A",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -8000,6 +8638,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 B",
       "acrSucal": "Observada",
+      "correo": "JOELVALDIVIASALDANA3@GMAIL.COM",
+      "fono": "973819430",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -8023,6 +8663,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO MAYOR",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "HUGOVALENCIAF80@GMAIL.COM",
+      "fono": "940227334",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -8057,6 +8699,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "FVALENZUELAC21@GMAIL.COM",
+      "fono": "958290712",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -8081,6 +8725,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "F",
       "acrSucal": "Finiquitado",
+      "correo": "VITOCOMIX621@GMAIL.COM",
+      "fono": "949577001",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -8103,6 +8749,8 @@ window.DASHBOARD_DATA = {
       "categoria": "CALIFICACIÓN III",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "VALENZUELA.ORELLANA97@GMAIL.COM",
+      "fono": "937762074",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -8133,6 +8781,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO PRIMERA",
       "turno": "10X10 B",
       "acrSucal": "Acreditado",
+      "correo": "FRANKOJVM@GMAIL.COM",
+      "fono": "941886826",
       "inducionesOk": 2,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -8163,6 +8813,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "ESTEBAN69VAZQUEZ@GMAIL.COM",
+      "fono": "986700868",
       "inducionesOk": 2,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -8187,6 +8839,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "MATIANDRESQ24@GMAIL.COM",
+      "fono": "939704994",
       "inducionesOk": 5,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -8214,6 +8868,8 @@ window.DASHBOARD_DATA = {
       "categoria": "",
       "turno": "",
       "acrSucal": "Acreditado",
+      "correo": "",
+      "fono": "962349252",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -8238,6 +8894,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO PRIMERA",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "JAIROVVPOLA@GMAIL.COM",
+      "fono": "991489541",
       "inducionesOk": 2,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -8261,6 +8919,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10x10 A",
       "acrSucal": "Acreditado",
+      "correo": "GONZALO.J.VELASQUEZ@GMAIL.COM",
+      "fono": "930657973",
       "inducionesOk": 2,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -8286,6 +8946,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO PRIMERA",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "GONZALO.V.PAREDES@GMAIL.COM",
+      "fono": "977426627",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -8316,6 +8978,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "4X3",
       "acrSucal": "Acreditado",
+      "correo": "RODRIGO.VERGARA@SKIC.COM",
+      "fono": "962856128",
       "inducionesOk": 2,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -8344,6 +9008,8 @@ window.DASHBOARD_DATA = {
       "categoria": "CAPATAZ",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "BULLANHUGOEDUARDO@GMAIL.COM",
+      "fono": "950338293",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -8363,6 +9029,8 @@ window.DASHBOARD_DATA = {
       "categoria": "",
       "turno": "",
       "acrSucal": "Acreditado",
+      "correo": "RICAR2_HD@HOTMAIL.COM",
+      "fono": "992947471",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -8386,6 +9054,8 @@ window.DASHBOARD_DATA = {
       "categoria": "",
       "turno": "",
       "acrSucal": "Acreditado",
+      "correo": "JUANITO.VERGARAYAUPE@GMAIL.COM",
+      "fono": "956951409",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -8408,6 +9078,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 B",
       "acrSucal": "Finiquitado",
+      "correo": "EMERSONVILCHESLEIVA@GMAIL.COM",
+      "fono": "990070999",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -8434,6 +9106,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "DVILAGRAICM@GMAIL.COM",
+      "fono": "973603461",
       "inducionesOk": 2,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -8459,6 +9133,8 @@ window.DASHBOARD_DATA = {
       "categoria": "CALIFICACIÓN III",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "PABLOGB822@GMAIL.COM",
+      "fono": "978090419",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -8483,6 +9159,8 @@ window.DASHBOARD_DATA = {
       "categoria": ".",
       "turno": "10X10 B",
       "acrSucal": "Finiquitado",
+      "correo": "JORGEYANEZAROS@GMAIL.COM",
+      "fono": "989785157",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -8506,6 +9184,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO MAYOR",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "ZAMBRANAOMAR25@GMAIL.COM",
+      "fono": "+56940435877",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [
@@ -8540,6 +9220,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO MAYOR",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "VIDALIVANIA0@GMAIL.COM",
+      "fono": "977443346",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -8560,6 +9242,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO PRIMERA",
       "turno": "10X10 B",
       "acrSucal": "Observada",
+      "correo": "CRISTIAN.ZULETA.SOUSA@GMAIL.COM",
+      "fono": "959499303",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -8584,6 +9268,8 @@ window.DASHBOARD_DATA = {
       "categoria": "MAESTRO MAYOR",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "FLAVIOZURITA.ANDIA@GMAIL.COM",
+      "fono": "+569 97122906 / +569 87589300",
       "inducionesOk": 0,
       "inducionesTotal": 12,
       "inducionesList": []
@@ -8609,6 +9295,8 @@ window.DASHBOARD_DATA = {
       "categoria": "CALIFICACIÓN III",
       "turno": "10X10 A",
       "acrSucal": "Acreditado",
+      "correo": "HECTORZURITA8@GMAIL.COM",
+      "fono": "932214967",
       "inducionesOk": 6,
       "inducionesTotal": 12,
       "inducionesList": [

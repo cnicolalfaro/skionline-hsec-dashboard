@@ -577,6 +577,85 @@ tr:hover td { background: rgba(255,255,255,.03); }
   letter-spacing: .02em;
 }
 
+/* === MultiSelect con checkboxes === */
+.multiselect {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  min-width: 180px;
+}
+.multiselect .ms-toggle {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 8px 12px;
+  background: rgba(255,255,255,.04);
+  border: 1px solid rgba(255,255,255,.12);
+  border-radius: 8px;
+  color: var(--text);
+  font-size: .88rem;
+  cursor: pointer;
+  text-align: left;
+  min-height: 36px;
+}
+.multiselect .ms-toggle:hover:not(:disabled) { background: rgba(255,255,255,.07); border-color: rgba(255,255,255,.2); }
+.multiselect .ms-toggle:disabled { opacity: .5; cursor: not-allowed; }
+.multiselect.ms-open .ms-toggle { border-color: rgba(45,127,249,.6); }
+.multiselect.ms-has-selection .ms-toggle { border-color: rgba(45,127,249,.55); background: rgba(45,127,249,.08); }
+.multiselect .ms-label { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.multiselect .ms-caret { font-size: .7rem; color: var(--muted); }
+.multiselect .ms-panel {
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 0;
+  right: 0;
+  min-width: 240px;
+  max-width: 340px;
+  background: #15213a;
+  border: 1px solid rgba(255,255,255,.12);
+  border-radius: 10px;
+  box-shadow: 0 12px 30px rgba(0,0,0,.45);
+  z-index: 50;
+  padding: 8px;
+}
+.multiselect .ms-actions {
+  display: flex;
+  gap: 6px;
+  padding: 4px 4px 8px;
+  border-bottom: 1px solid rgba(255,255,255,.08);
+  margin-bottom: 6px;
+}
+.multiselect .ms-actions button {
+  flex: 1;
+  padding: 5px 8px;
+  background: rgba(255,255,255,.05);
+  color: var(--text);
+  border: 1px solid rgba(255,255,255,.1);
+  border-radius: 6px;
+  font-size: .75rem;
+  cursor: pointer;
+}
+.multiselect .ms-actions button:hover { background: rgba(255,255,255,.1); }
+.multiselect .ms-options {
+  max-height: 240px;
+  overflow-y: auto;
+}
+.multiselect .ms-opt {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: .82rem;
+  color: var(--text);
+}
+.multiselect .ms-opt:hover { background: rgba(255,255,255,.05); }
+.multiselect .ms-opt input { cursor: pointer; accent-color: #2d7ff9; }
+.multiselect .ms-empty { padding: 10px; color: var(--muted); font-size: .8rem; text-align: center; }
+
 /* === Panel de cumplimiento de acreditados === */
 .acr-panel {
   background: linear-gradient(180deg, rgba(45,127,249,.06), rgba(140,99,255,.04)), var(--panel);

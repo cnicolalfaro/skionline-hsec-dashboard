@@ -43,6 +43,127 @@ function shiftLabel(code) {
   return def ? def.label : (code ? 'Otro' : 'Sin dato');
 }
 
+// === Componente MultiSelect (checkboxes) ===
+function createMultiSelect(el, opts = {}) {
+  const placeholder = el.dataset.placeholder || opts.placeholder || 'Todos';
+  const onChange = opts.onChange || (() => {});
+  const state = {
+    options: [],         // [{ value, label, meta }]
+    selected: new Set(), // values
+  };
+
+  el.classList.add('multiselect');
+  el.innerHTML = `
+    <button type="button" class="ms-toggle">
+      <span class="ms-label">${placeholder}</span>
+      <span class="ms-caret">▾</span>
+    </button>
+    <div class="ms-panel" hidden>
+      <div class="ms-actions">
+        <button type="button" class="ms-all">Todos</button>
+        <button type="button" class="ms-none">Ninguno</button>
+      </div>
+      <div class="ms-options"></div>
+    </div>
+  `;
+
+  const toggleBtn = el.querySelector('.ms-toggle');
+  const panel = el.querySelector('.ms-panel');
+  const label = el.querySelector('.ms-label');
+  const optsHost = el.querySelector('.ms-options');
+
+  function render() {
+    optsHost.innerHTML = state.options.map(o => {
+      const checked = state.selected.has(o.value) ? 'checked' : '';
+      return `<label class="ms-opt">
+        <input type="checkbox" value="${o.value}" ${checked} />
+        <span>${o.label}</span>
+      </label>`;
+    }).join('') || '<div class="ms-empty">Sin opciones</div>';
+
+    optsHost.querySelectorAll('input[type=checkbox]').forEach(cb => {
+      cb.addEventListener('change', () => {
+        if (cb.checked) state.selected.add(cb.value);
+        else state.selected.delete(cb.value);
+        refreshLabel();
+        onChange(getValues());
+      });
+    });
+    refreshLabel();
+  }
+
+  function refreshLabel() {
+    const n = state.selected.size;
+    if (n === 0 || n === state.options.length) {
+      label.textContent = placeholder;
+      el.classList.remove('ms-has-selection');
+    } else if (n === 1) {
+      const v = [...state.selected][0];
+      const o = state.options.find(x => x.value === v);
+      label.textContent = o ? o.label : v;
+      el.classList.add('ms-has-selection');
+    } else {
+      label.textContent = `${n} seleccionados`;
+      el.classList.add('ms-has-selection');
+    }
+  }
+
+  function getValues() {
+    // Si todo seleccionado o nada → "sin filtro" (vacío)
+    if (state.selected.size === 0) return [];
+    if (state.selected.size === state.options.length) return [];
+    return [...state.selected];
+  }
+
+  function setOptions(list, { keepSelection = true } = {}) {
+    state.options = list.map(o => typeof o === 'string' ? { value: o, label: o } : o);
+    if (!keepSelection) state.selected.clear();
+    else {
+      // quita seleccionados que ya no existen
+      const valid = new Set(state.options.map(o => o.value));
+      [...state.selected].forEach(v => { if (!valid.has(v)) state.selected.delete(v); });
+    }
+    render();
+  }
+
+  function setDisabled(d) {
+    toggleBtn.disabled = !!d;
+    el.classList.toggle('ms-disabled', !!d);
+    if (d) close();
+  }
+
+  function clear() {
+    state.selected.clear();
+    render();
+    onChange(getValues());
+  }
+
+  function open() { panel.hidden = false; el.classList.add('ms-open'); }
+  function close() { panel.hidden = true; el.classList.remove('ms-open'); }
+
+  toggleBtn.addEventListener('click', (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    if (toggleBtn.disabled) return;
+    panel.hidden ? open() : close();
+  });
+  panel.addEventListener('click', (e) => e.stopPropagation());
+  document.addEventListener('click', (e) => { if (!el.contains(e.target)) close(); });
+
+  el.querySelector('.ms-all').addEventListener('click', () => {
+    state.selected = new Set(state.options.map(o => o.value));
+    render();
+    onChange(getValues());
+  });
+  el.querySelector('.ms-none').addEventListener('click', () => {
+    state.selected.clear();
+    render();
+    onChange(getValues());
+  });
+
+  return { setOptions, getValues, setDisabled, clear, el };
+}
+
 function normalizeText(value) {
   return (value || '')
     .toString()
@@ -347,13 +468,13 @@ function renderRecords(rows, shiftContext) {
 function setupFilters(data) {
   const nameInput = document.getElementById('nameSearch');
   const rutInput = document.getElementById('rutSearch');
-  const courseFilter = document.getElementById('courseFilter');
+  const courseFilterEl = document.getElementById('courseFilter');
   const statusFilter = document.getElementById('statusFilter');
   const acrFilter = document.getElementById('acrFilter');
   const resultsCount = document.getElementById('resultsCount');
   const exportBtn = document.getElementById('exportFilteredBtn');
   const shiftDateInput = document.getElementById('shiftDate');
-  const shiftCodeSelect = document.getElementById('shiftCode');
+  const shiftCodeEl = document.getElementById('shiftCode');
   const shiftClearBtn = document.getElementById('shiftClearBtn');
   const shiftLegend = document.getElementById('shiftLegend');
   const shiftSummary = document.getElementById('shiftSummary');
@@ -373,9 +494,14 @@ function setupFilters(data) {
     `).join('');
   }
 
-  // Poblar filtro de cursos
+  // Multiselect de cursos
   const courses = [...new Set((data.records || []).flatMap(item => item.courseList || []))].sort();
-  courseFilter.innerHTML = '<option value="">Todos</option>' + courses.map(c => `<option value="${c}">${c}</option>`).join('');
+  const courseMS = createMultiSelect(courseFilterEl, { placeholder: 'Todos', onChange: () => applyFilters() });
+  courseMS.setOptions(courses);
+
+  // Multiselect de código de turno (inicia vacío, se repuebla al elegir fecha)
+  const shiftCodeMS = createMultiSelect(shiftCodeEl, { placeholder: 'Todos', onChange: () => applyFilters() });
+  shiftCodeMS.setDisabled(true);
 
   // Poblar filtro ACR. SUCAL
   const acrValues = [...new Set((data.records || []).map(item => (item.acrSucal || '').trim()).filter(Boolean))].sort();
@@ -411,23 +537,20 @@ function setupFilters(data) {
   }
 
   function updateShiftCodeOptions(shiftCtx) {
-    if (!shiftCodeSelect) return;
-    const prev = shiftCodeSelect.value;
+    if (!shiftCodeMS) return;
     if (shiftCtx.dateIndex < 0) {
-      shiftCodeSelect.innerHTML = '<option value="">Todos</option>';
-      shiftCodeSelect.disabled = true;
+      shiftCodeMS.setOptions([], { keepSelection: false });
+      shiftCodeMS.setDisabled(true);
       return;
     }
-    shiftCodeSelect.disabled = false;
+    shiftCodeMS.setDisabled(false);
     const codes = new Set();
     (data.records || []).forEach(r => {
       const c = (r.shifts && r.shifts[shiftCtx.dateIndex]) || '';
       if (c) codes.add(c);
     });
     const sorted = [...codes].sort();
-    shiftCodeSelect.innerHTML = '<option value="">Todos</option>'
-      + sorted.map(c => `<option value="${c}">${c} — ${shiftLabel(c)}</option>`).join('');
-    if (sorted.includes(prev)) shiftCodeSelect.value = prev;
+    shiftCodeMS.setOptions(sorted.map(c => ({ value: c, label: `${c} — ${shiftLabel(c)}` })));
   }
 
   function updateShiftSummary(shiftCtx) {
@@ -460,28 +583,31 @@ function setupFilters(data) {
   function applyFilters() {
     const query = normalizeText(nameInput.value);
     const rutQuery = normalizeRut(rutInput.value);
-    const selectedCourse = courseFilter.value;
+    const selectedCourses = courseMS.getValues();
     const selectedStatus = statusFilter.value;
     const selectedAcr = acrFilter.value;
     const shiftCtx = computeShiftContext();
-    const selectedShiftCode = shiftCodeSelect ? shiftCodeSelect.value : '';
 
     // Mostrar/ocultar columna y refrescar resumen / opciones
     if (shiftHeader) shiftHeader.classList.toggle('hidden', shiftCtx.dateIndex < 0);
     updateShiftCodeOptions(shiftCtx);
     updateShiftSummary(shiftCtx);
 
+    const selectedShiftCodes = shiftCodeMS.getValues();
+
     const filtered = (data.records || []).filter(item => {
       const matchesName = !query || normalizeText(item.nombre).includes(query);
       const matchesRut = !rutQuery || normalizeRut(item.rut).includes(rutQuery);
-      const matchesCourse = !selectedCourse || (item.courseList || []).includes(selectedCourse);
+      const courseList = item.courseList || [];
+      const matchesCourse = selectedCourses.length === 0
+        || selectedCourses.some(c => courseList.includes(c));
       const matchesStatus = !selectedStatus || item.statusKey === selectedStatus;
       const matchesAcr = !selectedAcr || (item.acrSucal || '').trim() === selectedAcr;
-      const matchesMissing = !activeMissingCourse || !(item.courseList || []).includes(activeMissingCourse);
+      const matchesMissing = !activeMissingCourse || !courseList.includes(activeMissingCourse);
       let matchesShift = true;
-      if (shiftCtx.dateIndex >= 0 && selectedShiftCode) {
+      if (shiftCtx.dateIndex >= 0 && selectedShiftCodes.length > 0) {
         const cell = (item.shifts && item.shifts[shiftCtx.dateIndex]) || '';
-        matchesShift = cell === selectedShiftCode;
+        matchesShift = selectedShiftCodes.includes(cell);
       }
       return matchesName && matchesRut && matchesCourse && matchesStatus && matchesAcr && matchesMissing && matchesShift;
     });
@@ -495,14 +621,12 @@ function setupFilters(data) {
 
   nameInput.addEventListener('input', applyFilters);
   rutInput.addEventListener('input', applyFilters);
-  courseFilter.addEventListener('change', applyFilters);
   statusFilter.addEventListener('change', applyFilters);
   acrFilter.addEventListener('change', applyFilters);
   if (shiftDateInput) shiftDateInput.addEventListener('change', applyFilters);
-  if (shiftCodeSelect) shiftCodeSelect.addEventListener('change', applyFilters);
   if (shiftClearBtn) shiftClearBtn.addEventListener('click', () => {
     if (shiftDateInput) shiftDateInput.value = '';
-    if (shiftCodeSelect) shiftCodeSelect.value = '';
+    shiftCodeMS.clear();
     applyFilters();
   });
   exportBtn.addEventListener('click', () => exportFilteredToExcel(currentFilteredRows));

@@ -285,13 +285,16 @@ def load_external_rut_lookup() -> dict[str, str]:
 
 
 def build_tarja_records(wb, evidence_entries: list[dict[str, Any]], external_rut_lookup: dict[str, str]) -> tuple[list[dict[str, Any]], int, list[str]]:
-    if 'TARJA' in wb.sheetnames:
+    # Siempre preferir el TARJA externo (archivo TARJA*.xlsx en carpeta superior),
+    # porque es la fuente autoritativa y más actualizada de los turnos diarios.
+    # Solo caer al TARJA embebido del REGISTRO si no hay externo disponible.
+    external_wb = find_external_tarja_workbook()
+    if external_wb is not None and 'TARJA' in external_wb.sheetnames:
+        ws = external_wb['TARJA']
+    elif 'TARJA' in wb.sheetnames:
         ws = wb['TARJA']
     else:
-        external_wb = find_external_tarja_workbook()
-        if external_wb is None or 'TARJA' not in external_wb.sheetnames:
-            return [], 0, []
-        ws = external_wb['TARJA']
+        return [], 0, []
     raw_rows = list(ws.iter_rows(values_only=True))
     headers, rows = extract_headers_and_rows(raw_rows)
     if not headers or not rows:

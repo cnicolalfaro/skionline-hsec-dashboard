@@ -12,6 +12,7 @@ const COURSE_COLUMNS = [
   'EXT',
   'OPR',
   'PA',
+  'CAD',
 ];
 
 // Leyenda de códigos que pueden aparecer en la TARJA (col por día)

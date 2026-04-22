@@ -171,8 +171,37 @@ def is_evidence_sheet(sheet_name: str) -> bool:
     return sheet_name not in SPECIAL_SHEETS
 
 
+# Hojas que no se muestran en el dashboard (totalmente ocultas de gráficos y tabla resumen)
+HIDDEN_FROM_DASHBOARD = {'IRL_GENERAL_FORMS'}
+
+# Nombres completos amigables para la visualización en el dashboard
+COURSE_FULL_NAMES = {
+    'AYB': 'Aislación y Bloqueo',
+    'EPP': 'Uso y Mantención de EPP',
+    'EXT': 'Manejo de Extintores Portátiles',
+    'OPR': 'Orientación a la Prevención de Riesgos',
+    'PA': 'Primeros Auxilios',
+    'IRL_GENERAL': 'IRL General',
+    'IRL GENERAL': 'IRL General',
+    'IRL_ESPECIFICA': 'IRL Específica',
+    'IRL ESPECIFICA': 'IRL Específica',
+    'EVALUACIONES_IRL': 'Evaluaciones IRL',
+    'EVALUACIONES IRL': 'Evaluaciones IRL',
+    'CAD': 'Conducción a la Defensiva',
+}
+
+
 def format_course_name(sheet_name: str) -> str:
     return sheet_name.replace('_', ' ').strip()
+
+
+def display_course_name(sheet_name: str) -> str:
+    """Devuelve el nombre completo/amigable del curso para el dashboard."""
+    key = sheet_name.strip()
+    if key in COURSE_FULL_NAMES:
+        return COURSE_FULL_NAMES[key]
+    formatted = format_course_name(key)
+    return COURSE_FULL_NAMES.get(formatted, formatted)
 
 
 def format_rut(value: Any) -> str:
@@ -447,10 +476,13 @@ def main() -> None:
                 continue
             item = {headers[i]: row[i] for i in range(min(len(headers), len(row)))}
             curso = str(item.get('CURSO', '')).strip()
+            # Ocultar cursos no deseados del dashboard (se mantienen en el Excel)
+            if curso in HIDDEN_FROM_DASHBOARD:
+                continue
             total = to_int(item.get('TOTAL_ARCHIVOS'))
             unicos_raw = item.get('UNICOS')
             unicos = None if unicos_raw in (None, '') else to_int(unicos_raw)
-            parsed = {'curso': curso, 'total': total, 'unicos': unicos}
+            parsed = {'curso': display_course_name(curso), 'total': total, 'unicos': unicos}
             summary_rows.append(parsed)
             summary_map[curso] = parsed
 
@@ -459,8 +491,9 @@ def main() -> None:
 
     for sheet_name in wb.sheetnames:
         if sheet_name in {'RESUMEN', 'TARJA'}:
+            continue        # Ocultar hojas no deseadas del dashboard (siguen existiendo en el Excel)
+        if sheet_name in HIDDEN_FROM_DASHBOARD:
             continue
-
         ws = wb[sheet_name]
         rows = list(ws.iter_rows(values_only=True))
         if not rows:
@@ -543,7 +576,7 @@ def main() -> None:
         'summaryRows': summary_rows,
         'records': records,
         'shiftDates': shift_dates,
-        'irlFormsNote': 'Los registros asociados a IRL GENERAL FORMS corresponden a respaldos cargados por los trabajadores mediante Forms. Para una validación formal, se recomienda revisar directamente el archivo original en la carpeta documental, a fin de confirmar su legibilidad, integridad y correcta carga. Los accesos disponibles a continuación funcionan solo para personal previamente autorizado en SharePoint.',
+        'irlFormsNote': '',
         'accessLinks': [
             {'label': 'Evidencias de certificaciones', 'url': 'https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/3-%20Registros%20capacitaciones%20-%20difusiones/3-%20Evidencias%20de%20Certificaciones?csf=1&web=1&e=ovhAFT'},
             {'label': 'Procedimientos contrato 982', 'url': 'https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/2-%20Procedimientos?csf=1&web=1&e=IsTxdJ'},

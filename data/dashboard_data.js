@@ -1,10 +1,10 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "22/04/2026 16:03",
+  "generatedAt": "22/04/2026 16:15",
   "sourceFile": "REGISTRO_FINAL_CURSOS.xlsx",
   "kpis": {
-    "totalArchivos": 1951,
-    "documentosUnicos": 1796,
-    "duplicados": 125,
+    "totalArchivos": 1955,
+    "documentosUnicos": 1802,
+    "duplicados": 120,
     "noLegibles": 1,
     "trabajadoresTarja": 344,
     "conRegistros": 296,
@@ -13,7 +13,7 @@ window.DASHBOARD_DATA = {
   "courseTotals": [
     {
       "curso": "AYB",
-      "total": 201
+      "total": 210
     },
     {
       "curso": "EPP",
@@ -65,7 +65,7 @@ window.DASHBOARD_DATA = {
     },
     {
       "label": "Duplicados",
-      "value": 125,
+      "value": 120,
       "color": "#f4c430"
     },
     {
@@ -77,8 +77,8 @@ window.DASHBOARD_DATA = {
   "summaryRows": [
     {
       "curso": "AYB",
-      "total": 201,
-      "unicos": 198
+      "total": 210,
+      "unicos": 204
     },
     {
       "curso": "EPP",
@@ -132,12 +132,12 @@ window.DASHBOARD_DATA = {
     },
     {
       "curso": "DUPLICADOS",
-      "total": 125,
+      "total": 120,
       "unicos": null
     },
     {
       "curso": "TOTAL",
-      "total": 1951,
+      "total": 1955,
       "unicos": null
     }
   ],
@@ -2200,8 +2200,9 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "AREVALO CORTES LUIS ALBERTO",
       "rut": "08999166-8",
-      "cursos": "EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
+      "cursos": "AYB, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
       "courseList": [
+        "AYB",
         "EVALUACIONES IRL",
         "IRL ESPECIFICA",
         "IRL GENERAL"
@@ -6076,8 +6077,9 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "CARREÑO VERA ALEXIE MARCELO",
       "rut": "10729499-6",
-      "cursos": "PA",
+      "cursos": "AYB, PA",
       "courseList": [
+        "AYB",
         "PA"
       ],
       "estado": "Con registros",
@@ -8258,14 +8260,15 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "DIAZ PRAY GUILLERMO ALBERTO",
       "rut": "19108608-2",
-      "cursos": "IRL GENERAL, IRL GENERAL FORMS",
+      "cursos": "AYB, IRL GENERAL, IRL GENERAL FORMS",
       "courseList": [
+        "AYB",
         "IRL GENERAL",
         "IRL GENERAL FORMS"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · ACR: Acreditado · Cat: MAESTRO PRIMERA · Turno: 10X10 A",
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · ACR: Acreditado · Cat: MAESTRO PRIMERA · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "MAESTRO PRIMERA",
@@ -12483,15 +12486,16 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "GUTIERREZ ARRIAGADA NELSON PATRICIO",
       "rut": "13563011-K",
-      "cursos": "EPP, EXT, PA",
+      "cursos": "AYB, EPP, EXT, PA",
       "courseList": [
+        "AYB",
         "EPP",
         "EXT",
         "PA"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: CAPATAZ · Turno: 10X10 B",
+      "detalle": "MECANICO · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: CAPATAZ · Turno: 10X10 B",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "CAPATAZ",
@@ -13465,8 +13469,9 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "INZUNZA MUÑOZ CRISTIAN ALEXIS",
       "rut": "15945639-0",
-      "cursos": "EPP, IRL ESPECIFICA, IRL GENERAL, IRL GENERAL FORMS",
+      "cursos": "AYB, EPP, IRL ESPECIFICA, IRL GENERAL, IRL GENERAL FORMS",
       "courseList": [
+        "AYB",
         "EPP",
         "IRL ESPECIFICA",
         "IRL GENERAL",
@@ -13474,7 +13479,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · ACR: Acreditado · Cat: . · Turno: 10X10 A",
+      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · incluye duplicados, respaldo vía Forms; se recomienda validar el archivo original en la carpeta documental · ACR: Acreditado · Cat: . · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": ".",
@@ -15147,8 +15152,9 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "MANRIQUEZ GONZALEZ WILSON ANDRES",
       "rut": "10072925-3",
-      "cursos": "EPP, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL, IRL GENERAL FORMS, OPR, PA",
+      "cursos": "AYB, EPP, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL, IRL GENERAL FORMS, OPR, PA",
       "courseList": [
+        "AYB",
         "EPP",
         "EVALUACIONES IRL",
         "IRL ESPECIFICA",
@@ -31141,7 +31147,7 @@ window.DASHBOARD_DATA = {
     },
     {
       "title": "Calidad del registro",
-      "detail": "Se identificaron 125 duplicados y 1 documentos no legibles."
+      "detail": "Se identificaron 120 duplicados y 1 documentos no legibles."
     },
     {
       "title": "Certificados finales (TARJA)",

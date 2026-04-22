@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "22/04/2026 16:41",
+  "generatedAt": "22/04/2026 16:50",
   "sourceFile": "REGISTRO_FINAL_CURSOS.xlsx",
   "kpis": {
     "totalArchivos": 1955,
@@ -12,39 +12,39 @@ window.DASHBOARD_DATA = {
   },
   "courseTotals": [
     {
-      "curso": "AYB",
+      "curso": "Aislación y Bloqueo",
       "total": 210
     },
     {
-      "curso": "EPP",
+      "curso": "Uso y Mantención de EPP",
       "total": 241
     },
     {
-      "curso": "EXT",
+      "curso": "Manejo de Extintores Portátiles",
       "total": 284
     },
     {
-      "curso": "OPR",
+      "curso": "Orientación a la Prevención de Riesgos",
       "total": 252
     },
     {
-      "curso": "PA",
+      "curso": "Primeros Auxilios",
       "total": 249
     },
     {
-      "curso": "IRL GENERAL",
+      "curso": "IRL General",
       "total": 211
     },
     {
-      "curso": "IRL ESPECIFICA",
+      "curso": "IRL Específica",
       "total": 152
     },
     {
-      "curso": "EVALUACIONES IRL",
+      "curso": "Evaluaciones IRL",
       "total": 103
     },
     {
-      "curso": "CAD",
+      "curso": "Conducción a la Defensiva",
       "total": 15
     }
   ],
@@ -31010,7 +31010,7 @@ window.DASHBOARD_DATA = {
   "insights": [
     {
       "title": "Curso con mayor volumen",
-      "detail": "EXT concentra 284 archivos."
+      "detail": "Manejo de Extintores Portátiles concentra 284 archivos."
     },
     {
       "title": "Cruce con TARJA",

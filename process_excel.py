@@ -507,7 +507,7 @@ def main() -> None:
 
         if is_evidence_sheet(sheet_name):
             course_totals.append({
-                'curso': format_course_name(sheet_name),
+                'curso': display_course_name(sheet_name),
                 'total': summary_map.get(sheet_name, {}).get('total', len(data_rows))
             })
 

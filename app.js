@@ -6,13 +6,11 @@ const COURSE_COLUMNS = [
   'EVALUACIONES IRL',
   'IRL ESPECIFICA',
   'IRL GENERAL',
-  'IRL GENERAL FORMS',
   'AYB',
   'EPP',
   'EXT',
   'OPR',
   'PA',
-  'CAD',
 ];
 
 // Leyenda de códigos que pueden aparecer en la TARJA (col por día)
@@ -198,7 +196,7 @@ function exportFilteredToExcel(rows) {
     'Cumplimiento (N/Total)', 'Cumplimiento (%)',
     'ACR. SUCAL',
     ...courseCols,
-    'Cursos Codelco Aprobados', 'Observación'
+    'Observación'
   ];
 
   const aoa = [headers];
@@ -217,7 +215,6 @@ function exportFilteredToExcel(rows) {
       pct,
       row.acrSucal || '-',
       ...courseCols.map(c => set.has(c) ? 'SÍ' : 'NO'),
-      row.certFinal || '-',
       row.detalle || ''
     ]);
   });
@@ -227,7 +224,7 @@ function exportFilteredToExcel(rows) {
   // Anchos de columna
   const fixedWidths = [28, 13, 14, 30, 22, 14, 14, 16];
   const courseWidths = courseCols.map(() => 10);
-  const tailWidths = [22, 60];
+  const tailWidths = [60];
   worksheet['!cols'] = [...fixedWidths, ...courseWidths, ...tailWidths].map(w => ({ wch: w }));
 
   // Convertir en Tabla de Excel (autofilter + referencia de tabla)
@@ -409,18 +406,13 @@ function renderAccess(data) {
 function renderRecords(rows, shiftContext) {
   const body = document.getElementById('recordsTableBody');
   const shiftActive = shiftContext && shiftContext.dateIndex >= 0;
-  const colspan = 7 + COURSE_COLUMNS.length + (shiftActive ? 1 : 0);
+  const colspan = 6 + COURSE_COLUMNS.length + (shiftActive ? 1 : 0);
   if (!rows.length) {
     body.innerHTML = `<tr><td colspan="${colspan}">No se encontraron coincidencias.</td></tr>`;
     return;
   }
 
   body.innerHTML = rows.map(row => {
-    const certUpper = (row.certFinal || '').toUpperCase().trim();
-    const certClass = certUpper.includes('APROBADO') ? 'cert-ok'
-      : certUpper.includes('PENDIENTE') ? 'cert-pending'
-      : 'cert-na';
-    const certLabel = row.certFinal || '-';
     const indText = row.inducionesTotal
       ? `${row.inducionesOk}/${row.inducionesTotal} ind.` : '';
     const detalleExtra = indText ? ` · ${indText}` : '';
@@ -458,7 +450,6 @@ function renderRecords(rows, shiftContext) {
       </td>
       <td>${row.acrSucal || '-'}</td>
       ${coursesCells}
-      <td><span class="cert-badge ${certClass}">${certLabel}</span></td>
       <td class="obs-cell">${row.detalle}${detalleExtra}</td>
       ${shiftCell}
     </tr>

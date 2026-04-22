@@ -237,49 +237,6 @@ function exportFilteredToExcel(rows) {
   const workbook = XLSX.utils.book_new();
   XLSX.utils.book_append_sheet(workbook, worksheet, 'Resultados');
 
-  // ---- Hoja "Cumplimiento" (resumen por tramos del grupo filtrado) ----
-  const buckets = [
-    { label: '100% completo',  min: 100, max: 100 },
-    { label: '75% - 99%',      min: 75,  max: 99  },
-    { label: '50% - 74%',      min: 50,  max: 74  },
-    { label: '25% - 49%',      min: 25,  max: 49  },
-    { label: '0% - 24%',       min: 0,   max: 24  },
-  ];
-  const totalC = courseCols.length;
-  let sumPct = 0;
-  const counts = buckets.map(b => ({ ...b, total: 0 }));
-  rows.forEach(r => {
-    const set = new Set(r.courseList || []);
-    const found = courseCols.filter(c => set.has(c)).length;
-    const pct = totalC ? Math.round((found / totalC) * 100) : 0;
-    sumPct += pct;
-    const b = counts.find(x => pct >= x.min && pct <= x.max);
-    if (b) b.total += 1;
-  });
-  const totalGrupo = rows.length;
-  const promedio = totalGrupo ? Math.round(sumPct / totalGrupo) : 0;
-  const completos = counts[0].total;
-  const criticos = counts[4].total + counts[3].total;
-
-  const sumAoA = [
-    ['Resumen de cumplimiento — grupo filtrado'],
-    ['Generado', new Date().toLocaleString('es-CL')],
-    ['Trabajadores en el grupo', totalGrupo],
-    ['Promedio de cumplimiento (%)', promedio],
-    ['Trabajadores 100% completos', completos],
-    ['Trabajadores críticos (<50%)', criticos],
-    [],
-    ['Tramo', 'Cantidad', '% del grupo'],
-    ...counts.map(c => [
-      c.label,
-      c.total,
-      totalGrupo ? Math.round((c.total / totalGrupo) * 100) : 0
-    ])
-  ];
-  const sumSheet = XLSX.utils.aoa_to_sheet(sumAoA);
-  sumSheet['!cols'] = [{ wch: 34 }, { wch: 14 }, { wch: 14 }];
-  XLSX.utils.book_append_sheet(workbook, sumSheet, 'Cumplimiento');
-
   // Registrar como Tabla estructurada de Excel (ListObjects)
   if (!workbook.Workbook) workbook.Workbook = {};
   workbook.Workbook.Names = workbook.Workbook.Names || [];

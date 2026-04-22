@@ -130,7 +130,7 @@ def chart_donut(kpis: dict, output: Path) -> None:
 
 
 COURSE_COLUMNS_PDF = [
-    'EVALUACIONES IRL', 'IRL ESPECIFICA', 'IRL GENERAL', 'IRL GENERAL FORMS',
+    'EVALUACIONES IRL', 'IRL ESPECIFICA', 'IRL GENERAL',
     'AYB', 'EPP', 'EXT', 'OPR', 'PA',
 ]
 
@@ -142,56 +142,117 @@ def chart_acr_compliance(records: list[dict], output: Path) -> dict:
         if (r.get('acrSucal') or '').strip().lower() == 'acreditado'
     ]
     buckets = [
-        ('100% completo', 100, 100, '#51b847'),
-        ('75% - 99%',     75,  99,  '#7dd87a'),
-        ('50% - 74%',     50,  74,  '#ffcc66'),
-        ('25% - 49%',     25,  49,  '#ff7a59'),
-        ('0% - 24%',      0,   24,  '#e74c3c'),
+        ('100% completo', 'COMPLETO', 100, 100, '#51b847'),
+        ('75% - 99%',     'AVANZADO', 75,  99,  '#7dd87a'),
+        ('50% - 74%',     'MEDIO',    50,  74,  '#f4c430'),
+        ('25% - 49%',     'BAJO',     25,  49,  '#ff7a59'),
+        ('0% - 24%',      'CRÍTICO',  0,   24,  '#f53b4d'),
     ]
     counts = [0] * len(buckets)
+    sum_pct = 0
     for r in acreditados:
         course_set = set(r.get('courseList') or [])
         found = sum(1 for c in COURSE_COLUMNS_PDF if c in course_set)
         pct = round((found / total_cursos) * 100) if total_cursos else 0
-        for i, (_, lo, hi, _c) in enumerate(buckets):
+        sum_pct += pct
+        for i, (_, _s, lo, hi, _c) in enumerate(buckets):
             if lo <= pct <= hi:
                 counts[i] += 1
                 break
 
-    labels = [b[0] for b in buckets]
-    palette = [b[3] for b in buckets]
+    total_acr = len(acreditados)
+    promedio = round(sum_pct / total_acr) if total_acr else 0
+    completos = counts[0]
+    criticos = counts[3] + counts[4]
 
-    fig, ax = plt.subplots(figsize=(9.0, 4.2), facecolor=COLORS['panel'])
-    ax.set_facecolor(COLORS['panel'])
-    y_pos = range(len(labels))
-    bars = ax.barh(y_pos, counts, color=palette, edgecolor=COLORS['panel'], height=0.65)
-    ax.set_yticks(list(y_pos))
-    ax.set_yticklabels(labels, color=COLORS['text'], fontsize=10)
-    ax.invert_yaxis()
-    ax.tick_params(axis='x', colors=COLORS['muted'])
-    ax.spines['top'].set_visible(False)
-    ax.spines['right'].set_visible(False)
-    ax.spines['left'].set_color(COLORS['muted'])
-    ax.spines['bottom'].set_color(COLORS['muted'])
-    total_acr = len(acreditados) or 1
-    max_c = max(counts) if counts else 1
-    for bar, val in zip(bars, counts):
-        pct_acr = round((val / total_acr) * 100)
-        ax.text(
-            bar.get_width() + max_c * 0.025,
-            bar.get_y() + bar.get_height() / 2,
-            f"{val}  ({pct_acr}%)",
-            va='center', color=COLORS['text'], fontsize=9, fontweight='bold',
-        )
-    ax.set_xlim(0, max_c * 1.35 if max_c else 1)
-    ax.set_title(
-        f'Cumplimiento de cursos · {len(acreditados)} acreditados',
-        color=COLORS['text'], fontsize=12, pad=12, loc='left',
+    # --- Figura ---
+    fig = plt.figure(figsize=(11.0, 4.4), facecolor=COLORS['panel'])
+    gs = fig.add_gridspec(
+        2, 5,
+        height_ratios=[1.1, 2.4],
+        hspace=0.35, wspace=0.18,
+        left=0.03, right=0.985, top=0.86, bottom=0.06,
     )
-    fig.tight_layout()
-    fig.savefig(output, dpi=160, facecolor=COLORS['panel'])
+
+    # Título general
+    fig.text(
+        0.03, 0.94,
+        'Cumplimiento de cursos — trabajadores acreditados',
+        color=COLORS['text'], fontsize=13, fontweight='bold', ha='left',
+    )
+    fig.text(
+        0.03, 0.895,
+        f'Distribución de cumplimiento entre {total_acr} trabajadores acreditados '
+        f'(de {len(records)} totales).',
+        color=COLORS['muted'], fontsize=9, ha='left',
+    )
+
+    # --- Fila superior: 3 stats (PROMEDIO / COMPLETOS / CRÍTICOS) ---
+    stats = [
+        ('PROMEDIO',      f'{promedio}%',        COLORS['text']),
+        ('COMPLETOS',     f'{completos}',        '#7dd87a'),
+        ('CRÍTICOS <50%', f'{criticos}',         '#ff7a59'),
+    ]
+    # Dejamos los primeros 3 espacios de la fila superior para stats, los otros 2 vacíos
+    for i, (lbl, val, col) in enumerate(stats):
+        ax = fig.add_subplot(gs[0, i + 2])
+        ax.set_facecolor('#14324a')
+        for spine in ax.spines.values():
+            spine.set_color('#1e4360')
+            spine.set_linewidth(0.8)
+        ax.set_xticks([]); ax.set_yticks([])
+        ax.text(0.5, 0.72, lbl, ha='center', va='center',
+                color=COLORS['muted'], fontsize=8, fontweight='bold',
+                transform=ax.transAxes)
+        ax.text(0.5, 0.32, val, ha='center', va='center',
+                color=col, fontsize=16, fontweight='bold',
+                transform=ax.transAxes)
+
+    # --- Fila inferior: 5 "tarjetas" por tramo ---
+    icons = ['✓', '◐', '◑', '◔', '!']
+    for i, (label, short, _lo, _hi, color_hex) in enumerate(buckets):
+        ax = fig.add_subplot(gs[1, i])
+        ax.set_facecolor('#14324a')
+        for spine in ax.spines.values():
+            spine.set_visible(False)
+        ax.set_xticks([]); ax.set_yticks([])
+        ax.set_xlim(0, 1); ax.set_ylim(0, 1)
+
+        # Borde superior de color (acento)
+        ax.plot([0.02, 0.98], [0.985, 0.985], color=color_hex, linewidth=3, solid_capstyle='butt')
+
+        # Ícono + etiquetas
+        ax.text(0.07, 0.84, icons[i], color=color_hex, fontsize=14, fontweight='bold',
+                ha='left', va='center')
+        ax.text(0.22, 0.88, label, color=COLORS['text'], fontsize=9, fontweight='bold',
+                ha='left', va='center')
+        ax.text(0.22, 0.73, short, color=COLORS['muted'], fontsize=7.5,
+                ha='left', va='center')
+
+        # Valor grande
+        ax.text(0.06, 0.42, f'{counts[i]}', color=COLORS['text'],
+                fontsize=26, fontweight='bold', ha='left', va='center')
+
+        # Barra inferior
+        pct_acr = round((counts[i] / total_acr) * 100) if total_acr else 0
+        bar_y = 0.18
+        bar_h = 0.04
+        ax.add_patch(plt.Rectangle((0.06, bar_y), 0.88, bar_h,
+                                   facecolor='#1e3a52', edgecolor='none'))
+        ax.add_patch(plt.Rectangle((0.06, bar_y), 0.88 * (pct_acr / 100.0), bar_h,
+                                   facecolor=color_hex, edgecolor='none'))
+        ax.text(0.06, 0.08, f'{pct_acr}% de acreditados',
+                color=COLORS['muted'], fontsize=7.5, ha='left', va='center')
+
+    fig.savefig(output, dpi=170, facecolor=COLORS['panel'])
     plt.close(fig)
-    return {'acreditados': len(acreditados), 'counts': counts, 'labels': labels}
+    return {
+        'acreditados': total_acr,
+        'promedio': promedio,
+        'completos': completos,
+        'criticos': criticos,
+        'counts': counts,
+    }
 
 
 def build_pdf(data: dict, pdf_path: Path) -> Path:
@@ -305,7 +366,7 @@ def build_pdf(data: dict, pdf_path: Path) -> Path:
 
     # Tercer gráfico: cumplimiento de acreditados (ancho completo)
     acr_panel = Table(
-        [[Image(str(chart3), width=180 * mm, height=84 * mm)]],
+        [[Image(str(chart3), width=180 * mm, height=72 * mm)]],
         colWidths=[180 * mm],
     )
     acr_panel.setStyle(TableStyle([

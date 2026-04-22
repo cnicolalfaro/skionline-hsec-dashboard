@@ -401,24 +401,21 @@ h1 {
   border-collapse: separate;
   border-spacing: 0;
 }
+/* Sticky thead completo: las dos filas viajan juntas y no dejan gap */
 .records-table thead {
+  position: sticky;
+  top: 0;
+  z-index: 3;
   background: #0f2539;
 }
 .records-table thead th {
-  position: sticky;
   background: #0f2539;
-  z-index: 3;
 }
-/* Usamos top: 0 en ambas filas: la segunda ya viene despues en el flujo,
-   y asi no hay gap entre ellas aunque la altura natural sea variable. */
-.records-table thead tr:first-child th { top: 0; }
-.records-table thead tr:nth-child(2) th { top: 3rem; }
 .records-table thead tr:first-child th {
-  border-bottom: 0;
   box-shadow: inset 0 -1px 0 rgba(255,255,255,.06);
 }
 .records-table thead tr:nth-child(2) th {
-  box-shadow: inset 0 -1px 0 rgba(255,255,255,.12);
+  box-shadow: inset 0 -1px 0 rgba(255,255,255,.18);
 }
 /* Primera columna (Nombre) fija horizontalmente */
 .records-table thead tr:first-child th:first-child,

@@ -1,10 +1,10 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "22/04/2026 16:50",
+  "generatedAt": "22/04/2026 17:06",
   "sourceFile": "REGISTRO_FINAL_CURSOS.xlsx",
   "kpis": {
-    "totalArchivos": 1955,
-    "documentosUnicos": 1685,
-    "duplicados": 120,
+    "totalArchivos": 2250,
+    "documentosUnicos": 1737,
+    "duplicados": 147,
     "noLegibles": 1,
     "trabajadoresTarja": 344,
     "conRegistros": 292,
@@ -13,27 +13,27 @@ window.DASHBOARD_DATA = {
   "courseTotals": [
     {
       "curso": "Aislación y Bloqueo",
-      "total": 210
+      "total": 211
     },
     {
       "curso": "Uso y Mantención de EPP",
-      "total": 241
-    },
-    {
-      "curso": "Manejo de Extintores Portátiles",
       "total": 284
     },
     {
+      "curso": "Manejo de Extintores Portátiles",
+      "total": 362
+    },
+    {
       "curso": "Orientación a la Prevención de Riesgos",
-      "total": 252
+      "total": 317
     },
     {
       "curso": "Primeros Auxilios",
-      "total": 249
+      "total": 294
     },
     {
       "curso": "IRL General",
-      "total": 211
+      "total": 208
     },
     {
       "curso": "IRL Específica",
@@ -45,7 +45,7 @@ window.DASHBOARD_DATA = {
     },
     {
       "curso": "Conducción a la Defensiva",
-      "total": 15
+      "total": 54
     }
   ],
   "statusBreakdown": [
@@ -61,7 +61,7 @@ window.DASHBOARD_DATA = {
     },
     {
       "label": "Duplicados",
-      "value": 120,
+      "value": 147,
       "color": "#f4c430"
     },
     {
@@ -73,38 +73,38 @@ window.DASHBOARD_DATA = {
   "summaryRows": [
     {
       "curso": "Aislación y Bloqueo",
-      "total": 210,
-      "unicos": 204
+      "total": 211,
+      "unicos": 205
     },
     {
       "curso": "Uso y Mantención de EPP",
-      "total": 241,
-      "unicos": 237
+      "total": 284,
+      "unicos": 240
     },
     {
       "curso": "Manejo de Extintores Portátiles",
-      "total": 284,
-      "unicos": 274
+      "total": 362,
+      "unicos": 282
     },
     {
       "curso": "Orientación a la Prevención de Riesgos",
-      "total": 252,
-      "unicos": 243
+      "total": 317,
+      "unicos": 247
     },
     {
       "curso": "Primeros Auxilios",
-      "total": 249,
-      "unicos": 245
+      "total": 294,
+      "unicos": 249
     },
     {
       "curso": "Conducción a la Defensiva",
-      "total": 15,
-      "unicos": 15
+      "total": 54,
+      "unicos": 50
     },
     {
       "curso": "IRL General",
-      "total": 211,
-      "unicos": 211
+      "total": 208,
+      "unicos": 208
     },
     {
       "curso": "IRL Específica",
@@ -123,12 +123,12 @@ window.DASHBOARD_DATA = {
     },
     {
       "curso": "DUPLICADOS",
-      "total": 120,
+      "total": 147,
       "unicos": null
     },
     {
       "curso": "TOTAL",
-      "total": 1955,
+      "total": 2250,
       "unicos": null
     }
   ],
@@ -1655,7 +1655,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "EXPERTO HSEC MANTENCION · Estado TARJA: VIGENTE · ACR: Acreditado · Turno: 10x10 B",
+      "detalle": "EXPERTO HSEC MANTENCION · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Turno: 10x10 B",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "",
@@ -2097,7 +2097,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "SOLDADOR PLANCHA · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: CALIFICACIÓN III · Turno: 10X10 A",
+      "detalle": "SOLDADOR PLANCHA · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: CALIFICACIÓN III · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "CALIFICACIÓN III",
@@ -3168,7 +3168,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER CAMIONETA MANTENCI · Estado TARJA: VIGENTE · ACR: Acreditado · Turno: 10X10 B",
+      "detalle": "CHOFER CAMIONETA MANTENCI · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Turno: 10X10 B",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "",
@@ -3620,7 +3620,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "EXPERTO HSEC MANTENCION · Estado TARJA: VIGENTE · ACR: Acreditado · Turno: 10X10 A",
+      "detalle": "EXPERTO HSEC MANTENCION · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "",
@@ -3710,7 +3710,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "SOLDADOR PLANCHA · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: CALIFICACIÓN III · Turno: 10X10 A",
+      "detalle": "SOLDADOR PLANCHA · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: CALIFICACIÓN III · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "CALIFICACIÓN III",
@@ -3982,7 +3982,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "JEFE HSEC MANTENCION · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: . · Turno: 4X3",
+      "detalle": "JEFE HSEC MANTENCION · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: . · Turno: 4X3",
       "certFinal": "PENDIENTE",
       "examenSalud": "",
       "categoria": ".",
@@ -4781,7 +4781,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: CAPATAZ · Turno: 10X10 B",
+      "detalle": "MECANICO · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: CAPATAZ · Turno: 10X10 B",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "CAPATAZ",
@@ -9405,7 +9405,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "EXPERTO HSEC MANTENCION · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: . · Turno: 10x10 B",
+      "detalle": "EXPERTO HSEC MANTENCION · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: . · Turno: 10x10 B",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": ".",
@@ -10471,9 +10471,10 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "GAJARDO GAJARDO JORGE LUIS",
       "rut": "12519848-1",
-      "cursos": "AYB, EPP, EXT, IRL ESPECIFICA, IRL GENERAL, OPR, PA",
+      "cursos": "AYB, CAD, EPP, EXT, IRL ESPECIFICA, IRL GENERAL, OPR, PA",
       "courseList": [
         "AYB",
+        "CAD",
         "EPP",
         "EXT",
         "IRL ESPECIFICA",
@@ -10483,7 +10484,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "SOLDADOR PLANCHA · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: CALIFICACIÓN III · Turno: 10X10 A",
+      "detalle": "SOLDADOR PLANCHA · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: CALIFICACIÓN III · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "CALIFICACIÓN III",
@@ -10660,16 +10661,19 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "GALDAMES PEREZ LORENZO RAUL",
       "rut": "11903248-2",
-      "cursos": "AYB, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
+      "cursos": "AYB, EPP, EVALUACIONES IRL, EXT, IRL ESPECIFICA, IRL GENERAL, PA",
       "courseList": [
         "AYB",
+        "EPP",
         "EVALUACIONES IRL",
+        "EXT",
         "IRL ESPECIFICA",
-        "IRL GENERAL"
+        "IRL GENERAL",
+        "PA"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "SOLDADOR PLANCHA · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: CALIFICACIÓN III · Turno: 10X10 B",
+      "detalle": "SOLDADOR PLANCHA · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: CALIFICACIÓN III · Turno: 10X10 B",
       "certFinal": "PENDIENTE",
       "examenSalud": "",
       "categoria": "CALIFICACIÓN III",
@@ -11656,7 +11660,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "ASEADORES INDUSTRIAL · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: . · Turno: 10X10 B",
+      "detalle": "ASEADORES INDUSTRIAL · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: . · Turno: 10X10 B",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": ".",
@@ -12438,7 +12442,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: CAPATAZ · Turno: 10X10 B",
+      "detalle": "MECANICO · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: CAPATAZ · Turno: 10X10 B",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "CAPATAZ",
@@ -12798,7 +12802,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "JEFE DE BODEGA MANTENCION · Estado TARJA: DE BAJA · ACR: Acreditado · Cat: . · Turno: 10X10 A",
+      "detalle": "JEFE DE BODEGA MANTENCION · Estado TARJA: DE BAJA · incluye duplicados · ACR: Acreditado · Cat: . · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": ".",
@@ -13157,7 +13161,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER CAMIONETA MANTENCI · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: . · Turno: 10X10 A",
+      "detalle": "CHOFER CAMIONETA MANTENCI · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: . · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": ".",
@@ -13772,7 +13776,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "JEFE DE BODEGA MANTENCION · Estado TARJA: VIGENTE · ACR: Acreditado · Turno: 10X10 B",
+      "detalle": "JEFE DE BODEGA MANTENCION · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Turno: 10X10 B",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "",
@@ -14215,7 +14219,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: MAESTRO PRIMERA · Turno: 10X10 B",
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: MAESTRO PRIMERA · Turno: 10X10 B",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "MAESTRO PRIMERA",
@@ -14568,7 +14572,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: CAPATAZ · Turno: 10X10 B",
+      "detalle": "MECANICO · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: CAPATAZ · Turno: 10X10 B",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "CAPATAZ",
@@ -15097,7 +15101,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "SUPERV MECANICO MANTENCIO · Estado TARJA: VIGENTE · ACR: Acreditado · Turno: 10X10 A",
+      "detalle": "SUPERV MECANICO MANTENCIO · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "",
@@ -15282,7 +15286,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ANDAMIOS · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: CAPATAZ · Turno: 10X10 A",
+      "detalle": "MONTAJE ANDAMIOS · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: CAPATAZ · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "CAPATAZ",
@@ -15552,7 +15556,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "ALARIFE DE MANTENCION · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: . · Turno: 10X10 B",
+      "detalle": "ALARIFE DE MANTENCION · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: . · Turno: 10X10 B",
       "certFinal": "PENDIENTE",
       "examenSalud": "",
       "categoria": ".",
@@ -15729,7 +15733,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "ASEADORES INDUSTRIAL · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: . · Turno: 10X10 A",
+      "detalle": "ASEADORES INDUSTRIAL · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: . · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": ".",
@@ -16243,7 +16247,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: MAESTRO PRIMERA · Turno: 10X10 A",
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: MAESTRO PRIMERA · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "MAESTRO PRIMERA",
@@ -16954,7 +16958,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "SUPERV DE ESTRUCTURA MANT · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: . · Turno: 10X10 A",
+      "detalle": "SUPERV DE ESTRUCTURA MANT · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: . · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": ".",
@@ -17229,7 +17233,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: MAESTRO PRIMERA · Turno: 10X10 B",
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: MAESTRO PRIMERA · Turno: 10X10 B",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "MAESTRO PRIMERA",
@@ -18554,9 +18558,10 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "OÑATE SALAZAR ALEJANDRO JAVIER",
       "rut": "13960048-7",
-      "cursos": "AYB, IRL ESPECIFICA, IRL GENERAL",
+      "cursos": "AYB, EXT, IRL ESPECIFICA, IRL GENERAL",
       "courseList": [
         "AYB",
+        "EXT",
         "IRL ESPECIFICA",
         "IRL GENERAL"
       ],
@@ -18657,7 +18662,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: . · Turno: 10X10 A",
+      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: . · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": ".",
@@ -19201,7 +19206,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: MAESTRO MAYOR · Turno: 10X10 A",
+      "detalle": "MECANICO · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: MAESTRO MAYOR · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "MAESTRO MAYOR",
@@ -19467,7 +19472,7 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "PACHECO MANSILLA DIEGO ARIEL",
       "rut": "17893574-7",
-      "cursos": "AYB, EPP, EVALUACIONES IRL, EXT, IRL ESPECIFICA, IRL GENERAL, OPR",
+      "cursos": "AYB, EPP, EVALUACIONES IRL, EXT, IRL ESPECIFICA, IRL GENERAL, OPR, PA",
       "courseList": [
         "AYB",
         "EPP",
@@ -19475,11 +19480,12 @@ window.DASHBOARD_DATA = {
         "EXT",
         "IRL ESPECIFICA",
         "IRL GENERAL",
-        "OPR"
+        "OPR",
+        "PA"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: . · Turno: 10X10 A",
+      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: . · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": ".",
@@ -19839,7 +19845,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: . · Turno: 10X10 A",
+      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: . · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": ".",
@@ -20373,7 +20379,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: CAPATAZ · Turno: 10X10 A",
+      "detalle": "MECANICO · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: CAPATAZ · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "CAPATAZ",
@@ -21098,10 +21104,11 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "PEREZ RODRIGUEZ HERNAN RIGOBERTO",
       "rut": "11294277-7",
-      "cursos": "AYB, EPP, IRL ESPECIFICA, IRL GENERAL, OPR",
+      "cursos": "AYB, EPP, EXT, IRL ESPECIFICA, IRL GENERAL, OPR",
       "courseList": [
         "AYB",
         "EPP",
+        "EXT",
         "IRL ESPECIFICA",
         "IRL GENERAL",
         "OPR"
@@ -21375,7 +21382,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "INGENIERO DE COSTOS · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: . · Turno: 10X10 B",
+      "detalle": "INGENIERO DE COSTOS · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: . · Turno: 10X10 B",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": ".",
@@ -21645,7 +21652,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO SEGUNDA · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: . · Turno: 10X10 B",
+      "detalle": "MECANICO SEGUNDA · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: . · Turno: 10X10 B",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": ".",
@@ -21895,9 +21902,13 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "QUIROZ MENDOZA IVAN ESTEBAN",
       "rut": "16329679-9",
-      "cursos": "AYB",
+      "cursos": "AYB, EPP, EXT, OPR, PA",
       "courseList": [
-        "AYB"
+        "AYB",
+        "EPP",
+        "EXT",
+        "OPR",
+        "PA"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
@@ -23133,7 +23144,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "SUPERV MECANICO MANTENCIO · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: . · Turno: 10X10 A",
+      "detalle": "SUPERV MECANICO MANTENCIO · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: . · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": ".",
@@ -23851,7 +23862,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: MAESTRO MAYOR · Turno: 10X10 B",
+      "detalle": "MECANICO · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: MAESTRO MAYOR · Turno: 10X10 B",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "MAESTRO MAYOR",
@@ -26184,7 +26195,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "EXPERTO HSEC MANTENCION · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: . · Turno: 10x10 A",
+      "detalle": "EXPERTO HSEC MANTENCION · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: . · Turno: 10x10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": ".",
@@ -26971,7 +26982,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "INGENIERO DE COSTOS · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: . · Turno: 10x10 B",
+      "detalle": "INGENIERO DE COSTOS · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: . · Turno: 10x10 B",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": ".",
@@ -27319,11 +27330,13 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "TAPIA GAETE MIGUEL VLADIMIR",
       "rut": "13368662-2",
-      "cursos": "EPP, IRL ESPECIFICA, IRL GENERAL",
+      "cursos": "EPP, EXT, IRL ESPECIFICA, IRL GENERAL, PA",
       "courseList": [
         "EPP",
+        "EXT",
         "IRL ESPECIFICA",
-        "IRL GENERAL"
+        "IRL GENERAL",
+        "PA"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
@@ -29762,8 +29775,9 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "VERGARA IBACACHE RODRIGO ALEJANDRO",
       "rut": "12857507-3",
-      "cursos": "EPP, EXT, OPR, PA",
+      "cursos": "AYB, EPP, EXT, OPR, PA",
       "courseList": [
+        "AYB",
         "EPP",
         "EXT",
         "OPR",
@@ -30470,17 +30484,19 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "ZAMBRANA SALVATIERRA OMAR",
       "rut": "23240690-9",
-      "cursos": "EVALUACIONES IRL, EXT, IRL ESPECIFICA, IRL GENERAL, PA",
+      "cursos": "EPP, EVALUACIONES IRL, EXT, IRL ESPECIFICA, IRL GENERAL, OPR, PA",
       "courseList": [
+        "EPP",
         "EVALUACIONES IRL",
         "EXT",
         "IRL ESPECIFICA",
         "IRL GENERAL",
+        "OPR",
         "PA"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: MAESTRO MAYOR · Turno: 10X10 A",
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: MAESTRO MAYOR · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "MAESTRO MAYOR",
@@ -31010,7 +31026,7 @@ window.DASHBOARD_DATA = {
   "insights": [
     {
       "title": "Curso con mayor volumen",
-      "detail": "Manejo de Extintores Portátiles concentra 284 archivos."
+      "detail": "Manejo de Extintores Portátiles concentra 362 archivos."
     },
     {
       "title": "Cruce con TARJA",
@@ -31018,7 +31034,7 @@ window.DASHBOARD_DATA = {
     },
     {
       "title": "Calidad del registro",
-      "detail": "Se identificaron 120 duplicados y 1 documentos no legibles."
+      "detail": "Se identificaron 147 duplicados y 1 documentos no legibles."
     },
     {
       "title": "Certificados finales (TARJA)",

@@ -305,14 +305,20 @@ function renderDonut(items) {  const total = items.reduce((sum, item) => sum + i
   `).join('');
 }
 
-function renderAcrCompliance(records) {
+function renderAcrCompliance(records, options) {
   const container = document.getElementById('acrComplianceBars');
   const note = document.getElementById('acrComplianceNote');
   const summaryEl = document.getElementById('acrSummary');
   if (!container) return;
 
+  const opts = options || {};
   const totalCourses = COURSE_COLUMNS.length;
-  const acreditados = records.filter(r => normalizeText(r.acrSucal) === 'acreditado');
+  // Si hay filtros activos usamos TODOS los records filtrados; si no, solo acreditados.
+  const usarTodos = !!opts.usarTodos;
+  const acreditados = usarTodos
+    ? records.slice()
+    : records.filter(r => normalizeText(r.acrSucal) === 'acreditado');
+  const etiquetaGrupo = usarTodos ? 'trabajadores filtrados' : 'trabajadores acreditados';
 
   const buckets = [
     { label: '100% completo', short: 'Completo',    min: 100, max: 100, color: '#51b847', icon: '✓' },
@@ -344,7 +350,7 @@ function renderAcrCompliance(records) {
     const sufijo = filtrado
       ? ` — filtro activo: ${formatNumber(records.length)} de ${formatNumber(totalRegistros)} trabajadores`
       : '';
-    note.textContent = `Distribución de cumplimiento entre ${formatNumber(totalAcr)} trabajadores acreditados (de ${formatNumber(records.length)} totales)${sufijo}.`;
+    note.textContent = `Distribución de cumplimiento entre ${formatNumber(totalAcr)} ${etiquetaGrupo} (de ${formatNumber(records.length)} totales)${sufijo}.`;
   }
   if (summaryEl) {
     summaryEl.innerHTML = `
@@ -376,7 +382,7 @@ function renderAcrCompliance(records) {
         </div>
         <div class="acr-bucket-count">${formatNumber(item.total)}</div>
         <div class="acr-bucket-bar"><span style="width:${pctAcr}%"></span></div>
-        <div class="acr-bucket-foot">${pctAcr}% de acreditados</div>
+        <div class="acr-bucket-foot">${pctAcr}% ${usarTodos ? 'del grupo' : 'de acreditados'}</div>
       </div>
     `;
   }).join('');
@@ -616,7 +622,7 @@ function setupFilters(data) {
     resultsCount.textContent = `${formatNumber(filtered.length)} resultado(s)` + (filtered.length > 250 ? ' · mostrando 250' : '');
 
     // Visual de cumplimiento se adapta a los filtros activos
-    renderAcrCompliance(filtered);
+    renderAcrCompliance(filtered, { usarTodos: filtered.length !== (data.records || []).length });
   }
 
   nameInput.addEventListener('input', applyFilters);

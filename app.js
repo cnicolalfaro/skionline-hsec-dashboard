@@ -339,7 +339,12 @@ function renderAcrCompliance(records) {
   const criticos = counts[4].total + counts[3].total;
 
   if (note) {
-    note.textContent = `Distribución de cumplimiento entre ${formatNumber(totalAcr)} trabajadores acreditados (de ${formatNumber(records.length)} totales).`;
+    const totalRegistros = (window.DASHBOARD_DATA && window.DASHBOARD_DATA.records) ? window.DASHBOARD_DATA.records.length : records.length;
+    const filtrado = records.length !== totalRegistros;
+    const sufijo = filtrado
+      ? ` — filtro activo: ${formatNumber(records.length)} de ${formatNumber(totalRegistros)} trabajadores`
+      : '';
+    note.textContent = `Distribución de cumplimiento entre ${formatNumber(totalAcr)} trabajadores acreditados (de ${formatNumber(records.length)} totales)${sufijo}.`;
   }
   if (summaryEl) {
     summaryEl.innerHTML = `
@@ -609,6 +614,9 @@ function setupFilters(data) {
     const limited = filtered.slice(0, 250);
     renderRecords(limited, shiftCtx);
     resultsCount.textContent = `${formatNumber(filtered.length)} resultado(s)` + (filtered.length > 250 ? ' · mostrando 250' : '');
+
+    // Visual de cumplimiento se adapta a los filtros activos
+    renderAcrCompliance(filtered);
   }
 
   nameInput.addEventListener('input', applyFilters);

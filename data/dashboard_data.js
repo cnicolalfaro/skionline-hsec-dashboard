@@ -1,11 +1,11 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "21/04/2026 19:45",
+  "generatedAt": "21/04/2026 22:34",
   "sourceFile": "REGISTRO_FINAL_CURSOS.xlsx",
   "kpis": {
-    "totalArchivos": 1917,
-    "documentosUnicos": 1752,
-    "duplicados": 124,
-    "noLegibles": 6,
+    "totalArchivos": 1925,
+    "documentosUnicos": 1757,
+    "duplicados": 125,
+    "noLegibles": 1,
     "trabajadoresTarja": 345,
     "conRegistros": 294,
     "sinRegistros": 51
@@ -13,7 +13,7 @@ window.DASHBOARD_DATA = {
   "courseTotals": [
     {
       "curso": "AYB",
-      "total": 198
+      "total": 200
     },
     {
       "curso": "EPP",
@@ -33,7 +33,7 @@ window.DASHBOARD_DATA = {
     },
     {
       "curso": "IRL GENERAL",
-      "total": 171
+      "total": 179
     },
     {
       "curso": "IRL GENERAL FORMS",
@@ -41,7 +41,7 @@ window.DASHBOARD_DATA = {
     },
     {
       "curso": "IRL ESPECIFICA",
-      "total": 157
+      "total": 158
     },
     {
       "curso": "EVALUACIONES IRL",
@@ -49,7 +49,7 @@ window.DASHBOARD_DATA = {
     },
     {
       "curso": "CAD",
-      "total": 14
+      "total": 15
     }
   ],
   "statusBreakdown": [
@@ -65,20 +65,20 @@ window.DASHBOARD_DATA = {
     },
     {
       "label": "Duplicados",
-      "value": 124,
+      "value": 125,
       "color": "#f4c430"
     },
     {
       "label": "No legibles",
-      "value": 6,
+      "value": 1,
       "color": "#f53b4d"
     }
   ],
   "summaryRows": [
     {
       "curso": "AYB",
-      "total": 198,
-      "unicos": 195
+      "total": 200,
+      "unicos": 197
     },
     {
       "curso": "EPP",
@@ -102,13 +102,13 @@ window.DASHBOARD_DATA = {
     },
     {
       "curso": "CAD",
-      "total": 14,
-      "unicos": 14
+      "total": 15,
+      "unicos": 15
     },
     {
       "curso": "IRL_GENERAL",
-      "total": 171,
-      "unicos": 164
+      "total": 179,
+      "unicos": 172
     },
     {
       "curso": "IRL_GENERAL_FORMS",
@@ -117,8 +117,8 @@ window.DASHBOARD_DATA = {
     },
     {
       "curso": "IRL_ESPECIFICA",
-      "total": 157,
-      "unicos": 154
+      "total": 158,
+      "unicos": 153
     },
     {
       "curso": "EVALUACIONES_IRL",
@@ -127,17 +127,17 @@ window.DASHBOARD_DATA = {
     },
     {
       "curso": "NO_LEGIBLE",
-      "total": 6,
-      "unicos": 6
+      "total": 1,
+      "unicos": 1
     },
     {
       "curso": "DUPLICADOS",
-      "total": 124,
+      "total": 125,
       "unicos": null
     },
     {
       "curso": "TOTAL",
-      "total": 1917,
+      "total": 1925,
       "unicos": null
     }
   ],
@@ -2819,9 +2819,10 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "ARTEAGA CURAHUA RONALD",
       "rut": "27813960-3",
-      "cursos": "AYB, IRL GENERAL FORMS",
+      "cursos": "AYB, IRL GENERAL, IRL GENERAL FORMS",
       "courseList": [
         "AYB",
+        "IRL GENERAL",
         "IRL GENERAL FORMS"
       ],
       "estado": "Con registros",
@@ -3100,7 +3101,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: MAESTRO MAYOR · Turno: 10X10 A",
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: MAESTRO MAYOR · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "MAESTRO MAYOR",
@@ -3538,8 +3539,9 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "BARRAULT DAVIES PABLO HENRY",
       "rut": "09068042-0",
-      "cursos": "IRL GENERAL FORMS",
+      "cursos": "IRL GENERAL, IRL GENERAL FORMS",
       "courseList": [
+        "IRL GENERAL",
         "IRL GENERAL FORMS"
       ],
       "estado": "Con registros",
@@ -5065,11 +5067,12 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "CACERES MORALES BERNARDO GIOVANY",
       "rut": "18683509-3",
-      "cursos": "AYB, EPP, EXT, IRL GENERAL FORMS, OPR, PA",
+      "cursos": "AYB, EPP, EXT, IRL GENERAL, IRL GENERAL FORMS, OPR, PA",
       "courseList": [
         "AYB",
         "EPP",
         "EXT",
+        "IRL GENERAL",
         "IRL GENERAL FORMS",
         "OPR",
         "PA"
@@ -8061,8 +8064,9 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "DIAZ MERINO JORGE ANDRES",
       "rut": "16600869-7",
-      "cursos": "EPP, EXT, IRL GENERAL FORMS, OPR, PA",
+      "cursos": "AYB, EPP, EXT, IRL GENERAL FORMS, OPR, PA",
       "courseList": [
+        "AYB",
         "EPP",
         "EXT",
         "IRL GENERAL FORMS",
@@ -9525,7 +9529,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · incluye duplicados, incluye no legibles · ACR: Acreditado · Cat: . · Turno: 10X10 A",
+      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: . · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": ".",
@@ -9879,11 +9883,12 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "FRIZ ERICES LUIS ALFONSO",
       "rut": "17913370-9",
-      "cursos": "AYB, EPP, EXT, OPR, PA",
+      "cursos": "AYB, EPP, EXT, IRL GENERAL, OPR, PA",
       "courseList": [
         "AYB",
         "EPP",
         "EXT",
+        "IRL GENERAL",
         "OPR",
         "PA"
       ],
@@ -14153,11 +14158,12 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "LAGOS LAGOS PABLO ANDRES",
       "rut": "16620592-1",
-      "cursos": "AYB, EPP, EXT, IRL GENERAL FORMS, OPR, PA",
+      "cursos": "AYB, EPP, EXT, IRL GENERAL, IRL GENERAL FORMS, OPR, PA",
       "courseList": [
         "AYB",
         "EPP",
         "EXT",
+        "IRL GENERAL",
         "IRL GENERAL FORMS",
         "OPR",
         "PA"
@@ -17541,8 +17547,9 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "MUÑOZ DIAZ MAURICIO ANTONIO",
       "rut": "16904531-3",
-      "cursos": "IRL GENERAL FORMS",
+      "cursos": "IRL GENERAL, IRL GENERAL FORMS",
       "courseList": [
+        "IRL GENERAL",
         "IRL GENERAL FORMS"
       ],
       "estado": "Con registros",
@@ -20502,9 +20509,10 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "PAVEZ URIBE FERNANDO ALEJANDRO",
       "rut": "18468486-1",
-      "cursos": "AYB, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL, PA",
+      "cursos": "AYB, CAD, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL, PA",
       "courseList": [
         "AYB",
+        "CAD",
         "EVALUACIONES IRL",
         "IRL ESPECIFICA",
         "IRL GENERAL",
@@ -20681,9 +20689,10 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "PEÑA SAEZ GUSTAVO ANDRES",
       "rut": "16138741-K",
-      "cursos": "AYB, IRL GENERAL FORMS",
+      "cursos": "AYB, IRL GENERAL, IRL GENERAL FORMS",
       "courseList": [
         "AYB",
+        "IRL GENERAL",
         "IRL GENERAL FORMS"
       ],
       "estado": "Con registros",
@@ -22379,10 +22388,11 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "RETAMAL RODRIGUEZ NISEN ANDRES",
       "rut": "15180350-4",
-      "cursos": "AYB, EPP, IRL GENERAL FORMS",
+      "cursos": "AYB, EPP, IRL GENERAL, IRL GENERAL FORMS",
       "courseList": [
         "AYB",
         "EPP",
+        "IRL GENERAL",
         "IRL GENERAL FORMS"
       ],
       "estado": "Con registros",
@@ -24701,7 +24711,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · incluye no legibles · ACR: Acreditado · Cat: MAESTRO PRIMERA · Turno: 10X10 A",
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: MAESTRO PRIMERA · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "MAESTRO PRIMERA",
@@ -31176,7 +31186,7 @@ window.DASHBOARD_DATA = {
     },
     {
       "title": "Calidad del registro",
-      "detail": "Se identificaron 124 duplicados y 6 documentos no legibles."
+      "detail": "Se identificaron 125 duplicados y 1 documentos no legibles."
     },
     {
       "title": "Certificados finales (TARJA)",

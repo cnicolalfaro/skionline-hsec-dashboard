@@ -389,6 +389,31 @@ h1 {
 .table-wrap {
   overflow-x: auto;
 }
+
+/* Contenedor de la tabla grande de registros: scroll vertical + thead sticky */
+.records-panel-wrap {
+  max-height: 75vh;
+  overflow-y: auto;
+  overflow-x: auto;
+}
+.records-table thead th {
+  position: sticky;
+  background: #0f2539;
+  z-index: 3;
+  box-shadow: 0 1px 0 rgba(255,255,255,.08);
+}
+.records-table thead tr:first-child th { top: 0; }
+.records-table thead tr:nth-child(2) th { top: 34px; }
+/* Primera columna (Nombre) fija horizontalmente */
+.records-table thead tr:first-child th:first-child,
+.records-table tbody td.nombre-cell {
+  position: sticky;
+  left: 0;
+  background: #0f2539;
+  z-index: 2;
+}
+.records-table thead tr:first-child th:first-child { z-index: 4; }
+.records-table tbody tr:hover td.nombre-cell { background: #14304a; }
 table {
   width: 100%;
   border-collapse: collapse;

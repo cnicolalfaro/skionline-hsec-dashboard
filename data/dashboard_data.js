@@ -1,14 +1,14 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "22/04/2026 17:06",
+  "generatedAt": "23/04/2026 14:13",
   "sourceFile": "REGISTRO_FINAL_CURSOS.xlsx",
   "kpis": {
-    "totalArchivos": 2250,
-    "documentosUnicos": 1737,
-    "duplicados": 147,
-    "noLegibles": 1,
+    "totalArchivos": 2663,
+    "documentosUnicos": 1991,
+    "duplicados": 248,
+    "noLegibles": 2,
     "trabajadoresTarja": 344,
-    "conRegistros": 292,
-    "sinRegistros": 52
+    "conRegistros": 299,
+    "sinRegistros": 45
   },
   "courseTotals": [
     {
@@ -17,56 +17,56 @@ window.DASHBOARD_DATA = {
     },
     {
       "curso": "Uso y Mantención de EPP",
-      "total": 284
+      "total": 325
     },
     {
       "curso": "Manejo de Extintores Portátiles",
-      "total": 362
+      "total": 408
     },
     {
       "curso": "Orientación a la Prevención de Riesgos",
-      "total": 317
+      "total": 349
     },
     {
       "curso": "Primeros Auxilios",
-      "total": 294
+      "total": 337
     },
     {
       "curso": "IRL General",
-      "total": 208
+      "total": 224
     },
     {
       "curso": "IRL Específica",
-      "total": 152
+      "total": 175
     },
     {
       "curso": "Evaluaciones IRL",
-      "total": 103
+      "total": 175
     },
     {
       "curso": "Conducción a la Defensiva",
-      "total": 54
+      "total": 92
     }
   ],
   "statusBreakdown": [
     {
       "label": "Con registros",
-      "value": 292,
+      "value": 299,
       "color": "#51b847"
     },
     {
       "label": "Sin registros",
-      "value": 52,
+      "value": 45,
       "color": "#ff7a59"
     },
     {
       "label": "Duplicados",
-      "value": 147,
+      "value": 248,
       "color": "#f4c430"
     },
     {
       "label": "No legibles",
-      "value": 1,
+      "value": 2,
       "color": "#f53b4d"
     }
   ],
@@ -78,57 +78,57 @@ window.DASHBOARD_DATA = {
     },
     {
       "curso": "Uso y Mantención de EPP",
-      "total": 284,
-      "unicos": 240
+      "total": 325,
+      "unicos": 264
     },
     {
       "curso": "Manejo de Extintores Portátiles",
-      "total": 362,
-      "unicos": 282
+      "total": 408,
+      "unicos": 309
     },
     {
       "curso": "Orientación a la Prevención de Riesgos",
-      "total": 317,
-      "unicos": 247
+      "total": 349,
+      "unicos": 274
     },
     {
       "curso": "Primeros Auxilios",
-      "total": 294,
-      "unicos": 249
+      "total": 337,
+      "unicos": 279
     },
     {
       "curso": "Conducción a la Defensiva",
-      "total": 54,
-      "unicos": 50
+      "total": 92,
+      "unicos": 84
     },
     {
       "curso": "IRL General",
-      "total": 208,
-      "unicos": 208
+      "total": 224,
+      "unicos": 224
     },
     {
       "curso": "IRL Específica",
-      "total": 152,
-      "unicos": 152
+      "total": 175,
+      "unicos": 175
     },
     {
       "curso": "Evaluaciones IRL",
-      "total": 103,
-      "unicos": 103
+      "total": 175,
+      "unicos": 175
     },
     {
       "curso": "NO LEGIBLE",
-      "total": 1,
-      "unicos": 1
+      "total": 2,
+      "unicos": 2
     },
     {
       "curso": "DUPLICADOS",
-      "total": 147,
+      "total": 248,
       "unicos": null
     },
     {
       "curso": "TOTAL",
-      "total": 2250,
+      "total": 2663,
       "unicos": null
     }
   ],
@@ -1284,9 +1284,13 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "ALVAREZ BECERRA JOSE LUIS",
       "rut": "15135507-2",
-      "cursos": "AYB",
+      "cursos": "AYB, EPP, EXT, OPR, PA",
       "courseList": [
-        "AYB"
+        "AYB",
+        "EPP",
+        "EXT",
+        "OPR",
+        "PA"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
@@ -1553,11 +1557,12 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "ANABALON ESCOBAR HUGO ALBERTO",
       "rut": "11571446-5",
-      "cursos": "AYB, CAD, EPP, EXT, IRL ESPECIFICA, IRL GENERAL, PA",
+      "cursos": "AYB, CAD, EPP, EVALUACIONES IRL, EXT, IRL ESPECIFICA, IRL GENERAL, PA",
       "courseList": [
         "AYB",
         "CAD",
         "EPP",
+        "EVALUACIONES IRL",
         "EXT",
         "IRL ESPECIFICA",
         "IRL GENERAL",
@@ -2088,11 +2093,14 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "ARENAS CAIRE NELSON ELIAS",
       "rut": "16920128-5",
-      "cursos": "AYB, EPP, EXT, PA",
+      "cursos": "AYB, EPP, EVALUACIONES IRL, EXT, IRL ESPECIFICA, IRL GENERAL, PA",
       "courseList": [
         "AYB",
         "EPP",
+        "EVALUACIONES IRL",
         "EXT",
+        "IRL ESPECIFICA",
+        "IRL GENERAL",
         "PA"
       ],
       "estado": "Con registros",
@@ -2709,11 +2717,14 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "ARROYO CUEVAS NELSON ELOY",
       "rut": "11496116-7",
-      "cursos": "AYB, IRL ESPECIFICA, IRL GENERAL",
+      "cursos": "AYB, CAD, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL, PA",
       "courseList": [
         "AYB",
+        "CAD",
+        "EVALUACIONES IRL",
         "IRL ESPECIFICA",
-        "IRL GENERAL"
+        "IRL GENERAL",
+        "PA"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
@@ -2802,9 +2813,11 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "ARTEAGA CURAHUA RONALD",
       "rut": "27813960-3",
-      "cursos": "AYB, IRL GENERAL",
+      "cursos": "AYB, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
       "courseList": [
         "AYB",
+        "EVALUACIONES IRL",
+        "IRL ESPECIFICA",
         "IRL GENERAL"
       ],
       "estado": "Con registros",
@@ -3250,11 +3263,17 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "AVILA VALENCIA MAURICIO ANDRES",
       "rut": "12772174-2",
-      "cursos": "AYB, IRL ESPECIFICA, IRL GENERAL",
+      "cursos": "AYB, CAD, EPP, EVALUACIONES IRL, EXT, IRL ESPECIFICA, IRL GENERAL, OPR, PA",
       "courseList": [
         "AYB",
+        "CAD",
+        "EPP",
+        "EVALUACIONES IRL",
+        "EXT",
         "IRL ESPECIFICA",
-        "IRL GENERAL"
+        "IRL GENERAL",
+        "OPR",
+        "PA"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
@@ -3343,13 +3362,16 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "BALMAZABAL GUTIERREZ RODRIGO EDUARDO",
       "rut": "11904878-8",
-      "cursos": "CAD, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL, OPR",
+      "cursos": "CAD, EPP, EVALUACIONES IRL, EXT, IRL ESPECIFICA, IRL GENERAL, OPR, PA",
       "courseList": [
         "CAD",
+        "EPP",
         "EVALUACIONES IRL",
+        "EXT",
         "IRL ESPECIFICA",
         "IRL GENERAL",
-        "OPR"
+        "OPR",
+        "PA"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
@@ -3519,8 +3541,10 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "BARRAULT DAVIES PABLO HENRY",
       "rut": "09068042-0",
-      "cursos": "IRL GENERAL",
+      "cursos": "EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
       "courseList": [
+        "EVALUACIONES IRL",
+        "IRL ESPECIFICA",
         "IRL GENERAL"
       ],
       "estado": "Con registros",
@@ -3882,13 +3906,17 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "BASCOURT GALINDO FABIAN ISMAEL",
       "rut": "19297428-3",
-      "cursos": "AYB",
+      "cursos": "AYB, EPP, EXT, OPR, PA",
       "courseList": [
-        "AYB"
+        "AYB",
+        "EPP",
+        "EXT",
+        "OPR",
+        "PA"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: . · Turno: 10X10 B",
+      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: . · Turno: 10X10 B",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": ".",
@@ -4244,8 +4272,9 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "BENITEZ WERLINGER SEBASTIAN ANTONIO",
       "rut": "19091431-3",
-      "cursos": "IRL ESPECIFICA, IRL GENERAL",
+      "cursos": "EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
       "courseList": [
+        "EVALUACIONES IRL",
         "IRL ESPECIFICA",
         "IRL GENERAL"
       ],
@@ -4346,7 +4375,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: . · Turno: 10X10 A",
+      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · incluye duplicados, incluye no legibles · ACR: Acreditado · Cat: . · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": ".",
@@ -4424,10 +4453,11 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "BRAVO ROA GUILLERMO IVAN",
       "rut": "17042991-5",
-      "cursos": "AYB, EPP, EXT, IRL ESPECIFICA, IRL GENERAL, OPR, PA",
+      "cursos": "AYB, EPP, EVALUACIONES IRL, EXT, IRL ESPECIFICA, IRL GENERAL, OPR, PA",
       "courseList": [
         "AYB",
         "EPP",
+        "EVALUACIONES IRL",
         "EXT",
         "IRL ESPECIFICA",
         "IRL GENERAL",
@@ -4685,9 +4715,10 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "BUSTAMANTE SEPULVEDA CAMILO ANDRES",
       "rut": "16997952-9",
-      "cursos": "AYB, EXT, IRL GENERAL, PA",
+      "cursos": "AYB, EVALUACIONES IRL, EXT, IRL GENERAL, PA",
       "courseList": [
         "AYB",
+        "EVALUACIONES IRL",
         "EXT",
         "IRL GENERAL",
         "PA"
@@ -5045,11 +5076,13 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "CACERES MORALES BERNARDO GIOVANY",
       "rut": "18683509-3",
-      "cursos": "AYB, EPP, EXT, IRL GENERAL, OPR, PA",
+      "cursos": "AYB, EPP, EVALUACIONES IRL, EXT, IRL ESPECIFICA, IRL GENERAL, OPR, PA",
       "courseList": [
         "AYB",
         "EPP",
+        "EVALUACIONES IRL",
         "EXT",
+        "IRL ESPECIFICA",
         "IRL GENERAL",
         "OPR",
         "PA"
@@ -5404,10 +5437,11 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "CANIO MARILUAN DANIEL ISAIAS",
       "rut": "20393984-1",
-      "cursos": "AYB, EPP, EXT, IRL GENERAL, OPR, PA",
+      "cursos": "AYB, EPP, EVALUACIONES IRL, EXT, IRL GENERAL, OPR, PA",
       "courseList": [
         "AYB",
         "EPP",
+        "EVALUACIONES IRL",
         "EXT",
         "IRL GENERAL",
         "OPR",
@@ -5589,10 +5623,11 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "CAREAGA PEREZ LEONARDO",
       "rut": "13726035-2",
-      "cursos": "AYB, EPP, EXT, IRL ESPECIFICA, IRL GENERAL, OPR, PA",
+      "cursos": "AYB, EPP, EVALUACIONES IRL, EXT, IRL ESPECIFICA, IRL GENERAL, OPR, PA",
       "courseList": [
         "AYB",
         "EPP",
+        "EVALUACIONES IRL",
         "EXT",
         "IRL ESPECIFICA",
         "IRL GENERAL",
@@ -5777,9 +5812,10 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "CARO LAVADO JUAN GABRIEL",
       "rut": "19156296-8",
-      "cursos": "AYB, IRL ESPECIFICA, IRL GENERAL",
+      "cursos": "AYB, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
       "courseList": [
         "AYB",
+        "EVALUACIONES IRL",
         "IRL ESPECIFICA",
         "IRL GENERAL"
       ],
@@ -6130,10 +6166,11 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "CARRILLO GONZALEZ MIRKO PAOLO",
       "rut": "20360888-8",
-      "cursos": "AYB, EPP, EXT, IRL ESPECIFICA, IRL GENERAL, OPR, PA",
+      "cursos": "AYB, EPP, EVALUACIONES IRL, EXT, IRL ESPECIFICA, IRL GENERAL, OPR, PA",
       "courseList": [
         "AYB",
         "EPP",
+        "EVALUACIONES IRL",
         "EXT",
         "IRL ESPECIFICA",
         "IRL GENERAL",
@@ -6227,10 +6264,11 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "CARVAJAL ALFARO RICARDO MAX",
       "rut": "09428720-0",
-      "cursos": "AYB, EPP, EXT, IRL ESPECIFICA, IRL GENERAL, OPR, PA",
+      "cursos": "AYB, EPP, EVALUACIONES IRL, EXT, IRL ESPECIFICA, IRL GENERAL, OPR, PA",
       "courseList": [
         "AYB",
         "EPP",
+        "EVALUACIONES IRL",
         "EXT",
         "IRL ESPECIFICA",
         "IRL GENERAL",
@@ -6505,9 +6543,10 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "CASTILLO NEIRA MIGUEL ANGEL",
       "rut": "19371247-9",
-      "cursos": "AYB, EVALUACIONES IRL, EXT, IRL ESPECIFICA, IRL GENERAL, PA",
+      "cursos": "AYB, CAD, EVALUACIONES IRL, EXT, IRL ESPECIFICA, IRL GENERAL, PA",
       "courseList": [
         "AYB",
+        "CAD",
         "EVALUACIONES IRL",
         "EXT",
         "IRL ESPECIFICA",
@@ -7769,8 +7808,9 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "DE LA BARRA GONZALEZ MARCO IGNACIO",
       "rut": "18945191-1",
-      "cursos": "IRL ESPECIFICA",
+      "cursos": "EVALUACIONES IRL, IRL ESPECIFICA",
       "courseList": [
+        "EVALUACIONES IRL",
         "IRL ESPECIFICA"
       ],
       "estado": "Con registros",
@@ -8222,14 +8262,16 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "DIAZ PRAY GUILLERMO ALBERTO",
       "rut": "19108608-2",
-      "cursos": "AYB, IRL GENERAL",
+      "cursos": "AYB, EPP, IRL GENERAL, PA",
       "courseList": [
         "AYB",
-        "IRL GENERAL"
+        "EPP",
+        "IRL GENERAL",
+        "PA"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: MAESTRO PRIMERA · Turno: 10X10 A",
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: MAESTRO PRIMERA · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "MAESTRO PRIMERA",
@@ -8314,9 +8356,10 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "DIAZ VILLALOBOS EDUARDO ENRIQUE",
       "rut": "09685802-7",
-      "cursos": "EXT, PA",
+      "cursos": "EXT, IRL GENERAL, PA",
       "courseList": [
         "EXT",
+        "IRL GENERAL",
         "PA"
       ],
       "estado": "Con registros",
@@ -8942,8 +8985,9 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "ESPERGUEL OÑATE CRISTIAN ALFREDO",
       "rut": "12974523-1",
-      "cursos": "IRL ESPECIFICA, IRL GENERAL",
+      "cursos": "EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
       "courseList": [
+        "EVALUACIONES IRL",
         "IRL ESPECIFICA",
         "IRL GENERAL"
       ],
@@ -9033,9 +9077,10 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "ESPINOZA MORALES ERNESTO AURELIO",
       "rut": "15629369-5",
-      "cursos": "AYB, IRL ESPECIFICA, IRL GENERAL",
+      "cursos": "AYB, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
       "courseList": [
         "AYB",
+        "EVALUACIONES IRL",
         "IRL ESPECIFICA",
         "IRL GENERAL"
       ],
@@ -9125,14 +9170,18 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "ESTRADA ZAMBRANO HECTOR ALEXIS",
       "rut": "16285778-9",
-      "cursos": "AYB, EXT",
+      "cursos": "AYB, CAD, EPP, EXT, OPR, PA",
       "courseList": [
         "AYB",
-        "EXT"
+        "CAD",
+        "EPP",
+        "EXT",
+        "OPR",
+        "PA"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: MAESTRO MAYOR · Turno: 10X10 A",
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: MAESTRO MAYOR · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "MAESTRO MAYOR",
@@ -9486,8 +9535,9 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "FERREIRA DIAZ ANGELO NICOLAS",
       "rut": "20648198-6",
-      "cursos": "EVALUACIONES IRL, EXT, IRL ESPECIFICA, IRL GENERAL, OPR, PA",
+      "cursos": "CAD, EVALUACIONES IRL, EXT, IRL ESPECIFICA, IRL GENERAL, OPR, PA",
       "courseList": [
+        "CAD",
         "EVALUACIONES IRL",
         "EXT",
         "IRL ESPECIFICA",
@@ -9760,9 +9810,10 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "FOSTER CUEVAS ROBERTO CARLOS",
       "rut": "18107669-0",
-      "cursos": "AYB, IRL ESPECIFICA, IRL GENERAL",
+      "cursos": "AYB, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
       "courseList": [
         "AYB",
+        "EVALUACIONES IRL",
         "IRL ESPECIFICA",
         "IRL GENERAL"
       ],
@@ -10205,8 +10256,9 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "FUENZALIDA MEJIAS OSCAR RODRIGO",
       "rut": "13714156-6",
-      "cursos": "EXT, OPR, PA",
+      "cursos": "CAD, EXT, OPR, PA",
       "courseList": [
+        "CAD",
         "EXT",
         "OPR",
         "PA"
@@ -10471,11 +10523,12 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "GAJARDO GAJARDO JORGE LUIS",
       "rut": "12519848-1",
-      "cursos": "AYB, CAD, EPP, EXT, IRL ESPECIFICA, IRL GENERAL, OPR, PA",
+      "cursos": "AYB, CAD, EPP, EVALUACIONES IRL, EXT, IRL ESPECIFICA, IRL GENERAL, OPR, PA",
       "courseList": [
         "AYB",
         "CAD",
         "EPP",
+        "EVALUACIONES IRL",
         "EXT",
         "IRL ESPECIFICA",
         "IRL GENERAL",
@@ -10569,14 +10622,20 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "GALARCE BAEZA JUAN OSVALDO",
       "rut": "11757268-4",
-      "cursos": "IRL ESPECIFICA, IRL GENERAL",
+      "cursos": "CAD, EPP, EVALUACIONES IRL, EXT, IRL ESPECIFICA, IRL GENERAL, OPR, PA",
       "courseList": [
+        "CAD",
+        "EPP",
+        "EVALUACIONES IRL",
+        "EXT",
         "IRL ESPECIFICA",
-        "IRL GENERAL"
+        "IRL GENERAL",
+        "OPR",
+        "PA"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: MAESTRO MAYOR · Turno: 10X10 A",
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: MAESTRO MAYOR · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "MAESTRO MAYOR",
@@ -10661,9 +10720,10 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "GALDAMES PEREZ LORENZO RAUL",
       "rut": "11903248-2",
-      "cursos": "AYB, EPP, EVALUACIONES IRL, EXT, IRL ESPECIFICA, IRL GENERAL, PA",
+      "cursos": "AYB, CAD, EPP, EVALUACIONES IRL, EXT, IRL ESPECIFICA, IRL GENERAL, PA",
       "courseList": [
         "AYB",
+        "CAD",
         "EPP",
         "EVALUACIONES IRL",
         "EXT",
@@ -10758,17 +10818,21 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "GALLARDO BORQUEZ ERWIN LORENZO",
       "rut": "13877897-5",
-      "cursos": "AYB, EPP, IRL ESPECIFICA, IRL GENERAL, PA",
+      "cursos": "AYB, CAD, EPP, EVALUACIONES IRL, EXT, IRL ESPECIFICA, IRL GENERAL, OPR, PA",
       "courseList": [
         "AYB",
+        "CAD",
         "EPP",
+        "EVALUACIONES IRL",
+        "EXT",
         "IRL ESPECIFICA",
         "IRL GENERAL",
+        "OPR",
         "PA"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: MAESTRO PRIMERA · Turno: 10X10 A",
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: MAESTRO PRIMERA · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "MAESTRO PRIMERA",
@@ -11118,13 +11182,18 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "GALLARDO VERGARA GONZALO ALONSO",
       "rut": "14392844-6",
-      "cursos": "AYB",
+      "cursos": "AYB, CAD, EPP, EXT, OPR, PA",
       "courseList": [
-        "AYB"
+        "AYB",
+        "CAD",
+        "EPP",
+        "EXT",
+        "OPR",
+        "PA"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: MAESTRO PRIMERA · Turno: 10X10 A",
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: MAESTRO PRIMERA · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "MAESTRO PRIMERA",
@@ -11391,9 +11460,10 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "GANA DUARTE CESAR ANTONIO",
       "rut": "13725595-2",
-      "cursos": "AYB, EPP, EXT, IRL GENERAL, PA",
+      "cursos": "AYB, CAD, EPP, EXT, IRL GENERAL, PA",
       "courseList": [
         "AYB",
+        "CAD",
         "EPP",
         "EXT",
         "IRL GENERAL",
@@ -11564,8 +11634,9 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "GARRIDO FIGUEROA SEBASTIAN MARCELO",
       "rut": "14018586-8",
-      "cursos": "EXT, OPR, PA",
+      "cursos": "CAD, EXT, OPR, PA",
       "courseList": [
+        "CAD",
         "EXT",
         "OPR",
         "PA"
@@ -12179,16 +12250,20 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "GONZALEZ ZUÑIGA FRANCISCO EDUARDO",
       "rut": "15153820-7",
-      "cursos": "AYB, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
+      "cursos": "AYB, EPP, EVALUACIONES IRL, EXT, IRL ESPECIFICA, IRL GENERAL, OPR, PA",
       "courseList": [
         "AYB",
+        "EPP",
         "EVALUACIONES IRL",
+        "EXT",
         "IRL ESPECIFICA",
-        "IRL GENERAL"
+        "IRL GENERAL",
+        "OPR",
+        "PA"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA /ANDAMIE · Estado TARJA: VIGENTE · ACR: Observada · Cat: . · Turno: 10X10 B",
+      "detalle": "MECANICO PRIMERA /ANDAMIE · Estado TARJA: VIGENTE · incluye duplicados · ACR: Observada · Cat: . · Turno: 10X10 B",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": ".",
@@ -12348,14 +12423,15 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "GROLLMUS MELLADO DIEGO ALEJANDRO",
       "rut": "16598446-3",
-      "cursos": "AYB, EXT",
+      "cursos": "AYB, CAD, EXT",
       "courseList": [
         "AYB",
+        "CAD",
         "EXT"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER MINIBUS/VAN · Estado TARJA: VIGENTE · ACR: Acreditado",
+      "detalle": "CHOFER MINIBUS/VAN · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "",
@@ -12523,11 +12599,14 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "GUTIERREZ CACERES RODRIGO ALEJANDRO",
       "rut": "15696772-6",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
-      "detalle": "CHOFER CAMION PLANO C/EQ · Estado TARJA: VIGENTE · ACR: Acreditado",
+      "cursos": "CAD, EPP",
+      "courseList": [
+        "CAD",
+        "EPP"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
+      "detalle": "CHOFER CAMION PLANO C/EQ · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "",
@@ -12605,15 +12684,20 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "GUTIERREZ OJEDA MARCELO DOMINGO",
       "rut": "12919862-1",
-      "cursos": "AYB, IRL ESPECIFICA, IRL GENERAL",
+      "cursos": "AYB, EPP, EVALUACIONES IRL, EXT, IRL ESPECIFICA, IRL GENERAL, OPR, PA",
       "courseList": [
         "AYB",
+        "EPP",
+        "EVALUACIONES IRL",
+        "EXT",
         "IRL ESPECIFICA",
-        "IRL GENERAL"
+        "IRL GENERAL",
+        "OPR",
+        "PA"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "SOLDADOR PLANCHA · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: CALIFICACIÓN III · Turno: 10X10 A",
+      "detalle": "SOLDADOR PLANCHA · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: CALIFICACIÓN III · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "CALIFICACIÓN III",
@@ -12698,16 +12782,21 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "GUTIERREZ VILLEGA ARIEL ESTEBAN",
       "rut": "19332318-9",
-      "cursos": "AYB, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
+      "cursos": "AYB, CAD, EPP, EVALUACIONES IRL, EXT, IRL ESPECIFICA, IRL GENERAL, OPR, PA",
       "courseList": [
         "AYB",
+        "CAD",
+        "EPP",
         "EVALUACIONES IRL",
+        "EXT",
         "IRL ESPECIFICA",
-        "IRL GENERAL"
+        "IRL GENERAL",
+        "OPR",
+        "PA"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: . · Turno: 10X10 A",
+      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: . · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": ".",
@@ -13413,12 +13502,17 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "INZUNZA MUÑOZ CRISTIAN ALEXIS",
       "rut": "15945639-0",
-      "cursos": "AYB, EPP, IRL ESPECIFICA, IRL GENERAL",
+      "cursos": "AYB, CAD, EPP, EVALUACIONES IRL, EXT, IRL ESPECIFICA, IRL GENERAL, OPR, PA",
       "courseList": [
         "AYB",
+        "CAD",
         "EPP",
+        "EVALUACIONES IRL",
+        "EXT",
         "IRL ESPECIFICA",
-        "IRL GENERAL"
+        "IRL GENERAL",
+        "OPR",
+        "PA"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
@@ -14119,11 +14213,13 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "LAGOS LAGOS PABLO ANDRES",
       "rut": "16620592-1",
-      "cursos": "AYB, EPP, EXT, IRL GENERAL, OPR, PA",
+      "cursos": "AYB, EPP, EVALUACIONES IRL, EXT, IRL ESPECIFICA, IRL GENERAL, OPR, PA",
       "courseList": [
         "AYB",
         "EPP",
+        "EVALUACIONES IRL",
         "EXT",
+        "IRL ESPECIFICA",
         "IRL GENERAL",
         "OPR",
         "PA"
@@ -14304,14 +14400,15 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "LEIVA PASCAL ISRAEL SEGUNDO",
       "rut": "10336496-5",
-      "cursos": "IRL GENERAL, PA",
+      "cursos": "EPP, IRL GENERAL, PA",
       "courseList": [
+        "EPP",
         "IRL GENERAL",
         "PA"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "EXPERTO HSEC MANTENCION · Estado TARJA: VIGENTE · ACR: Acreditado · Turno: 10X10 A",
+      "detalle": "EXPERTO HSEC MANTENCION · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "",
@@ -14471,16 +14568,21 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "LOPEZ OTEY SERGIO ANDRES",
       "rut": "10178433-9",
-      "cursos": "AYB, EPP, IRL ESPECIFICA, IRL GENERAL",
+      "cursos": "AYB, CAD, EPP, EVALUACIONES IRL, EXT, IRL ESPECIFICA, IRL GENERAL, OPR, PA",
       "courseList": [
         "AYB",
+        "CAD",
         "EPP",
+        "EVALUACIONES IRL",
+        "EXT",
         "IRL ESPECIFICA",
-        "IRL GENERAL"
+        "IRL GENERAL",
+        "OPR",
+        "PA"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: CAPATAZ · Turno: 10X10 A",
+      "detalle": "MECANICO · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: CAPATAZ · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "CAPATAZ",
@@ -15275,10 +15377,11 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "MANZO URIBE JORGE PATRICIO",
       "rut": "14552943-3",
-      "cursos": "AYB, EPP, EXT, IRL ESPECIFICA, IRL GENERAL, OPR",
+      "cursos": "AYB, EPP, EVALUACIONES IRL, EXT, IRL ESPECIFICA, IRL GENERAL, OPR",
       "courseList": [
         "AYB",
         "EPP",
+        "EVALUACIONES IRL",
         "EXT",
         "IRL ESPECIFICA",
         "IRL GENERAL",
@@ -15896,11 +15999,15 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "MEDINA CARRASCO LUIS NOLBERTO",
       "rut": "15659546-2",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
-      "detalle": "MONTAJE EQUIPO MECANICO · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: MAESTRO MAYOR",
+      "cursos": "EXT, OPR, PA",
+      "courseList": [
+        "EXT",
+        "OPR",
+        "PA"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
+      "detalle": "MONTAJE EQUIPO MECANICO · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: MAESTRO MAYOR",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "MAESTRO MAYOR",
@@ -16151,8 +16258,9 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "MENDEZ CORDOVA FRANCISCO JAVIER",
       "rut": "15187615-3",
-      "cursos": "EXT, IRL ESPECIFICA, IRL GENERAL",
+      "cursos": "EVALUACIONES IRL, EXT, IRL ESPECIFICA, IRL GENERAL",
       "courseList": [
+        "EVALUACIONES IRL",
         "EXT",
         "IRL ESPECIFICA",
         "IRL GENERAL"
@@ -16510,13 +16618,20 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "MERINO SOTO PABLO ALEXIS",
       "rut": "15221624-6",
-      "cursos": "AYB",
+      "cursos": "AYB, EPP, EVALUACIONES IRL, EXT, IRL ESPECIFICA, IRL GENERAL, OPR, PA",
       "courseList": [
-        "AYB"
+        "AYB",
+        "EPP",
+        "EVALUACIONES IRL",
+        "EXT",
+        "IRL ESPECIFICA",
+        "IRL GENERAL",
+        "OPR",
+        "PA"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: MAESTRO PRIMERA · Turno: 10X10 B",
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: MAESTRO PRIMERA · Turno: 10X10 B",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "MAESTRO PRIMERA",
@@ -16601,10 +16716,14 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "MOLINA CONTRERAS RODRIGO ALEJANDRO",
       "rut": "16895900-1",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
+      "cursos": "EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
+      "courseList": [
+        "EVALUACIONES IRL",
+        "IRL ESPECIFICA",
+        "IRL GENERAL"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
       "detalle": "MECANICO · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: MAESTRO MAYOR · Turno: 10X10 A",
       "certFinal": "PENDIENTE",
       "examenSalud": "",
@@ -16690,14 +16809,18 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "MOLINA MONTERO SAMUEL",
       "rut": "25453585-0",
-      "cursos": "AYB, IRL GENERAL",
+      "cursos": "AYB, EPP, EXT, IRL GENERAL, OPR, PA",
       "courseList": [
         "AYB",
-        "IRL GENERAL"
+        "EPP",
+        "EXT",
+        "IRL GENERAL",
+        "OPR",
+        "PA"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: DE BAJA · ACR: Finiquitado · Cat: . · Turno: 10X10 A",
+      "detalle": "MECANICO PRIMERA · Estado TARJA: DE BAJA · incluye duplicados · ACR: Finiquitado · Cat: . · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": ".",
@@ -17043,15 +17166,18 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "MORA ECHEVERRIA JUAN JOSE",
       "rut": "15415447-7",
-      "cursos": "AYB, EXT, IRL ESPECIFICA",
+      "cursos": "AYB, EPP, EXT, IRL ESPECIFICA, OPR, PA",
       "courseList": [
         "AYB",
+        "EPP",
         "EXT",
-        "IRL ESPECIFICA"
+        "IRL ESPECIFICA",
+        "OPR",
+        "PA"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: MAESTRO PRIMERA · Turno: 10X10 B",
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: MAESTRO PRIMERA · Turno: 10X10 B",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "MAESTRO PRIMERA",
@@ -17501,8 +17627,10 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "MUÑOZ DIAZ MAURICIO ANTONIO",
       "rut": "16904531-3",
-      "cursos": "IRL GENERAL",
+      "cursos": "EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
       "courseList": [
+        "EVALUACIONES IRL",
+        "IRL ESPECIFICA",
         "IRL GENERAL"
       ],
       "estado": "Con registros",
@@ -18468,10 +18596,11 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "OLIVARES VERGARA LEOPOLDO MIGUEL",
       "rut": "11775809-5",
-      "cursos": "AYB, EPP, EXT, IRL ESPECIFICA, IRL GENERAL, OPR, PA",
+      "cursos": "AYB, EPP, EVALUACIONES IRL, EXT, IRL ESPECIFICA, IRL GENERAL, OPR, PA",
       "courseList": [
         "AYB",
         "EPP",
+        "EVALUACIONES IRL",
         "EXT",
         "IRL ESPECIFICA",
         "IRL GENERAL",
@@ -18558,12 +18687,16 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "OÑATE SALAZAR ALEJANDRO JAVIER",
       "rut": "13960048-7",
-      "cursos": "AYB, EXT, IRL ESPECIFICA, IRL GENERAL",
+      "cursos": "AYB, EPP, EVALUACIONES IRL, EXT, IRL ESPECIFICA, IRL GENERAL, OPR, PA",
       "courseList": [
         "AYB",
+        "EPP",
+        "EVALUACIONES IRL",
         "EXT",
         "IRL ESPECIFICA",
-        "IRL GENERAL"
+        "IRL GENERAL",
+        "OPR",
+        "PA"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
@@ -18746,9 +18879,10 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "ORELLANA ARRAIN RODOLFO VALENTIN",
       "rut": "18822051-7",
-      "cursos": "AYB, IRL ESPECIFICA, IRL GENERAL",
+      "cursos": "AYB, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
       "courseList": [
         "AYB",
+        "EVALUACIONES IRL",
         "IRL ESPECIFICA",
         "IRL GENERAL"
       ],
@@ -19199,10 +19333,12 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "OSSA OSSA JEISON BORIS",
       "rut": "17388296-3",
-      "cursos": "EXT, OPR",
+      "cursos": "EPP, EXT, OPR, PA",
       "courseList": [
+        "EPP",
         "EXT",
-        "OPR"
+        "OPR",
+        "PA"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
@@ -19660,16 +19796,17 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "PALMA HENRIQUEZ BASTIAN RODRIGO",
       "rut": "18800145-9",
-      "cursos": "AYB, EXT, IRL ESPECIFICA, IRL GENERAL",
+      "cursos": "AYB, EVALUACIONES IRL, EXT, IRL ESPECIFICA, IRL GENERAL",
       "courseList": [
         "AYB",
+        "EVALUACIONES IRL",
         "EXT",
         "IRL ESPECIFICA",
         "IRL GENERAL"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: . · Turno: 10X10 B",
+      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: . · Turno: 10X10 B",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": ".",
@@ -20918,11 +21055,12 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "PEREZ CORTES PEDRO ORLANDO",
       "rut": "15016257-2",
-      "cursos": "AYB, EPP, EXT, OPR, PA",
+      "cursos": "AYB, EPP, EXT, IRL GENERAL, OPR, PA",
       "courseList": [
         "AYB",
         "EPP",
         "EXT",
+        "IRL GENERAL",
         "OPR",
         "PA"
       ],
@@ -21372,9 +21510,10 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "PINILLA VASQUEZ ROBERTO IGNACIO",
       "rut": "19105469-5",
-      "cursos": "AYB, EPP, EXT, IRL GENERAL, PA",
+      "cursos": "AYB, CAD, EPP, EXT, IRL GENERAL, PA",
       "courseList": [
         "AYB",
+        "CAD",
         "EPP",
         "EXT",
         "IRL GENERAL",
@@ -21553,9 +21692,10 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "PLACENCIA GARRIDO BERNARDO ANDRES",
       "rut": "16566940-1",
-      "cursos": "EPP, IRL ESPECIFICA, OPR, PA",
+      "cursos": "EPP, EVALUACIONES IRL, IRL ESPECIFICA, OPR, PA",
       "courseList": [
         "EPP",
+        "EVALUACIONES IRL",
         "IRL ESPECIFICA",
         "OPR",
         "PA"
@@ -22346,15 +22486,21 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "RETAMAL RODRIGUEZ NISEN ANDRES",
       "rut": "15180350-4",
-      "cursos": "AYB, EPP, IRL GENERAL",
+      "cursos": "AYB, CAD, EPP, EVALUACIONES IRL, EXT, IRL ESPECIFICA, IRL GENERAL, OPR, PA",
       "courseList": [
         "AYB",
+        "CAD",
         "EPP",
-        "IRL GENERAL"
+        "EVALUACIONES IRL",
+        "EXT",
+        "IRL ESPECIFICA",
+        "IRL GENERAL",
+        "OPR",
+        "PA"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: MAESTRO PRIMERA · Turno: 10X10 B",
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: MAESTRO PRIMERA · Turno: 10X10 B",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "MAESTRO PRIMERA",
@@ -22439,11 +22585,15 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "REYES JIMENEZ JULIAN ERWIN",
       "rut": "17207469-3",
-      "cursos": "AYB, IRL ESPECIFICA, IRL GENERAL",
+      "cursos": "AYB, EVALUACIONES IRL, EXT, IRL ESPECIFICA, IRL GENERAL, OPR, PA",
       "courseList": [
         "AYB",
+        "EVALUACIONES IRL",
+        "EXT",
         "IRL ESPECIFICA",
-        "IRL GENERAL"
+        "IRL GENERAL",
+        "OPR",
+        "PA"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
@@ -22789,14 +22939,15 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "RIOS DIAZ JUAN JOSE",
       "rut": "10589693-K",
-      "cursos": "AYB, EXT",
+      "cursos": "AYB, CAD, EXT",
       "courseList": [
         "AYB",
+        "CAD",
         "EXT"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER DE BUS · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: . · Turno: 10X10 A",
+      "detalle": "CHOFER DE BUS · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: . · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": ".",
@@ -22874,11 +23025,15 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "RIQUELME AHUMADA RAUL CESAR",
       "rut": "12718661-8",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
-      "detalle": "CHOFER TRACTO CAMION CAMA · Estado TARJA: VIGENTE · ACR: Acreditado",
+      "cursos": "CAD, EXT, PA",
+      "courseList": [
+        "CAD",
+        "EXT",
+        "PA"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
+      "detalle": "CHOFER TRACTO CAMION CAMA · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "",
@@ -23043,9 +23198,10 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "RIQUELME ROCA PATRICIO FERNANDO",
       "rut": "12380632-8",
-      "cursos": "AYB, EXT, IRL GENERAL, OPR, PA",
+      "cursos": "AYB, EVALUACIONES IRL, EXT, IRL GENERAL, OPR, PA",
       "courseList": [
         "AYB",
+        "EVALUACIONES IRL",
         "EXT",
         "IRL GENERAL",
         "OPR",
@@ -23229,10 +23385,11 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "RIVAS PARRA ALEXIS EDUARDO",
       "rut": "14352557-0",
-      "cursos": "AYB, EPP, EXT, IRL GENERAL, PA",
+      "cursos": "AYB, EPP, EVALUACIONES IRL, EXT, IRL GENERAL, PA",
       "courseList": [
         "AYB",
         "EPP",
+        "EVALUACIONES IRL",
         "EXT",
         "IRL GENERAL",
         "PA"
@@ -23406,9 +23563,10 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "RIVERA MENESES JOSE ALEJANDRO",
       "rut": "18751466-5",
-      "cursos": "AYB, EPP, EVALUACIONES IRL, EXT, IRL ESPECIFICA, IRL GENERAL, PA",
+      "cursos": "AYB, CAD, EPP, EVALUACIONES IRL, EXT, IRL ESPECIFICA, IRL GENERAL, PA",
       "courseList": [
         "AYB",
+        "CAD",
         "EPP",
         "EVALUACIONES IRL",
         "EXT",
@@ -23496,9 +23654,10 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "RIVERA VERGARA HUMBERTO ENRIQUE",
       "rut": "13535276-4",
-      "cursos": "EPP, EXT, IRL GENERAL, OPR, PA",
+      "cursos": "EPP, EVALUACIONES IRL, EXT, IRL GENERAL, OPR, PA",
       "courseList": [
         "EPP",
+        "EVALUACIONES IRL",
         "EXT",
         "IRL GENERAL",
         "OPR",
@@ -24120,8 +24279,9 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "ROJAS ORTEGA GUIDO DAMIAN",
       "rut": "15512347-8",
-      "cursos": "EVALUACIONES IRL, EXT, IRL ESPECIFICA, IRL GENERAL, PA",
+      "cursos": "CAD, EVALUACIONES IRL, EXT, IRL ESPECIFICA, IRL GENERAL, PA",
       "courseList": [
+        "CAD",
         "EVALUACIONES IRL",
         "EXT",
         "IRL ESPECIFICA",
@@ -24130,7 +24290,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER MINIBUS/VAN · Estado TARJA: DE BAJA · ACR: Finiquitado · Cat: PLENO · Turno: 10X10 B",
+      "detalle": "CHOFER MINIBUS/VAN · Estado TARJA: DE BAJA · incluye duplicados · ACR: Finiquitado · Cat: PLENO · Turno: 10X10 B",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "PLENO",
@@ -24297,16 +24457,21 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "ROSALES ALARCON WALTER FABRICIO",
       "rut": "16762294-1",
-      "cursos": "AYB, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
+      "cursos": "AYB, CAD, EPP, EVALUACIONES IRL, EXT, IRL ESPECIFICA, IRL GENERAL, OPR, PA",
       "courseList": [
         "AYB",
+        "CAD",
+        "EPP",
         "EVALUACIONES IRL",
+        "EXT",
         "IRL ESPECIFICA",
-        "IRL GENERAL"
+        "IRL GENERAL",
+        "OPR",
+        "PA"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: MAESTRO MAYOR · Turno: 10X10 A",
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: MAESTRO MAYOR · Turno: 10X10 A",
       "certFinal": "PENDIENTE",
       "examenSalud": "",
       "categoria": "MAESTRO MAYOR",
@@ -24391,8 +24556,9 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "ROSAS SILVA CARLOS GUILLERMO",
       "rut": "10436709-7",
-      "cursos": "EVALUACIONES IRL, EXT, IRL ESPECIFICA, IRL GENERAL, OPR, PA",
+      "cursos": "CAD, EVALUACIONES IRL, EXT, IRL ESPECIFICA, IRL GENERAL, OPR, PA",
       "courseList": [
+        "CAD",
         "EVALUACIONES IRL",
         "EXT",
         "IRL ESPECIFICA",
@@ -24480,15 +24646,21 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "RUBILAR GONZALEZ ALEXI ERBE",
       "rut": "16793501-K",
-      "cursos": "AYB, IRL ESPECIFICA, IRL GENERAL",
+      "cursos": "AYB, CAD, EPP, EVALUACIONES IRL, EXT, IRL ESPECIFICA, IRL GENERAL, OPR, PA",
       "courseList": [
         "AYB",
+        "CAD",
+        "EPP",
+        "EVALUACIONES IRL",
+        "EXT",
         "IRL ESPECIFICA",
-        "IRL GENERAL"
+        "IRL GENERAL",
+        "OPR",
+        "PA"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: MAESTRO MAYOR · Turno: 10X10 A",
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: MAESTRO MAYOR · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "MAESTRO MAYOR",
@@ -24660,8 +24832,9 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "RUIZ BRICEÑO LUCIANO NICOLAS",
       "rut": "20529897-5",
-      "cursos": "EVALUACIONES IRL, EXT, IRL ESPECIFICA, IRL GENERAL, PA",
+      "cursos": "CAD, EVALUACIONES IRL, EXT, IRL ESPECIFICA, IRL GENERAL, PA",
       "courseList": [
+        "CAD",
         "EVALUACIONES IRL",
         "EXT",
         "IRL ESPECIFICA",
@@ -24748,16 +24921,19 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "RUIZ VIDAL JEAN PAUL LUIS",
       "rut": "17896664-2",
-      "cursos": "AYB, IRL ESPECIFICA, IRL GENERAL, PA",
+      "cursos": "AYB, CAD, EVALUACIONES IRL, EXT, IRL ESPECIFICA, IRL GENERAL, PA",
       "courseList": [
         "AYB",
+        "CAD",
+        "EVALUACIONES IRL",
+        "EXT",
         "IRL ESPECIFICA",
         "IRL GENERAL",
         "PA"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: MAESTRO MAYOR · Turno: 10X10 A",
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: MAESTRO MAYOR · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "MAESTRO MAYOR",
@@ -25117,9 +25293,10 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "SAEZ CORREA MARCO ANTONIO",
       "rut": "11679900-6",
-      "cursos": "EPP, IRL ESPECIFICA, IRL GENERAL, OPR",
+      "cursos": "EPP, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL, OPR",
       "courseList": [
         "EPP",
+        "EVALUACIONES IRL",
         "IRL ESPECIFICA",
         "IRL GENERAL",
         "OPR"
@@ -25204,11 +25381,14 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "SAEZ MORA RENE WILLIAM",
       "rut": "13455471-1",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
-      "detalle": "JEFE DE PLANIFICACION Y M · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: . · Turno: 8X6 B",
+      "cursos": "EPP, PA",
+      "courseList": [
+        "EPP",
+        "PA"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
+      "detalle": "JEFE DE PLANIFICACION Y M · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: . · Turno: 8X6 B",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": ".",
@@ -25291,9 +25471,10 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "SALAZAR DEL PINO CLAUDIO HERIBERTO",
       "rut": "11900779-8",
-      "cursos": "EPP, IRL ESPECIFICA, IRL GENERAL, OPR, PA",
+      "cursos": "EPP, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL, OPR, PA",
       "courseList": [
         "EPP",
+        "EVALUACIONES IRL",
         "IRL ESPECIFICA",
         "IRL GENERAL",
         "OPR",
@@ -25830,10 +26011,12 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "SANCHEZ CAIMANQUE JARITZA NICOLL",
       "rut": "19496570-2",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
+      "cursos": "IRL GENERAL",
+      "courseList": [
+        "IRL GENERAL"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
       "detalle": "PAÑOLERO · Estado TARJA: VIGENTE · ACR: Acreditado · Turno: 10X10 B",
       "certFinal": "APROBADO",
       "examenSalud": "",
@@ -26447,8 +26630,9 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "SEGUEL PASTOR JUAN JOSE",
       "rut": "20021621-0",
-      "cursos": "IRL GENERAL, PA",
+      "cursos": "EVALUACIONES IRL, IRL GENERAL, PA",
       "courseList": [
+        "EVALUACIONES IRL",
         "IRL GENERAL",
         "PA"
       ],
@@ -26794,17 +26978,20 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "SILVA CIFUENTES JONNATAN MAX",
       "rut": "17618447-7",
-      "cursos": "AYB, EPP, EXT, IRL ESPECIFICA, IRL GENERAL",
+      "cursos": "AYB, EPP, EVALUACIONES IRL, EXT, IRL ESPECIFICA, IRL GENERAL, OPR, PA",
       "courseList": [
         "AYB",
         "EPP",
+        "EVALUACIONES IRL",
         "EXT",
         "IRL ESPECIFICA",
-        "IRL GENERAL"
+        "IRL GENERAL",
+        "OPR",
+        "PA"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: . · Turno: 10X10 A",
+      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: . · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": ".",
@@ -26889,11 +27076,14 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "SILVA MILLAFILO ALAN PATRICIO",
       "rut": "14199686-K",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: MAESTRO PRIMERA",
+      "cursos": "EPP, EXT",
+      "courseList": [
+        "EPP",
+        "EXT"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: MAESTRO PRIMERA",
       "certFinal": "PENDIENTE",
       "examenSalud": "",
       "categoria": "MAESTRO PRIMERA",
@@ -27150,9 +27340,10 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "SUAZO TORRES FRANCISCO ESTEBAN",
       "rut": "19800142-2",
-      "cursos": "AYB, EPP, EVALUACIONES IRL, EXT, IRL ESPECIFICA, IRL GENERAL, PA",
+      "cursos": "AYB, CAD, EPP, EVALUACIONES IRL, EXT, IRL ESPECIFICA, IRL GENERAL, PA",
       "courseList": [
         "AYB",
+        "CAD",
         "EPP",
         "EVALUACIONES IRL",
         "EXT",
@@ -27330,12 +27521,14 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "TAPIA GAETE MIGUEL VLADIMIR",
       "rut": "13368662-2",
-      "cursos": "EPP, EXT, IRL ESPECIFICA, IRL GENERAL, PA",
+      "cursos": "EPP, EVALUACIONES IRL, EXT, IRL ESPECIFICA, IRL GENERAL, OPR, PA",
       "courseList": [
         "EPP",
+        "EVALUACIONES IRL",
         "EXT",
         "IRL ESPECIFICA",
         "IRL GENERAL",
+        "OPR",
         "PA"
       ],
       "estado": "Con registros",
@@ -27979,11 +28172,16 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "TORO FUENTES PEDRO ENRIQUE",
       "rut": "19140279-0",
-      "cursos": "AYB, IRL ESPECIFICA, IRL GENERAL",
+      "cursos": "AYB, EPP, EVALUACIONES IRL, EXT, IRL ESPECIFICA, IRL GENERAL, OPR, PA",
       "courseList": [
         "AYB",
+        "EPP",
+        "EVALUACIONES IRL",
+        "EXT",
         "IRL ESPECIFICA",
-        "IRL GENERAL"
+        "IRL GENERAL",
+        "OPR",
+        "PA"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
@@ -28238,8 +28436,9 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "TORRES TASSARA OSCAR FRANCISCO",
       "rut": "17223954-4",
-      "cursos": "IRL ESPECIFICA, IRL GENERAL",
+      "cursos": "EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
       "courseList": [
+        "EVALUACIONES IRL",
         "IRL ESPECIFICA",
         "IRL GENERAL"
       ],
@@ -28418,8 +28617,9 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "TUDELA SALDIAS RAUL GERMAN",
       "rut": "13266171-5",
-      "cursos": "OPR, PA",
+      "cursos": "CAD, OPR, PA",
       "courseList": [
+        "CAD",
         "OPR",
         "PA"
       ],
@@ -29049,9 +29249,10 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "VALENZUELA ORELLANA BASTIAN ALEXANDER",
       "rut": "19548128-8",
-      "cursos": "AYB, IRL ESPECIFICA, IRL GENERAL",
+      "cursos": "AYB, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
       "courseList": [
         "AYB",
+        "EVALUACIONES IRL",
         "IRL ESPECIFICA",
         "IRL GENERAL"
       ],
@@ -29328,8 +29529,9 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "VEGA QUIROGA MATIAS ANDRES",
       "rut": "18933824-4",
-      "cursos": "IRL ESPECIFICA, IRL GENERAL",
+      "cursos": "EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
       "courseList": [
+        "EVALUACIONES IRL",
         "IRL ESPECIFICA",
         "IRL GENERAL"
       ],
@@ -29683,8 +29885,9 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "VELOZO PAREDES GONZALO ANTONIO",
       "rut": "13506344-4",
-      "cursos": "IRL GENERAL, PA",
+      "cursos": "EVALUACIONES IRL, IRL GENERAL, PA",
       "courseList": [
+        "EVALUACIONES IRL",
         "IRL GENERAL",
         "PA"
       ],
@@ -29866,10 +30069,11 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "VERGARA MORALES HUGO EDUARDO",
       "rut": "16930667-2",
-      "cursos": "AYB, EPP, EXT, IRL ESPECIFICA, IRL GENERAL, OPR, PA",
+      "cursos": "AYB, EPP, EVALUACIONES IRL, EXT, IRL ESPECIFICA, IRL GENERAL, OPR, PA",
       "courseList": [
         "AYB",
         "EPP",
+        "EVALUACIONES IRL",
         "EXT",
         "IRL ESPECIFICA",
         "IRL GENERAL",
@@ -29956,9 +30160,12 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "VERGARA SAEZ RICARDO EXEQUIEL",
       "rut": "19000455-4",
-      "cursos": "AYB",
+      "cursos": "AYB, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
       "courseList": [
-        "AYB"
+        "AYB",
+        "EVALUACIONES IRL",
+        "IRL ESPECIFICA",
+        "IRL GENERAL"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
@@ -30309,9 +30516,10 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "VILLENA POBLETE PABLO SEBASTIAN",
       "rut": "19512550-3",
-      "cursos": "AYB, IRL GENERAL, PA",
+      "cursos": "AYB, EVALUACIONES IRL, IRL GENERAL, PA",
       "courseList": [
         "AYB",
+        "EVALUACIONES IRL",
         "IRL GENERAL",
         "PA"
       ],
@@ -30846,10 +31054,11 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "ZURITA BRAVO HECTOR PATRICIO",
       "rut": "08417042-9",
-      "cursos": "AYB, EPP, EXT, IRL ESPECIFICA, IRL GENERAL, OPR, PA",
+      "cursos": "AYB, EPP, EVALUACIONES IRL, EXT, IRL ESPECIFICA, IRL GENERAL, OPR, PA",
       "courseList": [
         "AYB",
         "EPP",
+        "EVALUACIONES IRL",
         "EXT",
         "IRL ESPECIFICA",
         "IRL GENERAL",
@@ -31026,15 +31235,15 @@ window.DASHBOARD_DATA = {
   "insights": [
     {
       "title": "Curso con mayor volumen",
-      "detail": "Manejo de Extintores Portátiles concentra 362 archivos."
+      "detail": "Manejo de Extintores Portátiles concentra 408 archivos."
     },
     {
       "title": "Cruce con TARJA",
-      "detail": "Se detectaron 52 trabajadores sin evidencias cargadas en el sistema."
+      "detail": "Se detectaron 45 trabajadores sin evidencias cargadas en el sistema."
     },
     {
       "title": "Calidad del registro",
-      "detail": "Se identificaron 147 duplicados y 1 documentos no legibles."
+      "detail": "Se identificaron 248 duplicados y 2 documentos no legibles."
     },
     {
       "title": "Certificados finales (TARJA)",

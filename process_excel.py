@@ -480,6 +480,55 @@ def build_tarja_records(wb, evidence_entries: list[dict[str, Any]], external_rut
     return records, sin_registros, shift_dates_iso
 
 
+SIN_MATCH_DIRS = {
+    'IRL GENERAL': 'IRL General',
+    'IRL_GENERAL_FORMS': 'IRL General (Forms)',
+    'IRL ESPECIFICA': 'IRL Específica',
+    'EVALUACIONES IRL': 'Evaluaciones IRL',
+}
+
+
+def collect_sin_match_files() -> list[dict[str, Any]]:
+    """Escanea las carpetas IRL en disco buscando archivos con prefijo _SIN_MATCH_.
+
+    Devuelve una lista lista para serializar con carpeta, archivo y RUT extraído.
+    """
+    diplomas_root = BASE_DIR.parent / 'renombrar' / 'Diplomas'
+    if not diplomas_root.exists():
+        return []
+
+    rut_pattern = re.compile(r'(?<!\d)(\d{7,9}[kK]?)(?!\d)')
+    results: list[dict[str, Any]] = []
+    for folder_name, label in SIN_MATCH_DIRS.items():
+        folder = diplomas_root / folder_name
+        if not folder.is_dir():
+            continue
+        for entry in sorted(folder.iterdir(), key=lambda p: p.name.lower()):
+            if not entry.is_file():
+                continue
+            name = entry.name
+            if '_SIN_MATCH_' not in name.upper():
+                continue
+            base = entry.stem
+            # texto luego del último _SIN_MATCH_
+            match = re.split(r'_SIN_MATCH_', base, flags=re.IGNORECASE)
+            leftover = match[-1] if match else base
+            ruts = rut_pattern.findall(leftover)
+            rut = ruts[0] if ruts else ''
+            # Nombre "limpio" (sin RUT) para intentar mostrar persona si viene
+            hint = re.sub(r'[_\-]+', ' ', leftover).strip()
+            if rut:
+                hint = hint.replace(rut, '').strip(' _-')
+            results.append({
+                'folder': folder_name,
+                'folderLabel': label,
+                'file': name,
+                'rut': rut,
+                'hint': hint,
+            })
+    return results
+
+
 def main() -> None:
     excel_path = find_excel_path()
     wb = load_workbook(excel_path, data_only=True)
@@ -564,6 +613,7 @@ def main() -> None:
 
     external_rut_lookup = load_external_rut_lookup()
     records, sin_registros, shift_dates = build_tarja_records(wb, evidence_entries, external_rut_lookup)
+    sin_match_files = collect_sin_match_files()
 
     total_archivos = summary_map.get('TOTAL', {}).get('total', sum(item['total'] for item in course_totals))
     documentos_unicos = sum(item['unicos'] for item in summary_rows if isinstance(item.get('unicos'), int))
@@ -597,6 +647,7 @@ def main() -> None:
         'summaryRows': summary_rows,
         'records': records,
         'shiftDates': shift_dates,
+        'sinMatchFiles': sin_match_files,
         'irlFormsNote': '',
         'accessLinks': [
             {'label': 'Evidencias de certificaciones', 'url': 'https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/3-%20Registros%20capacitaciones%20-%20difusiones/3-%20Evidencias%20de%20Certificaciones?csf=1&web=1&e=ovhAFT'},

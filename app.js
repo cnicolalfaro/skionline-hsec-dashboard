@@ -404,6 +404,40 @@ function renderInsights(items) {
   `).join('');
 }
 
+function escapeHtml(value) {
+  return String(value == null ? '' : value)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+}
+
+function renderSinMatch(items) {
+  const body = document.getElementById('sinMatchTableBody');
+  const countEl = document.getElementById('sinMatchCount');
+  const subtitle = document.getElementById('sinMatchSubtitle');
+  if (!body) return;
+  const list = Array.isArray(items) ? items : [];
+  countEl.textContent = `${list.length} archivo${list.length === 1 ? '' : 's'}`;
+  if (!list.length) {
+    body.innerHTML = '<tr><td colspan="4" style="text-align:center;opacity:.7;padding:16px">Sin archivos pendientes: todos los IRL tienen match con la TARJA.</td></tr>';
+    if (subtitle) subtitle.textContent = 'Documentos cuyo RUT no se encontró en la hoja TARJA vigente';
+    return;
+  }
+  if (subtitle) {
+    subtitle.textContent = `Estos ${list.length} documentos no se pudieron asociar a ninguna persona de la TARJA (RUT no encontrado, RUT ausente del nombre o typo).`;
+  }
+  body.innerHTML = list.map(item => `
+    <tr>
+      <td>${escapeHtml(item.folderLabel || item.folder || '')}</td>
+      <td style="font-family:monospace;font-size:12px">${escapeHtml(item.file || '')}</td>
+      <td style="font-family:monospace">${escapeHtml(item.rut || '—')}</td>
+      <td>${escapeHtml(item.hint || '')}</td>
+    </tr>
+  `).join('');
+}
+
 function renderAccess(data) {
   const note = document.getElementById('irlFormsNote');
   const linksContainer = document.getElementById('accessLinks');
@@ -654,5 +688,6 @@ function setupFilters(data) {
   renderAccess(data);
   renderTable(data.summaryRows || []);
   renderInsights(data.insights || []);
+  renderSinMatch(data.sinMatchFiles || []);
   setupFilters(data);
 })();

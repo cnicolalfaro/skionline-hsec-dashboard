@@ -275,6 +275,19 @@ h1 {
   min-height: unset;
 }
 
+.sin-match-panel {
+  margin-top: 24px;
+}
+.sin-match-panel .panel-header {
+  align-items: center;
+}
+.sin-match-panel table {
+  width: 100%;
+}
+.sin-match-panel tbody tr:hover {
+  background: rgba(255, 122, 89, 0.08);
+}
+
 .access-layout {
   display: flex;
   justify-content: space-between;

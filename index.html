@@ -205,6 +205,29 @@ nombre<!DOCTYPE html>
           <ul id="insightsList" class="sample-list"></ul>
         </article>
       </section>
+
+      <section class="panel sin-match-panel">
+        <div class="panel-header">
+          <div>
+            <h2>Archivos sin match con TARJA</h2>
+            <p id="sinMatchSubtitle">Documentos cuyo RUT no se encontró en la hoja TARJA vigente</p>
+          </div>
+          <span class="mini-chip" id="sinMatchCount">0</span>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Carpeta</th>
+                <th>Archivo</th>
+                <th>RUT detectado</th>
+                <th>Pista</th>
+              </tr>
+            </thead>
+            <tbody id="sinMatchTableBody"></tbody>
+          </table>
+        </div>
+      </section>
     </main>
 
     <footer class="footer">

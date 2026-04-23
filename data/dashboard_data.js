@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "23/04/2026 14:38",
+  "generatedAt": "23/04/2026 14:51",
   "sourceFile": "REGISTRO_FINAL_CURSOS.xlsx",
   "kpis": {
     "totalArchivos": 2934,
@@ -31214,6 +31214,309 @@ window.DASHBOARD_DATA = {
     "2026-04-28",
     "2026-04-29",
     "2026-04-30"
+  ],
+  "sinMatchFiles": [
+    {
+      "folder": "IRL GENERAL",
+      "folderLabel": "IRL General",
+      "file": "_SIN_MATCH_108418508.pdf",
+      "rut": "108418508",
+      "hint": ""
+    },
+    {
+      "folder": "IRL GENERAL",
+      "folderLabel": "IRL General",
+      "file": "_SIN_MATCH_132184569.pdf",
+      "rut": "132184569",
+      "hint": ""
+    },
+    {
+      "folder": "IRL GENERAL",
+      "folderLabel": "IRL General",
+      "file": "_SIN_MATCH_134998326.pdf",
+      "rut": "134998326",
+      "hint": ""
+    },
+    {
+      "folder": "IRL GENERAL",
+      "folderLabel": "IRL General",
+      "file": "_SIN_MATCH_143293637.pdf",
+      "rut": "143293637",
+      "hint": ""
+    },
+    {
+      "folder": "IRL GENERAL",
+      "folderLabel": "IRL General",
+      "file": "_SIN_MATCH_156825042.pdf",
+      "rut": "156825042",
+      "hint": ""
+    },
+    {
+      "folder": "IRL GENERAL",
+      "folderLabel": "IRL General",
+      "file": "_SIN_MATCH_161077070.pdf",
+      "rut": "161077070",
+      "hint": ""
+    },
+    {
+      "folder": "IRL GENERAL",
+      "folderLabel": "IRL General",
+      "file": "_SIN_MATCH_168181280.pdf",
+      "rut": "168181280",
+      "hint": ""
+    },
+    {
+      "folder": "IRL GENERAL",
+      "folderLabel": "IRL General",
+      "file": "_SIN_MATCH_174133709.pdf",
+      "rut": "174133709",
+      "hint": ""
+    },
+    {
+      "folder": "IRL GENERAL",
+      "folderLabel": "IRL General",
+      "file": "_SIN_MATCH_180338098.pdf",
+      "rut": "180338098",
+      "hint": ""
+    },
+    {
+      "folder": "IRL GENERAL",
+      "folderLabel": "IRL General",
+      "file": "_SIN_MATCH_188131735.pdf",
+      "rut": "188131735",
+      "hint": ""
+    },
+    {
+      "folder": "IRL GENERAL",
+      "folderLabel": "IRL General",
+      "file": "_SIN_MATCH_195817774.pdf",
+      "rut": "195817774",
+      "hint": ""
+    },
+    {
+      "folder": "IRL GENERAL",
+      "folderLabel": "IRL General",
+      "file": "_SIN_MATCH_207099608.pdf",
+      "rut": "207099608",
+      "hint": ""
+    },
+    {
+      "folder": "IRL GENERAL",
+      "folderLabel": "IRL General",
+      "file": "_SIN_MATCH_exequiel vizcarra aguilar.pdf",
+      "rut": "",
+      "hint": "exequiel vizcarra aguilar"
+    },
+    {
+      "folder": "IRL GENERAL",
+      "folderLabel": "IRL General",
+      "file": "_SIN_MATCH_ROJAS_CORNEJO_PABLO_ANDRES_120841289_IRLGENERAL.pdf",
+      "rut": "120841289",
+      "hint": "ROJAS CORNEJO PABLO ANDRES  IRLGENERAL"
+    },
+    {
+      "folder": "IRL ESPECIFICA",
+      "folderLabel": "IRL Específica",
+      "file": "_SIN_MATCH_108418508.pdf",
+      "rut": "108418508",
+      "hint": ""
+    },
+    {
+      "folder": "IRL ESPECIFICA",
+      "folderLabel": "IRL Específica",
+      "file": "_SIN_MATCH_132184569.pdf",
+      "rut": "132184569",
+      "hint": ""
+    },
+    {
+      "folder": "IRL ESPECIFICA",
+      "folderLabel": "IRL Específica",
+      "file": "_SIN_MATCH_134998326.pdf",
+      "rut": "134998326",
+      "hint": ""
+    },
+    {
+      "folder": "IRL ESPECIFICA",
+      "folderLabel": "IRL Específica",
+      "file": "_SIN_MATCH_143293637.pdf",
+      "rut": "143293637",
+      "hint": ""
+    },
+    {
+      "folder": "IRL ESPECIFICA",
+      "folderLabel": "IRL Específica",
+      "file": "_SIN_MATCH_156825042.pdf",
+      "rut": "156825042",
+      "hint": ""
+    },
+    {
+      "folder": "IRL ESPECIFICA",
+      "folderLabel": "IRL Específica",
+      "file": "_SIN_MATCH_161077070.pdf",
+      "rut": "161077070",
+      "hint": ""
+    },
+    {
+      "folder": "IRL ESPECIFICA",
+      "folderLabel": "IRL Específica",
+      "file": "_SIN_MATCH_168181280.pdf",
+      "rut": "168181280",
+      "hint": ""
+    },
+    {
+      "folder": "IRL ESPECIFICA",
+      "folderLabel": "IRL Específica",
+      "file": "_SIN_MATCH_174133709.pdf",
+      "rut": "174133709",
+      "hint": ""
+    },
+    {
+      "folder": "IRL ESPECIFICA",
+      "folderLabel": "IRL Específica",
+      "file": "_SIN_MATCH_180338098.pdf",
+      "rut": "180338098",
+      "hint": ""
+    },
+    {
+      "folder": "IRL ESPECIFICA",
+      "folderLabel": "IRL Específica",
+      "file": "_SIN_MATCH_188131735.pdf",
+      "rut": "188131735",
+      "hint": ""
+    },
+    {
+      "folder": "IRL ESPECIFICA",
+      "folderLabel": "IRL Específica",
+      "file": "_SIN_MATCH_195817774.pdf",
+      "rut": "195817774",
+      "hint": ""
+    },
+    {
+      "folder": "IRL ESPECIFICA",
+      "folderLabel": "IRL Específica",
+      "file": "_SIN_MATCH_207099608.pdf",
+      "rut": "207099608",
+      "hint": ""
+    },
+    {
+      "folder": "IRL ESPECIFICA",
+      "folderLabel": "IRL Específica",
+      "file": "_SIN_MATCH_exequiel vizcarra aguilar.pdf",
+      "rut": "",
+      "hint": "exequiel vizcarra aguilar"
+    },
+    {
+      "folder": "IRL ESPECIFICA",
+      "folderLabel": "IRL Específica",
+      "file": "_SIN_MATCH_PENA_ROMERO_JAVIER_IRLESPECIFICA.pdf",
+      "rut": "",
+      "hint": "PENA ROMERO JAVIER IRLESPECIFICA"
+    },
+    {
+      "folder": "EVALUACIONES IRL",
+      "folderLabel": "Evaluaciones IRL",
+      "file": "_SIN_MATCH_108418508.pdf",
+      "rut": "108418508",
+      "hint": ""
+    },
+    {
+      "folder": "EVALUACIONES IRL",
+      "folderLabel": "Evaluaciones IRL",
+      "file": "_SIN_MATCH_132184569.pdf",
+      "rut": "132184569",
+      "hint": ""
+    },
+    {
+      "folder": "EVALUACIONES IRL",
+      "folderLabel": "Evaluaciones IRL",
+      "file": "_SIN_MATCH_134998326.pdf",
+      "rut": "134998326",
+      "hint": ""
+    },
+    {
+      "folder": "EVALUACIONES IRL",
+      "folderLabel": "Evaluaciones IRL",
+      "file": "_SIN_MATCH_143293637.pdf",
+      "rut": "143293637",
+      "hint": ""
+    },
+    {
+      "folder": "EVALUACIONES IRL",
+      "folderLabel": "Evaluaciones IRL",
+      "file": "_SIN_MATCH_156825042.pdf",
+      "rut": "156825042",
+      "hint": ""
+    },
+    {
+      "folder": "EVALUACIONES IRL",
+      "folderLabel": "Evaluaciones IRL",
+      "file": "_SIN_MATCH_160429583.pdf",
+      "rut": "160429583",
+      "hint": ""
+    },
+    {
+      "folder": "EVALUACIONES IRL",
+      "folderLabel": "Evaluaciones IRL",
+      "file": "_SIN_MATCH_161077070.pdf",
+      "rut": "161077070",
+      "hint": ""
+    },
+    {
+      "folder": "EVALUACIONES IRL",
+      "folderLabel": "Evaluaciones IRL",
+      "file": "_SIN_MATCH_161843659.pdf",
+      "rut": "161843659",
+      "hint": ""
+    },
+    {
+      "folder": "EVALUACIONES IRL",
+      "folderLabel": "Evaluaciones IRL",
+      "file": "_SIN_MATCH_168181280.pdf",
+      "rut": "168181280",
+      "hint": ""
+    },
+    {
+      "folder": "EVALUACIONES IRL",
+      "folderLabel": "Evaluaciones IRL",
+      "file": "_SIN_MATCH_174133709.pdf",
+      "rut": "174133709",
+      "hint": ""
+    },
+    {
+      "folder": "EVALUACIONES IRL",
+      "folderLabel": "Evaluaciones IRL",
+      "file": "_SIN_MATCH_180338098.pdf",
+      "rut": "180338098",
+      "hint": ""
+    },
+    {
+      "folder": "EVALUACIONES IRL",
+      "folderLabel": "Evaluaciones IRL",
+      "file": "_SIN_MATCH_188131735.pdf",
+      "rut": "188131735",
+      "hint": ""
+    },
+    {
+      "folder": "EVALUACIONES IRL",
+      "folderLabel": "Evaluaciones IRL",
+      "file": "_SIN_MATCH_195817774.pdf",
+      "rut": "195817774",
+      "hint": ""
+    },
+    {
+      "folder": "EVALUACIONES IRL",
+      "folderLabel": "Evaluaciones IRL",
+      "file": "_SIN_MATCH_207099600.pdf",
+      "rut": "207099600",
+      "hint": ""
+    },
+    {
+      "folder": "EVALUACIONES IRL",
+      "folderLabel": "Evaluaciones IRL",
+      "file": "_SIN_MATCH_exequiel vizcarra aguilar.pdf",
+      "rut": "",
+      "hint": "exequiel vizcarra aguilar"
+    }
   ],
   "irlFormsNote": "",
   "accessLinks": [

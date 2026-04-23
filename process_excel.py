@@ -260,6 +260,27 @@ def extract_headers_and_rows(raw_rows: list[tuple[Any, ...]]) -> tuple[list[str]
     return headers, raw_rows[1:]
 
 
+def _safe_iter_rows(ws, max_empty_run: int = 30, hard_limit: int = 5000) -> list[tuple[Any, ...]]:
+    """Lee filas de una hoja deteniéndose al encontrar una racha de filas vacías.
+
+    Esto evita quedarse colgado cuando openpyxl (read_only) reporta dimensiones
+    infladas por pivot caches u otros artefactos del archivo.
+    """
+    rows: list[tuple[Any, ...]] = []
+    empty_run = 0
+    for row in ws.iter_rows(values_only=True):
+        if row is None:
+            empty_run += 1
+        elif all(v is None or (isinstance(v, str) and not v.strip()) for v in row):
+            empty_run += 1
+        else:
+            empty_run = 0
+        rows.append(row)
+        if empty_run >= max_empty_run or len(rows) >= hard_limit:
+            break
+    return rows
+
+
 def find_external_tarja_workbook():
     search_folders = [BASE_DIR, BASE_DIR.parent, DATA_DIR]
 
@@ -272,7 +293,7 @@ def find_external_tarja_workbook():
 
     for path in candidates:
         try:
-            wb = load_workbook(path, data_only=True)
+            wb = load_workbook(path, data_only=True, read_only=True)
         except Exception:
             continue
         if 'TARJA' in wb.sheetnames:
@@ -289,7 +310,7 @@ def load_external_rut_lookup() -> dict[str, str]:
         return lookup
 
     ws = wb['TARJA']
-    raw_rows = list(ws.iter_rows(values_only=True))
+    raw_rows = _safe_iter_rows(ws)
     headers, rows = extract_headers_and_rows(raw_rows)
     if not headers or not rows:
         return lookup
@@ -324,7 +345,7 @@ def build_tarja_records(wb, evidence_entries: list[dict[str, Any]], external_rut
         ws = wb['TARJA']
     else:
         return [], 0, []
-    raw_rows = list(ws.iter_rows(values_only=True))
+    raw_rows = _safe_iter_rows(ws)
     headers, rows = extract_headers_and_rows(raw_rows)
     if not headers or not rows:
         return [], 0, []

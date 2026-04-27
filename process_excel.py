@@ -13,8 +13,13 @@ from openpyxl import load_workbook
 BASE_DIR = Path(__file__).resolve().parent
 DATA_DIR = BASE_DIR / 'data'
 OUTPUT_PATH = DATA_DIR / 'dashboard_data.js'
+PEOPLE_INDEX_PATH = DATA_DIR / 'people_folders.json'
 PREFERRED_EXCEL_NAME = 'REGISTRO_FINAL_CURSOS.xlsx'
 SPECIAL_SHEETS = {'RESUMEN', 'TARJA', 'NO_LEGIBLE', 'DUPLICADOS'}
+
+# URL base de SharePoint donde se replicarán las carpetas _PorPersona/<NOMBRE>.
+# Las subcarpetas se construyen insertando "/<NOMBRE>" antes del "?".
+PORPERSONA_SHAREPOINT_BASE = 'https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA?csf=1&web=1&e=d6nH9p'
 INDUCCION_COLS = [
     'CHARLA ADMINISTRATIVA',
     'CHARLA LEY KARIN',
@@ -91,6 +96,47 @@ def fingerprint(*values: Any) -> str:
     for value in values:
         words.extend(split_name_tokens(value))
     return ' '.join(sorted(words))
+
+
+def slug_token(value: Any) -> str:
+    """Convierte un token a A-Z/0-9 (sin acentos, mayúsculas)."""
+    if value is None:
+        return ''
+    text = unicodedata.normalize('NFD', str(value))
+    text = ''.join(c for c in text if unicodedata.category(c) != 'Mn')
+    return re.sub(r'[^A-Z0-9]', '', text.upper())
+
+
+def build_person_folder(nombre: Any, paterno: Any, materno: Any, rut: Any) -> str:
+    """PATERNO_MATERNO_NOMBRE1_NOMBRE2_RUT (omite partes vacías)."""
+    parts: list[str] = []
+    pat = slug_token(paterno)
+    if pat:
+        parts.append(pat)
+    mat = slug_token(materno)
+    if mat:
+        parts.append(mat)
+    nombres = [n for n in str(nombre or '').split() if n.strip()]
+    for n in nombres[:2]:
+        slug = slug_token(n)
+        if slug:
+            parts.append(slug)
+    rut_clean = re.sub(r'[^0-9Kk]', '', str(rut or '')).upper()
+    if rut_clean:
+        parts.append(rut_clean)
+    return '_'.join(parts)
+
+
+def build_person_folder_url(folder_name: str) -> str:
+    """Inserta el segmento /<folder_name> en la URL base de SharePoint."""
+    if not folder_name or not PORPERSONA_SHAREPOINT_BASE:
+        return ''
+    base = PORPERSONA_SHAREPOINT_BASE
+    # Insertar antes del '?' (si existe)
+    if '?' in base:
+        path_part, qs = base.split('?', 1)
+        return f'{path_part}/{folder_name}?{qs}'
+    return f'{base}/{folder_name}'
 
 
 def names_match(evidence_name: Any, nombre: Any, paterno: Any, materno: Any) -> bool:
@@ -455,6 +501,8 @@ def build_tarja_records(wb, evidence_entries: list[dict[str, Any]], external_rut
         records.append({
             'nombre': nombre_mostrado,
             'rut': rut,
+            'folderName': build_person_folder(nombre, paterno, materno, rut),
+            'folderUrl': build_person_folder_url(build_person_folder(nombre, paterno, materno, rut)),
             'cursos': ', '.join(courses) if courses else '-',
             'courseList': courses,
             'estado': estado,

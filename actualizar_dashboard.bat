@@ -24,6 +24,17 @@ if exist "..\generar_excel_final.py" (
   )
 )
 
+if exist "..\generar_porpersona.py" (
+  echo Generando carpetas por persona...
+  .venv\Scripts\python.exe "..\generar_porpersona.py"
+  if errorlevel 1 (
+    echo.
+    echo Ocurrio un error generando carpetas por persona.
+    if /I not "%~1"=="nopause" pause
+    exit /b 1
+  )
+)
+
 echo Procesando dashboard...
 .venv\Scripts\python.exe process_excel.py
 if errorlevel 1 (

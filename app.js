@@ -484,7 +484,10 @@ function renderRecords(rows, shiftContext) {
 
     return `
     <tr>
-      <td class="nombre-cell">${row.nombre}</td>
+      <td class="nombre-cell">
+        ${row.nombre}
+        ${row.folderUrl ? `<a class="folder-link" href="${row.folderUrl}" target="_blank" rel="noopener noreferrer" title="Abrir carpeta SharePoint de ${escapeHtml(row.nombre)}">📁</a>` : ''}
+      </td>
       <td>${row.rut || '-'}</td>
       <td>${row.estado}</td>
       <td class="compliance-cell">

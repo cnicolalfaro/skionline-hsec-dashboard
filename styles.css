@@ -288,6 +288,19 @@ h1 {
   background: rgba(255, 122, 89, 0.08);
 }
 
+.folder-link {
+  display: inline-block;
+  margin-left: 6px;
+  text-decoration: none;
+  font-size: 14px;
+  opacity: 0.75;
+  transition: opacity .15s, transform .15s;
+}
+.folder-link:hover {
+  opacity: 1;
+  transform: scale(1.15);
+}
+
 .access-layout {
   display: flex;
   justify-content: space-between;

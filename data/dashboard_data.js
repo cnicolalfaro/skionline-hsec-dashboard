@@ -1,11 +1,11 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "23/04/2026 14:51",
+  "generatedAt": "27/04/2026 11:04",
   "sourceFile": "REGISTRO_FINAL_CURSOS.xlsx",
   "kpis": {
-    "totalArchivos": 2934,
-    "documentosUnicos": 1993,
-    "duplicados": 352,
-    "noLegibles": 2,
+    "totalArchivos": 3020,
+    "documentosUnicos": 2031,
+    "duplicados": 353,
+    "noLegibles": 3,
     "trabajadoresTarja": 344,
     "conRegistros": 299,
     "sinRegistros": 45
@@ -17,35 +17,35 @@ window.DASHBOARD_DATA = {
     },
     {
       "curso": "Uso y Mantención de EPP",
-      "total": 360
+      "total": 378
     },
     {
       "curso": "Manejo de Extintores Portátiles",
-      "total": 442
+      "total": 465
     },
     {
       "curso": "Orientación a la Prevención de Riesgos",
-      "total": 377
+      "total": 396
     },
     {
       "curso": "Primeros Auxilios",
-      "total": 374
+      "total": 383
     },
     {
       "curso": "IRL General",
-      "total": 224
+      "total": 226
     },
     {
       "curso": "IRL Específica",
-      "total": 175
+      "total": 177
     },
     {
       "curso": "Evaluaciones IRL",
-      "total": 175
+      "total": 176
     },
     {
       "curso": "Conducción a la Defensiva",
-      "total": 125
+      "total": 135
     }
   ],
   "statusBreakdown": [
@@ -61,12 +61,12 @@ window.DASHBOARD_DATA = {
     },
     {
       "label": "Duplicados",
-      "value": 352,
+      "value": 353,
       "color": "#f4c430"
     },
     {
       "label": "No legibles",
-      "value": 2,
+      "value": 3,
       "color": "#f53b4d"
     }
   ],
@@ -78,57 +78,57 @@ window.DASHBOARD_DATA = {
     },
     {
       "curso": "Uso y Mantención de EPP",
-      "total": 360,
-      "unicos": 264
+      "total": 378,
+      "unicos": 271
     },
     {
       "curso": "Manejo de Extintores Portátiles",
-      "total": 442,
-      "unicos": 309
+      "total": 465,
+      "unicos": 314
     },
     {
       "curso": "Orientación a la Prevención de Riesgos",
-      "total": 377,
-      "unicos": 274
+      "total": 396,
+      "unicos": 280
     },
     {
       "curso": "Primeros Auxilios",
-      "total": 374,
-      "unicos": 279
+      "total": 383,
+      "unicos": 287
     },
     {
       "curso": "Conducción a la Defensiva",
-      "total": 125,
-      "unicos": 86
+      "total": 135,
+      "unicos": 92
     },
     {
       "curso": "IRL General",
-      "total": 224,
-      "unicos": 224
+      "total": 226,
+      "unicos": 226
     },
     {
       "curso": "IRL Específica",
-      "total": 175,
-      "unicos": 175
+      "total": 177,
+      "unicos": 177
     },
     {
       "curso": "Evaluaciones IRL",
-      "total": 175,
-      "unicos": 175
+      "total": 176,
+      "unicos": 176
     },
     {
       "curso": "NO LEGIBLE",
-      "total": 2,
-      "unicos": 2
+      "total": 3,
+      "unicos": 3
     },
     {
       "curso": "DUPLICADOS",
-      "total": 352,
+      "total": 353,
       "unicos": null
     },
     {
       "curso": "TOTAL",
-      "total": 2934,
+      "total": 3020,
       "unicos": null
     }
   ],
@@ -4195,7 +4195,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "SUPERV DE ESTRUCTURA MANT · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: . · Turno: 10X10 A",
+      "detalle": "SUPERV DE ESTRUCTURA MANT · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: . · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": ".",
@@ -7999,7 +7999,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER CAMION PLANO C/EQ · Estado TARJA: VIGENTE · ACR: Acreditado",
+      "detalle": "CHOFER CAMION PLANO C/EQ · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "",
@@ -12085,7 +12085,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: . · Turno: 10X10 A",
+      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: . · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": ".",
@@ -15289,18 +15289,19 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "MANRIQUEZ JARA JORGE ANDRES",
       "rut": "13955773-5",
-      "cursos": "AYB, EPP, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL, OPR",
+      "cursos": "AYB, EPP, EVALUACIONES IRL, EXT, IRL ESPECIFICA, IRL GENERAL, OPR",
       "courseList": [
         "AYB",
         "EPP",
         "EVALUACIONES IRL",
+        "EXT",
         "IRL ESPECIFICA",
         "IRL GENERAL",
         "OPR"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: MAESTRO MAYOR · Turno: 10X10 A",
+      "detalle": "MECANICO · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: MAESTRO MAYOR · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "MAESTRO MAYOR",
@@ -15562,10 +15563,14 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "MARAMBIO VERGARA ORLANDO DAVID",
       "rut": "14904401-9",
-      "cursos": "AYB, EVALUACIONES IRL",
+      "cursos": "AYB, CAD, EPP, EVALUACIONES IRL, OPR, PA",
       "courseList": [
         "AYB",
-        "EVALUACIONES IRL"
+        "CAD",
+        "EPP",
+        "EVALUACIONES IRL",
+        "OPR",
+        "PA"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
@@ -16097,7 +16102,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: CAPATAZ · Turno: 10X10 A",
+      "detalle": "MECANICO · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: CAPATAZ · Turno: 10X10 A",
       "certFinal": "PENDIENTE",
       "examenSalud": "",
       "categoria": "CAPATAZ",
@@ -16175,9 +16180,14 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "MELLADO LOPEZ MAXIMILIANO ENRIQUE",
       "rut": "14390227-7",
-      "cursos": "AYB",
+      "cursos": "AYB, CAD, EPP, EXT, OPR, PA",
       "courseList": [
-        "AYB"
+        "AYB",
+        "CAD",
+        "EPP",
+        "EXT",
+        "OPR",
+        "PA"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
@@ -16259,12 +16269,15 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "MENDEZ CORDOVA FRANCISCO JAVIER",
       "rut": "15187615-3",
-      "cursos": "EVALUACIONES IRL, EXT, IRL ESPECIFICA, IRL GENERAL",
+      "cursos": "EPP, EVALUACIONES IRL, EXT, IRL ESPECIFICA, IRL GENERAL, OPR, PA",
       "courseList": [
+        "EPP",
         "EVALUACIONES IRL",
         "EXT",
         "IRL ESPECIFICA",
-        "IRL GENERAL"
+        "IRL GENERAL",
+        "OPR",
+        "PA"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
@@ -21613,7 +21626,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "EXPERTO HSEC MANTENCION · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: . · Turno: 10x10 A",
+      "detalle": "EXPERTO HSEC MANTENCION · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: . · Turno: 10x10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": ".",
@@ -22941,11 +22954,13 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "RIOS DIAZ JUAN JOSE",
       "rut": "10589693-K",
-      "cursos": "AYB, CAD, EXT",
+      "cursos": "AYB, CAD, EPP, EXT, PA",
       "courseList": [
         "AYB",
         "CAD",
-        "EXT"
+        "EPP",
+        "EXT",
+        "PA"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
@@ -23836,7 +23851,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: CAPATAZ · Turno: 10X10 A",
+      "detalle": "MECANICO · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: CAPATAZ · Turno: 10X10 A",
       "certFinal": "PENDIENTE",
       "examenSalud": "",
       "categoria": "CAPATAZ",
@@ -25295,17 +25310,18 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "SAEZ CORREA MARCO ANTONIO",
       "rut": "11679900-6",
-      "cursos": "EPP, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL, OPR",
+      "cursos": "EPP, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL, OPR, PA",
       "courseList": [
         "EPP",
         "EVALUACIONES IRL",
         "IRL ESPECIFICA",
         "IRL GENERAL",
-        "OPR"
+        "OPR",
+        "PA"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA /ANDAMIE · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: . · Turno: 10X10 B",
+      "detalle": "MECANICO PRIMERA /ANDAMIE · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: . · Turno: 10X10 B",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": ".",
@@ -25740,12 +25756,16 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "SALGADO VASQUEZ MARCO ANTONIO",
       "rut": "12651492-1",
-      "cursos": "AYB, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
+      "cursos": "AYB, EPP, EVALUACIONES IRL, EXT, IRL ESPECIFICA, IRL GENERAL, OPR, PA",
       "courseList": [
         "AYB",
+        "EPP",
         "EVALUACIONES IRL",
+        "EXT",
         "IRL ESPECIFICA",
-        "IRL GENERAL"
+        "IRL GENERAL",
+        "OPR",
+        "PA"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
@@ -26192,9 +26212,12 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "SANHUEZA SOTO JAIME ANDRES",
       "rut": "15659965-4",
-      "cursos": "EPP, OPR, PA",
+      "cursos": "EPP, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL, OPR, PA",
       "courseList": [
         "EPP",
+        "EVALUACIONES IRL",
+        "IRL ESPECIFICA",
+        "IRL GENERAL",
         "OPR",
         "PA"
       ],
@@ -30162,12 +30185,16 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "VERGARA SAEZ RICARDO EXEQUIEL",
       "rut": "19000455-4",
-      "cursos": "AYB, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
+      "cursos": "AYB, EPP, EVALUACIONES IRL, EXT, IRL ESPECIFICA, IRL GENERAL, OPR, PA",
       "courseList": [
         "AYB",
+        "EPP",
         "EVALUACIONES IRL",
+        "EXT",
         "IRL ESPECIFICA",
-        "IRL GENERAL"
+        "IRL GENERAL",
+        "OPR",
+        "PA"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
@@ -31540,7 +31567,7 @@ window.DASHBOARD_DATA = {
   "insights": [
     {
       "title": "Curso con mayor volumen",
-      "detail": "Manejo de Extintores Portátiles concentra 442 archivos."
+      "detail": "Manejo de Extintores Portátiles concentra 465 archivos."
     },
     {
       "title": "Cruce con TARJA",
@@ -31548,7 +31575,7 @@ window.DASHBOARD_DATA = {
     },
     {
       "title": "Calidad del registro",
-      "detail": "Se identificaron 352 duplicados y 2 documentos no legibles."
+      "detail": "Se identificaron 353 duplicados y 3 documentos no legibles."
     },
     {
       "title": "Certificados finales (TARJA)",

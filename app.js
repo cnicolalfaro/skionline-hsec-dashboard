@@ -413,10 +413,19 @@ function escapeHtml(value) {
     .replace(/'/g, '&#39;');
 }
 
-function renderSinMatch(items) {
+function renderSinMatch(items, sinMatchFolderUrl) {
   const body = document.getElementById('sinMatchTableBody');
   const countEl = document.getElementById('sinMatchCount');
   const subtitle = document.getElementById('sinMatchSubtitle');
+  const folderLink = document.getElementById('sinMatchFolderLink');
+  if (folderLink) {
+    if (sinMatchFolderUrl) {
+      folderLink.href = sinMatchFolderUrl;
+      folderLink.style.display = '';
+    } else {
+      folderLink.style.display = 'none';
+    }
+  }
   if (!body) return;
   const list = Array.isArray(items) ? items : [];
   countEl.textContent = `${list.length} archivo${list.length === 1 ? '' : 's'}`;
@@ -691,6 +700,6 @@ function setupFilters(data) {
   renderAccess(data);
   renderTable(data.summaryRows || []);
   renderInsights(data.insights || []);
-  renderSinMatch(data.sinMatchFiles || []);
+  renderSinMatch(data.sinMatchFiles || [], data.sinMatchFolderUrl || '');
   setupFilters(data);
 })();

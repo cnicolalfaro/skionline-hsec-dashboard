@@ -20,6 +20,10 @@ SPECIAL_SHEETS = {'RESUMEN', 'TARJA', 'NO_LEGIBLE', 'DUPLICADOS'}
 # URL base de SharePoint donde se replicarán las carpetas _PorPersona/<NOMBRE>.
 # Las subcarpetas se construyen insertando "/<NOMBRE>" antes del "?".
 PORPERSONA_SHAREPOINT_BASE = 'https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA?csf=1&web=1&e=d6nH9p'
+
+# URL fija a la que apuntan las personas SIN carpeta propia (no tienen archivos en SharePoint),
+# y también la sección "Sin match con TARJA" del dashboard.
+PORPERSONA_SIN_MATCH_URL = 'https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/TRABAJADOR%20SIN%20MATCH%20CON%20TARJA?csf=1&web=1&e=W1n3aM'
 INDUCCION_COLS = [
     'CHARLA ADMINISTRATIVA',
     'CHARLA LEY KARIN',
@@ -137,6 +141,26 @@ def build_person_folder_url(folder_name: str) -> str:
         path_part, qs = base.split('?', 1)
         return f'{path_part}/{folder_name}?{qs}'
     return f'{base}/{folder_name}'
+
+
+def load_people_folders_index() -> dict[str, str]:
+    """Lee SKIONLINE/data/people_folders.json y devuelve {rutCanon: folder}."""
+    if not PEOPLE_INDEX_PATH.exists():
+        return {}
+    try:
+        with open(PEOPLE_INDEX_PATH, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+    except (json.JSONDecodeError, OSError):
+        return {}
+    index: dict[str, str] = {}
+    for entry in data.values() if isinstance(data, dict) else []:
+        if not isinstance(entry, dict):
+            continue
+        canon = str(entry.get('rutCanon') or '').strip()
+        folder = str(entry.get('folder') or '').strip()
+        if canon and folder:
+            index[canon] = folder
+    return index
 
 
 def names_match(evidence_name: Any, nombre: Any, paterno: Any, materno: Any) -> bool:
@@ -396,6 +420,11 @@ def build_tarja_records(wb, evidence_entries: list[dict[str, Any]], external_rut
     if not headers or not rows:
         return [], 0, []
 
+    # Índice de carpetas SharePoint generadas por generar_porpersona.py.
+    # Si una persona no aparece aquí, es porque no tiene archivos asociados:
+    # el botón 📁 apuntará a la carpeta global "TRABAJADOR SIN MATCH CON TARJA".
+    folders_index = load_people_folders_index()
+
     # Detectar columnas con fechas de turno (datetime o strings comunes)
     shift_cols: list[int] = []
     shift_dates_iso: list[str] = []
@@ -456,6 +485,19 @@ def build_tarja_records(wb, evidence_entries: list[dict[str, Any]], external_rut
         person_key = fingerprint(nombre, paterno, materno)
         rut_tarja = format_rut(get_first_available_cell(row, headers, ['RUT', 'R.U.T', 'R U T'], ''))
         rut = rut_tarja or external_rut_lookup.get(person_key, '')
+
+        # Resolver carpeta SharePoint: si la persona tiene archivos copiados a
+        # _PorPersona/, usar su carpeta exacta; si no, apuntar a la carpeta
+        # global "TRABAJADOR SIN MATCH CON TARJA".
+        rut_canon = clean_rut(rut)
+        existing_folder = folders_index.get(rut_canon, '') if rut_canon else ''
+        if existing_folder:
+            folder_name = existing_folder
+            folder_url = build_person_folder_url(existing_folder)
+        else:
+            folder_name = ''
+            folder_url = PORPERSONA_SIN_MATCH_URL
+
         evidence = collect_person_evidence(evidence_entries, nombre, paterno, materno, rut)
         courses = sorted(evidence.get('courses', set()))
         flags = evidence.get('flags', set())
@@ -501,8 +543,8 @@ def build_tarja_records(wb, evidence_entries: list[dict[str, Any]], external_rut
         records.append({
             'nombre': nombre_mostrado,
             'rut': rut,
-            'folderName': build_person_folder(nombre, paterno, materno, rut),
-            'folderUrl': build_person_folder_url(build_person_folder(nombre, paterno, materno, rut)),
+            'folderName': folder_name,
+            'folderUrl': folder_url,
             'cursos': ', '.join(courses) if courses else '-',
             'courseList': courses,
             'estado': estado,
@@ -696,6 +738,7 @@ def main() -> None:
         'records': records,
         'shiftDates': shift_dates,
         'sinMatchFiles': sin_match_files,
+        'sinMatchFolderUrl': PORPERSONA_SIN_MATCH_URL,
         'irlFormsNote': '',
         'accessLinks': [
             {'label': 'Evidencias de certificaciones', 'url': 'https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/3-%20Registros%20capacitaciones%20-%20difusiones/3-%20Evidencias%20de%20Certificaciones?csf=1&web=1&e=ovhAFT'},

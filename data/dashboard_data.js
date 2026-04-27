@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "27/04/2026 17:28",
+  "generatedAt": "27/04/2026 18:08",
   "sourceFile": "REGISTRO_FINAL_CURSOS.xlsx",
   "kpis": {
     "totalArchivos": 3020,
@@ -24654,8 +24654,8 @@ window.DASHBOARD_DATA = {
     {
       "nombre": "ROJAS CORNEJO PABLO ANDRES",
       "rut": "TORO",
-      "folderName": "ROJAS_CORNEJO_PABLO_ANDRES",
-      "folderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/ROJAS_CORNEJO_PABLO_ANDRES?csf=1&web=1&e=d6nH9p",
+      "folderName": "",
+      "folderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/TRABAJADOR%20SIN%20MATCH%20CON%20TARJA?csf=1&web=1&e=W1n3aM",
       "cursos": "AYB, EPP, EXT, IRL GENERAL, OPR, PA",
       "courseList": [
         "AYB",
@@ -32233,6 +32233,7 @@ window.DASHBOARD_DATA = {
       "hint": "exequiel vizcarra aguilar"
     }
   ],
+  "sinMatchFolderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/TRABAJADOR%20SIN%20MATCH%20CON%20TARJA?csf=1&web=1&e=W1n3aM",
   "irlFormsNote": "",
   "accessLinks": [
     {

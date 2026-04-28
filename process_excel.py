@@ -393,8 +393,8 @@ def load_external_rut_lookup() -> dict[str, str]:
             continue
 
         nombre = get_first_available_cell(row, headers, ['NOMBRE'])
-        paterno = get_first_available_cell(row, headers, ['A. PATERNO'])
-        materno = get_first_available_cell(row, headers, ['A. MATERNO'])
+        paterno = get_first_available_cell(row, headers, ['A. PATERNO', 'APELLIDO PATERNO', 'APELLIDOS'])
+        materno = get_first_available_cell(row, headers, ['A. MATERNO', 'APELLIDO MATERNO'])
         rut = format_rut(get_first_available_cell(row, headers, ['RUT']))
         person_key = fingerprint(nombre, paterno, materno)
 
@@ -456,8 +456,8 @@ def build_tarja_records(wb, evidence_entries: list[dict[str, Any]], external_rut
             continue
 
         nombre = get_cell_value(row, headers, 'NOMBRE')
-        paterno = get_cell_value(row, headers, 'A. PATERNO')
-        materno = get_cell_value(row, headers, 'A. MATERNO')
+        paterno = get_first_available_cell(row, headers, ['A. PATERNO', 'APELLIDO PATERNO', 'APELLIDOS'])
+        materno = get_first_available_cell(row, headers, ['A. MATERNO', 'APELLIDO MATERNO'])
         especialidad = get_cell_value(row, headers, 'ESPECIALIDAD', 'Sin especialidad informada')
         estado_tarja = get_cell_value(row, headers, 'ESTADO', 'Sin estado')
 

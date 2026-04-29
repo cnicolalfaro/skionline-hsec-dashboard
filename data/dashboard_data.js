@@ -1,134 +1,134 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "28/04/2026 19:17",
+  "generatedAt": "28/04/2026 20:00",
   "sourceFile": "REGISTRO_FINAL_CURSOS.xlsx",
   "kpis": {
-    "totalArchivos": 3289,
-    "documentosUnicos": 2067,
-    "duplicados": 424,
-    "noLegibles": 34,
+    "totalArchivos": 2613,
+    "documentosUnicos": 1810,
+    "duplicados": 686,
+    "noLegibles": 9,
     "trabajadoresTarja": 344,
-    "conRegistros": 299,
-    "sinRegistros": 45
+    "conRegistros": 298,
+    "sinRegistros": 46
   },
   "courseTotals": [
     {
       "curso": "Aislación y Bloqueo",
-      "total": 233
+      "total": 198
     },
     {
       "curso": "Uso y Mantención de EPP",
-      "total": 410
+      "total": 219
     },
     {
       "curso": "Manejo de Extintores Portátiles",
-      "total": 498
+      "total": 274
     },
     {
       "curso": "Orientación a la Prevención de Riesgos",
-      "total": 429
+      "total": 244
     },
     {
       "curso": "Primeros Auxilios",
-      "total": 420
+      "total": 247
     },
     {
       "curso": "IRL General",
-      "total": 225
+      "total": 211
     },
     {
       "curso": "IRL Específica",
-      "total": 176
+      "total": 162
     },
     {
       "curso": "Evaluaciones IRL",
-      "total": 176
+      "total": 161
     },
     {
       "curso": "Conducción a la Defensiva",
-      "total": 147
+      "total": 87
     }
   ],
   "statusBreakdown": [
     {
       "label": "Con registros",
-      "value": 299,
+      "value": 298,
       "color": "#51b847"
     },
     {
       "label": "Sin registros",
-      "value": 45,
+      "value": 46,
       "color": "#ff7a59"
     },
     {
       "label": "Duplicados",
-      "value": 424,
+      "value": 686,
       "color": "#f4c430"
     },
     {
       "label": "No legibles",
-      "value": 34,
+      "value": 9,
       "color": "#f53b4d"
     }
   ],
   "summaryRows": [
     {
       "curso": "Aislación y Bloqueo",
-      "total": 233,
-      "unicos": 205
+      "total": 198,
+      "unicos": 198
     },
     {
       "curso": "Uso y Mantención de EPP",
-      "total": 410,
-      "unicos": 272
+      "total": 219,
+      "unicos": 219
     },
     {
       "curso": "Manejo de Extintores Portátiles",
-      "total": 498,
-      "unicos": 315
+      "total": 274,
+      "unicos": 274
     },
     {
       "curso": "Orientación a la Prevención de Riesgos",
-      "total": 429,
-      "unicos": 281
+      "total": 244,
+      "unicos": 244
     },
     {
       "curso": "Primeros Auxilios",
-      "total": 420,
-      "unicos": 290
+      "total": 247,
+      "unicos": 247
     },
     {
       "curso": "Conducción a la Defensiva",
-      "total": 147,
-      "unicos": 93
+      "total": 87,
+      "unicos": 87
     },
     {
       "curso": "IRL General",
-      "total": 225,
-      "unicos": 225
+      "total": 211,
+      "unicos": 211
     },
     {
       "curso": "IRL Específica",
-      "total": 176,
-      "unicos": 176
+      "total": 162,
+      "unicos": 162
     },
     {
       "curso": "Evaluaciones IRL",
-      "total": 176,
-      "unicos": 176
+      "total": 161,
+      "unicos": 161
     },
     {
       "curso": "NO LEGIBLE",
-      "total": 34,
-      "unicos": 34
+      "total": 9,
+      "unicos": 7
     },
     {
       "curso": "DUPLICADOS",
-      "total": 424,
+      "total": 686,
       "unicos": null
     },
     {
       "curso": "TOTAL",
-      "total": 3289,
+      "total": 2613,
       "unicos": null
     }
   ],
@@ -780,7 +780,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "ASISTENTE ADMINISTRATIVO · Estado TARJA: VIGENTE · incluye no legibles · ACR: Acreditado · Cat: . · Turno: 5X2",
+      "detalle": "ASISTENTE ADMINISTRATIVO · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: . · Turno: 5X2",
       "certFinal": "",
       "examenSalud": "",
       "categoria": ".",
@@ -1511,7 +1511,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER CAMIONETA MANTENCI · Estado TARJA: VIGENTE · incluye duplicados, incluye no legibles · ACR: Acreditado · Cat: . · Turno: 10X10 A",
+      "detalle": "CHOFER CAMIONETA MANTENCI · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: . · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": ".",
@@ -1604,7 +1604,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · incluye duplicados, incluye no legibles · ACR: Acreditado · Cat: . · Turno: 10X10 B",
+      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: . · Turno: 10X10 B",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": ".",
@@ -1696,7 +1696,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "EXPERTO HSEC MANTENCION · Estado TARJA: VIGENTE · incluye duplicados, incluye no legibles · ACR: Acreditado · Turno: 10x10 B",
+      "detalle": "EXPERTO HSEC MANTENCION · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Turno: 10x10 B",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "",
@@ -1792,7 +1792,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: DE BAJA · incluye duplicados, incluye no legibles · ACR: Finiquitado · Cat: MAESTRO PRIMERA · Turno: 10X10 B",
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: DE BAJA · incluye duplicados · ACR: Finiquitado · Cat: MAESTRO PRIMERA · Turno: 10X10 B",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "MAESTRO PRIMERA",
@@ -1975,7 +1975,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER DE BUS · Estado TARJA: VIGENTE · incluye duplicados, incluye no legibles · ACR: Acreditado · Turno: 10X10 A",
+      "detalle": "CHOFER DE BUS · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "",
@@ -2151,7 +2151,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "SOLDADOR PLANCHA · Estado TARJA: VIGENTE · incluye duplicados, incluye no legibles · ACR: Acreditado · Cat: CALIFICACIÓN III · Turno: 10X10 A",
+      "detalle": "SOLDADOR PLANCHA · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: CALIFICACIÓN III · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "CALIFICACIÓN III",
@@ -2247,7 +2247,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · incluye duplicados, incluye no legibles · ACR: Acreditado · Cat: MAESTRO PRIMERA · Turno: 10X10 A",
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: MAESTRO PRIMERA · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "MAESTRO PRIMERA",
@@ -2604,7 +2604,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · incluye duplicados, incluye no legibles · ACR: Acreditado · Cat: . · Turno: 10X10 A",
+      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: . · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": ".",
@@ -2697,7 +2697,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · incluye duplicados, incluye no legibles · ACR: Acreditado · Cat: MAESTRO PRIMERA · Turno: 10X10 A",
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: MAESTRO PRIMERA · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "MAESTRO PRIMERA",
@@ -2788,7 +2788,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · incluye duplicados, incluye no legibles · ACR: Acreditado · Cat: MAESTRO MAYOR · Turno: 10X10 A",
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: MAESTRO MAYOR · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "MAESTRO MAYOR",
@@ -2884,7 +2884,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · incluye duplicados, incluye no legibles · ACR: Acreditado · Cat: . · Turno: 10X10 A",
+      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: . · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": ".",
@@ -3163,7 +3163,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · incluye duplicados, incluye no legibles · ACR: Acreditado · Cat: MAESTRO MAYOR · Turno: 10X10 A",
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: MAESTRO MAYOR · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "MAESTRO MAYOR",
@@ -3349,7 +3349,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · incluye duplicados, incluye no legibles · ACR: Acreditado · Cat: MAESTRO PRIMERA · Turno: 10X10 A",
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: MAESTRO PRIMERA · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "MAESTRO PRIMERA",
@@ -3449,7 +3449,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: VIGENTE · incluye duplicados, incluye no legibles · ACR: Acreditado · Cat: CAPATAZ · Turno: 10X10 A",
+      "detalle": "MECANICO · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: CAPATAZ · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "CAPATAZ",
@@ -3619,12 +3619,11 @@ window.DASHBOARD_DATA = {
       "rut": "09068042-0",
       "folderName": "BARRAULT_DAVIES_PABLO_HENRY_090680420",
       "folderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/BARRAULT_DAVIES_PABLO_HENRY_090680420?csf=1&web=1&e=d6nH9p",
-      "cursos": "EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL, PA",
+      "cursos": "EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
       "courseList": [
         "EVALUACIONES IRL",
         "IRL ESPECIFICA",
-        "IRL GENERAL",
-        "PA"
+        "IRL GENERAL"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
@@ -4376,7 +4375,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · incluye no legibles · ACR: Acreditado · Cat: MAESTRO PRIMERA · Turno: 10X10 A",
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: MAESTRO PRIMERA · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "MAESTRO PRIMERA",
@@ -5662,7 +5661,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: CAPATAZ · Turno: 10X10 A",
+      "detalle": "MECANICO · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: CAPATAZ · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "CAPATAZ",
@@ -6044,7 +6043,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: . · Turno: 10X10 A",
+      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: . · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": ".",
@@ -6792,7 +6791,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: MAESTRO MAYOR · Turno: 10X10 A",
+      "detalle": "MECANICO · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: MAESTRO MAYOR · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "MAESTRO MAYOR",
@@ -7073,7 +7072,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER CAMIONETA MANTENCI · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: . · Turno: 10X10 A",
+      "detalle": "CHOFER CAMIONETA MANTENCI · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: . · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": ".",
@@ -7431,7 +7430,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: MAESTRO MAYOR · Turno: 10X10 A",
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: MAESTRO MAYOR · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "MAESTRO MAYOR",
@@ -7617,7 +7616,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: . · Turno: 10X10 A",
+      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: . · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": ".",
@@ -8256,9 +8255,8 @@ window.DASHBOARD_DATA = {
       "rut": "16600869-7",
       "folderName": "DIAZ_MERINO_JORGE_ANDRES_166008697",
       "folderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/DIAZ_MERINO_JORGE_ANDRES_166008697?csf=1&web=1&e=d6nH9p",
-      "cursos": "AYB, EPP, EXT, OPR, PA",
+      "cursos": "EPP, EXT, OPR, PA",
       "courseList": [
-        "AYB",
         "EPP",
         "EXT",
         "OPR",
@@ -8550,7 +8548,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: DE BAJA · incluye duplicados · ACR: Finiquitado · Cat: . · Turno: 10X10 B",
+      "detalle": "MECANICO PRIMERA · Estado TARJA: DE BAJA · ACR: Finiquitado · Cat: . · Turno: 10X10 B",
       "certFinal": "PENDIENTE",
       "examenSalud": "",
       "categoria": ".",
@@ -9105,7 +9103,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: . · Turno: 10X10 A",
+      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: . · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": ".",
@@ -9759,7 +9757,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: . · Turno: 10X10 A",
+      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: . · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": ".",
@@ -9848,7 +9846,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "SOLDADOR PLANCHA · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: CALIFICACIÓN III · Turno: 10X10 A",
+      "detalle": "SOLDADOR PLANCHA · Estado TARJA: VIGENTE · incluye no legibles · ACR: Acreditado · Cat: CALIFICACIÓN III · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "CALIFICACIÓN III",
@@ -10227,7 +10225,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER MINIBUS/VAN · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: .",
+      "detalle": "CHOFER MINIBUS/VAN · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: .",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": ".",
@@ -10493,7 +10491,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER DE BUS · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: . · Turno: 10X10 A",
+      "detalle": "CHOFER DE BUS · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: . · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": ".",
@@ -10971,7 +10969,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "SOLDADOR PLANCHA · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: CALIFICACIÓN III · Turno: 10X10 B",
+      "detalle": "SOLDADOR PLANCHA · Estado TARJA: VIGENTE · incluye duplicados, incluye no legibles · ACR: Acreditado · Cat: CALIFICACIÓN III · Turno: 10X10 B",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "CALIFICACIÓN III",
@@ -14542,7 +14540,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: . · Turno: 10X10 A",
+      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: . · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": ".",
@@ -21069,13 +21067,14 @@ window.DASHBOARD_DATA = {
       "rut": "18468486-1",
       "folderName": "PAVEZ_URIBE_FERNANDO_ALEJANDRO_184684861",
       "folderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/PAVEZ_URIBE_FERNANDO_ALEJANDRO_184684861?csf=1&web=1&e=d6nH9p",
-      "cursos": "AYB, CAD, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL, PA",
+      "cursos": "AYB, CAD, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL, OPR, PA",
       "courseList": [
         "AYB",
         "CAD",
         "EVALUACIONES IRL",
         "IRL ESPECIFICA",
         "IRL GENERAL",
+        "OPR",
         "PA"
       ],
       "estado": "Con registros",
@@ -21548,7 +21547,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: DE BAJA · incluye duplicados · ACR: Finiquitado · Cat: CAPATAZ · Turno: 10X10 B",
+      "detalle": "MECANICO · Estado TARJA: DE BAJA · ACR: Finiquitado · Cat: CAPATAZ · Turno: 10X10 B",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "CAPATAZ",
@@ -22556,7 +22555,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: MAESTRO PRIMERA · Turno: 10X10 A",
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: MAESTRO PRIMERA · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "MAESTRO PRIMERA",
@@ -23921,13 +23920,14 @@ window.DASHBOARD_DATA = {
       "rut": "14352557-0",
       "folderName": "RIVAS_PARRA_ALEXIS_EDUARDO_143525570",
       "folderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/RIVAS_PARRA_ALEXIS_EDUARDO_143525570?csf=1&web=1&e=d6nH9p",
-      "cursos": "AYB, EPP, EVALUACIONES IRL, EXT, IRL GENERAL, PA",
+      "cursos": "AYB, EPP, EVALUACIONES IRL, EXT, IRL GENERAL, OPR, PA",
       "courseList": [
         "AYB",
         "EPP",
         "EVALUACIONES IRL",
         "EXT",
         "IRL GENERAL",
+        "OPR",
         "PA"
       ],
       "estado": "Con registros",
@@ -24012,14 +24012,10 @@ window.DASHBOARD_DATA = {
       "rut": "12822082-8",
       "folderName": "RIVERA_ESTAY_EDUARDO_ANTONIO_128220828",
       "folderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/RIVERA_ESTAY_EDUARDO_ANTONIO_128220828?csf=1&web=1&e=d6nH9p",
-      "cursos": "EPP, EVALUACIONES IRL, EXT, IRL GENERAL, OPR, PA",
+      "cursos": "EVALUACIONES IRL, IRL GENERAL",
       "courseList": [
-        "EPP",
         "EVALUACIONES IRL",
-        "EXT",
-        "IRL GENERAL",
-        "OPR",
-        "PA"
+        "IRL GENERAL"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
@@ -24560,9 +24556,8 @@ window.DASHBOARD_DATA = {
       "rut": "15853205-0",
       "folderName": "RODRIGUEZ_ULLOA_LEONARDO_ALEXIS_158532050",
       "folderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/RODRIGUEZ_ULLOA_LEONARDO_ALEXIS_158532050?csf=1&web=1&e=d6nH9p",
-      "cursos": "AYB, EVALUACIONES IRL, EXT, IRL ESPECIFICA, IRL GENERAL, PA",
+      "cursos": "EVALUACIONES IRL, EXT, IRL ESPECIFICA, IRL GENERAL, PA",
       "courseList": [
-        "AYB",
         "EVALUACIONES IRL",
         "EXT",
         "IRL ESPECIFICA",
@@ -24657,18 +24652,11 @@ window.DASHBOARD_DATA = {
       "rut": "TORO",
       "folderName": "",
       "folderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/TRABAJADOR%20SIN%20MATCH%20CON%20TARJA?csf=1&web=1&e=W1n3aM",
-      "cursos": "AYB, EPP, EXT, IRL GENERAL, OPR, PA",
-      "courseList": [
-        "AYB",
-        "EPP",
-        "EXT",
-        "IRL GENERAL",
-        "OPR",
-        "PA"
-      ],
-      "estado": "Con registros",
-      "statusKey": "con-registros",
-      "detalle": "CHOFER CAMION PLANO C/EQ · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: NIVEL A · Turno: 10X10 B",
+      "cursos": "-",
+      "courseList": [],
+      "estado": "No hay registros cargados, confirmar en portales",
+      "statusKey": "sin-registros",
+      "detalle": "CHOFER CAMION PLANO C/EQ · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: NIVEL A · Turno: 10X10 B",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "NIVEL A",
@@ -26514,9 +26502,8 @@ window.DASHBOARD_DATA = {
       "rut": "12973595-3",
       "folderName": "SANMARTIN_FERREIRA_IVAN_ALEJANDRO_129735953",
       "folderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/SANMARTIN_FERREIRA_IVAN_ALEJANDRO_129735953?csf=1&web=1&e=d6nH9p",
-      "cursos": "AYB, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
+      "cursos": "EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
       "courseList": [
-        "AYB",
         "EVALUACIONES IRL",
         "IRL ESPECIFICA",
         "IRL GENERAL"
@@ -26713,7 +26700,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO DE MANTENCION A · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: . · Turno: 10x10 A",
+      "detalle": "MECANICO DE MANTENCION A · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: . · Turno: 10x10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": ".",
@@ -26804,7 +26791,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER DE BUS · Estado TARJA: VIGENTE · ACR: Acreditado",
+      "detalle": "CHOFER DE BUS · Estado TARJA: VIGENTE · incluye no legibles · ACR: Acreditado",
       "certFinal": "PENDIENTE",
       "examenSalud": "",
       "categoria": "",
@@ -26884,16 +26871,20 @@ window.DASHBOARD_DATA = {
       "rut": "09649588-9",
       "folderName": "SANHUEZA_VEGA_JAIME_LUIS_096495889",
       "folderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/SANHUEZA_VEGA_JAIME_LUIS_096495889?csf=1&web=1&e=d6nH9p",
-      "cursos": "AYB, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
+      "cursos": "AYB, EPP, EVALUACIONES IRL, EXT, IRL ESPECIFICA, IRL GENERAL, OPR, PA",
       "courseList": [
         "AYB",
+        "EPP",
         "EVALUACIONES IRL",
+        "EXT",
         "IRL ESPECIFICA",
-        "IRL GENERAL"
+        "IRL GENERAL",
+        "OPR",
+        "PA"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: MAESTRO MAYOR · Turno: 10X10 A",
+      "detalle": "MECANICO · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: MAESTRO MAYOR · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "MAESTRO MAYOR",
@@ -28077,7 +28068,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: MAESTRO PRIMERA · Turno: 10X10 A",
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: MAESTRO PRIMERA · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "MAESTRO PRIMERA",
@@ -29277,9 +29268,10 @@ window.DASHBOARD_DATA = {
       "rut": "13266171-5",
       "folderName": "TUDELA_SALDIAS_RAUL_GERMAN_132661715",
       "folderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/TUDELA_SALDIAS_RAUL_GERMAN_132661715?csf=1&web=1&e=d6nH9p",
-      "cursos": "CAD, OPR, PA",
+      "cursos": "CAD, EXT, OPR, PA",
       "courseList": [
         "CAD",
+        "EXT",
         "OPR",
         "PA"
       ],
@@ -31046,7 +31038,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER CAMION TOLVA · Estado TARJA: DE BAJA · incluye duplicados · ACR: Finiquitado · Cat: . · Turno: 10X10 B",
+      "detalle": "CHOFER CAMION TOLVA · Estado TARJA: DE BAJA · ACR: Finiquitado · Cat: . · Turno: 10X10 B",
       "certFinal": "PENDIENTE",
       "examenSalud": "",
       "categoria": ".",
@@ -31955,15 +31947,15 @@ window.DASHBOARD_DATA = {
   "insights": [
     {
       "title": "Curso con mayor volumen",
-      "detail": "Manejo de Extintores Portátiles concentra 498 archivos."
+      "detail": "Manejo de Extintores Portátiles concentra 274 archivos."
     },
     {
       "title": "Cruce con TARJA",
-      "detail": "Se detectaron 45 trabajadores sin evidencias cargadas en el sistema."
+      "detail": "Se detectaron 46 trabajadores sin evidencias cargadas en el sistema."
     },
     {
       "title": "Calidad del registro",
-      "detail": "Se identificaron 424 duplicados y 34 documentos no legibles."
+      "detail": "Se identificaron 686 duplicados y 9 documentos no legibles."
     },
     {
       "title": "Certificados finales (TARJA)",

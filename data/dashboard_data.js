@@ -1,11 +1,11 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "28/04/2026 22:53",
+  "generatedAt": "28/04/2026 23:44",
   "sourceFile": "REGISTRO_FINAL_CURSOS.xlsx",
   "kpis": {
-    "totalArchivos": 2694,
-    "documentosUnicos": 1890,
+    "totalArchivos": 2646,
+    "documentosUnicos": 1834,
     "duplicados": 686,
-    "noLegibles": 69,
+    "noLegibles": 6,
     "trabajadoresTarja": 344,
     "conRegistros": 299,
     "sinRegistros": 45
@@ -13,7 +13,7 @@ window.DASHBOARD_DATA = {
   "courseTotals": [
     {
       "curso": "Aislación y Bloqueo",
-      "total": 198
+      "total": 199
     },
     {
       "curso": "Uso y Mantención de EPP",
@@ -33,15 +33,15 @@ window.DASHBOARD_DATA = {
     },
     {
       "curso": "IRL General",
-      "total": 222
+      "total": 225
     },
     {
       "curso": "IRL Específica",
-      "total": 168
+      "total": 169
     },
     {
       "curso": "Evaluaciones IRL",
-      "total": 165
+      "total": 166
     },
     {
       "curso": "Conducción a la Defensiva",
@@ -66,15 +66,15 @@ window.DASHBOARD_DATA = {
     },
     {
       "label": "No legibles",
-      "value": 69,
+      "value": 6,
       "color": "#f53b4d"
     }
   ],
   "summaryRows": [
     {
       "curso": "Aislación y Bloqueo",
-      "total": 198,
-      "unicos": 198
+      "total": 199,
+      "unicos": 199
     },
     {
       "curso": "Uso y Mantención de EPP",
@@ -103,23 +103,23 @@ window.DASHBOARD_DATA = {
     },
     {
       "curso": "IRL General",
-      "total": 222,
-      "unicos": 221
+      "total": 225,
+      "unicos": 224
     },
     {
       "curso": "IRL Específica",
-      "total": 168,
-      "unicos": 168
+      "total": 169,
+      "unicos": 169
     },
     {
       "curso": "Evaluaciones IRL",
-      "total": 165,
-      "unicos": 165
+      "total": 166,
+      "unicos": 166
     },
     {
       "curso": "NO LEGIBLE",
-      "total": 69,
-      "unicos": 67
+      "total": 6,
+      "unicos": 5
     },
     {
       "curso": "DUPLICADOS",
@@ -128,7 +128,7 @@ window.DASHBOARD_DATA = {
     },
     {
       "curso": "TOTAL",
-      "total": 2694,
+      "total": 2646,
       "unicos": null
     }
   ],
@@ -8264,8 +8264,9 @@ window.DASHBOARD_DATA = {
       "rut": "16600869-7",
       "folderName": "DIAZ_MERINO_JORGE_ANDRES_166008697",
       "folderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/DIAZ_MERINO_JORGE_ANDRES_166008697?csf=1&web=1&e=d6nH9p",
-      "cursos": "EPP, EXT, OPR, PA",
+      "cursos": "AYB, EPP, EXT, OPR, PA",
       "courseList": [
+        "AYB",
         "EPP",
         "EXT",
         "OPR",
@@ -9200,7 +9201,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: MAESTRO MAYOR · Turno: 10X10 A",
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: MAESTRO MAYOR · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "MAESTRO MAYOR",
@@ -9855,7 +9856,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "SOLDADOR PLANCHA · Estado TARJA: VIGENTE · incluye no legibles · ACR: Acreditado · Cat: CALIFICACIÓN III · Turno: 10X10 A",
+      "detalle": "SOLDADOR PLANCHA · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: CALIFICACIÓN III · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "CALIFICACIÓN III",
@@ -10320,7 +10321,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: CAPATAZ · Turno: 10X10 A",
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: CAPATAZ · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "CAPATAZ",
@@ -10981,7 +10982,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "SOLDADOR PLANCHA · Estado TARJA: VIGENTE · incluye duplicados, incluye no legibles · ACR: Acreditado · Cat: CALIFICACIÓN III · Turno: 10X10 B",
+      "detalle": "SOLDADOR PLANCHA · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: CALIFICACIÓN III · Turno: 10X10 B",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "CALIFICACIÓN III",
@@ -18050,7 +18051,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: MAESTRO MAYOR · Turno: 10X10 A",
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: MAESTRO MAYOR · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "MAESTRO MAYOR",
@@ -26806,7 +26807,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER DE BUS · Estado TARJA: VIGENTE · incluye no legibles · ACR: Acreditado",
+      "detalle": "CHOFER DE BUS · Estado TARJA: VIGENTE · ACR: Acreditado",
       "certFinal": "PENDIENTE",
       "examenSalud": "",
       "categoria": "",
@@ -30398,10 +30399,11 @@ window.DASHBOARD_DATA = {
       "rut": "19050463-8",
       "folderName": "VEGA_VEGA_JAIRO_ALEXANDER_190504638",
       "folderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/VEGA_VEGA_JAIRO_ALEXANDER_190504638?csf=1&web=1&e=d6nH9p",
-      "cursos": "AYB, EPP, EXT, IRL ESPECIFICA, IRL GENERAL",
+      "cursos": "AYB, EPP, EVALUACIONES IRL, EXT, IRL ESPECIFICA, IRL GENERAL",
       "courseList": [
         "AYB",
         "EPP",
+        "EVALUACIONES IRL",
         "EXT",
         "IRL ESPECIFICA",
         "IRL GENERAL"
@@ -31943,6 +31945,20 @@ window.DASHBOARD_DATA = {
     {
       "folder": "IRL GENERAL",
       "folderLabel": "IRL General",
+      "file": "_SIN_MATCH_Ariel Gutierres IRL GENERAL.pdf",
+      "rut": "",
+      "hint": "Ariel Gutierres IRL GENERAL"
+    },
+    {
+      "folder": "IRL GENERAL",
+      "folderLabel": "IRL General",
+      "file": "_SIN_MATCH_Bayron Cifuentez IRL GENERAL.pdf",
+      "rut": "",
+      "hint": "Bayron Cifuentez IRL GENERAL"
+    },
+    {
+      "folder": "IRL GENERAL",
+      "folderLabel": "IRL General",
       "file": "_SIN_MATCH_IRL GENERAL HANS LAGOS.pdf",
       "rut": "",
       "hint": "IRL GENERAL HANS LAGOS"
@@ -31967,6 +31983,34 @@ window.DASHBOARD_DATA = {
       "file": "_SIN_MATCH_IRL OK_1.pdf",
       "rut": "",
       "hint": "IRL OK 1"
+    },
+    {
+      "folder": "IRL GENERAL",
+      "folderLabel": "IRL General",
+      "file": "_SIN_MATCH_Matias Vega IRL GENERAL.pdf",
+      "rut": "",
+      "hint": "Matias Vega IRL GENERAL"
+    },
+    {
+      "folder": "IRL_GENERAL_FORMS",
+      "folderLabel": "IRL General (Forms)",
+      "file": "_SIN_MATCH_Jaritza Sanchez irl vega .jpeg",
+      "rut": "",
+      "hint": "Jaritza Sanchez irl vega"
+    },
+    {
+      "folder": "IRL_GENERAL_FORMS",
+      "folderLabel": "IRL General (Forms)",
+      "file": "_SIN_MATCH_Jonnathan Silva IRL GENERAL.jpg",
+      "rut": "",
+      "hint": "Jonnathan Silva IRL GENERAL"
+    },
+    {
+      "folder": "IRL ESPECIFICA",
+      "folderLabel": "IRL Específica",
+      "file": "_SIN_MATCH_216229673 irl especifica.pdf",
+      "rut": "216229673",
+      "hint": "irl especifica"
     },
     {
       "folder": "IRL ESPECIFICA",
@@ -32014,7 +32058,7 @@ window.DASHBOARD_DATA = {
     },
     {
       "title": "Calidad del registro",
-      "detail": "Se identificaron 686 duplicados y 69 documentos no legibles."
+      "detail": "Se identificaron 686 duplicados y 6 documentos no legibles."
     },
     {
       "title": "Certificados finales (TARJA)",

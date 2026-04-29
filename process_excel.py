@@ -739,7 +739,6 @@ def main() -> None:
         'statusBreakdown': [
             {'label': 'Con registros', 'value': con_registros, 'color': '#51b847'},
             {'label': 'Sin registros', 'value': sin_registros, 'color': '#ff7a59'},
-            {'label': 'Duplicados', 'value': duplicados, 'color': '#f4c430'},
             {'label': 'No legibles', 'value': no_legibles, 'color': '#f53b4d'},
         ],
         'summaryRows': summary_rows,

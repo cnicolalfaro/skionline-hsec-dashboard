@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "28/04/2026 23:44",
+  "generatedAt": "29/04/2026 00:24",
   "sourceFile": "REGISTRO_FINAL_CURSOS.xlsx",
   "kpis": {
     "totalArchivos": 2646,
@@ -58,11 +58,6 @@ window.DASHBOARD_DATA = {
       "label": "Sin registros",
       "value": 45,
       "color": "#ff7a59"
-    },
-    {
-      "label": "Duplicados",
-      "value": 686,
-      "color": "#f4c430"
     },
     {
       "label": "No legibles",

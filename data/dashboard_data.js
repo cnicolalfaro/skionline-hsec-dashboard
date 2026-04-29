@@ -1,14 +1,14 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "28/04/2026 20:00",
+  "generatedAt": "28/04/2026 22:53",
   "sourceFile": "REGISTRO_FINAL_CURSOS.xlsx",
   "kpis": {
-    "totalArchivos": 2613,
-    "documentosUnicos": 1810,
+    "totalArchivos": 2694,
+    "documentosUnicos": 1890,
     "duplicados": 686,
-    "noLegibles": 9,
+    "noLegibles": 69,
     "trabajadoresTarja": 344,
-    "conRegistros": 298,
-    "sinRegistros": 46
+    "conRegistros": 299,
+    "sinRegistros": 45
   },
   "courseTotals": [
     {
@@ -33,15 +33,15 @@ window.DASHBOARD_DATA = {
     },
     {
       "curso": "IRL General",
-      "total": 211
+      "total": 222
     },
     {
       "curso": "IRL Específica",
-      "total": 162
+      "total": 168
     },
     {
       "curso": "Evaluaciones IRL",
-      "total": 161
+      "total": 165
     },
     {
       "curso": "Conducción a la Defensiva",
@@ -51,12 +51,12 @@ window.DASHBOARD_DATA = {
   "statusBreakdown": [
     {
       "label": "Con registros",
-      "value": 298,
+      "value": 299,
       "color": "#51b847"
     },
     {
       "label": "Sin registros",
-      "value": 46,
+      "value": 45,
       "color": "#ff7a59"
     },
     {
@@ -66,7 +66,7 @@ window.DASHBOARD_DATA = {
     },
     {
       "label": "No legibles",
-      "value": 9,
+      "value": 69,
       "color": "#f53b4d"
     }
   ],
@@ -103,23 +103,23 @@ window.DASHBOARD_DATA = {
     },
     {
       "curso": "IRL General",
-      "total": 211,
-      "unicos": 211
+      "total": 222,
+      "unicos": 221
     },
     {
       "curso": "IRL Específica",
-      "total": 162,
-      "unicos": 162
+      "total": 168,
+      "unicos": 168
     },
     {
       "curso": "Evaluaciones IRL",
-      "total": 161,
-      "unicos": 161
+      "total": 165,
+      "unicos": 165
     },
     {
       "curso": "NO LEGIBLE",
-      "total": 9,
-      "unicos": 7
+      "total": 69,
+      "unicos": 67
     },
     {
       "curso": "DUPLICADOS",
@@ -128,7 +128,7 @@ window.DASHBOARD_DATA = {
     },
     {
       "curso": "TOTAL",
-      "total": 2613,
+      "total": 2694,
       "unicos": null
     }
   ],
@@ -585,10 +585,12 @@ window.DASHBOARD_DATA = {
       "rut": "08333324-3",
       "folderName": "AGUILERA_BALBOA_LUIS_CARLOS_083333243",
       "folderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/AGUILERA_BALBOA_LUIS_CARLOS_083333243?csf=1&web=1&e=d6nH9p",
-      "cursos": "AYB, EPP, OPR, PA",
+      "cursos": "AYB, EPP, EVALUACIONES IRL, IRL GENERAL, OPR, PA",
       "courseList": [
         "AYB",
         "EPP",
+        "EVALUACIONES IRL",
+        "IRL GENERAL",
         "OPR",
         "PA"
       ],
@@ -679,8 +681,10 @@ window.DASHBOARD_DATA = {
       "rut": "08232138-1",
       "folderName": "AGUILERA_CHAPARRO_MIGUEL_ANGEL_082321381",
       "folderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/AGUILERA_CHAPARRO_MIGUEL_ANGEL_082321381?csf=1&web=1&e=d6nH9p",
-      "cursos": "OPR",
+      "cursos": "IRL ESPECIFICA, IRL GENERAL, OPR",
       "courseList": [
+        "IRL ESPECIFICA",
+        "IRL GENERAL",
         "OPR"
       ],
       "estado": "Con registros",
@@ -1132,10 +1136,12 @@ window.DASHBOARD_DATA = {
       "rut": "18381260-2",
       "folderName": "ALFARO_CALDERON_CONSTANZA_NICOL_183812602",
       "folderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/ALFARO_CALDERON_CONSTANZA_NICOL_183812602?csf=1&web=1&e=d6nH9p",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
+      "cursos": "IRL ESPECIFICA",
+      "courseList": [
+        "IRL ESPECIFICA"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
       "detalle": "EXPERTO GESTION HSEC OBRA · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: . · Turno: 5X2",
       "certFinal": "APROBADO",
       "examenSalud": "",
@@ -3714,11 +3720,13 @@ window.DASHBOARD_DATA = {
       "rut": "18423921-3",
       "folderName": "BARRIENTOS_ESCOBAR_JERSON_184239213",
       "folderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/BARRIENTOS_ESCOBAR_JERSON_184239213?csf=1&web=1&e=d6nH9p",
-      "cursos": "AYB, EPP, EXT, OPR, PA",
+      "cursos": "AYB, EPP, EXT, IRL ESPECIFICA, IRL GENERAL, OPR, PA",
       "courseList": [
         "AYB",
         "EPP",
         "EXT",
+        "IRL ESPECIFICA",
+        "IRL GENERAL",
         "OPR",
         "PA"
       ],
@@ -4089,10 +4097,11 @@ window.DASHBOARD_DATA = {
       "rut": "13725568-5",
       "folderName": "BASTIAS_FIGUEROA_ALEX_ANTONIO_137255685",
       "folderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/BASTIAS_FIGUEROA_ALEX_ANTONIO_137255685?csf=1&web=1&e=d6nH9p",
-      "cursos": "EPP, EXT, OPR, PA",
+      "cursos": "EPP, EXT, IRL GENERAL, OPR, PA",
       "courseList": [
         "EPP",
         "EXT",
+        "IRL GENERAL",
         "OPR",
         "PA"
       ],
@@ -10666,10 +10675,13 @@ window.DASHBOARD_DATA = {
       "rut": "16002713-4",
       "folderName": "GAETE_FUENTES_RODRIGO_ALEJANDRO_160027134",
       "folderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/GAETE_FUENTES_RODRIGO_ALEJANDRO_160027134?csf=1&web=1&e=d6nH9p",
-      "cursos": "EPP, EXT, OPR, PA",
+      "cursos": "EPP, EVALUACIONES IRL, EXT, IRL ESPECIFICA, IRL GENERAL, OPR, PA",
       "courseList": [
         "EPP",
+        "EVALUACIONES IRL",
         "EXT",
+        "IRL ESPECIFICA",
+        "IRL GENERAL",
         "OPR",
         "PA"
       ],
@@ -20789,10 +20801,13 @@ window.DASHBOARD_DATA = {
       "rut": "15563837-0",
       "folderName": "PARRA_HENRIQUEZ_JUAN_PABLO_155638370",
       "folderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/PARRA_HENRIQUEZ_JUAN_PABLO_155638370?csf=1&web=1&e=d6nH9p",
-      "cursos": "EPP, EXT, PA",
+      "cursos": "EPP, EVALUACIONES IRL, EXT, IRL ESPECIFICA, IRL GENERAL, PA",
       "courseList": [
         "EPP",
+        "EVALUACIONES IRL",
         "EXT",
+        "IRL ESPECIFICA",
+        "IRL GENERAL",
         "PA"
       ],
       "estado": "Con registros",
@@ -30660,11 +30675,12 @@ window.DASHBOARD_DATA = {
       "rut": "12857507-3",
       "folderName": "VERGARA_IBACACHE_RODRIGO_ALEJANDRO_128575073",
       "folderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/VERGARA_IBACACHE_RODRIGO_ALEJANDRO_128575073?csf=1&web=1&e=d6nH9p",
-      "cursos": "AYB, EPP, EXT, OPR, PA",
+      "cursos": "AYB, EPP, EXT, IRL GENERAL, OPR, PA",
       "courseList": [
         "AYB",
         "EPP",
         "EXT",
+        "IRL GENERAL",
         "OPR",
         "PA"
       ],
@@ -31923,7 +31939,50 @@ window.DASHBOARD_DATA = {
     "2026-04-29",
     "2026-04-30"
   ],
-  "sinMatchFiles": [],
+  "sinMatchFiles": [
+    {
+      "folder": "IRL GENERAL",
+      "folderLabel": "IRL General",
+      "file": "_SIN_MATCH_IRL GENERAL HANS LAGOS.pdf",
+      "rut": "",
+      "hint": "IRL GENERAL HANS LAGOS"
+    },
+    {
+      "folder": "IRL GENERAL",
+      "folderLabel": "IRL General",
+      "file": "_SIN_MATCH_IRL Ing Programación HANS LAGOS.pdf",
+      "rut": "",
+      "hint": "IRL Ing Programación HANS LAGOS"
+    },
+    {
+      "folder": "IRL GENERAL",
+      "folderLabel": "IRL General",
+      "file": "_SIN_MATCH_IRL OK.pdf",
+      "rut": "",
+      "hint": "IRL OK"
+    },
+    {
+      "folder": "IRL GENERAL",
+      "folderLabel": "IRL General",
+      "file": "_SIN_MATCH_IRL OK_1.pdf",
+      "rut": "",
+      "hint": "IRL OK 1"
+    },
+    {
+      "folder": "IRL ESPECIFICA",
+      "folderLabel": "IRL Específica",
+      "file": "_SIN_MATCH_LUIS AGUILAR JEFE DE OPERACIONES IRL ESPECIFICA 16032026.pdf",
+      "rut": "16032026",
+      "hint": "LUIS AGUILAR JEFE DE OPERACIONES IRL ESPECIFICA"
+    },
+    {
+      "folder": "EVALUACIONES IRL",
+      "folderLabel": "Evaluaciones IRL",
+      "file": "_SIN_MATCH_EVALUACION IRL HANS LAGOS.pdf",
+      "rut": "",
+      "hint": "EVALUACION IRL HANS LAGOS"
+    }
+  ],
   "sinMatchFolderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/TRABAJADOR%20SIN%20MATCH%20CON%20TARJA?csf=1&web=1&e=W1n3aM",
   "irlFormsNote": "",
   "accessLinks": [
@@ -31951,11 +32010,11 @@ window.DASHBOARD_DATA = {
     },
     {
       "title": "Cruce con TARJA",
-      "detail": "Se detectaron 46 trabajadores sin evidencias cargadas en el sistema."
+      "detail": "Se detectaron 45 trabajadores sin evidencias cargadas en el sistema."
     },
     {
       "title": "Calidad del registro",
-      "detail": "Se identificaron 686 duplicados y 9 documentos no legibles."
+      "detail": "Se identificaron 686 duplicados y 69 documentos no legibles."
     },
     {
       "title": "Certificados finales (TARJA)",

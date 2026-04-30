@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "29/04/2026 00:24",
+  "generatedAt": "30/04/2026 11:12",
   "sourceFile": "REGISTRO_FINAL_CURSOS.xlsx",
   "kpis": {
     "totalArchivos": 2646,

@@ -1,14 +1,14 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "04/05/2026 17:10",
+  "generatedAt": "04/05/2026 17:24",
   "sourceFile": "REGISTRO_FINAL_CURSOS.xlsx",
   "kpis": {
-    "totalArchivos": 2681,
-    "documentosUnicos": 1869,
+    "totalArchivos": 2697,
+    "documentosUnicos": 1884,
     "duplicados": 686,
     "noLegibles": 6,
     "trabajadoresTarja": 344,
-    "conRegistros": 299,
-    "sinRegistros": 45
+    "conRegistros": 300,
+    "sinRegistros": 44
   },
   "courseTotals": [
     {
@@ -33,15 +33,15 @@ window.DASHBOARD_DATA = {
     },
     {
       "curso": "IRL General",
-      "total": 236
+      "total": 241
     },
     {
       "curso": "IRL Específica",
-      "total": 181
+      "total": 186
     },
     {
       "curso": "Evaluaciones IRL",
-      "total": 178
+      "total": 184
     },
     {
       "curso": "Conducción a la Defensiva",
@@ -51,12 +51,12 @@ window.DASHBOARD_DATA = {
   "statusBreakdown": [
     {
       "label": "Con registros",
-      "value": 299,
+      "value": 300,
       "color": "#51b847"
     },
     {
       "label": "Sin registros",
-      "value": 45,
+      "value": 44,
       "color": "#ff7a59"
     },
     {
@@ -98,18 +98,18 @@ window.DASHBOARD_DATA = {
     },
     {
       "curso": "IRL General",
-      "total": 236,
-      "unicos": 235
+      "total": 241,
+      "unicos": 240
     },
     {
       "curso": "IRL Específica",
-      "total": 181,
-      "unicos": 181
+      "total": 186,
+      "unicos": 186
     },
     {
       "curso": "Evaluaciones IRL",
-      "total": 178,
-      "unicos": 178
+      "total": 184,
+      "unicos": 183
     },
     {
       "curso": "NO LEGIBLE",
@@ -123,7 +123,7 @@ window.DASHBOARD_DATA = {
     },
     {
       "curso": "TOTAL",
-      "total": 2681,
+      "total": 2697,
       "unicos": null
     }
   ],
@@ -2056,10 +2056,12 @@ window.DASHBOARD_DATA = {
       "rut": "16969757-4",
       "folderName": "ARAYA_CONTRERAS_CRISTIAN_BRIAN_169697574",
       "folderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/ARAYA_CONTRERAS_CRISTIAN_BRIAN_169697574?csf=1&web=1&e=d6nH9p",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
+      "cursos": "EVALUACIONES IRL",
+      "courseList": [
+        "EVALUACIONES IRL"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
       "detalle": "MECANICO PRIMERA /RIGGER · Estado TARJA: DE BAJA · ACR: Finiquitado",
       "certFinal": "PENDIENTE",
       "examenSalud": "",
@@ -21188,7 +21190,7 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER CAMION PLANO C/EQ IZAMIENTO 12 TO · Estado TARJA: VIGENTE · ACR: Acreditado · Turno: 10X10 A",
+      "detalle": "CHOFER CAMION PLANO C/EQ IZAMIENTO 12 TO · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "",
@@ -32054,7 +32056,7 @@ window.DASHBOARD_DATA = {
     },
     {
       "title": "Cruce con TARJA",
-      "detail": "Se detectaron 45 trabajadores sin evidencias cargadas en el sistema."
+      "detail": "Se detectaron 44 trabajadores sin evidencias cargadas en el sistema."
     },
     {
       "title": "Calidad del registro",

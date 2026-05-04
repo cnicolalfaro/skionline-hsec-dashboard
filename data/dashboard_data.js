@@ -1,9 +1,9 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "30/04/2026 11:43",
+  "generatedAt": "04/05/2026 17:10",
   "sourceFile": "REGISTRO_FINAL_CURSOS.xlsx",
   "kpis": {
-    "totalArchivos": 2651,
-    "documentosUnicos": 1839,
+    "totalArchivos": 2681,
+    "documentosUnicos": 1869,
     "duplicados": 686,
     "noLegibles": 6,
     "trabajadoresTarja": 344,
@@ -33,15 +33,15 @@ window.DASHBOARD_DATA = {
     },
     {
       "curso": "IRL General",
-      "total": 226
+      "total": 236
     },
     {
       "curso": "IRL Específica",
-      "total": 171
+      "total": 181
     },
     {
       "curso": "Evaluaciones IRL",
-      "total": 168
+      "total": 178
     },
     {
       "curso": "Conducción a la Defensiva",
@@ -98,18 +98,18 @@ window.DASHBOARD_DATA = {
     },
     {
       "curso": "IRL General",
-      "total": 226,
-      "unicos": 225
+      "total": 236,
+      "unicos": 235
     },
     {
       "curso": "IRL Específica",
-      "total": 171,
-      "unicos": 171
+      "total": 181,
+      "unicos": 181
     },
     {
       "curso": "Evaluaciones IRL",
-      "total": 168,
-      "unicos": 168
+      "total": 178,
+      "unicos": 178
     },
     {
       "curso": "NO LEGIBLE",
@@ -123,7 +123,7 @@ window.DASHBOARD_DATA = {
     },
     {
       "curso": "TOTAL",
-      "total": 2651,
+      "total": 2681,
       "unicos": null
     }
   ],
@@ -291,11 +291,11 @@ window.DASHBOARD_DATA = {
         "D",
         "T",
         "T",
-        "0",
-        "",
-        "",
-        "",
-        "",
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
         "FN",
         "FN",
         "FN",
@@ -386,12 +386,12 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D"
       ]
     },
     {
@@ -473,9 +473,9 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -570,9 +570,9 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -666,9 +666,9 @@ window.DASHBOARD_DATA = {
         "D",
         "T",
         "T",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -684,12 +684,12 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: MAESTRO MAYOR · Turno: 10X10 B",
+      "detalle": "MECANICO · Estado TARJA: DE BAJA · incluye duplicados · ACR: Finiquitado · Cat: MAESTRO MAYOR · Turno: 10X10 B",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "MAESTRO MAYOR",
       "turno": "10X10 B",
-      "acrSucal": "Acreditado",
+      "acrSucal": "Finiquitado",
       "correo": "MIGUELAGUILERACHAPARRO58@GMAIL.COM",
       "fono": "979524085",
       "inducionesOk": 6,
@@ -751,13 +751,13 @@ window.DASHBOARD_DATA = {
         "LM",
         "LM",
         "LM",
-        "T",
-        "T",
-        "0",
-        "",
-        "",
-        "",
-        "",
+        "LM",
+        "LM",
+        "LM",
+        "LM",
+        "LM",
+        "LM",
+        "LM",
         "LM",
         "LM",
         "LM",
@@ -841,17 +841,17 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "0",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -923,19 +923,19 @@ window.DASHBOARD_DATA = {
         "0",
         "0",
         "D",
-        "T",
-        "T",
-        "0",
-        "",
-        "",
-        "",
-        "",
         "D",
         "D",
         "D",
-        "",
-        "",
-        ""
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "FN",
+        "FN",
+        "FN"
       ]
     },
     {
@@ -1016,17 +1016,17 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "0",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -1101,7 +1101,7 @@ window.DASHBOARD_DATA = {
         "D",
         "T",
         "T",
-        "TN",
+        "T",
         "TN",
         "TN",
         "TN",
@@ -1120,10 +1120,10 @@ window.DASHBOARD_DATA = {
         "D",
         "TN",
         "TN",
-        "",
-        "",
-        "",
-        ""
+        "TN",
+        "TN",
+        "TN",
+        "TN"
       ]
     },
     {
@@ -1202,19 +1202,19 @@ window.DASHBOARD_DATA = {
         "TT",
         "TT",
         "TT",
-        "T",
-        "T",
-        "T",
-        "T",
-        "T",
-        "T",
-        "T",
+        "TT",
+        "TT",
+        "TT",
+        "TT",
+        "TT",
+        "TT",
+        "TT",
         "D",
         "D",
-        "",
-        "",
-        "",
-        ""
+        "TT",
+        "TT",
+        "TT",
+        "TT"
       ]
     },
     {
@@ -1292,7 +1292,7 @@ window.DASHBOARD_DATA = {
         "P",
         "P",
         "P",
-        "T",
+        "P",
         "D",
         "D",
         "D",
@@ -1303,9 +1303,9 @@ window.DASHBOARD_DATA = {
         "D",
         "D",
         "D",
-        "",
-        "",
-        ""
+        "FN",
+        "FN",
+        "FN"
       ]
     },
     {
@@ -1323,12 +1323,12 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: . · Turno: 10X10 A",
+      "detalle": "MECANICO PRIMERA · Estado TARJA: DE BAJA · incluye duplicados · ACR: Finiquitado · Cat: . · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": ".",
       "turno": "10X10 A",
-      "acrSucal": "Acreditado",
+      "acrSucal": "Finiquitado",
       "correo": "ALVAREZBECERRAJOSELUIS@GMAIL.COM",
       "fono": "975574526",
       "inducionesOk": 6,
@@ -1390,19 +1390,19 @@ window.DASHBOARD_DATA = {
         "D",
         "T",
         "T",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D"
+        "T",
+        "T",
+        "T",
+        "T",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN"
       ]
     },
     {
@@ -1480,19 +1480,19 @@ window.DASHBOARD_DATA = {
         "D",
         "D",
         "D",
+        "AC",
+        "AC",
+        "AC",
+        "AC",
+        "AC",
+        "AC",
+        "AC",
+        "AC",
+        "AC",
+        "AC",
         "T",
         "T",
-        "T",
-        "T",
-        "TN",
-        "TN",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "T"
       ]
     },
     {
@@ -1512,12 +1512,12 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER CAMIONETA MANTENCI · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: . · Turno: 10X10 A",
+      "detalle": "CHOFER CAMIONETA MANTENCI · Estado TARJA: DE BAJA · incluye duplicados · ACR: Finiquitado · Cat: . · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": ".",
       "turno": "10X10 A",
-      "acrSucal": "Acreditado",
+      "acrSucal": "Finiquitado",
       "correo": "VICTORAMAYAR@GMAIL.COM",
       "fono": "951200046",
       "inducionesOk": 0,
@@ -1561,30 +1561,30 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "TD",
         "D",
         "D",
         "D",
         "D",
         "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "TN",
+        "TN",
         "T",
         "T",
         "T",
         "T",
-        "AC",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
         "T",
-        "",
-        "",
-        "D",
-        "D",
-        "D"
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN"
       ]
     },
     {
@@ -1605,12 +1605,12 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: . · Turno: 10X10 B",
+      "detalle": "MECANICO PRIMERA · Estado TARJA: DE BAJA · incluye duplicados · ACR: Finiquitado · Cat: . · Turno: 10X10 B",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": ".",
       "turno": "10X10 B",
-      "acrSucal": "Acreditado",
+      "acrSucal": "Finiquitado",
       "correo": "ANABALONHUGOALBERTO2170@GMAIL.COM",
       "fono": "995064250",
       "inducionesOk": 0,
@@ -1672,12 +1672,12 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "D",
-        "D",
-        "D",
-        "",
-        "",
-        ""
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN"
       ]
     },
     {
@@ -1774,9 +1774,9 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -1855,14 +1855,14 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "T",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
         "FN",
         "FN",
         "FN",
@@ -1943,7 +1943,7 @@ window.DASHBOARD_DATA = {
         "D",
         "D",
         "D",
-        "",
+        "D",
         "D",
         "D",
         "D",
@@ -2046,9 +2046,9 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -2060,12 +2060,12 @@ window.DASHBOARD_DATA = {
       "courseList": [],
       "estado": "No hay registros cargados, confirmar en portales",
       "statusKey": "sin-registros",
-      "detalle": "MECANICO PRIMERA /RIGGER · Estado TARJA: VIGENTE · ACR: Acreditado",
+      "detalle": "MECANICO PRIMERA /RIGGER · Estado TARJA: DE BAJA · ACR: Finiquitado",
       "certFinal": "PENDIENTE",
       "examenSalud": "",
       "categoria": "",
       "turno": "",
-      "acrSucal": "Acreditado",
+      "acrSucal": "Finiquitado",
       "correo": "CRISTIAN.AAARAYA.C@GMAIL.COM",
       "fono": "974952824",
       "inducionesOk": 0,
@@ -2121,18 +2121,18 @@ window.DASHBOARD_DATA = {
         "D",
         "D",
         "D",
+        "AC",
+        "AC",
+        "AC",
+        "AC",
+        "AC",
+        "AC",
+        "AC",
+        "AC",
+        "AC",
         "T",
-        "0",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "T",
+        "T"
       ]
     },
     {
@@ -2222,16 +2222,16 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "T",
+        "T"
       ]
     },
     {
@@ -2317,10 +2317,10 @@ window.DASHBOARD_DATA = {
         "TD",
         "TD",
         "TD",
-        "",
-        "",
-        "",
-        ""
+        "TN",
+        "TN",
+        "TN",
+        "TN"
       ]
     },
     {
@@ -2413,10 +2413,10 @@ window.DASHBOARD_DATA = {
         "TD",
         "TD",
         "TD",
-        "",
-        "",
-        "",
-        ""
+        "TN",
+        "TN",
+        "TN",
+        "TN"
       ]
     },
     {
@@ -2428,12 +2428,12 @@ window.DASHBOARD_DATA = {
       "courseList": [],
       "estado": "No hay registros cargados, confirmar en portales",
       "statusKey": "sin-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · ACR: Observada",
+      "detalle": "MECANICO PRIMERA · Estado TARJA: DE BAJA · ACR: Finiquitado",
       "certFinal": "",
       "examenSalud": "",
       "categoria": "",
       "turno": "",
-      "acrSucal": "Observada",
+      "acrSucal": "Finiquitado",
       "correo": "ARGOTECESAR25@GMAIL.COM",
       "fono": "931817819",
       "inducionesOk": 0,
@@ -2482,25 +2482,25 @@ window.DASHBOARD_DATA = {
         "",
         "",
         "",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "0",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN"
       ]
     },
     {
@@ -2512,12 +2512,12 @@ window.DASHBOARD_DATA = {
       "courseList": [],
       "estado": "No hay registros cargados, confirmar en portales",
       "statusKey": "sin-registros",
-      "detalle": "ENCARGADO DE SERVICIOS · Estado TARJA: VIGENTE · ACR: Acreditado",
-      "certFinal": "TAG",
+      "detalle": "ENCARGADO DE SERVICIOS · Estado TARJA: DE BAJA · ACR: Finiquitado",
+      "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "",
       "turno": "",
-      "acrSucal": "Acreditado",
+      "acrSucal": "Finiquitado",
       "correo": "JOSEARREAZA51@GMAIL.COM",
       "fono": "920130713",
       "inducionesOk": 0,
@@ -2560,17 +2560,7 @@ window.DASHBOARD_DATA = {
         "D",
         "D",
         "D",
-        "T",
-        "T",
-        "T",
-        "T",
-        "T",
         "AC",
-        "AC",
-        "",
-        "0",
-        "0",
-        "D",
         "AC",
         "AC",
         "AC",
@@ -2579,12 +2569,22 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "D",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN"
       ]
     },
     {
@@ -2675,9 +2675,9 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -2767,10 +2767,10 @@ window.DASHBOARD_DATA = {
         "TD",
         "TD",
         "TD",
-        "",
-        "",
-        "",
-        ""
+        "TN",
+        "TN",
+        "TN",
+        "TN"
       ]
     },
     {
@@ -2866,9 +2866,9 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -2961,10 +2961,10 @@ window.DASHBOARD_DATA = {
         "TN",
         "TN",
         "TN",
-        "",
-        "",
-        "",
-        ""
+        "TN",
+        "TN",
+        "TN",
+        "TN"
       ]
     },
     {
@@ -2982,12 +2982,12 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "INGENIERO PROGRAMADOR · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: . · Turno: 10X10 B",
+      "detalle": "INGENIERO PROGRAMADOR · Estado TARJA: DE BAJA · incluye duplicados · ACR: Finiquitado · Cat: . · Turno: 10X10 B",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": ".",
       "turno": "10X10 B",
-      "acrSucal": "Acreditado",
+      "acrSucal": "Finiquitado",
       "correo": "JP.ARTEAGASUBE@GMAIL.COM",
       "fono": "935079760",
       "inducionesOk": 0,
@@ -3051,10 +3051,10 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        "",
-        ""
+        "FN",
+        "FN",
+        "FN",
+        "FN"
       ]
     },
     {
@@ -3136,14 +3136,14 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "T",
-        "T",
         "TN",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "TN",
+        "TN",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D"
       ]
     },
     {
@@ -3232,11 +3232,11 @@ window.DASHBOARD_DATA = {
         "TD",
         "TD",
         "TD",
-        "T",
-        "",
-        "",
-        "",
-        ""
+        "TD",
+        "TN",
+        "TN",
+        "TN",
+        "TN"
       ]
     },
     {
@@ -3252,12 +3252,12 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER CAMIONETA MANTENCI · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Turno: 10X10 B",
+      "detalle": "CHOFER CAMIONETA MANTENCI · Estado TARJA: DE BAJA · incluye duplicados · ACR: Finiquitado · Turno: 10X10 B",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "",
       "turno": "10X10 B",
-      "acrSucal": "Acreditado",
+      "acrSucal": "Finiquitado",
       "correo": "RODRIGOAVELLOCHANDIA@GMAIL.COM",
       "fono": "947988205",
       "inducionesOk": 3,
@@ -3316,19 +3316,19 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "D",
-        "D",
-        "0",
-        "D",
-        "",
-        "",
-        "",
-        "D",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "T",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN"
       ]
     },
     {
@@ -3427,9 +3427,9 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        ""
+        "T",
+        "D",
+        "D"
       ]
     },
     {
@@ -3519,10 +3519,10 @@ window.DASHBOARD_DATA = {
         "TN",
         "TN",
         "TN",
-        "",
-        "",
-        "",
-        ""
+        "TN",
+        "TN",
+        "TN",
+        "TN"
       ]
     },
     {
@@ -3530,10 +3530,11 @@ window.DASHBOARD_DATA = {
       "rut": "17875209-K",
       "folderName": "BARRA_TEJEDA_EMANUEL_ABSALON_17875209K",
       "folderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/BARRA_TEJEDA_EMANUEL_ABSALON_17875209K?csf=1&web=1&e=d6nH9p",
-      "cursos": "AYB, EPP, EXT, OPR, PA",
+      "cursos": "AYB, EPP, EVALUACIONES IRL, EXT, OPR, PA",
       "courseList": [
         "AYB",
         "EPP",
+        "EVALUACIONES IRL",
         "EXT",
         "OPR",
         "PA"
@@ -3610,9 +3611,9 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -3628,12 +3629,12 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: . · Turno: 10X10 B",
+      "detalle": "MECANICO PRIMERA · Estado TARJA: DE BAJA · ACR: Finiquitado · Cat: . · Turno: 10X10 B",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": ".",
       "turno": "10X10 B",
-      "acrSucal": "Acreditado",
+      "acrSucal": "Finiquitado",
       "correo": "BARRAULTPABLO77@GMAIL.COM",
       "fono": "969167958",
       "inducionesOk": 6,
@@ -3704,10 +3705,10 @@ window.DASHBOARD_DATA = {
         "TN",
         "TN",
         "TN",
-        "",
-        "",
-        "",
-        ""
+        "FN",
+        "FN",
+        "FN",
+        "FN"
       ]
     },
     {
@@ -3794,17 +3795,17 @@ window.DASHBOARD_DATA = {
         "D",
         "D",
         "D",
-        "0",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D"
       ]
     },
     {
@@ -3896,9 +3897,9 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -3915,12 +3916,12 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "OP RETROEXCAVADORA · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: .",
+      "detalle": "OP RETROEXCAVADORA · Estado TARJA: DE BAJA · incluye duplicados · ACR: Finiquitado · Cat: .",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": ".",
       "turno": "",
-      "acrSucal": "Acreditado",
+      "acrSucal": "Finiquitado",
       "correo": "RODRIBARRIOS83@GMAIL.COM",
       "fono": "950477127",
       "inducionesOk": 0,
@@ -3958,36 +3959,36 @@ window.DASHBOARD_DATA = {
         "",
         "",
         "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
         "D",
         "D",
         "D",
         "D",
         "D",
         "D",
-        "TN",
-        "TN",
-        "TN",
-        "TN",
-        "TN",
-        "TN",
-        "TN",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
         "T",
         "T",
         "T",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -4081,10 +4082,10 @@ window.DASHBOARD_DATA = {
         "TN",
         "TN",
         "TN",
-        "",
-        "",
-        "",
-        ""
+        "TN",
+        "TN",
+        "D",
+        "D"
       ]
     },
     {
@@ -4103,7 +4104,7 @@ window.DASHBOARD_DATA = {
       "estado": "Con registros",
       "statusKey": "con-registros",
       "detalle": "JEFE HSEC MANTENCION · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: . · Turno: 4X3",
-      "certFinal": "TAG",
+      "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": ".",
       "turno": "4X3",
@@ -4165,19 +4166,19 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "D",
-        "F",
-        "F",
-        "0",
-        "",
-        "",
-        "",
-        "",
         "D",
         "D",
-        "",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "T",
+        "T",
+        "D",
+        "D",
+        "D",
+        "T",
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -4260,22 +4261,22 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "D",
-        "D",
-        "T",
-        "T",
-        "0",
-        "",
-        "",
-        "",
-        "",
-        "D",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN"
       ]
     },
     {
@@ -4360,10 +4361,10 @@ window.DASHBOARD_DATA = {
         "TN",
         "TN",
         "TN",
-        "",
-        "",
-        "",
-        ""
+        "TN",
+        "TN",
+        "TN",
+        "TN"
       ]
     },
     {
@@ -4452,10 +4453,10 @@ window.DASHBOARD_DATA = {
         "TN",
         "TD",
         "TD",
-        "",
-        "",
-        "",
-        ""
+        "TN",
+        "TN",
+        "TN",
+        "TN"
       ]
     },
     {
@@ -4476,12 +4477,12 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · incluye duplicados, incluye no legibles · ACR: Acreditado · Cat: . · Turno: 10X10 A",
+      "detalle": "MECANICO PRIMERA · Estado TARJA: DE BAJA · incluye duplicados, incluye no legibles · ACR: Finiquitado · Cat: . · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": ".",
       "turno": "10X10 A",
-      "acrSucal": "Acreditado",
+      "acrSucal": "Finiquitado",
       "correo": "BRAVO381978@GMAIL.COM",
       "fono": "966109789",
       "inducionesOk": 0,
@@ -4569,12 +4570,12 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: MAESTRO PRIMERA · Turno: 10X10 B",
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: DE BAJA · ACR: Finiquitado · Cat: MAESTRO PRIMERA · Turno: 10X10 B",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "MAESTRO PRIMERA",
       "turno": "10X10 B",
-      "acrSucal": "Acreditado",
+      "acrSucal": "Finiquitado",
       "correo": "GUILLERMOBRAVOROA@GMAIL.COM",
       "fono": "932512220",
       "inducionesOk": 0,
@@ -4636,12 +4637,12 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "D",
-        "D",
-        "D",
-        "",
-        "",
-        ""
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN"
       ]
     },
     {
@@ -4814,9 +4815,9 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -4882,31 +4883,31 @@ window.DASHBOARD_DATA = {
         "D",
         "D",
         "D",
-        "T",
-        "T",
-        "T",
-        "T",
-        "T",
         "AC",
         "AC",
-        "",
-        "0",
-        "0",
+        "AC",
+        "AC",
+        "AC",
+        "AC",
+        "AC",
+        "AC",
+        "AC",
+        "AC",
+        "AC",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
         "T",
-        "D",
-        "FN",
-        "FN",
-        "0",
-        "FN",
-        "FN",
-        "FN",
-        "FN",
-        "D",
-        "D",
-        "D",
-        "",
-        "",
-        ""
+        "T",
+        "D"
       ]
     },
     {
@@ -4999,9 +5000,9 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -5088,11 +5089,11 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        "D",
-        "D",
-        "D"
+        "T",
+        "T",
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -5172,20 +5173,20 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "D",
-        "T",
-        "T",
-        "0",
         "T",
         "T",
         "T",
         "T",
         "D",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D"
       ]
     },
     {
@@ -5278,10 +5279,10 @@ window.DASHBOARD_DATA = {
         "TN",
         "TN",
         "TN",
-        "",
-        "",
-        "",
-        ""
+        "TN",
+        "TN",
+        "TN",
+        "TN"
       ]
     },
     {
@@ -5295,12 +5296,12 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · ACR: Acreditado",
+      "detalle": "MECANICO PRIMERA · Estado TARJA: DE BAJA · ACR: Finiquitado",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "",
       "turno": "",
-      "acrSucal": "Acreditado",
+      "acrSucal": "Finiquitado",
       "correo": "FCPLASENCIO@HOTMAIL.COM",
       "fono": "984420914",
       "inducionesOk": 0,
@@ -5357,17 +5358,17 @@ window.DASHBOARD_DATA = {
         "D",
         "TN",
         "TN",
-        "0",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN"
       ]
     },
     {
@@ -5449,19 +5450,19 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
+        "T",
+        "T",
         "FN",
         "FN",
-        "0",
         "FN",
         "FN",
         "FN",
         "FN",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D"
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN"
       ]
     },
     {
@@ -5531,7 +5532,7 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "TD",
+        "D",
         "D",
         "D",
         "D",
@@ -5551,10 +5552,10 @@ window.DASHBOARD_DATA = {
         "TD",
         "TD",
         "TD",
-        "",
-        "",
-        "",
-        ""
+        "TN",
+        "TN",
+        "TN",
+        "TN"
       ]
     },
     {
@@ -5623,30 +5624,30 @@ window.DASHBOARD_DATA = {
         "D",
         "D",
         "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "AC",
+        "AC",
+        "AC",
+        "AC",
+        "AC",
+        "AC",
+        "AC",
+        "AC",
+        "AC",
+        "AC",
+        "AC",
         "T",
         "T",
-        "T",
-        "T",
-        "AC",
-        "AC",
-        "AC",
-        "AC",
-        "AC",
-        "AC",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "",
-        "",
-        ""
+        "D"
       ]
     },
     {
@@ -5742,9 +5743,9 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        ""
+        "D",
+        "D",
+        "D"
       ]
     },
     {
@@ -5842,9 +5843,9 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        ""
+        "D",
+        "D",
+        "D"
       ]
     },
     {
@@ -5934,10 +5935,10 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "TN",
-        "",
-        "",
-        "",
-        ""
+        "TN",
+        "TN",
+        "TN",
+        "TN"
       ]
     },
     {
@@ -5954,12 +5955,12 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA /ANDAMIE · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: . · Turno: 10X10 B",
+      "detalle": "MECANICO PRIMERA /ANDAMIE · Estado TARJA: DE BAJA · ACR: Finiquitado · Cat: . · Turno: 10X10 B",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": ".",
       "turno": "10X10 B",
-      "acrSucal": "Acreditado",
+      "acrSucal": "Finiquitado",
       "correo": "CAROJ8752@GMAIL.COM",
       "fono": "957225954 / 942783296 / 986238405",
       "inducionesOk": 0,
@@ -6013,20 +6014,20 @@ window.DASHBOARD_DATA = {
         "AC",
         "AC",
         "AC",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "",
-        "",
-        ""
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN"
       ]
     },
     {
@@ -6117,9 +6118,9 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -6210,9 +6211,9 @@ window.DASHBOARD_DATA = {
         "D",
         "D",
         "D",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "D"
       ]
     },
     {
@@ -6227,12 +6228,12 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA /RIGGER · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado",
-      "certFinal": "TAG",
+      "detalle": "MECANICO PRIMERA /RIGGER · Estado TARJA: DE BAJA · incluye duplicados · ACR: Finiquitado",
+      "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "",
       "turno": "",
-      "acrSucal": "Acreditado",
+      "acrSucal": "Finiquitado",
       "correo": "MARCEAZUL331@HOTMAIL.COM",
       "fono": "945399270",
       "inducionesOk": 0,
@@ -6281,25 +6282,25 @@ window.DASHBOARD_DATA = {
         "",
         "",
         "",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN"
       ]
     },
     {
@@ -6320,12 +6321,12 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "ASEADORES INDUSTRIAL · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: . · Turno: 10X10 A",
+      "detalle": "ASEADORES INDUSTRIAL · Estado TARJA: DE BAJA · incluye duplicados · ACR: Finiquitado · Cat: . · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": ".",
       "turno": "10X10 A",
-      "acrSucal": "Acreditado",
+      "acrSucal": "Finiquitado",
       "correo": "CARRILLOGONZALEZMIRKO26@GMAIL.COM",
       "fono": "986713224",
       "inducionesOk": 6,
@@ -6388,18 +6389,18 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "",
-        ""
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN"
       ]
     },
     {
@@ -6497,9 +6498,9 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -6579,13 +6580,13 @@ window.DASHBOARD_DATA = {
         "D",
         "D",
         "T",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
         "FN",
         "FN",
         "FN",
@@ -6680,11 +6681,11 @@ window.DASHBOARD_DATA = {
         "D",
         "D",
         "T",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "T",
+        "D",
+        "D"
       ]
     },
     {
@@ -6774,9 +6775,9 @@ window.DASHBOARD_DATA = {
         "TN",
         "TN",
         "T",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -6865,9 +6866,9 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -6956,10 +6957,10 @@ window.DASHBOARD_DATA = {
         "TN",
         "TN",
         "TN",
-        "",
-        "",
-        "",
-        ""
+        "TN",
+        "TN",
+        "TN",
+        "TN"
       ]
     },
     {
@@ -7053,9 +7054,9 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        ""
+        "T",
+        "D",
+        "D"
       ]
     },
     {
@@ -7146,9 +7147,9 @@ window.DASHBOARD_DATA = {
         "TN",
         "TN",
         "TN",
-        "",
-        "",
-        ""
+        "TN",
+        "TN",
+        "TN"
       ]
     },
     {
@@ -7227,12 +7228,12 @@ window.DASHBOARD_DATA = {
         "D",
         "D",
         "D",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D"
       ]
     },
     {
@@ -7328,9 +7329,9 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -7409,12 +7410,12 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "T",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D"
       ]
     },
     {
@@ -7503,10 +7504,10 @@ window.DASHBOARD_DATA = {
         "TN",
         "TN",
         "TN",
-        "",
-        "",
-        "",
-        ""
+        "TN",
+        "TN",
+        "TN",
+        "TN"
       ]
     },
     {
@@ -7527,12 +7528,12 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA /ANDAMIERO · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: . · Turno: 10X10 A",
+      "detalle": "MECANICO PRIMERA /ANDAMIERO · Estado TARJA: DE BAJA · ACR: Finiquitado · Cat: . · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": ".",
       "turno": "10X10 A",
-      "acrSucal": "Acreditado",
+      "acrSucal": "Finiquitado",
       "correo": "JULIANOENRIQUECORNEJOFLORES@GMAIL.COM",
       "fono": "952090417 - 966212548",
       "inducionesOk": 0,
@@ -7596,10 +7597,10 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "D",
-        "D",
-        "D"
+        "T",
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -7669,7 +7670,7 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "TD",
+        "D",
         "D",
         "D",
         "D",
@@ -7689,10 +7690,10 @@ window.DASHBOARD_DATA = {
         "TN",
         "TN",
         "TN",
-        "",
-        "",
-        "",
-        ""
+        "TN",
+        "TN",
+        "TN",
+        "TN"
       ]
     },
     {
@@ -7787,9 +7788,9 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        ""
+        "T",
+        "D",
+        "D"
       ]
     },
     {
@@ -7972,13 +7973,13 @@ window.DASHBOARD_DATA = {
         "TN",
         "TN",
         "TN",
-        "",
         "TN",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "TN",
+        "TN",
+        "TN",
+        "TN",
+        "TN",
+        "TN"
       ]
     },
     {
@@ -8069,10 +8070,10 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        "",
-        ""
+        "D",
+        "D",
+        "D",
+        "D"
       ]
     },
     {
@@ -8152,8 +8153,10 @@ window.DASHBOARD_DATA = {
         "D",
         "D",
         "D",
-        "TN",
-        "TN",
+        "TD",
+        "TD",
+        "TD",
+        "TD",
         "T",
         "T",
         "T",
@@ -8162,9 +8165,7 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        ""
+        "T"
       ]
     },
     {
@@ -8247,12 +8248,12 @@ window.DASHBOARD_DATA = {
         "D",
         "D",
         "D",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "AC",
+        "AC",
+        "AC",
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -8336,20 +8337,20 @@ window.DASHBOARD_DATA = {
         "D",
         "D",
         "T",
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
         "D",
-        "T",
-        "T",
-        "T",
-        "T",
-        "T",
-        "T",
-        "T",
-        "T",
-        "T",
-        "T",
-        "",
-        "",
-        ""
+        "D"
       ]
     },
     {
@@ -8440,9 +8441,9 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -8534,11 +8535,11 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "T",
-        "",
-        "",
-        "",
-        ""
+        "D",
+        "D",
+        "D",
+        "D",
+        "D"
       ]
     },
     {
@@ -8615,18 +8616,18 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "T",
-        "T",
-        "T",
-        "T",
-        "",
-        "",
-        "",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
         "FN",
         "FN",
         "FN",
@@ -8742,12 +8743,12 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER MINIBUS/VAN · Estado TARJA: VIGENTE · ACR: Acreditado · Turno: 10X10 B",
+      "detalle": "CHOFER MINIBUS/VAN · Estado TARJA: DE BAJA · ACR: Finiquitado · Turno: 10X10 B",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "",
       "turno": "10X10 B",
-      "acrSucal": "Acreditado",
+      "acrSucal": "Finiquitado",
       "correo": "MARCOS.D.1978@HOTMAIL.COM",
       "fono": "964303665",
       "inducionesOk": 0,
@@ -8795,26 +8796,26 @@ window.DASHBOARD_DATA = {
         "D",
         "D",
         "D",
-        "T",
-        "AC",
-        "AC",
-        "0",
-        "0",
-        "T",
-        "AC",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
         "T",
         "T",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "T",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN"
       ]
     },
     {
@@ -8896,9 +8897,9 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -8996,9 +8997,9 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "D"
       ]
     },
     {
@@ -9016,12 +9017,12 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER MINIBUS/VAN · Estado TARJA: VIGENTE · ACR: Acreditado · Turno: 10X10 A",
+      "detalle": "CHOFER MINIBUS/VAN · Estado TARJA: DE BAJA · ACR: Finiquitado · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "",
       "turno": "10X10 A",
-      "acrSucal": "Acreditado",
+      "acrSucal": "Finiquitado",
       "correo": "ESCOBARJUANCARLOS.E@GMAIL.COM",
       "fono": "9 9876 9544",
       "inducionesOk": 0,
@@ -9083,12 +9084,12 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D"
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN"
       ]
     },
     {
@@ -9159,6 +9160,9 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
+        "T",
+        "T",
+        "T",
         "D",
         "D",
         "D",
@@ -9168,6 +9172,7 @@ window.DASHBOARD_DATA = {
         "D",
         "D",
         "D",
+        "D",
         "T",
         "T",
         "T",
@@ -9177,11 +9182,7 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "T",
-        "T",
-        "",
-        "",
-        ""
+        "T"
       ]
     },
     {
@@ -9257,8 +9258,6 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "TN",
-        "T",
-        "T",
         "D",
         "D",
         "D",
@@ -9269,13 +9268,15 @@ window.DASHBOARD_DATA = {
         "D",
         "D",
         "D",
-        "TD",
-        "TD",
-        "TD",
-        "",
-        "",
-        "",
-        ""
+        "TN",
+        "TN",
+        "TN",
+        "TN",
+        "TN",
+        "TN",
+        "TN",
+        "TN",
+        "TN"
       ]
     },
     {
@@ -9366,11 +9367,11 @@ window.DASHBOARD_DATA = {
         "D",
         "D",
         "D",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "D",
+        "D",
+        "D",
+        "T",
+        "T"
       ]
     },
     {
@@ -9464,10 +9465,10 @@ window.DASHBOARD_DATA = {
         "TD",
         "TD",
         "TD",
-        "",
-        "",
-        "",
-        ""
+        "TN",
+        "TN",
+        "TN",
+        "TN"
       ]
     },
     {
@@ -9558,9 +9559,9 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        ""
+        "T",
+        "D",
+        "D"
       ]
     },
     {
@@ -9644,16 +9645,16 @@ window.DASHBOARD_DATA = {
         "D",
         "D",
         "T",
-        "",
-        "",
-        "",
+        "T",
+        "T",
+        "T",
+        "T",
         "D",
         "D",
-        "D",
-        "",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -9719,13 +9720,13 @@ window.DASHBOARD_DATA = {
         "D",
         "D",
         "D",
-        "T",
-        "T",
-        "T",
-        "T",
-        "T",
         "AC",
         "AC",
+        "AC",
+        "AC",
+        "AC",
+        "AC",
+        "AC",
         "D",
         "D",
         "D",
@@ -9741,9 +9742,9 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -9832,10 +9833,10 @@ window.DASHBOARD_DATA = {
         "TD",
         "TD",
         "TD",
-        "",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -10011,20 +10012,20 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "0",
-        "TD",
-        "TD",
-        "TD",
-        "TD",
-        "TD",
-        "TD",
-        "TD",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D"
+        "T",
+        "T",
+        "T",
+        "T",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN"
       ]
     },
     {
@@ -10102,21 +10103,21 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "AC",
-        "AC",
-        "TD",
-        "TD",
-        "TD",
-        "TD",
-        "TD",
-        "TD",
-        "TD",
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
         "D",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "T",
+        "T"
       ]
     },
     {
@@ -10211,10 +10212,10 @@ window.DASHBOARD_DATA = {
         "TD",
         "TD",
         "TD",
-        "",
-        "",
-        "",
-        ""
+        "TN",
+        "TN",
+        "TN",
+        "TN"
       ]
     },
     {
@@ -10231,12 +10232,12 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER MINIBUS/VAN · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: .",
+      "detalle": "CHOFER MINIBUS/VAN · Estado TARJA: DE BAJA · ACR: Finiquitado · Cat: .",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": ".",
       "turno": "",
-      "acrSucal": "Acreditado",
+      "acrSucal": "Finiquitado",
       "correo": "IGNACIOEFC92@GMAIL.COM",
       "fono": "945525399",
       "inducionesOk": 0,
@@ -10291,19 +10292,19 @@ window.DASHBOARD_DATA = {
         "D",
         "T",
         "T",
-        "TD",
-        "TD",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN"
       ]
     },
     {
@@ -10394,9 +10395,9 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -10475,12 +10476,12 @@ window.DASHBOARD_DATA = {
         "LM",
         "LM",
         "LM",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN"
       ]
     },
     {
@@ -10566,10 +10567,10 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -10662,9 +10663,9 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -10685,7 +10686,7 @@ window.DASHBOARD_DATA = {
       "estado": "Con registros",
       "statusKey": "con-registros",
       "detalle": "SUBGERENTE CONTROL MANTEN · Estado TARJA: VIGENTE · ACR: Acreditado",
-      "certFinal": "TAG",
+      "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "",
       "turno": "",
@@ -10744,19 +10745,19 @@ window.DASHBOARD_DATA = {
         "D",
         "D",
         "D",
-        "FN",
-        "FN",
-        "0",
-        "FN",
-        "FN",
-        "FN",
-        "FN",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D"
       ]
     },
     {
@@ -10843,21 +10844,21 @@ window.DASHBOARD_DATA = {
         "P",
         "P",
         "P",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D"
       ]
     },
     {
@@ -10952,12 +10953,12 @@ window.DASHBOARD_DATA = {
         "TN",
         "TN",
         "TN",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D"
       ]
     },
     {
@@ -11055,9 +11056,9 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -11146,19 +11147,19 @@ window.DASHBOARD_DATA = {
         "D",
         "D",
         "D",
+        "TN",
+        "TN",
+        "TN",
+        "TN",
+        "TN",
+        "TN",
         "TD",
         "TD",
-        "TD",
-        "TD",
-        "TD",
-        "TD",
-        "TD",
-        "TD",
-        "TD",
-        "",
-        "",
-        "",
-        ""
+        "TN",
+        "TN",
+        "D",
+        "D",
+        "D"
       ]
     },
     {
@@ -11173,12 +11174,12 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: CAPATAZ · Turno: 10X10 A",
+      "detalle": "MECANICO · Estado TARJA: DE BAJA · ACR: Finiquitado · Cat: CAPATAZ · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "CAPATAZ",
       "turno": "10X10 A",
-      "acrSucal": "Acreditado",
+      "acrSucal": "Finiquitado",
       "correo": "PANCHOLANDA32@GMAIL.COM",
       "fono": "979828057",
       "inducionesOk": 6,
@@ -11250,9 +11251,9 @@ window.DASHBOARD_DATA = {
         "TD",
         "T",
         "T",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -11334,9 +11335,9 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -11426,10 +11427,10 @@ window.DASHBOARD_DATA = {
         "T",
         "D",
         "D",
-        "",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -11515,19 +11516,19 @@ window.DASHBOARD_DATA = {
         "D",
         "D",
         "D",
-        "T",
-        "T",
-        "T",
-        "T",
-        "T",
-        "T",
-        "T",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "TN",
+        "TN",
+        "TN",
+        "TN",
+        "TN",
+        "TN",
+        "TN",
+        "TN",
+        "TN",
+        "TN",
+        "TN",
+        "TN",
+        "TN"
       ]
     },
     {
@@ -11607,19 +11608,19 @@ window.DASHBOARD_DATA = {
         "AC",
         "AC",
         "T",
-        "FN",
-        "FN",
-        "0",
-        "FN",
-        "FN",
-        "FN",
-        "FN",
         "D",
         "D",
         "D",
-        "",
-        "",
-        ""
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D"
       ]
     },
     {
@@ -11710,10 +11711,10 @@ window.DASHBOARD_DATA = {
         "TN",
         "TN",
         "TN",
-        "",
-        "",
-        "",
-        ""
+        "TN",
+        "TN",
+        "TN",
+        "TN"
       ]
     },
     {
@@ -11732,12 +11733,12 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "SUPERV MECANICO MANTENCIO · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: . · Turno: 10X10 A",
+      "detalle": "SUPERV MECANICO MANTENCIO · Estado TARJA: DE BAJA · incluye duplicados · ACR: Finiquitado · Cat: . · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": ".",
       "turno": "10X10 A",
-      "acrSucal": "Acreditado",
+      "acrSucal": "Finiquitado",
       "correo": "CESARGANAD@GMAIL.COM",
       "fono": "942482769",
       "inducionesOk": 2,
@@ -11788,13 +11789,6 @@ window.DASHBOARD_DATA = {
         "D",
         "D",
         "D",
-        "D",
-        "AC",
-        "",
-        "T",
-        "T",
-        "T",
-        "D",
         "T",
         "T",
         "T",
@@ -11802,12 +11796,19 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN"
       ]
     },
     {
@@ -11889,9 +11890,9 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -11899,9 +11900,10 @@ window.DASHBOARD_DATA = {
       "rut": "14018586-8",
       "folderName": "GARRIDO_FIGUEROA_SEBASTIAN_MARCELO_140185868",
       "folderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/GARRIDO_FIGUEROA_SEBASTIAN_MARCELO_140185868?csf=1&web=1&e=d6nH9p",
-      "cursos": "CAD, EXT, OPR, PA",
+      "cursos": "CAD, EVALUACIONES IRL, EXT, OPR, PA",
       "courseList": [
         "CAD",
+        "EVALUACIONES IRL",
         "EXT",
         "OPR",
         "PA"
@@ -11976,11 +11978,11 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "T",
+        "D",
+        "D"
       ]
     },
     {
@@ -12055,12 +12057,15 @@ window.DASHBOARD_DATA = {
         "D",
         "D",
         "T",
-        "AC",
-        "",
         "T",
         "T",
         "T",
         "T",
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
         "FN",
         "FN",
         "FN",
@@ -12068,12 +12073,9 @@ window.DASHBOARD_DATA = {
         "FN",
         "FN",
         "FN",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D"
+        "FN",
+        "FN",
+        "FN"
       ]
     },
     {
@@ -12089,12 +12091,12 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER CAMION PLANO C/EQ · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: . · Turno: 10X10 B",
+      "detalle": "CHOFER CAMION PLANO C/EQ · Estado TARJA: DE BAJA · ACR: Finiquitado · Cat: . · Turno: 10X10 B",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": ".",
       "turno": "10X10 B",
-      "acrSucal": "Acreditado",
+      "acrSucal": "Finiquitado",
       "correo": "GODOYJUREMAURCIO@GMAIL.COM",
       "fono": "945250941//989745611",
       "inducionesOk": 0,
@@ -12137,31 +12139,31 @@ window.DASHBOARD_DATA = {
         "D",
         "D",
         "D",
-        "AC",
-        "AC",
-        "AC",
-        "AC",
-        "AC",
+        "T",
+        "T",
         "TN",
         "TN",
+        "TN",
+        "TN",
+        "TN",
         "T",
         "T",
         "T",
         "T",
         "T",
-        "TD",
-        "TD",
-        "TD",
-        "TD",
-        "TD",
-        "TD",
-        "TD",
-        "D",
-        "D",
-        "",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "T",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN"
       ]
     },
     {
@@ -12251,12 +12253,12 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        "",
-        "D",
-        "D",
-        "D"
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN"
       ]
     },
     {
@@ -12274,12 +12276,12 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "PAÑOLERO · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado",
+      "detalle": "PAÑOLERO · Estado TARJA: DE BAJA · incluye duplicados · ACR: Finiquitado",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "",
       "turno": "",
-      "acrSucal": "Acreditado",
+      "acrSucal": "Finiquitado",
       "correo": "NESTOR.GONZALEZ@HOTMAIL.CL",
       "fono": "987884280",
       "inducionesOk": 0,
@@ -12341,12 +12343,12 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN"
       ]
     },
     {
@@ -12361,12 +12363,12 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: . · Turno: 10X10 A",
+      "detalle": "MECANICO PRIMERA · Estado TARJA: DE BAJA · incluye duplicados · ACR: Finiquitado · Cat: . · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": ".",
       "turno": "10X10 A",
-      "acrSucal": "Acreditado",
+      "acrSucal": "Finiquitado",
       "correo": "ERSHELL.GR@GMAIL.COM",
       "fono": "989428645",
       "inducionesOk": 0,
@@ -12430,10 +12432,10 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "D",
-        "D",
-        "D"
+        "FN",
+        "FN",
+        "FN",
+        "FN"
       ]
     },
     {
@@ -12511,19 +12513,19 @@ window.DASHBOARD_DATA = {
         "D",
         "D",
         "D",
+        "AC",
+        "AC",
+        "AC",
+        "AC",
+        "AC",
+        "AC",
+        "AC",
+        "AC",
+        "AC",
+        "AC",
         "T",
         "T",
-        "TN",
-        "TN",
-        "TN",
-        "TN",
-        "TN",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "D"
       ]
     },
     {
@@ -12544,12 +12546,12 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA /ANDAMIE · Estado TARJA: VIGENTE · incluye duplicados · ACR: Observada · Cat: . · Turno: 10X10 B",
+      "detalle": "MECANICO PRIMERA /ANDAMIE · Estado TARJA: DE BAJA · incluye duplicados · ACR: Finiquitado · Cat: . · Turno: 10X10 B",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": ".",
       "turno": "10X10 B",
-      "acrSucal": "Observada",
+      "acrSucal": "Finiquitado",
       "correo": "FCOGONZALEZZ@ICLOUD.COM",
       "fono": "954687946",
       "inducionesOk": 0,
@@ -12611,12 +12613,12 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "D",
-        "D",
-        "D",
-        "",
-        "",
-        ""
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN"
       ]
     },
     {
@@ -12695,12 +12697,12 @@ window.DASHBOARD_DATA = {
         "D",
         "T",
         "T",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D"
       ]
     },
     {
@@ -12873,14 +12875,14 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "T",
-        "T",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D"
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN"
       ]
     },
     {
@@ -12965,9 +12967,9 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -13064,10 +13066,10 @@ window.DASHBOARD_DATA = {
         "TD",
         "TD",
         "TD",
-        "",
-        "",
-        "",
-        ""
+        "TN",
+        "TN",
+        "TN",
+        "TN"
       ]
     },
     {
@@ -13166,9 +13168,9 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        ""
+        "D",
+        "D",
+        "D"
       ]
     },
     {
@@ -13186,12 +13188,12 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "JEFE DE BODEGA MANTENCION · Estado TARJA: DE BAJA · incluye duplicados · ACR: Acreditado · Cat: . · Turno: 10X10 A",
+      "detalle": "JEFE DE BODEGA MANTENCION · Estado TARJA: DE BAJA · incluye duplicados · ACR: Finiquitado · Cat: . · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": ".",
       "turno": "10X10 A",
-      "acrSucal": "Acreditado",
+      "acrSucal": "Finiquitado",
       "correo": "ARTURO.GUZMAND@GMAIL.COM",
       "fono": "950579925 - 87123857",
       "inducionesOk": 6,
@@ -13260,12 +13262,12 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN"
       ]
     },
     {
@@ -13354,10 +13356,10 @@ window.DASHBOARD_DATA = {
         "TN",
         "TN",
         "TN",
-        "",
-        "",
-        "",
-        ""
+        "TN",
+        "TN",
+        "TN",
+        "TN"
       ]
     },
     {
@@ -13370,7 +13372,7 @@ window.DASHBOARD_DATA = {
       "estado": "No hay registros cargados, confirmar en portales",
       "statusKey": "sin-registros",
       "detalle": "EXPEDITOR DE MATERIALES · Estado TARJA: VIGENTE · ACR: Acreditado",
-      "certFinal": "TAG",
+      "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "",
       "turno": "",
@@ -13431,17 +13433,17 @@ window.DASHBOARD_DATA = {
         "D",
         "T",
         "T",
-        "0",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D"
       ]
     },
     {
@@ -13628,10 +13630,10 @@ window.DASHBOARD_DATA = {
         "TN",
         "TN",
         "TN",
-        "",
-        "",
-        "",
-        ""
+        "TN",
+        "TN",
+        "TN",
+        "TN"
       ]
     },
     {
@@ -13644,7 +13646,7 @@ window.DASHBOARD_DATA = {
       "estado": "No hay registros cargados, confirmar en portales",
       "statusKey": "sin-registros",
       "detalle": "INGENIERO DE PLANIFICACION · Estado TARJA: VIGENTE · ACR: Acreditado",
-      "certFinal": "TAG",
+      "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "",
       "turno": "",
@@ -13713,9 +13715,9 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -13780,7 +13782,7 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "TD",
+        "D",
         "D",
         "D",
         "D",
@@ -13799,11 +13801,11 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN"
       ]
     },
     {
@@ -13900,11 +13902,11 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "D",
+        "D",
+        "D",
+        "D",
+        "D"
       ]
     },
     {
@@ -13986,11 +13988,11 @@ window.DASHBOARD_DATA = {
         "TN",
         "TN",
         "TN",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "D",
+        "D",
+        "D",
+        "D",
+        "D"
       ]
     },
     {
@@ -14084,9 +14086,9 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        ""
+        "D",
+        "D",
+        "D"
       ]
     },
     {
@@ -14167,10 +14169,10 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "D",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -14262,9 +14264,9 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -14343,12 +14345,12 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D"
       ]
     },
     {
@@ -14430,16 +14432,16 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "T",
-        "T",
-        "T",
-        "T",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN"
       ]
     },
     {
@@ -14528,9 +14530,9 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        ""
+        "FN",
+        "FN",
+        "FN"
       ]
     },
     {
@@ -14551,12 +14553,12 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: . · Turno: 10X10 A",
+      "detalle": "MECANICO PRIMERA · Estado TARJA: DE BAJA · ACR: Finiquitado · Cat: . · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": ".",
       "turno": "10X10 A",
-      "acrSucal": "Acreditado",
+      "acrSucal": "Finiquitado",
       "correo": "KANAKA2485@GMAIL.COM",
       "fono": "962583557",
       "inducionesOk": 2,
@@ -14623,10 +14625,10 @@ window.DASHBOARD_DATA = {
         "TN",
         "TN",
         "TN",
-        "",
-        "",
-        "",
-        ""
+        "TN",
+        "TN",
+        "TN",
+        "TN"
       ]
     },
     {
@@ -14642,12 +14644,12 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: MAESTRO PRIMERA · Turno: 10X10 B",
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: DE BAJA · incluye duplicados · ACR: Finiquitado · Cat: MAESTRO PRIMERA · Turno: 10X10 B",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "MAESTRO PRIMERA",
       "turno": "10X10 B",
-      "acrSucal": "Acreditado",
+      "acrSucal": "Finiquitado",
       "correo": "ANNDREEWW0@GMAIL.COM",
       "fono": "966797274",
       "inducionesOk": 6,
@@ -14703,25 +14705,25 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "AC",
+        "AC",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN"
       ]
     },
     {
@@ -14807,9 +14809,9 @@ window.DASHBOARD_DATA = {
         "D",
         "D",
         "T",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -14991,10 +14993,10 @@ window.DASHBOARD_DATA = {
         "TN",
         "TN",
         "TN",
-        "",
-        "",
-        "",
-        ""
+        "TN",
+        "TN",
+        "TN",
+        "TN"
       ]
     },
     {
@@ -15077,14 +15079,14 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
         "T",
         "T",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "T"
       ]
     },
     {
@@ -15239,14 +15241,14 @@ window.DASHBOARD_DATA = {
         "",
         "",
         "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
         "T",
         "T",
         "T",
@@ -15255,9 +15257,9 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -15346,10 +15348,10 @@ window.DASHBOARD_DATA = {
         "TN",
         "TN",
         "TN",
-        "",
-        "",
-        "",
-        ""
+        "TN",
+        "TN",
+        "TN",
+        "TN"
       ]
     },
     {
@@ -15627,9 +15629,9 @@ window.DASHBOARD_DATA = {
         "D",
         "D",
         "D",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -15719,9 +15721,9 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "D"
       ]
     },
     {
@@ -15818,9 +15820,9 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        ""
+        "T",
+        "D",
+        "D"
       ]
     },
     {
@@ -15928,12 +15930,12 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER MINIBUS/VAN · Estado TARJA: VIGENTE · ACR: Acreditado · Turno: 10X10 A",
+      "detalle": "CHOFER MINIBUS/VAN · Estado TARJA: DE BAJA · ACR: Finiquitado · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "",
       "turno": "10X10 A",
-      "acrSucal": "Acreditado",
+      "acrSucal": "Finiquitado",
       "correo": "ORLANDOMARAMBIO@HOTMAIL.COM",
       "fono": "9 4261 7090",
       "inducionesOk": 0,
@@ -15996,11 +15998,11 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN"
       ]
     },
     {
@@ -16093,11 +16095,11 @@ window.DASHBOARD_DATA = {
         "TN",
         "TN",
         "TN",
-        "TN",
-        "",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "D",
+        "D",
+        "D"
       ]
     },
     {
@@ -16109,12 +16111,12 @@ window.DASHBOARD_DATA = {
       "courseList": [],
       "estado": "No hay registros cargados, confirmar en portales",
       "statusKey": "sin-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: . · Turno: 10X10 B",
+      "detalle": "MECANICO PRIMERA · Estado TARJA: DE BAJA · ACR: Finiquitado · Cat: . · Turno: 10X10 B",
       "certFinal": "PENDIENTE",
       "examenSalud": "",
       "categoria": ".",
       "turno": "10X10 B",
-      "acrSucal": "Acreditado",
+      "acrSucal": "Finiquitado",
       "correo": "AXEL18LUAN@GMAIL.COM",
       "fono": "935164687",
       "inducionesOk": 0,
@@ -16174,14 +16176,14 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "D",
-        "D",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN"
       ]
     },
     {
@@ -16202,12 +16204,12 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "ASEADORES INDUSTRIAL · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: . · Turno: 10X10 A",
+      "detalle": "ASEADORES INDUSTRIAL · Estado TARJA: DE BAJA · incluye duplicados · ACR: Finiquitado · Cat: . · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": ".",
       "turno": "10X10 A",
-      "acrSucal": "Acreditado",
+      "acrSucal": "Finiquitado",
       "correo": "MASIASRODRIGUEZDAVIDSALOMON@GMAIL.COM",
       "fono": "953225554",
       "inducionesOk": 2,
@@ -16267,17 +16269,17 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN"
       ]
     },
     {
@@ -16356,12 +16358,12 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D"
       ]
     },
     {
@@ -16444,12 +16446,12 @@ window.DASHBOARD_DATA = {
         "TN",
         "TN",
         "TN",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D"
       ]
     },
     {
@@ -16468,12 +16470,12 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: DE BAJA · incluye duplicados · ACR: Acreditado · Cat: CAPATAZ · Turno: 10X10 A",
-      "certFinal": "TAG",
+      "detalle": "MECANICO · Estado TARJA: DE BAJA · incluye duplicados · ACR: Finiquitado · Cat: CAPATAZ · Turno: 10X10 A",
+      "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "CAPATAZ",
       "turno": "10X10 A",
-      "acrSucal": "Acreditado",
+      "acrSucal": "Finiquitado",
       "correo": "CARLOSMELLACUEVAS@GMAIL.COM",
       "fono": "984789911",
       "inducionesOk": 0,
@@ -16527,20 +16529,20 @@ window.DASHBOARD_DATA = {
         "D",
         "D",
         "T",
-        "D",
-        "FN",
-        "FN",
-        "0",
-        "FN",
-        "FN",
-        "FN",
-        "FN",
         "T",
-        "",
-        "",
-        "D",
-        "D",
-        "D"
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN"
       ]
     },
     {
@@ -16611,27 +16613,27 @@ window.DASHBOARD_DATA = {
         "",
         "",
         "",
-        "AC",
-        "AC",
-        "AC",
-        "AC",
-        "AC",
-        "AC",
-        "AC",
-        "AC",
-        "T",
-        "T",
-        "0",
-        "T",
-        "T",
-        "T",
-        "T",
         "",
         "",
         "",
         "",
         "",
-        ""
+        "",
+        "",
+        "",
+        "AC",
+        "AC",
+        "AC",
+        "AC",
+        "AC",
+        "AC",
+        "AC",
+        "AC",
+        "AC",
+        "AC",
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -16651,12 +16653,12 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: MAESTRO PRIMERA · Turno: 10X10 B",
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: DE BAJA · incluye duplicados · ACR: Finiquitado · Cat: MAESTRO PRIMERA · Turno: 10X10 B",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "MAESTRO PRIMERA",
       "turno": "10X10 B",
-      "acrSucal": "Acreditado",
+      "acrSucal": "Finiquitado",
       "correo": "PANCHOMENDEZCORDOVA@GMAIL.COM",
       "fono": "979708304",
       "inducionesOk": 0,
@@ -16718,12 +16720,12 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "D",
-        "D",
-        "D",
-        "",
-        "",
-        ""
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN"
       ]
     },
     {
@@ -16741,12 +16743,12 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: MAESTRO PRIMERA · Turno: 10X10 A",
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: DE BAJA · incluye duplicados · ACR: Finiquitado · Cat: MAESTRO PRIMERA · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "MAESTRO PRIMERA",
       "turno": "10X10 A",
-      "acrSucal": "Acreditado",
+      "acrSucal": "Finiquitado",
       "correo": "DMA.MENDOZA95@GMAIL.COM",
       "fono": "940131921",
       "inducionesOk": 5,
@@ -16816,10 +16818,10 @@ window.DASHBOARD_DATA = {
         "TN",
         "TN",
         "TN",
-        "",
-        "",
-        "",
-        ""
+        "FN",
+        "FN",
+        "FN",
+        "FN"
       ]
     },
     {
@@ -16916,9 +16918,9 @@ window.DASHBOARD_DATA = {
         "D",
         "D",
         "D",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -16997,12 +16999,12 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D"
       ]
     },
     {
@@ -17099,10 +17101,10 @@ window.DASHBOARD_DATA = {
         "TN",
         "TN",
         "TN",
-        "",
-        "",
-        "",
-        ""
+        "D",
+        "D",
+        "D",
+        "D"
       ]
     },
     {
@@ -17119,7 +17121,7 @@ window.DASHBOARD_DATA = {
       "estado": "Con registros",
       "statusKey": "con-registros",
       "detalle": "MECANICO · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: MAESTRO MAYOR · Turno: 10X10 A",
-      "certFinal": "TAG",
+      "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "MAESTRO MAYOR",
       "turno": "10X10 A",
@@ -17194,10 +17196,10 @@ window.DASHBOARD_DATA = {
         "TN",
         "TN",
         "TN",
-        "",
-        "",
-        "",
-        ""
+        "TN",
+        "TN",
+        "TN",
+        "TN"
       ]
     },
     {
@@ -17276,13 +17278,13 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "FN",
-        "FN",
-        "FN",
-        "FN",
-        "",
-        "FN",
-        "D",
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
         "T",
         "T",
         "T",
@@ -17374,12 +17376,12 @@ window.DASHBOARD_DATA = {
         "T",
         "D",
         "D",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D"
       ]
     },
     {
@@ -17456,14 +17458,14 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "D",
-        "D",
-        "",
-        "",
-        "",
-        "D",
-        "D",
-        "D"
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -17559,10 +17561,10 @@ window.DASHBOARD_DATA = {
         "TN",
         "TN",
         "TN",
-        "",
-        "",
-        "",
-        ""
+        "TN",
+        "TN",
+        "TN",
+        "TN"
       ]
     },
     {
@@ -17647,16 +17649,16 @@ window.DASHBOARD_DATA = {
         "TN",
         "TN",
         "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D"
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN"
       ]
     },
     {
@@ -17737,16 +17739,16 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D"
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN"
       ]
     },
     {
@@ -17828,11 +17830,11 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
+        "T",
         "D",
         "D",
         "D",
         "D",
-        "D",
         "TD",
         "TD",
         "TD",
@@ -17842,10 +17844,10 @@ window.DASHBOARD_DATA = {
         "TD",
         "TD",
         "TD",
-        "",
-        "",
-        "",
-        ""
+        "TN",
+        "TN",
+        "TN",
+        "TN"
       ]
     },
     {
@@ -17935,9 +17937,9 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        ""
+        "D",
+        "D",
+        "D"
       ]
     },
     {
@@ -18031,9 +18033,9 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -18115,17 +18117,17 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
+        "TN",
+        "TN",
+        "TN",
+        "TN",
+        "TN",
         "D",
-        "TN",
-        "TN",
-        "TN",
-        "TN",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
         "D",
         "D",
         "D"
@@ -18215,11 +18217,11 @@ window.DASHBOARD_DATA = {
         "D",
         "D",
         "D",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "D",
+        "D",
+        "D",
+        "D",
+        "D"
       ]
     },
     {
@@ -18283,11 +18285,11 @@ window.DASHBOARD_DATA = {
         "D",
         "D",
         "D",
-        "T",
-        "T",
-        "T",
         "AC",
         "AC",
+        "AC",
+        "AC",
+        "AC",
         "D",
         "D",
         "D",
@@ -18300,9 +18302,9 @@ window.DASHBOARD_DATA = {
         "T",
         "D",
         "D",
-        "",
-        "",
-        "",
+        "D",
+        "D",
+        "D",
         "D",
         "D",
         "D"
@@ -18396,9 +18398,9 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -18548,7 +18550,7 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "TD",
+        "D",
         "D",
         "D",
         "D",
@@ -18562,16 +18564,16 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "D",
-        "D",
-        "D",
-        "D",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -18656,16 +18658,16 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D"
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN"
       ]
     },
     {
@@ -18736,14 +18738,6 @@ window.DASHBOARD_DATA = {
         "D",
         "D",
         "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "AC",
-        "AC",
-        "AC",
-        "AC",
         "T",
         "T",
         "T",
@@ -18756,9 +18750,17 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -18836,13 +18838,13 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D"
       ]
     },
     {
@@ -18922,6 +18924,11 @@ window.DASHBOARD_DATA = {
         "D",
         "D",
         "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
         "T",
         "T",
         "T",
@@ -18930,12 +18937,7 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "T",
-        "T",
-        "",
-        "",
-        "",
-        ""
+        "T"
       ]
     },
     {
@@ -18954,7 +18956,7 @@ window.DASHBOARD_DATA = {
       "estado": "Con registros",
       "statusKey": "con-registros",
       "detalle": "JEFE DE MANTENCION · Estado TARJA: VIGENTE · ACR: Acreditado",
-      "certFinal": "TAG",
+      "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "",
       "turno": "",
@@ -19004,8 +19006,8 @@ window.DASHBOARD_DATA = {
         "",
         "",
         "",
-        "T",
-        "T",
+        "AC",
+        "AC",
         "AC",
         "AC",
         "D",
@@ -19020,9 +19022,9 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        "",
+        "D",
+        "D",
+        "D",
         "D",
         "D",
         "D"
@@ -19047,7 +19049,7 @@ window.DASHBOARD_DATA = {
       "estado": "Con registros",
       "statusKey": "con-registros",
       "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: MAESTRO PRIMERA · Turno: 10X10 B",
-      "certFinal": "TAG",
+      "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "MAESTRO PRIMERA",
       "turno": "10X10 B",
@@ -19113,12 +19115,12 @@ window.DASHBOARD_DATA = {
         "D",
         "D",
         "",
-        "D",
-        "D",
-        "D",
-        "",
-        "",
-        ""
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN"
       ]
     },
     {
@@ -19216,9 +19218,9 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -19236,12 +19238,12 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: . · Turno: 10X10 A",
+      "detalle": "MECANICO PRIMERA · Estado TARJA: DE BAJA · incluye duplicados · ACR: Finiquitado · Cat: . · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": ".",
       "turno": "10X10 A",
-      "acrSucal": "Acreditado",
+      "acrSucal": "Finiquitado",
       "correo": "ORELLANANOEL995@GMAIL.COM",
       "fono": "973846915",
       "inducionesOk": 5,
@@ -19305,16 +19307,16 @@ window.DASHBOARD_DATA = {
         "D",
         "T",
         "T",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN"
       ]
     },
     {
@@ -19391,20 +19393,20 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "T",
-        "P",
         "FN",
         "FN",
-        "",
         "FN",
-        "D",
-        "TN",
-        "TN",
-        "TN",
-        "TN",
-        "TN",
-        "TN",
-        "TN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
         "FN",
         "FN",
         "FN",
@@ -19500,10 +19502,10 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        "",
-        ""
+        "FN",
+        "FN",
+        "FN",
+        "FN"
       ]
     },
     {
@@ -19522,12 +19524,12 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "ASEADORES INDUSTRIAL · Estado TARJA: DE BAJA · ACR: Acreditado · Cat: . · Turno: 10X10 A",
+      "detalle": "ASEADORES INDUSTRIAL · Estado TARJA: DE BAJA · ACR: Finiquitado · Cat: . · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": ".",
       "turno": "10X10 A",
-      "acrSucal": "Acreditado",
+      "acrSucal": "Finiquitado",
       "correo": "FRANKISI32174@GMAIL.COM",
       "fono": "920887334",
       "inducionesOk": 0,
@@ -19590,11 +19592,11 @@ window.DASHBOARD_DATA = {
         "TD",
         "TD",
         "TD",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D"
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN"
       ]
     },
     {
@@ -19663,7 +19665,7 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "TD",
+        "D",
         "D",
         "D",
         "D",
@@ -19683,10 +19685,10 @@ window.DASHBOARD_DATA = {
         "TN",
         "TN",
         "TN",
-        "",
-        "",
-        "",
-        ""
+        "TN",
+        "TN",
+        "TN",
+        "TN"
       ]
     },
     {
@@ -19766,19 +19768,19 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
         "T",
         "T",
         "T",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -19795,12 +19797,12 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: MAESTRO MAYOR · Turno: 10X10 A",
+      "detalle": "MECANICO · Estado TARJA: DE BAJA · incluye duplicados · ACR: Finiquitado · Cat: MAESTRO MAYOR · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "MAESTRO MAYOR",
       "turno": "10X10 A",
-      "acrSucal": "Acreditado",
+      "acrSucal": "Finiquitado",
       "correo": "JSN.OSSA.9090@GMAIL.COM",
       "fono": "984966915",
       "inducionesOk": 6,
@@ -19959,12 +19961,12 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "TN",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN"
       ]
     },
     {
@@ -20047,19 +20049,19 @@ window.DASHBOARD_DATA = {
         "D",
         "D",
         "D",
-        "TD",
-        "TD",
-        "TD",
-        "TD",
-        "TD",
-        "TD",
-        "TD",
-        "TD",
-        "TD",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
         "T",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -20154,9 +20156,9 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        ""
+        "T",
+        "D",
+        "D"
       ]
     },
     {
@@ -20339,9 +20341,9 @@ window.DASHBOARD_DATA = {
         "D",
         "D",
         "D",
-        "",
-        "",
-        ""
+        "D",
+        "D",
+        "D"
       ]
     },
     {
@@ -20353,12 +20355,12 @@ window.DASHBOARD_DATA = {
       "courseList": [],
       "estado": "No hay registros cargados, confirmar en portales",
       "statusKey": "sin-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: MAESTRO PRIMERA · Turno: 10X10 B",
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: DE BAJA · ACR: Finiquitado · Cat: MAESTRO PRIMERA · Turno: 10X10 B",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "MAESTRO PRIMERA",
       "turno": "10X10 B",
-      "acrSucal": "Acreditado",
+      "acrSucal": "Finiquitado",
       "correo": "ALFONSO.ROBISON.PALMA.NAVARRO@GMAIL.COM",
       "fono": "985532838",
       "inducionesOk": 2,
@@ -20421,14 +20423,14 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "D",
-        "D",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN"
       ]
     },
     {
@@ -20516,19 +20518,19 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "TD",
-        "TD",
-        "TD",
-        "TD",
-        "TD",
-        "TD",
-        "TD",
-        "TD",
         "T",
         "T",
-        "",
-        "",
-        ""
+        "T",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "T",
+        "T",
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -20603,16 +20605,16 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "TN",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D"
       ]
     },
     {
@@ -20720,12 +20722,12 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER CAMIONETA MANTENCI · Estado TARJA: VIGENTE · ACR: Observada · Cat: . · Turno: 10X10 B",
+      "detalle": "CHOFER CAMIONETA MANTENCI · Estado TARJA: DE BAJA · ACR: Finiquitado · Cat: . · Turno: 10X10 B",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": ".",
       "turno": "10X10 B",
-      "acrSucal": "Observada",
+      "acrSucal": "Finiquitado",
       "correo": "WP.PAREDES@GMAIL.COM",
       "fono": "950208720",
       "inducionesOk": 0,
@@ -20782,17 +20784,17 @@ window.DASHBOARD_DATA = {
         "AC",
         "F",
         "FN",
-        "0",
         "FN",
         "FN",
         "FN",
         "FN",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D"
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN"
       ]
     },
     {
@@ -20811,12 +20813,12 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "JEFE DE PLANIFICACION Y M · Estado TARJA: VIGENTE · incluye duplicados · ACR: Observada · Cat: . · Turno: 8x6 A",
+      "detalle": "JEFE DE PLANIFICACION Y M · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: . · Turno: 8x6 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": ".",
       "turno": "8x6 A",
-      "acrSucal": "Observada",
+      "acrSucal": "Acreditado",
       "correo": "JPPH2011@GMAIL.COM",
       "fono": "971427301",
       "inducionesOk": 1,
@@ -20884,8 +20886,8 @@ window.DASHBOARD_DATA = {
         "D",
         "D",
         "D",
-        "",
-        ""
+        "D",
+        "D"
       ]
     },
     {
@@ -20975,9 +20977,9 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -20998,12 +21000,12 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: CAPATAZ · Turno: 10X10 A",
+      "detalle": "MECANICO · Estado TARJA: DE BAJA · incluye duplicados · ACR: Finiquitado · Cat: CAPATAZ · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "CAPATAZ",
       "turno": "10X10 A",
-      "acrSucal": "Acreditado",
+      "acrSucal": "Finiquitado",
       "correo": "H.PASTENCASTRO36@GMAIL.COM",
       "fono": "946972063",
       "inducionesOk": 2,
@@ -21070,10 +21072,10 @@ window.DASHBOARD_DATA = {
         "TN",
         "TN",
         "TN",
-        "",
-        "",
-        "",
-        ""
+        "TN",
+        "TN",
+        "TN",
+        "TN"
       ]
     },
     {
@@ -21093,12 +21095,12 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "ASISTENTE SAP · Estado TARJA: DE BAJA · incluye duplicados · ACR: Acreditado · Cat: . · Turno: 10X10 A",
+      "detalle": "ASISTENTE SAP · Estado TARJA: DE BAJA · incluye duplicados · ACR: Finiquitado · Cat: . · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": ".",
       "turno": "10X10 A",
-      "acrSucal": "Acreditado",
+      "acrSucal": "Finiquitado",
       "correo": "FPAVEZURIBE@GMAIL.COM",
       "fono": "954159900",
       "inducionesOk": 0,
@@ -21160,12 +21162,12 @@ window.DASHBOARD_DATA = {
         "TN",
         "TN",
         "TN",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN"
       ]
     },
     {
@@ -21256,9 +21258,9 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        ""
+        "D",
+        "D",
+        "D"
       ]
     },
     {
@@ -21336,23 +21338,23 @@ window.DASHBOARD_DATA = {
         "D",
         "D",
         "D",
+        "D",
+        "D",
+        "D",
+        "D",
         "T",
         "T",
         "T",
         "T",
-        "TN",
-        "TN",
-        "TN",
-        "TN",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D"
       ]
     },
     {
@@ -21368,12 +21370,12 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: MAESTRO PRIMERA · Turno: 10X10 A",
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: DE BAJA · ACR: Finiquitado · Cat: MAESTRO PRIMERA · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "MAESTRO PRIMERA",
       "turno": "10X10 A",
-      "acrSucal": "Acreditado",
+      "acrSucal": "Finiquitado",
       "correo": "CASANOVA1982.PLR35@GMAIL.COM",
       "fono": "937897021",
       "inducionesOk": 6,
@@ -21434,20 +21436,20 @@ window.DASHBOARD_DATA = {
         "AC",
         "AC",
         "AC",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "",
-        "",
-        ""
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN"
       ]
     },
     {
@@ -21539,10 +21541,10 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "T",
-        "",
-        "",
-        ""
+        "TN",
+        "TN",
+        "TN",
+        "TN"
       ]
     },
     {
@@ -21625,22 +21627,22 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "D",
-        "D",
-        "TN",
-        "TN",
-        "TN",
-        "TN",
-        "TN",
-        "TD",
-        "TD",
-        "D",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN"
       ]
     },
     {
@@ -21658,12 +21660,12 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ANDAMIOS · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: CAPATAZ · Turno: 10X10 B",
+      "detalle": "MONTAJE ANDAMIOS · Estado TARJA: DE BAJA · ACR: Finiquitado · Cat: CAPATAZ · Turno: 10X10 B",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "CAPATAZ",
       "turno": "10X10 B",
-      "acrSucal": "Acreditado",
+      "acrSucal": "Finiquitado",
       "correo": "IVANANDRESPEREZMARDONES88@GMAIL.COM",
       "fono": "997967750",
       "inducionesOk": 2,
@@ -21715,25 +21717,25 @@ window.DASHBOARD_DATA = {
         "D",
         "D",
         "T",
-        "AC",
-        "AC",
-        "AC",
-        "AC",
-        "AC",
-        "AC",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D"
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN"
       ]
     },
     {
@@ -21815,13 +21817,13 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "FN",
-        "FN",
         "T",
-        "FN",
-        "FN",
-        "FN",
-        "FN",
+        "T",
+        "T",
+        "D",
+        "D",
+        "D",
+        "D",
         "D",
         "D",
         "D",
@@ -21913,11 +21915,11 @@ window.DASHBOARD_DATA = {
         "TN",
         "TN",
         "TN",
-        "TN",
-        "",
-        "",
-        "",
-        ""
+        "D",
+        "D",
+        "D",
+        "D",
+        "D"
       ]
     },
     {
@@ -22004,10 +22006,10 @@ window.DASHBOARD_DATA = {
         "TN",
         "TN",
         "TN",
-        "",
-        "",
-        "",
-        ""
+        "TN",
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -22093,15 +22095,15 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "T",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D"
       ]
     },
     {
@@ -22189,11 +22191,11 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN"
       ]
     },
     {
@@ -22258,12 +22260,12 @@ window.DASHBOARD_DATA = {
         "D",
         "D",
         "D",
-        "D",
-        "D",
-        "D",
-        "T",
-        "T",
-        "T",
+        "AC",
+        "AC",
+        "AC",
+        "AC",
+        "AC",
+        "AC",
         "AC",
         "AC",
         "AC",
@@ -22271,19 +22273,19 @@ window.DASHBOARD_DATA = {
         "AC",
         "AC",
         "D",
-        "T",
-        "T",
-        "T",
-        "T",
-        "T",
         "D",
         "D",
         "D",
         "D",
         "D",
-        "",
-        "",
-        ""
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "T",
+        "T",
+        "D"
       ]
     },
     {
@@ -22359,11 +22361,11 @@ window.DASHBOARD_DATA = {
         "D",
         "D",
         "D",
-        "T",
-        "T",
-        "T",
         "AC",
         "AC",
+        "AC",
+        "AC",
+        "AC",
         "D",
         "D",
         "D",
@@ -22378,10 +22380,10 @@ window.DASHBOARD_DATA = {
         "TD",
         "TD",
         "TD",
-        "",
-        "",
-        "",
-        ""
+        "TN",
+        "TN",
+        "TN",
+        "TN"
       ]
     },
     {
@@ -22464,10 +22466,10 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -22479,12 +22481,12 @@ window.DASHBOARD_DATA = {
       "courseList": [],
       "estado": "No hay registros cargados, confirmar en portales",
       "statusKey": "sin-registros",
-      "detalle": "OP MODULO MULTIEJE GOLDHO · Estado TARJA: VIGENTE · ACR: Observada",
+      "detalle": "OP MODULO MULTIEJE GOLDHO · Estado TARJA: VIGENTE · ACR: Acreditado",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "",
       "turno": "",
-      "acrSucal": "Observada",
+      "acrSucal": "Acreditado",
       "correo": "TAQ1288@HOTMAIL.COM",
       "fono": "933994035",
       "inducionesOk": 0,
@@ -22536,22 +22538,22 @@ window.DASHBOARD_DATA = {
         "D",
         "D",
         "D",
+        "D",
         "T",
         "T",
         "T",
-        "TN",
-        "TN",
-        "TN",
-        "TN",
-        "TN",
-        "TN",
-        "TN",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "T",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -22646,9 +22648,9 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        ""
+        "D",
+        "D",
+        "D"
       ]
     },
     {
@@ -22666,12 +22668,12 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "EXPERTO HSEC MANTENCION · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: . · Turno: 10X10 A",
+      "detalle": "EXPERTO HSEC MANTENCION · Estado TARJA: DE BAJA · ACR: Finiquitado · Cat: . · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": ".",
       "turno": "10X10 A",
-      "acrSucal": "Acreditado",
+      "acrSucal": "Finiquitado",
       "correo": "LUISQUISPESANTOS@GMAIL.COM",
       "fono": "974946554",
       "inducionesOk": 0,
@@ -22735,10 +22737,10 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        "",
-        ""
+        "FN",
+        "FN",
+        "FN",
+        "FN"
       ]
     },
     {
@@ -22822,10 +22824,10 @@ window.DASHBOARD_DATA = {
         "TN",
         "TN",
         "TN",
-        "",
-        "",
-        "",
-        "",
+        "TN",
+        "TN",
+        "TN",
+        "TN",
         "D",
         "D",
         "D",
@@ -22899,29 +22901,29 @@ window.DASHBOARD_DATA = {
         "",
         "",
         "",
-        "AC",
-        "AC",
-        "AC",
-        "AC",
-        "AC",
-        "AC",
-        "AC",
-        "AC",
-        "AC",
-        "AC",
-        "D",
-        "D",
-        "0",
-        "D",
-        "D",
-        "D",
-        "D",
         "",
         "",
         "",
         "",
         "",
-        ""
+        "",
+        "",
+        "",
+        "",
+        "",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "AC",
+        "AC",
+        "AC",
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -22933,12 +22935,12 @@ window.DASHBOARD_DATA = {
       "courseList": [],
       "estado": "No hay registros cargados, confirmar en portales",
       "statusKey": "sin-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · ACR: Observada",
+      "detalle": "MECANICO PRIMERA · Estado TARJA: DE BAJA · ACR: Finiquitado",
       "certFinal": "PENDIENTE",
       "examenSalud": "",
       "categoria": "",
       "turno": "",
-      "acrSucal": "Observada",
+      "acrSucal": "Finiquitado",
       "correo": "JUANITOANDRES1404REBOLLEDO@GMAIL.COM",
       "fono": "972862073",
       "inducionesOk": 0,
@@ -22987,25 +22989,25 @@ window.DASHBOARD_DATA = {
         "",
         "",
         "",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "FN",
-        "FN",
-        "0",
         "FN",
         "FN",
         "FN",
         "FN",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN"
       ]
     },
     {
@@ -23103,10 +23105,10 @@ window.DASHBOARD_DATA = {
         "TN",
         "TN",
         "TN",
-        "",
-        "",
-        "",
-        ""
+        "TN",
+        "TN",
+        "TN",
+        "TN"
       ]
     },
     {
@@ -23203,9 +23205,9 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        ""
+        "D",
+        "D",
+        "D"
       ]
     },
     {
@@ -23217,12 +23219,12 @@ window.DASHBOARD_DATA = {
       "courseList": [],
       "estado": "No hay registros cargados, confirmar en portales",
       "statusKey": "sin-registros",
-      "detalle": "JEFE DE OPERACIONES · Estado TARJA: VIGENTE · ACR: Observada",
+      "detalle": "JEFE DE OPERACIONES · Estado TARJA: VIGENTE · ACR: Acreditado · Turno: 10X10 A",
       "certFinal": "",
       "examenSalud": "",
       "categoria": "",
-      "turno": "",
-      "acrSucal": "Observada",
+      "turno": "10X10 A",
+      "acrSucal": "Acreditado",
       "correo": "EDISON.RIFFO@SKIC.COM",
       "fono": "77191281",
       "inducionesOk": 0,
@@ -23273,9 +23275,9 @@ window.DASHBOARD_DATA = {
         "",
         "AC",
         "AC",
-        "T",
-        "T",
-        "T",
+        "AC",
+        "AC",
+        "AC",
         "AC",
         "D",
         "D",
@@ -23284,12 +23286,12 @@ window.DASHBOARD_DATA = {
         "D",
         "D",
         "D",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D"
       ]
     },
     {
@@ -23366,19 +23368,19 @@ window.DASHBOARD_DATA = {
         "D",
         "D",
         "AC",
+        "AC",
+        "AC",
+        "T",
+        "T",
+        "T",
         "D",
         "D",
         "D",
         "D",
         "D",
-        "D",
-        "D",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -23553,9 +23555,9 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        "",
+        "T",
+        "D",
+        "D",
         "D",
         "D",
         "D"
@@ -23633,6 +23635,9 @@ window.DASHBOARD_DATA = {
         "D",
         "D",
         "D",
+        "D",
+        "D",
+        "D",
         "T",
         "T",
         "T",
@@ -23643,10 +23648,7 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "T",
-        "",
-        "",
-        ""
+        "T"
       ]
     },
     {
@@ -23732,10 +23734,10 @@ window.DASHBOARD_DATA = {
         "TN",
         "TN",
         "TN",
-        "",
-        "",
-        "",
-        ""
+        "TN",
+        "TN",
+        "TN",
+        "TN"
       ]
     },
     {
@@ -23754,12 +23756,12 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: . · Turno: 10X10 B",
+      "detalle": "MECANICO PRIMERA · Estado TARJA: DE BAJA · ACR: Finiquitado · Cat: . · Turno: 10X10 B",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": ".",
       "turno": "10X10 B",
-      "acrSucal": "Acreditado",
+      "acrSucal": "Finiquitado",
       "correo": "PATORIQUELMEROCA@GMAIL.COM",
       "fono": "964782063",
       "inducionesOk": 0,
@@ -23817,16 +23819,16 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "",
-        "",
-        ""
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN"
       ]
     },
     {
@@ -23913,8 +23915,6 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "D",
-        "T",
         "T",
         "D",
         "D",
@@ -23924,9 +23924,11 @@ window.DASHBOARD_DATA = {
         "D",
         "D",
         "D",
-        "",
-        "",
-        ""
+        "D",
+        "D",
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -24016,9 +24018,9 @@ window.DASHBOARD_DATA = {
         "D",
         "D",
         "D",
-        "",
-        "",
-        ""
+        "D",
+        "D",
+        "D"
       ]
     },
     {
@@ -24033,12 +24035,12 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER CAMION PLANO C/EQ · Estado TARJA: DE BAJA · ACR: Acreditado · Turno: 10X10 A",
+      "detalle": "CHOFER CAMION PLANO C/EQ · Estado TARJA: DE BAJA · ACR: Finiquitado · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "",
       "turno": "10X10 A",
-      "acrSucal": "Acreditado",
+      "acrSucal": "Finiquitado",
       "correo": "EDUARDO.RIVERA197451@GMAIL.COM",
       "fono": "936587874",
       "inducionesOk": 0,
@@ -24102,10 +24104,10 @@ window.DASHBOARD_DATA = {
         "D",
         "D",
         "D",
-        "",
-        "D",
-        "D",
-        "D"
+        "FN",
+        "FN",
+        "FN",
+        "FN"
       ]
     },
     {
@@ -24194,9 +24196,9 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        "D",
+        "T",
+        "TN",
+        "TN",
         "D",
         "D"
       ]
@@ -24217,12 +24219,12 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "ASEADORES INDUSTRIAL · Estado TARJA: VIGENTE · ACR: Observada · Cat: . · Turno: 10X10 B",
+      "detalle": "ASEADORES INDUSTRIAL · Estado TARJA: DE BAJA · ACR: Finiquitado · Cat: . · Turno: 10X10 B",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": ".",
       "turno": "10X10 B",
-      "acrSucal": "Observada",
+      "acrSucal": "Finiquitado",
       "correo": "NANCHOHONORES@GMAIL.COM",
       "fono": "947731363",
       "inducionesOk": 0,
@@ -24276,20 +24278,20 @@ window.DASHBOARD_DATA = {
         "AC",
         "AC",
         "AC",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "",
-        "",
-        ""
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN"
       ]
     },
     {
@@ -24368,12 +24370,12 @@ window.DASHBOARD_DATA = {
         "D",
         "D",
         "D",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D"
       ]
     },
     {
@@ -24457,9 +24459,9 @@ window.DASHBOARD_DATA = {
         "D",
         "D",
         "D",
-        "",
-        "",
-        "",
+        "D",
+        "D",
+        "D",
         "D",
         "D",
         "D"
@@ -24560,9 +24562,9 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        ""
+        "D",
+        "D",
+        "D"
       ]
     },
     {
@@ -24655,10 +24657,10 @@ window.DASHBOARD_DATA = {
         "TN",
         "TN",
         "TN",
-        "",
-        "",
-        "",
-        ""
+        "TN",
+        "TN",
+        "TN",
+        "TN"
       ]
     },
     {
@@ -24743,9 +24745,9 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -24824,12 +24826,12 @@ window.DASHBOARD_DATA = {
         "D",
         "D",
         "D",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D"
       ]
     },
     {
@@ -25110,9 +25112,9 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -25132,12 +25134,12 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA /ANDAMIERO · Estado TARJA: DE BAJA · incluye duplicados · ACR: Acreditado · Cat: . · Turno: 10X10 A",
+      "detalle": "MECANICO PRIMERA /ANDAMIERO · Estado TARJA: DE BAJA · incluye duplicados · ACR: Finiquitado · Cat: . · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": ".",
       "turno": "10X10 A",
-      "acrSucal": "Acreditado",
+      "acrSucal": "Finiquitado",
       "correo": "CARLOSGUILLERMOROSASSILVA@GMAIL.COM",
       "fono": "920850430",
       "inducionesOk": 0,
@@ -25291,21 +25293,21 @@ window.DASHBOARD_DATA = {
         "D",
         "D",
         "D",
-        "P",
-        "TN",
         "T",
-        "T",
-        "TN",
-        "TN",
         "TN",
         "TN",
         "T",
         "T",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -25391,10 +25393,10 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        "",
-        ""
+        "TN",
+        "TN",
+        "TN",
+        "TN"
       ]
     },
     {
@@ -25482,10 +25484,10 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "D",
+        "D"
       ]
     },
     {
@@ -25582,9 +25584,9 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -25671,10 +25673,10 @@ window.DASHBOARD_DATA = {
         "TN",
         "TN",
         "TN",
-        "",
-        "",
-        "",
-        ""
+        "TN",
+        "TN",
+        "TN",
+        "TN"
       ]
     },
     {
@@ -25771,9 +25773,9 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -25863,9 +25865,9 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -25934,29 +25936,29 @@ window.DASHBOARD_DATA = {
         "D",
         "D",
         "D",
-        "T",
-        "T",
-        "T",
-        "AC",
-        "AC",
-        "AC",
-        "AC",
-        "AC",
-        "AC",
-        "AC",
-        "TN",
-        "TN",
-        "TN",
-        "TN",
-        "TN",
-        "TD",
-        "TD",
         "D",
         "D",
         "D",
-        "",
-        "",
-        ""
+        "D",
+        "AC",
+        "AC",
+        "AC",
+        "AC",
+        "AC",
+        "AC",
+        "AC",
+        "AC",
+        "AC",
+        "AC",
+        "AC",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "T",
+        "T",
+        "D"
       ]
     },
     {
@@ -26045,10 +26047,10 @@ window.DASHBOARD_DATA = {
         "T",
         "D",
         "D",
-        "",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -26134,6 +26136,10 @@ window.DASHBOARD_DATA = {
         "D",
         "D",
         "D",
+        "TD",
+        "TD",
+        "TD",
+        "TD",
         "T",
         "T",
         "T",
@@ -26142,11 +26148,7 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "T",
-        "T",
-        "",
-        "",
-        ""
+        "T"
       ]
     },
     {
@@ -26235,9 +26237,9 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -26316,12 +26318,12 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D"
       ]
     },
     {
@@ -26411,10 +26413,10 @@ window.DASHBOARD_DATA = {
         "TN",
         "TN",
         "TN",
-        "T",
-        "",
-        "",
-        ""
+        "TN",
+        "TN",
+        "TN",
+        "TN"
       ]
     },
     {
@@ -26505,10 +26507,10 @@ window.DASHBOARD_DATA = {
         "D",
         "D",
         "T",
-        "",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -26601,9 +26603,9 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        ""
+        "T",
+        "D",
+        "D"
       ]
     },
     {
@@ -26683,19 +26685,19 @@ window.DASHBOARD_DATA = {
         "T",
         "D",
         "D",
-        "T",
-        "T",
-        "T",
-        "T",
-        "T",
-        "T",
-        "T",
         "D",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "P",
+        "P",
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -26774,19 +26776,19 @@ window.DASHBOARD_DATA = {
         "D",
         "D",
         "D",
-        "TN",
-        "TN",
-        "TN",
-        "TN",
-        "TN",
-        "TN",
-        "TN",
-        "TN",
-        "TN",
-        "",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -26805,11 +26807,11 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "CHOFER DE BUS · Estado TARJA: VIGENTE · ACR: Acreditado",
+      "detalle": "CHOFER DE BUS · Estado TARJA: VIGENTE · ACR: Acreditado · Turno: 10X10 B",
       "certFinal": "PENDIENTE",
       "examenSalud": "",
       "categoria": "",
-      "turno": "",
+      "turno": "10X10 B",
       "acrSucal": "Acreditado",
       "correo": "SANHUEZALATA@GMAIL.COM",
       "fono": "957828095",
@@ -26865,19 +26867,19 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "TD",
-        "TD",
-        "TD",
-        "TD",
-        "TD",
-        "TD",
-        "TD",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "TN",
+        "TN",
+        "TN",
+        "TN",
+        "TN",
+        "TN",
+        "TN",
+        "TN",
+        "TN",
+        "TN",
+        "TN",
+        "TN",
+        "TN"
       ]
     },
     {
@@ -26964,7 +26966,7 @@ window.DASHBOARD_DATA = {
         "D",
         "D",
         "D",
-        "0",
+        "D",
         "T",
         "T",
         "T",
@@ -26973,10 +26975,10 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -26993,12 +26995,12 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "EXPERTO HSEC MANTENCION · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: . · Turno: 10x10 A",
+      "detalle": "EXPERTO HSEC MANTENCION · Estado TARJA: DE BAJA · incluye duplicados · ACR: Finiquitado · Cat: . · Turno: 10x10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": ".",
       "turno": "10x10 A",
-      "acrSucal": "Acreditado",
+      "acrSucal": "Finiquitado",
       "correo": "ROBERTOPSR@GMAIL.COM",
       "fono": "966049502",
       "inducionesOk": 1,
@@ -27055,13 +27057,13 @@ window.DASHBOARD_DATA = {
         "LM",
         "LM",
         "LM",
-        "TN",
-        "TN",
-        "0",
-        "",
-        "",
-        "",
-        "",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
         "LM",
         "LM",
         "LM",
@@ -27084,12 +27086,12 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "JEFE DE MANTENCION · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: . · Turno: 10X10 A",
+      "detalle": "JEFE DE MANTENCION · Estado TARJA: DE BAJA · ACR: Finiquitado · Cat: . · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": ".",
       "turno": "10X10 A",
-      "acrSucal": "Acreditado",
+      "acrSucal": "Finiquitado",
       "correo": "TITO_SARAVIAESTAY@HOTMAIL.COM",
       "fono": "975845105",
       "inducionesOk": 2,
@@ -27147,19 +27149,19 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN"
       ]
     },
     {
@@ -27226,6 +27228,9 @@ window.DASHBOARD_DATA = {
         "",
         "",
         "AC",
+        "AC",
+        "AC",
+        "AC",
         "T",
         "T",
         "T",
@@ -27240,10 +27245,7 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "T",
-        "",
-        "",
-        ""
+        "T"
       ]
     },
     {
@@ -27319,13 +27321,13 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "AC",
         "D",
         "D",
         "D",
         "D",
         "D",
         "D",
+        "D",
         "T",
         "T",
         "T",
@@ -27336,9 +27338,9 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        ""
+        "D",
+        "D",
+        "D"
       ]
     },
     {
@@ -27428,10 +27430,10 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "T",
+        "D"
       ]
     },
     {
@@ -27510,12 +27512,12 @@ window.DASHBOARD_DATA = {
         "TN",
         "TN",
         "TN",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D"
       ]
     },
     {
@@ -27597,9 +27599,9 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -27696,10 +27698,10 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        "",
-        ""
+        "D",
+        "D",
+        "D",
+        "D"
       ]
     },
     {
@@ -27776,17 +27778,17 @@ window.DASHBOARD_DATA = {
         "",
         "TN",
         "TN",
-        "0",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D"
       ]
     },
     {
@@ -27878,9 +27880,9 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -27967,9 +27969,9 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -27990,12 +27992,12 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "SOLDADOR PLANCHA · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: CALIFICACIÓN III · Turno: 10X10 A",
+      "detalle": "SOLDADOR PLANCHA · Estado TARJA: DE BAJA · incluye duplicados · ACR: Finiquitado · Cat: CALIFICACIÓN III · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "CALIFICACIÓN III",
       "turno": "10X10 A",
-      "acrSucal": "Acreditado",
+      "acrSucal": "Finiquitado",
       "correo": "FRANCISCOSUAZO976@GMAIL.COM",
       "fono": "927721593",
       "inducionesOk": 0,
@@ -28152,9 +28154,9 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        ""
+        "T",
+        "D",
+        "D"
       ]
     },
     {
@@ -28250,10 +28252,10 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        "",
-        ""
+        "D",
+        "D",
+        "D",
+        "D"
       ]
     },
     {
@@ -28339,12 +28341,12 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -28434,10 +28436,10 @@ window.DASHBOARD_DATA = {
         "TD",
         "TD",
         "TD",
-        "",
-        "",
-        "",
-        ""
+        "TN",
+        "TN",
+        "TN",
+        "TN"
       ]
     },
     {
@@ -28528,16 +28530,16 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "D",
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -28630,10 +28632,10 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -28649,12 +28651,12 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: MAESTRO MAYOR · Turno: 10X10 A",
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: DE BAJA · ACR: Finiquitado · Cat: MAESTRO MAYOR · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "MAESTRO MAYOR",
       "turno": "10X10 A",
-      "acrSucal": "Acreditado",
+      "acrSucal": "Finiquitado",
       "correo": "FRANCISCOTOROBULL70@GMAIL.COM",
       "fono": "940466528",
       "inducionesOk": 6,
@@ -28816,7 +28818,7 @@ window.DASHBOARD_DATA = {
         "TD",
         "TD",
         "TD",
-        "",
+        "D",
         "D",
         "D",
         "D"
@@ -28840,12 +28842,12 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: MAESTRO PRIMERA · Turno: 10X10 B",
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: DE BAJA · incluye duplicados · ACR: Finiquitado · Cat: MAESTRO PRIMERA · Turno: 10X10 B",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "MAESTRO PRIMERA",
       "turno": "10X10 B",
-      "acrSucal": "Acreditado",
+      "acrSucal": "Finiquitado",
       "correo": "PEDROTFUENTES2@GMAIL.COM",
       "fono": "9 4446 5677",
       "inducionesOk": 0,
@@ -28907,12 +28909,12 @@ window.DASHBOARD_DATA = {
         "TN",
         "TN",
         "TD",
-        "D",
-        "D",
-        "D",
-        "",
-        "",
-        ""
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN"
       ]
     },
     {
@@ -29017,12 +29019,12 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: . · Turno: 10X10 A",
+      "detalle": "MECANICO PRIMERA · Estado TARJA: DE BAJA · ACR: Finiquitado · Cat: . · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": ".",
       "turno": "10X10 A",
-      "acrSucal": "Acreditado",
+      "acrSucal": "Finiquitado",
       "correo": "EUGENIO.TORRESZE@GMAIL.COM",
       "fono": "951675068",
       "inducionesOk": 0,
@@ -29066,7 +29068,7 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "TD",
+        "T",
         "D",
         "D",
         "D",
@@ -29085,11 +29087,11 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN"
       ]
     },
     {
@@ -29182,9 +29184,9 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        ""
+        "D",
+        "D",
+        "D"
       ]
     },
     {
@@ -29272,9 +29274,9 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -29457,8 +29459,8 @@ window.DASHBOARD_DATA = {
         "D",
         "D",
         "D",
-        "T",
-        "T",
+        "TN",
+        "TN",
         "TN",
         "TN",
         "T",
@@ -29467,9 +29469,9 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        ""
+        "D",
+        "D",
+        "D"
       ]
     },
     {
@@ -29569,12 +29571,12 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA /ANDAMIE · Estado TARJA: VIGENTE · ACR: Observada · Cat: . · Turno: 10X10 B",
+      "detalle": "MECANICO PRIMERA /ANDAMIE · Estado TARJA: DE BAJA · ACR: Finiquitado · Cat: . · Turno: 10X10 B",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": ".",
       "turno": "10X10 B",
-      "acrSucal": "Observada",
+      "acrSucal": "Finiquitado",
       "correo": "JOELVALDIVIASALDANA3@GMAIL.COM",
       "fono": "973819430",
       "inducionesOk": 0,
@@ -29628,7 +29630,6 @@ window.DASHBOARD_DATA = {
         "AC",
         "AC",
         "AC",
-        "D",
         "FN",
         "FN",
         "FN",
@@ -29636,12 +29637,13 @@ window.DASHBOARD_DATA = {
         "FN",
         "FN",
         "FN",
-        "D",
-        "D",
-        "D",
-        "",
-        "",
-        ""
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN"
       ]
     },
     {
@@ -29735,9 +29737,9 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        ""
+        "T",
+        "D",
+        "D"
       ]
     },
     {
@@ -29835,9 +29837,9 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        ""
+        "D",
+        "D",
+        "D"
       ]
     },
     {
@@ -29938,12 +29940,12 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "SOLDADOR PLANCHA · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: CALIFICACIÓN III · Turno: 10X10 A",
+      "detalle": "SOLDADOR PLANCHA · Estado TARJA: DE BAJA · ACR: Finiquitado · Cat: CALIFICACIÓN III · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "CALIFICACIÓN III",
       "turno": "10X10 A",
-      "acrSucal": "Acreditado",
+      "acrSucal": "Finiquitado",
       "correo": "VALENZUELA.ORELLANA97@GMAIL.COM",
       "fono": "937762074",
       "inducionesOk": 6,
@@ -29993,13 +29995,13 @@ window.DASHBOARD_DATA = {
         "D",
         "D",
         "D",
+        "T",
+        "T",
         "TN",
         "TN",
         "TN",
         "TN",
         "TN",
-        "TN",
-        "TN",
         "T",
         "T",
         "T",
@@ -30008,16 +30010,16 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN"
       ]
     },
     {
@@ -30099,9 +30101,9 @@ window.DASHBOARD_DATA = {
         "AC",
         "AC",
         "T",
-        "LM",
-        "LM",
-        "LM",
+        "T",
+        "T",
+        "T",
         "LM",
         "LM",
         "LM",
@@ -30132,12 +30134,12 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA · Estado TARJA: VIGENTE · incluye duplicados · ACR: Acreditado · Cat: . · Turno: 10X10 A",
+      "detalle": "MECANICO PRIMERA · Estado TARJA: DE BAJA · incluye duplicados · ACR: Finiquitado · Cat: . · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": ".",
       "turno": "10X10 A",
-      "acrSucal": "Acreditado",
+      "acrSucal": "Finiquitado",
       "correo": "ESTEBAN69VAZQUEZ@GMAIL.COM",
       "fono": "986700868",
       "inducionesOk": 2,
@@ -30194,20 +30196,20 @@ window.DASHBOARD_DATA = {
         "D",
         "D",
         "D",
+        "D",
         "TN",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "TN",
+        "TN",
+        "TN",
+        "TN",
+        "TN",
+        "TN",
+        "TN",
+        "TN",
+        "FN",
+        "FN",
+        "FN",
+        "FN"
       ]
     },
     {
@@ -30299,9 +30301,9 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        ""
+        "D",
+        "D",
+        "D"
       ]
     },
     {
@@ -30384,9 +30386,9 @@ window.DASHBOARD_DATA = {
         "TD",
         "TD",
         "TD",
-        "",
-        "",
-        "",
+        "D",
+        "D",
+        "D",
         "D",
         "D",
         "D"
@@ -30408,12 +30410,12 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: MAESTRO PRIMERA · Turno: 10X10 A",
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: DE BAJA · ACR: Finiquitado · Cat: MAESTRO PRIMERA · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "MAESTRO PRIMERA",
       "turno": "10X10 A",
-      "acrSucal": "Acreditado",
+      "acrSucal": "Finiquitado",
       "correo": "JAIROVVPOLA@GMAIL.COM",
       "fono": "991489541",
       "inducionesOk": 2,
@@ -30465,25 +30467,25 @@ window.DASHBOARD_DATA = {
         "TN",
         "TN",
         "TN",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN"
       ]
     },
     {
@@ -30664,10 +30666,10 @@ window.DASHBOARD_DATA = {
         "TD",
         "TD",
         "TD",
-        "",
-        "",
-        "",
-        ""
+        "TN",
+        "TN",
+        "TN",
+        "TN"
       ]
     },
     {
@@ -30759,9 +30761,9 @@ window.DASHBOARD_DATA = {
         "D",
         "T",
         "T",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -30844,17 +30846,17 @@ window.DASHBOARD_DATA = {
         "D",
         "D",
         "D",
+        "AC",
+        "AC",
+        "AC",
+        "AC",
+        "AC",
+        "AC",
+        "AC",
+        "AC",
         "T",
         "T",
-        "T",
-        "T",
-        "D",
-        "",
-        "",
-        "",
-        "D",
-        "D",
-        "D"
+        "T"
       ]
     },
     {
@@ -30875,11 +30877,11 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · ACR: Acreditado",
+      "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: VIGENTE · ACR: Acreditado · Turno: 10X10 B",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "",
-      "turno": "",
+      "turno": "10X10 B",
       "acrSucal": "Acreditado",
       "correo": "RICAR2_HD@HOTMAIL.COM",
       "fono": "992947471",
@@ -30944,10 +30946,10 @@ window.DASHBOARD_DATA = {
         "TN",
         "TN",
         "TN",
-        "",
-        "",
-        "",
-        ""
+        "TN",
+        "TN",
+        "TN",
+        "TN"
       ]
     },
     {
@@ -30965,12 +30967,12 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO PRIMERA /ANDAMIE · Estado TARJA: VIGENTE · ACR: Acreditado",
+      "detalle": "MECANICO PRIMERA /ANDAMIE · Estado TARJA: DE BAJA · ACR: Finiquitado",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": "",
       "turno": "",
-      "acrSucal": "Acreditado",
+      "acrSucal": "Finiquitado",
       "correo": "JUANITO.VERGARAYAUPE@GMAIL.COM",
       "fono": "956951409",
       "inducionesOk": 0,
@@ -31019,25 +31021,25 @@ window.DASHBOARD_DATA = {
         "",
         "",
         "",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "T",
-        "T",
-        "F",
-        "",
-        "",
-        "",
-        "",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D",
-        "D"
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN"
       ]
     },
     {
@@ -31147,12 +31149,12 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "SUPERV MECANICO MANTENCIO · Estado TARJA: VIGENTE · ACR: Acreditado · Cat: . · Turno: 10X10 A",
+      "detalle": "SUPERV MECANICO MANTENCIO · Estado TARJA: DE BAJA · ACR: Finiquitado · Cat: . · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
       "categoria": ".",
       "turno": "10X10 A",
-      "acrSucal": "Acreditado",
+      "acrSucal": "Finiquitado",
       "correo": "DVILLAGRAICM@GMAIL.COM",
       "fono": "973603461",
       "inducionesOk": 2,
@@ -31204,8 +31206,6 @@ window.DASHBOARD_DATA = {
         "D",
         "D",
         "D",
-        "AC",
-        "",
         "T",
         "T",
         "T",
@@ -31217,12 +31217,14 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "T",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN",
+        "FN"
       ]
     },
     {
@@ -31314,11 +31316,11 @@ window.DASHBOARD_DATA = {
         "TN",
         "TN",
         "TN",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "TN",
+        "TN",
+        "TN",
+        "TN",
+        "TN"
       ]
     },
     {
@@ -31499,9 +31501,9 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "T"
       ]
     },
     {
@@ -31591,10 +31593,10 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        "",
-        ""
+        "T",
+        "T",
+        "T",
+        "D"
       ]
     },
     {
@@ -31679,9 +31681,9 @@ window.DASHBOARD_DATA = {
         "D",
         "D",
         "D",
-        "",
-        "",
-        ""
+        "D",
+        "D",
+        "D"
       ]
     },
     {
@@ -31700,12 +31702,12 @@ window.DASHBOARD_DATA = {
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
-      "detalle": "MECANICO · Estado TARJA: DE BAJA · ACR: Acreditado · Cat: MAESTRO MAYOR · Turno: 10X10 A",
+      "detalle": "MECANICO · Estado TARJA: DE BAJA · ACR: Finiquitado · Cat: MAESTRO MAYOR · Turno: 10X10 A",
       "certFinal": "PENDIENTE",
       "examenSalud": "",
       "categoria": "MAESTRO MAYOR",
       "turno": "10X10 A",
-      "acrSucal": "Acreditado",
+      "acrSucal": "Finiquitado",
       "correo": "FLAVIOZURITA.ANDIA@GMAIL.COM",
       "fono": "+569 97122906 / +569 87589300",
       "inducionesOk": 0,
@@ -31768,11 +31770,11 @@ window.DASHBOARD_DATA = {
         "TD",
         "TD",
         "TD",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "D",
+        "D",
+        "D",
+        "D",
+        "D"
       ]
     },
     {
@@ -31870,9 +31872,9 @@ window.DASHBOARD_DATA = {
         "T",
         "T",
         "T",
-        "",
-        "",
-        ""
+        "T",
+        "D",
+        "D"
       ]
     }
   ],
@@ -32060,7 +32062,7 @@ window.DASHBOARD_DATA = {
     },
     {
       "title": "Certificados finales (TARJA)",
-      "detail": "296 trabajadores aprobados y 28 pendientes según hoja TARJA."
+      "detail": "306 trabajadores aprobados y 28 pendientes según hoja TARJA."
     }
   ]
 };

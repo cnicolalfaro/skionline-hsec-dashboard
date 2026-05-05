@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "04/05/2026 17:24",
+  "generatedAt": "04/05/2026 20:57",
   "sourceFile": "REGISTRO_FINAL_CURSOS.xlsx",
   "kpis": {
     "totalArchivos": 2697,
@@ -17857,12 +17857,13 @@ window.DASHBOARD_DATA = {
       "rut": "11740543-5",
       "folderName": "MORALES_GAMBOA_ANTONIO_ENRIQUE_117405435",
       "folderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/MORALES_GAMBOA_ANTONIO_ENRIQUE_117405435?csf=1&web=1&e=d6nH9p",
-      "cursos": "AYB, EPP, EVALUACIONES IRL, EXT, IRL GENERAL, OPR, PA",
+      "cursos": "AYB, EPP, EVALUACIONES IRL, EXT, IRL ESPECIFICA, IRL GENERAL, OPR, PA",
       "courseList": [
         "AYB",
         "EPP",
         "EVALUACIONES IRL",
         "EXT",
+        "IRL ESPECIFICA",
         "IRL GENERAL",
         "OPR",
         "PA"

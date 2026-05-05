@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "04/05/2026 21:09",
+  "generatedAt": "04/05/2026 21:46",
   "sourceFile": "REGISTRO_FINAL_CURSOS.xlsx",
   "kpis": {
     "totalArchivos": 2697,
@@ -2056,9 +2056,11 @@ window.DASHBOARD_DATA = {
       "rut": "16969757-4",
       "folderName": "ARAYA_CONTRERAS_CRISTIAN_BRIAN_169697574",
       "folderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/ARAYA_CONTRERAS_CRISTIAN_BRIAN_169697574?csf=1&web=1&e=d6nH9p",
-      "cursos": "EVALUACIONES IRL",
+      "cursos": "EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
       "courseList": [
-        "EVALUACIONES IRL"
+        "EVALUACIONES IRL",
+        "IRL ESPECIFICA",
+        "IRL GENERAL"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
@@ -3532,12 +3534,14 @@ window.DASHBOARD_DATA = {
       "rut": "17875209-K",
       "folderName": "BARRA_TEJEDA_EMANUEL_ABSALON_17875209K",
       "folderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/BARRA_TEJEDA_EMANUEL_ABSALON_17875209K?csf=1&web=1&e=d6nH9p",
-      "cursos": "AYB, EPP, EVALUACIONES IRL, EXT, OPR, PA",
+      "cursos": "AYB, EPP, EVALUACIONES IRL, EXT, IRL ESPECIFICA, IRL GENERAL, OPR, PA",
       "courseList": [
         "AYB",
         "EPP",
         "EVALUACIONES IRL",
         "EXT",
+        "IRL ESPECIFICA",
+        "IRL GENERAL",
         "OPR",
         "PA"
       ],
@@ -7895,11 +7899,12 @@ window.DASHBOARD_DATA = {
       "rut": "17126594-0",
       "folderName": "DANUS_PROVOSTE_GIOVANNY_EVANHOLY_171265940",
       "folderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/DANUS_PROVOSTE_GIOVANNY_EVANHOLY_171265940?csf=1&web=1&e=d6nH9p",
-      "cursos": "EPP, EVALUACIONES IRL, EXT, IRL GENERAL, OPR, PA",
+      "cursos": "EPP, EVALUACIONES IRL, EXT, IRL ESPECIFICA, IRL GENERAL, OPR, PA",
       "courseList": [
         "EPP",
         "EVALUACIONES IRL",
         "EXT",
+        "IRL ESPECIFICA",
         "IRL GENERAL",
         "OPR",
         "PA"
@@ -11902,11 +11907,13 @@ window.DASHBOARD_DATA = {
       "rut": "14018586-8",
       "folderName": "GARRIDO_FIGUEROA_SEBASTIAN_MARCELO_140185868",
       "folderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/GARRIDO_FIGUEROA_SEBASTIAN_MARCELO_140185868?csf=1&web=1&e=d6nH9p",
-      "cursos": "CAD, EVALUACIONES IRL, EXT, OPR, PA",
+      "cursos": "CAD, EVALUACIONES IRL, EXT, IRL ESPECIFICA, IRL GENERAL, OPR, PA",
       "courseList": [
         "CAD",
         "EVALUACIONES IRL",
         "EXT",
+        "IRL ESPECIFICA",
+        "IRL GENERAL",
         "OPR",
         "PA"
       ],
@@ -15921,12 +15928,14 @@ window.DASHBOARD_DATA = {
       "rut": "14904401-9",
       "folderName": "MARAMBIO_VERGARA_ORLANDO_DAVID_149044019",
       "folderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/MARAMBIO_VERGARA_ORLANDO_DAVID_149044019?csf=1&web=1&e=d6nH9p",
-      "cursos": "AYB, CAD, EPP, EVALUACIONES IRL, OPR, PA",
+      "cursos": "AYB, CAD, EPP, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL, OPR, PA",
       "courseList": [
         "AYB",
         "CAD",
         "EPP",
         "EVALUACIONES IRL",
+        "IRL ESPECIFICA",
+        "IRL GENERAL",
         "OPR",
         "PA"
       ],

@@ -715,13 +715,16 @@ def main() -> None:
             nombre_persona = get_cell_value(row, headers, 'NOMBRE_PERSONA')
             nombre_archivo = get_cell_value(row, headers, 'NOMBRE_ARCHIVO')
             person_key = fingerprint(nombre_persona)
-            if not person_key:
+            rut_candidates = extract_rut_candidates(nombre_persona) + extract_rut_candidates(nombre_archivo)
+            # Si no hay tokens nombre (p.ej. "IRL GENERAL 17875209K") pero sí hay RUT,
+            # igualmente agregar la entry para que cruce por RUT con la TARJA.
+            if not person_key and not rut_candidates:
                 continue
 
             course_name = format_course_name(sheet_name)
             entry = {
                 'name': nombre_persona,
-                'rutCandidates': extract_rut_candidates(nombre_persona) + extract_rut_candidates(nombre_archivo),
+                'rutCandidates': rut_candidates,
                 'course': '',
                 'flag': '',
                 'note': '',

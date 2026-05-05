@@ -586,17 +586,24 @@ SIN_MATCH_DIRS = {
 }
 
 
-def collect_sin_match_files() -> list[dict[str, Any]]:
-    """Escanea las carpetas IRL en disco buscando archivos con prefijo _SIN_MATCH_.
+def collect_sin_match_files(tarja_rut_set: set[str] | None = None) -> list[dict[str, Any]]:
+    """Escanea las carpetas IRL en disco buscando archivos sin match con la TARJA.
 
-    Devuelve una lista lista para serializar con carpeta, archivo y RUT extraído.
+    Incluye:
+      1. Archivos con prefijo `_SIN_MATCH_` en su nombre (marcados explícitamente
+         por el flujo de renombrado/duplicados).
+      2. Archivos cuyo RUT extraído del nombre NO existe en la TARJA actual
+         (la persona tiene documentos cargados pero no aparece en la planilla).
     """
     diplomas_root = BASE_DIR.parent / 'renombrar' / 'Diplomas'
     if not diplomas_root.exists():
         return []
 
     rut_pattern = re.compile(r'(?<!\d)(\d{7,9}[kK]?)(?!\d)')
+    tarja_rut_set = tarja_rut_set or set()
     results: list[dict[str, Any]] = []
+    seen: set[tuple[str, str]] = set()
+
     for folder_name, label in SIN_MATCH_DIRS.items():
         folder = diplomas_root / folder_name
         if not folder.is_dir():
@@ -605,23 +612,45 @@ def collect_sin_match_files() -> list[dict[str, Any]]:
             if not entry.is_file():
                 continue
             name = entry.name
-            if '_SIN_MATCH_' not in name.upper():
-                continue
             base = entry.stem
-            # texto luego del último _SIN_MATCH_
-            match = re.split(r'_SIN_MATCH_', base, flags=re.IGNORECASE)
-            leftover = match[-1] if match else base
-            ruts = rut_pattern.findall(leftover)
-            rut = ruts[0] if ruts else ''
-            # Nombre "limpio" (sin RUT) para intentar mostrar persona si viene
-            hint = re.sub(r'[_\-]+', ' ', leftover).strip()
-            if rut:
-                hint = hint.replace(rut, '').strip(' _-')
+            upper = name.upper()
+            is_explicit = '_SIN_MATCH_' in upper
+
+            if is_explicit:
+                match = re.split(r'_SIN_MATCH_', base, flags=re.IGNORECASE)
+                leftover = match[-1] if match else base
+                ruts_found = rut_pattern.findall(leftover)
+                rut_raw = ruts_found[0] if ruts_found else ''
+                hint_text = re.sub(r'[_\-]+', ' ', leftover).strip()
+                if rut_raw:
+                    hint_text = hint_text.replace(rut_raw, '').strip(' _-')
+                hint = hint_text or 'Sin nombre detectable'
+            else:
+                # Buscar RUT en todo el nombre del archivo
+                ruts_found = rut_pattern.findall(base)
+                if not ruts_found:
+                    continue
+                rut_raw = ruts_found[0]
+                rut_canon = clean_rut(rut_raw)
+                # Solo incluir si el RUT NO está en la TARJA
+                if not rut_canon or rut_canon in tarja_rut_set:
+                    continue
+                # Limpiar nombre del archivo para usar como hint
+                hint_text = re.sub(r'[_\-]+', ' ', base).strip()
+                hint_text = re.sub(r'\b' + re.escape(rut_raw) + r'\b', '', hint_text).strip()
+                hint = hint_text or 'RUT no presente en TARJA'
+
+            rut_formatted = format_rut(rut_raw) if rut_raw else ''
+            key = (folder_name, name)
+            if key in seen:
+                continue
+            seen.add(key)
+
             results.append({
                 'folder': folder_name,
                 'folderLabel': label,
                 'file': name,
-                'rut': rut,
+                'rut': rut_formatted,
                 'hint': hint,
             })
     return results
@@ -711,7 +740,9 @@ def main() -> None:
 
     external_rut_lookup = load_external_rut_lookup()
     records, sin_registros, shift_dates = build_tarja_records(wb, evidence_entries, external_rut_lookup)
-    sin_match_files = collect_sin_match_files()
+    tarja_rut_set = {clean_rut(r.get('rut', '')) for r in records if r.get('rut')}
+    tarja_rut_set.discard('')
+    sin_match_files = collect_sin_match_files(tarja_rut_set)
 
     total_archivos = summary_map.get('TOTAL', {}).get('total', sum(item['total'] for item in course_totals))
     documentos_unicos = sum(item['unicos'] for item in summary_rows if isinstance(item.get('unicos'), int))

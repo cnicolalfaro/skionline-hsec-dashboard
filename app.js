@@ -435,7 +435,7 @@ function renderSinMatch(items, sinMatchFolderUrl) {
     return;
   }
   if (subtitle) {
-    subtitle.textContent = `Estos ${list.length} documentos no se pudieron asociar a ninguna persona de la TARJA (RUT no encontrado, RUT ausente del nombre o typo).`;
+    subtitle.textContent = `Estos ${list.length} documentos pertenecen a personas cuyo RUT no está en la TARJA actual (sea por marca _SIN_MATCH_ o porque el RUT del archivo no aparece en la planilla).`;
   }
   body.innerHTML = list.map(item => `
     <tr>

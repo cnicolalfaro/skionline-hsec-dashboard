@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "04/05/2026 20:57",
+  "generatedAt": "04/05/2026 21:09",
   "sourceFile": "REGISTRO_FINAL_CURSOS.xlsx",
   "kpis": {
     "totalArchivos": 2697,
@@ -31995,6 +31995,48 @@ window.DASHBOARD_DATA = {
       "hint": "Matias Vega IRL GENERAL"
     },
     {
+      "folder": "IRL GENERAL",
+      "folderLabel": "IRL General",
+      "file": "IRL GENERAL 120841289.pdf",
+      "rut": "12084128-9",
+      "hint": "IRL GENERAL"
+    },
+    {
+      "folder": "IRL GENERAL",
+      "folderLabel": "IRL General",
+      "file": "IRL GENERAL 17144117K.pdf",
+      "rut": "17144117-K",
+      "hint": "IRL GENERAL"
+    },
+    {
+      "folder": "IRL GENERAL",
+      "folderLabel": "IRL General",
+      "file": "IRL GENERAL 172107958.pdf",
+      "rut": "17210795-8",
+      "hint": "IRL GENERAL"
+    },
+    {
+      "folder": "IRL GENERAL",
+      "folderLabel": "IRL General",
+      "file": "IRL GENERAL 185839354.pdf",
+      "rut": "18583935-4",
+      "hint": "IRL GENERAL"
+    },
+    {
+      "folder": "IRL GENERAL",
+      "folderLabel": "IRL General",
+      "file": "IRL GENERAL 18686011K.pdf",
+      "rut": "18686011-K",
+      "hint": "IRL GENERAL"
+    },
+    {
+      "folder": "IRL GENERAL",
+      "folderLabel": "IRL General",
+      "file": "IRL GENERAL 97567757.pdf",
+      "rut": "9756775-7",
+      "hint": "IRL GENERAL"
+    },
+    {
       "folder": "IRL_GENERAL_FORMS",
       "folderLabel": "IRL General (Forms)",
       "file": "_SIN_MATCH_Jaritza Sanchez irl vega .jpeg",
@@ -32012,15 +32054,57 @@ window.DASHBOARD_DATA = {
       "folder": "IRL ESPECIFICA",
       "folderLabel": "IRL Específica",
       "file": "_SIN_MATCH_216229673 irl especifica.pdf",
-      "rut": "216229673",
+      "rut": "21622967-3",
       "hint": "irl especifica"
     },
     {
       "folder": "IRL ESPECIFICA",
       "folderLabel": "IRL Específica",
       "file": "_SIN_MATCH_LUIS AGUILAR JEFE DE OPERACIONES IRL ESPECIFICA 16032026.pdf",
-      "rut": "16032026",
+      "rut": "1603202-6",
       "hint": "LUIS AGUILAR JEFE DE OPERACIONES IRL ESPECIFICA"
+    },
+    {
+      "folder": "IRL ESPECIFICA",
+      "folderLabel": "IRL Específica",
+      "file": "IRL ESPECIFICA  97567757.pdf",
+      "rut": "9756775-7",
+      "hint": "IRL ESPECIFICA"
+    },
+    {
+      "folder": "IRL ESPECIFICA",
+      "folderLabel": "IRL Específica",
+      "file": "IRL ESPECIFICA 120841289.pdf",
+      "rut": "12084128-9",
+      "hint": "IRL ESPECIFICA"
+    },
+    {
+      "folder": "IRL ESPECIFICA",
+      "folderLabel": "IRL Específica",
+      "file": "IRL ESPECIFICA 17144117K.pdf",
+      "rut": "17144117-K",
+      "hint": "IRL ESPECIFICA"
+    },
+    {
+      "folder": "IRL ESPECIFICA",
+      "folderLabel": "IRL Específica",
+      "file": "IRL ESPECIFICA 172107958.pdf",
+      "rut": "17210795-8",
+      "hint": "IRL ESPECIFICA"
+    },
+    {
+      "folder": "IRL ESPECIFICA",
+      "folderLabel": "IRL Específica",
+      "file": "IRL ESPECIFICA 185839354.pdf",
+      "rut": "18583935-4",
+      "hint": "IRL ESPECIFICA"
+    },
+    {
+      "folder": "IRL ESPECIFICA",
+      "folderLabel": "IRL Específica",
+      "file": "IRL ESPECIFICA 18686011K.pdf",
+      "rut": "18686011-K",
+      "hint": "IRL ESPECIFICA"
     },
     {
       "folder": "EVALUACIONES IRL",
@@ -32028,6 +32112,48 @@ window.DASHBOARD_DATA = {
       "file": "_SIN_MATCH_EVALUACION IRL HANS LAGOS.pdf",
       "rut": "",
       "hint": "EVALUACION IRL HANS LAGOS"
+    },
+    {
+      "folder": "EVALUACIONES IRL",
+      "folderLabel": "Evaluaciones IRL",
+      "file": "EVALUACION IRL 120841289.pdf",
+      "rut": "12084128-9",
+      "hint": "EVALUACION IRL"
+    },
+    {
+      "folder": "EVALUACIONES IRL",
+      "folderLabel": "Evaluaciones IRL",
+      "file": "EVALUACION IRL 17144117K.pdf",
+      "rut": "17144117-K",
+      "hint": "EVALUACION IRL"
+    },
+    {
+      "folder": "EVALUACIONES IRL",
+      "folderLabel": "Evaluaciones IRL",
+      "file": "EVALUACION IRL 172107958.pdf",
+      "rut": "17210795-8",
+      "hint": "EVALUACION IRL"
+    },
+    {
+      "folder": "EVALUACIONES IRL",
+      "folderLabel": "Evaluaciones IRL",
+      "file": "EVALUACION IRL 185839354.pdf",
+      "rut": "18583935-4",
+      "hint": "EVALUACION IRL"
+    },
+    {
+      "folder": "EVALUACIONES IRL",
+      "folderLabel": "Evaluaciones IRL",
+      "file": "EVALUACION IRL 18686011K.pdf",
+      "rut": "18686011-K",
+      "hint": "EVALUACION IRL"
+    },
+    {
+      "folder": "EVALUACIONES IRL",
+      "folderLabel": "Evaluaciones IRL",
+      "file": "EVALUACION IRL 97567757.pdf",
+      "rut": "9756775-7",
+      "hint": "EVALUACION IRL"
     }
   ],
   "sinMatchFolderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/TRABAJADOR%20SIN%20MATCH%20CON%20TARJA?csf=1&web=1&e=W1n3aM",

@@ -1,9 +1,9 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "12/05/2026 11:55",
+  "generatedAt": "12/05/2026 13:39",
   "sourceFile": "REGISTRO_FINAL_CURSOS.xlsx",
   "kpis": {
-    "totalArchivos": 2725,
-    "documentosUnicos": 1912,
+    "totalArchivos": 2730,
+    "documentosUnicos": 1917,
     "duplicados": 686,
     "noLegibles": 6,
     "trabajadoresTarja": 345,
@@ -37,11 +37,11 @@ window.DASHBOARD_DATA = {
     },
     {
       "curso": "IRL Específica",
-      "total": 195
+      "total": 198
     },
     {
       "curso": "Evaluaciones IRL",
-      "total": 193
+      "total": 195
     },
     {
       "curso": "Conducción a la Defensiva",
@@ -103,13 +103,13 @@ window.DASHBOARD_DATA = {
     },
     {
       "curso": "IRL Específica",
-      "total": 195,
-      "unicos": 195
+      "total": 198,
+      "unicos": 198
     },
     {
       "curso": "Evaluaciones IRL",
-      "total": 193,
-      "unicos": 192
+      "total": 195,
+      "unicos": 194
     },
     {
       "curso": "NO LEGIBLE",
@@ -123,7 +123,7 @@ window.DASHBOARD_DATA = {
     },
     {
       "curso": "TOTAL",
-      "total": 2725,
+      "total": 2730,
       "unicos": null
     }
   ],
@@ -710,11 +710,12 @@ window.DASHBOARD_DATA = {
       "rut": "08333324-3",
       "folderName": "AGUILERA_BALBOA_LUIS_CARLOS_083333243",
       "folderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/AGUILERA_BALBOA_LUIS_CARLOS_083333243?csf=1&web=1&e=d6nH9p",
-      "cursos": "AYB, EPP, EVALUACIONES IRL, IRL GENERAL, OPR, PA",
+      "cursos": "AYB, EPP, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL, OPR, PA",
       "courseList": [
         "AYB",
         "EPP",
         "EVALUACIONES IRL",
+        "IRL ESPECIFICA",
         "IRL GENERAL",
         "OPR",
         "PA"
@@ -17999,10 +18000,12 @@ window.DASHBOARD_DATA = {
       "rut": "16753392-2",
       "folderName": "JELDEZ_VARGAS_FRANCISCO_JAVIER_167533922",
       "folderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/JELDEZ_VARGAS_FRANCISCO_JAVIER_167533922?csf=1&web=1&e=d6nH9p",
-      "cursos": "EPP, EXT, IRL GENERAL, PA",
+      "cursos": "EPP, EVALUACIONES IRL, EXT, IRL ESPECIFICA, IRL GENERAL, PA",
       "courseList": [
         "EPP",
+        "EVALUACIONES IRL",
         "EXT",
+        "IRL ESPECIFICA",
         "IRL GENERAL",
         "PA"
       ],
@@ -25394,11 +25397,13 @@ window.DASHBOARD_DATA = {
       "rut": "13986320-8",
       "folderName": "OYANEDER_CACERES_HECTOR_ANDRES_139863208",
       "folderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/OYANEDER_CACERES_HECTOR_ANDRES_139863208?csf=1&web=1&e=d6nH9p",
-      "cursos": "AYB, EPP, EXT, OPR, PA",
+      "cursos": "AYB, EPP, EVALUACIONES IRL, EXT, IRL ESPECIFICA, OPR, PA",
       "courseList": [
         "AYB",
         "EPP",
+        "EVALUACIONES IRL",
         "EXT",
+        "IRL ESPECIFICA",
         "OPR",
         "PA"
       ],

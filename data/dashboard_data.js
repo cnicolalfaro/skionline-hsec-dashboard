@@ -1,14 +1,14 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "11/05/2026 17:51",
+  "generatedAt": "12/05/2026 11:55",
   "sourceFile": "REGISTRO_FINAL_CURSOS.xlsx",
   "kpis": {
-    "totalArchivos": 2697,
-    "documentosUnicos": 1884,
+    "totalArchivos": 2725,
+    "documentosUnicos": 1912,
     "duplicados": 686,
     "noLegibles": 6,
     "trabajadoresTarja": 345,
-    "conRegistros": 300,
-    "sinRegistros": 45
+    "conRegistros": 305,
+    "sinRegistros": 40
   },
   "courseTotals": [
     {
@@ -33,15 +33,15 @@ window.DASHBOARD_DATA = {
     },
     {
       "curso": "IRL General",
-      "total": 241
+      "total": 251
     },
     {
       "curso": "IRL Específica",
-      "total": 186
+      "total": 195
     },
     {
       "curso": "Evaluaciones IRL",
-      "total": 184
+      "total": 193
     },
     {
       "curso": "Conducción a la Defensiva",
@@ -51,12 +51,12 @@ window.DASHBOARD_DATA = {
   "statusBreakdown": [
     {
       "label": "Con registros",
-      "value": 300,
+      "value": 305,
       "color": "#51b847"
     },
     {
       "label": "Sin registros",
-      "value": 45,
+      "value": 40,
       "color": "#ff7a59"
     },
     {
@@ -98,18 +98,18 @@ window.DASHBOARD_DATA = {
     },
     {
       "curso": "IRL General",
-      "total": 241,
-      "unicos": 240
+      "total": 251,
+      "unicos": 250
     },
     {
       "curso": "IRL Específica",
-      "total": 186,
-      "unicos": 186
+      "total": 195,
+      "unicos": 195
     },
     {
       "curso": "Evaluaciones IRL",
-      "total": 184,
-      "unicos": 183
+      "total": 193,
+      "unicos": 192
     },
     {
       "curso": "NO LEGIBLE",
@@ -123,7 +123,7 @@ window.DASHBOARD_DATA = {
     },
     {
       "curso": "TOTAL",
-      "total": 2697,
+      "total": 2725,
       "unicos": null
     }
   ],
@@ -20801,9 +20801,12 @@ window.DASHBOARD_DATA = {
       "rut": "15659546-2",
       "folderName": "MEDINA_CARRASCO_LUIS_NOLBERTO_156595462",
       "folderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/MEDINA_CARRASCO_LUIS_NOLBERTO_156595462?csf=1&web=1&e=d6nH9p",
-      "cursos": "EXT, OPR, PA",
+      "cursos": "EVALUACIONES IRL, EXT, IRL ESPECIFICA, IRL GENERAL, OPR, PA",
       "courseList": [
+        "EVALUACIONES IRL",
         "EXT",
+        "IRL ESPECIFICA",
+        "IRL GENERAL",
         "OPR",
         "PA"
       ],
@@ -21981,10 +21984,14 @@ window.DASHBOARD_DATA = {
       "rut": "13388692-3",
       "folderName": "MONTANARES_MONTANARES_CARLOS_MOISES_133886923",
       "folderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/MONTANARES_MONTANARES_CARLOS_MOISES_133886923?csf=1&web=1&e=d6nH9p",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
+      "cursos": "EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
+      "courseList": [
+        "EVALUACIONES IRL",
+        "IRL ESPECIFICA",
+        "IRL GENERAL"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
       "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: Sin estado · ACR: Acreditado · Cat: MAESTRO PRIMERA",
       "certFinal": "APROBADO",
       "examenSalud": "",
@@ -23850,10 +23857,14 @@ window.DASHBOARD_DATA = {
       "rut": "14355368-K",
       "folderName": "NUNEZ_SANHUEZA_FREDDY_ALEJANDRO_14355368K",
       "folderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/NUNEZ_SANHUEZA_FREDDY_ALEJANDRO_14355368K?csf=1&web=1&e=d6nH9p",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
+      "cursos": "EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
+      "courseList": [
+        "EVALUACIONES IRL",
+        "IRL ESPECIFICA",
+        "IRL GENERAL"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
       "detalle": "MONTAJE EQUIPO MECANICO · Estado TARJA: Sin estado · ACR: Acreditado · Cat: MAESTRO MAYOR",
       "certFinal": "APROBADO",
       "examenSalud": "",
@@ -26091,10 +26102,14 @@ window.DASHBOARD_DATA = {
       "rut": "19945877-9",
       "folderName": "PARADA_PARRA_MATIAS_CRISTOBAL_199458779",
       "folderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/PARADA_PARRA_MATIAS_CRISTOBAL_199458779?csf=1&web=1&e=d6nH9p",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
+      "cursos": "EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
+      "courseList": [
+        "EVALUACIONES IRL",
+        "IRL ESPECIFICA",
+        "IRL GENERAL"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
       "detalle": "MONTAJE EQUIPO MECANICO · Estado TARJA: Sin estado · ACR: Acreditado · Cat: MAESTRO PRIMERA",
       "certFinal": "APROBADO",
       "examenSalud": "",
@@ -30913,10 +30928,14 @@ window.DASHBOARD_DATA = {
       "rut": "15647775-3",
       "folderName": "ROA_ZAPATA_VICTOR_ALEJANDRO_156477753",
       "folderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/ROA_ZAPATA_VICTOR_ALEJANDRO_156477753?csf=1&web=1&e=d6nH9p",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
+      "cursos": "EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
+      "courseList": [
+        "EVALUACIONES IRL",
+        "IRL ESPECIFICA",
+        "IRL GENERAL"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
       "detalle": "MONTAJE ESTRUCTURERO · Estado TARJA: Sin estado · ACR: Acreditado · Cat: CAPATAZ",
       "certFinal": "APROBADO",
       "examenSalud": "",
@@ -34910,10 +34929,14 @@ window.DASHBOARD_DATA = {
       "rut": "18643578-8",
       "folderName": "SEPULVEDA_VERA_JAIME_NICOLAS_186435788",
       "folderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/SEPULVEDA_VERA_JAIME_NICOLAS_186435788?csf=1&web=1&e=d6nH9p",
-      "cursos": "-",
-      "courseList": [],
-      "estado": "No hay registros cargados, confirmar en portales",
-      "statusKey": "sin-registros",
+      "cursos": "EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
+      "courseList": [
+        "EVALUACIONES IRL",
+        "IRL ESPECIFICA",
+        "IRL GENERAL"
+      ],
+      "estado": "Con registros",
+      "statusKey": "con-registros",
       "detalle": "MONTAJE EQUIPO MECANICO · Estado TARJA: Sin estado · ACR: Acreditado · Cat: MAESTRO PRIMERA",
       "certFinal": "APROBADO",
       "examenSalud": "",
@@ -40998,7 +41021,7 @@ window.DASHBOARD_DATA = {
     },
     {
       "title": "Cruce con TARJA",
-      "detail": "Se detectaron 45 trabajadores sin evidencias cargadas en el sistema."
+      "detail": "Se detectaron 40 trabajadores sin evidencias cargadas en el sistema."
     },
     {
       "title": "Calidad del registro",

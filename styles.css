@@ -216,6 +216,48 @@ h1 {
   font-weight: 700;
 }
 
+/* Filtro de auditoría por cumplimiento */
+.compliance-filter-row {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 14px 0 6px;
+}
+.compliance-btn-group {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.compliance-btn {
+  padding: 6px 14px;
+  border-radius: 999px;
+  border: 1px solid rgba(159,209,255,.35);
+  background: rgba(159,209,255,.08);
+  color: #cfe6ff;
+  font-size: .85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background .15s, color .15s, border-color .15s;
+}
+.compliance-btn:hover { background: rgba(159,209,255,.18); color: #fff; }
+.compliance-btn.active {
+  background: rgba(81,184,71,.25);
+  border-color: #51b847;
+  color: #fff;
+}
+.compliance-btn.cf-complete.active { background: rgba(81,184,71,.55); border-color: #51b847; }
+.compliance-btn.cf-partial.active  { background: rgba(244,196,48,.55); border-color: #f4c430; color: #1a1a1a; }
+.compliance-btn.cf-none.active     { background: rgba(245,59,77,.55);  border-color: #f53b4d; }
+
+/* Tinte de filas según cumplimiento */
+.records-table tbody tr.row-completo > td { background: rgba(81,184,71,.08); }
+.records-table tbody tr.row-completo:hover > td { background: rgba(81,184,71,.16); }
+.records-table tbody tr.row-parcial  > td { background: rgba(244,196,48,.07); }
+.records-table tbody tr.row-parcial:hover  > td { background: rgba(244,196,48,.14); }
+.records-table tbody tr.row-sin      > td { background: rgba(245,59,77,.08); }
+.records-table tbody tr.row-sin:hover      > td { background: rgba(245,59,77,.16); }
+
 .field {
   display: grid;
   gap: 8px;

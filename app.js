@@ -244,10 +244,19 @@ function exportFilteredToExcel(rows) {
 }
 
 function renderCards(data) {
+  // KPI auditoría: trabajadores con 100% de los cursos visibles
+  const records = data.records || [];
+  const total = COURSE_COLUMNS.length;
+  const completos100 = records.filter(r => {
+    const set = new Set(r.courseList || []);
+    return total > 0 && COURSE_COLUMNS.every(c => set.has(c));
+  }).length;
+
   const cards = [
     { label: 'Total de archivos', value: data.kpis.totalArchivos, color: '#2d7ff9', help: 'Cantidad total de evidencias y documentos encontrados en el consolidado.' },
     { label: 'Total trabajadores en TARJA', value: data.kpis.trabajadoresTarja, color: '#8c63ff', help: 'Dotación total considerada en la hoja TARJA para el cruce.' },
-    { label: 'Trabajadores con registros', value: data.kpis.conRegistros, color: '#51b847', help: 'Personas que sí presentan al menos una evidencia asociada en el sistema.' },
+    { label: '100% acreditados (auditoría)', value: completos100, color: '#51b847', help: `Trabajadores con los ${total} cursos visibles completos (${completos100} de ${records.length}).` },
+    { label: 'Trabajadores con registros', value: data.kpis.conRegistros, color: '#7dd87a', help: 'Personas que sí presentan al menos una evidencia asociada en el sistema.' },
     { label: 'Trabajadores sin registro', value: data.kpis.sinRegistros, color: '#ff7a59', help: 'Personas sin evidencia encontrada; conviene confirmar en portales.' }
   ];
 
@@ -478,6 +487,7 @@ function renderRecords(rows, shiftContext) {
     const pct = Math.round((found / total) * 100);
     const pctClass = pct >= 80 ? 'pct-high' : pct >= 50 ? 'pct-mid' : 'pct-low';
     const barColor = pct >= 80 ? '#51b847' : pct >= 50 ? '#ffcc66' : '#ff7a59';
+    const rowClass = found === total ? 'row-completo' : (found === 0 ? 'row-sin' : 'row-parcial');
 
     let shiftCell = '';
     if (shiftActive) {
@@ -488,7 +498,7 @@ function renderRecords(rows, shiftContext) {
     }
 
     return `
-    <tr>
+    <tr class="${rowClass}">
       <td class="nombre-cell">
         ${row.nombre}
         ${row.folderUrl ? `<a class="folder-link" href="${row.folderUrl}" target="_blank" rel="noopener noreferrer" title="Abrir carpeta SharePoint de ${escapeHtml(row.nombre)}">📁</a>` : ''}
@@ -551,6 +561,17 @@ function setupFilters(data) {
   // Poblar filtro ACR. SUCAL
   const acrValues = [...new Set((data.records || []).map(item => (item.acrSucal || '').trim()).filter(Boolean))].sort();
   acrFilter.innerHTML = '<option value="">Todos</option>' + acrValues.map(v => `<option value="${v}">${v}</option>`).join('');
+
+  // Botones filtro auditoría por cumplimiento (Todos / Completos / Parciales / Sin)
+  let activeCompliance = 'todos';
+  const complianceBtns = document.querySelectorAll('#complianceFilterButtons .compliance-btn');
+  complianceBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      activeCompliance = btn.dataset.compliance;
+      complianceBtns.forEach(b => b.classList.toggle('active', b === btn));
+      applyFilters();
+    });
+  });
 
   // Botones filtro rápido "Sin evidencia de X curso"
   let activeMissingCourse = '';
@@ -642,6 +663,7 @@ function setupFilters(data) {
 
     const selectedShiftCodes = shiftCodeMS.getValues();
 
+    const totalCourses = COURSE_COLUMNS.length;
     const filtered = (data.records || []).filter(item => {
       const matchesName = !query || normalizeText(item.nombre).includes(query);
       const matchesRut = !rutQuery || normalizeRut(item.rut).includes(rutQuery);
@@ -656,7 +678,25 @@ function setupFilters(data) {
         const cell = (item.shifts && item.shifts[shiftCtx.dateIndex]) || '';
         matchesShift = selectedShiftCodes.includes(cell);
       }
-      return matchesName && matchesRut && matchesCourse && matchesStatus && matchesAcr && matchesMissing && matchesShift;
+      let matchesCompliance = true;
+      if (activeCompliance !== 'todos') {
+        const set = new Set(courseList);
+        const found = COURSE_COLUMNS.filter(c => set.has(c)).length;
+        if (activeCompliance === 'completos') matchesCompliance = found === totalCourses;
+        else if (activeCompliance === 'sin') matchesCompliance = found === 0;
+        else if (activeCompliance === 'parciales') matchesCompliance = found > 0 && found < totalCourses;
+      }
+      return matchesName && matchesRut && matchesCourse && matchesStatus && matchesAcr && matchesMissing && matchesShift && matchesCompliance;
+    });
+
+    // Orden por cumplimiento descendente (más completos primero), luego nombre
+    filtered.sort((a, b) => {
+      const setA = new Set(a.courseList || []);
+      const setB = new Set(b.courseList || []);
+      const foundA = COURSE_COLUMNS.filter(c => setA.has(c)).length;
+      const foundB = COURSE_COLUMNS.filter(c => setB.has(c)).length;
+      if (foundB !== foundA) return foundB - foundA;
+      return (a.nombre || '').localeCompare(b.nombre || '', 'es');
     });
 
     currentFilteredRows = filtered;

@@ -133,6 +133,16 @@ nombre<!DOCTYPE html>
 
         <div id="shiftSummary" class="shift-summary"></div>
 
+        <div class="compliance-filter-row">
+          <span class="filter-group-label">Filtro auditoría:</span>
+          <div id="complianceFilterButtons" class="compliance-btn-group">
+            <button type="button" class="compliance-btn active" data-compliance="todos">Todos</button>
+            <button type="button" class="compliance-btn cf-complete" data-compliance="completos">Completos (4/4)</button>
+            <button type="button" class="compliance-btn cf-partial" data-compliance="parciales">Parciales (1-3/4)</button>
+            <button type="button" class="compliance-btn cf-none" data-compliance="sin">Sin evidencia (0/4)</button>
+          </div>
+        </div>
+
         <div class="results-summary">
           <span class="mini-chip" id="resultsCount">0 resultados</span>
           <span class="mini-chip">Sugerencia: busca por primer apellido o por RUT</span>

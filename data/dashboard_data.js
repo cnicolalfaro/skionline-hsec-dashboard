@@ -1,14 +1,14 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "19/05/2026 02:05",
+  "generatedAt": "19/05/2026 02:40",
   "sourceFile": "REGISTRO_FINAL_CURSOS.xlsx",
   "kpis": {
     "totalArchivos": 2732,
-    "documentosUnicos": 934,
+    "documentosUnicos": 847,
     "duplicados": 686,
     "noLegibles": 6,
     "trabajadoresTarja": 345,
-    "conRegistros": 294,
-    "sinRegistros": 51
+    "conRegistros": 293,
+    "sinRegistros": 52
   },
   "courseTotals": [
     {
@@ -26,21 +26,17 @@ window.DASHBOARD_DATA = {
     {
       "curso": "Evaluaciones IRL",
       "total": 195
-    },
-    {
-      "curso": "Conducción a la Defensiva",
-      "total": 87
     }
   ],
   "statusBreakdown": [
     {
       "label": "Con registros",
-      "value": 294,
+      "value": 293,
       "color": "#51b847"
     },
     {
       "label": "Sin registros",
-      "value": 51,
+      "value": 52,
       "color": "#ff7a59"
     },
     {
@@ -54,11 +50,6 @@ window.DASHBOARD_DATA = {
       "curso": "Aislación y Bloqueo",
       "total": 199,
       "unicos": 199
-    },
-    {
-      "curso": "Conducción a la Defensiva",
-      "total": 87,
-      "unicos": 87
     },
     {
       "curso": "IRL General",
@@ -1920,10 +1911,9 @@ window.DASHBOARD_DATA = {
       "rut": "11571446-5",
       "folderName": "ANABALON_ESCOBAR_HUGO_ALBERTO_115714465",
       "folderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/ANABALON_ESCOBAR_HUGO_ALBERTO_115714465?csf=1&web=1&e=d6nH9p",
-      "cursos": "AYB, CAD, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
+      "cursos": "AYB, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
       "courseList": [
         "AYB",
-        "CAD",
         "EVALUACIONES IRL",
         "IRL ESPECIFICA",
         "IRL GENERAL"
@@ -3419,10 +3409,9 @@ window.DASHBOARD_DATA = {
       "rut": "11496116-7",
       "folderName": "ARROYO_CUEVAS_NELSON_ELOY_114961167",
       "folderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/ARROYO_CUEVAS_NELSON_ELOY_114961167?csf=1&web=1&e=d6nH9p",
-      "cursos": "AYB, CAD, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
+      "cursos": "AYB, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
       "courseList": [
         "AYB",
-        "CAD",
         "EVALUACIONES IRL",
         "IRL ESPECIFICA",
         "IRL GENERAL"
@@ -4113,10 +4102,9 @@ window.DASHBOARD_DATA = {
       "rut": "12772174-2",
       "folderName": "AVILA_VALENCIA_MAURICIO_ANDRES_127721742",
       "folderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/AVILA_VALENCIA_MAURICIO_ANDRES_127721742?csf=1&web=1&e=d6nH9p",
-      "cursos": "AYB, CAD, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
+      "cursos": "AYB, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
       "courseList": [
         "AYB",
-        "CAD",
         "EVALUACIONES IRL",
         "IRL ESPECIFICA",
         "IRL GENERAL"
@@ -4231,9 +4219,8 @@ window.DASHBOARD_DATA = {
       "rut": "11904878-8",
       "folderName": "BALMAZABAL_GUTIERREZ_RODRIGO_EDUARDO_119048788",
       "folderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/BALMAZABAL_GUTIERREZ_RODRIGO_EDUARDO_119048788?csf=1&web=1&e=d6nH9p",
-      "cursos": "CAD, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
+      "cursos": "EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
       "courseList": [
-        "CAD",
         "EVALUACIONES IRL",
         "IRL ESPECIFICA",
         "IRL GENERAL"
@@ -5267,12 +5254,10 @@ window.DASHBOARD_DATA = {
       "rut": "13310572-7",
       "folderName": "BELMAR_FICA_MAURICIO_ALEJANDRO_133105727",
       "folderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/BELMAR_FICA_MAURICIO_ALEJANDRO_133105727?csf=1&web=1&e=d6nH9p",
-      "cursos": "CAD",
-      "courseList": [
-        "CAD"
-      ],
-      "estado": "Con registros",
-      "statusKey": "con-registros",
+      "cursos": "-",
+      "courseList": [],
+      "estado": "Duplicado",
+      "statusKey": "duplicado",
       "detalle": "SUPERV DE ESTRUCTURA MANT · Estado TARJA: Sin estado · incluye duplicados · ACR: Acreditado · Cat: . · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
@@ -8280,10 +8265,9 @@ window.DASHBOARD_DATA = {
       "rut": "19371247-9",
       "folderName": "CASTILLO_NEIRA_MIGUEL_ANGEL_193712479",
       "folderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/CASTILLO_NEIRA_MIGUEL_ANGEL_193712479?csf=1&web=1&e=d6nH9p",
-      "cursos": "AYB, CAD, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
+      "cursos": "AYB, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
       "courseList": [
         "AYB",
-        "CAD",
         "EVALUACIONES IRL",
         "IRL ESPECIFICA",
         "IRL GENERAL"
@@ -10128,10 +10112,9 @@ window.DASHBOARD_DATA = {
       "rut": "12782048-1",
       "folderName": "DIAZ_ALARCON_ADAN_MAURICIO_127820481",
       "folderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/DIAZ_ALARCON_ADAN_MAURICIO_127820481?csf=1&web=1&e=d6nH9p",
-      "cursos": "AYB, CAD",
+      "cursos": "AYB",
       "courseList": [
-        "AYB",
-        "CAD"
+        "AYB"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
@@ -11158,10 +11141,9 @@ window.DASHBOARD_DATA = {
       "rut": "15195666-1",
       "folderName": "ESCOBAR_ESCOBAR_JUAN_CARLOS_151956661",
       "folderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/ESCOBAR_ESCOBAR_JUAN_CARLOS_151956661?csf=1&web=1&e=d6nH9p",
-      "cursos": "AYB, CAD",
+      "cursos": "AYB",
       "courseList": [
-        "AYB",
-        "CAD"
+        "AYB"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
@@ -11623,10 +11605,9 @@ window.DASHBOARD_DATA = {
       "rut": "16285778-9",
       "folderName": "ESTRADA_ZAMBRANO_HECTOR_ALEXIS_162857789",
       "folderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/ESTRADA_ZAMBRANO_HECTOR_ALEXIS_162857789?csf=1&web=1&e=d6nH9p",
-      "cursos": "AYB, CAD",
+      "cursos": "AYB",
       "courseList": [
-        "AYB",
-        "CAD"
+        "AYB"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
@@ -12082,9 +12063,8 @@ window.DASHBOARD_DATA = {
       "rut": "20648198-6",
       "folderName": "FERREIRA_DIAZ_ANGELO_NICOLAS_206481986",
       "folderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/FERREIRA_DIAZ_ANGELO_NICOLAS_206481986?csf=1&web=1&e=d6nH9p",
-      "cursos": "CAD, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
+      "cursos": "EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
       "courseList": [
-        "CAD",
         "EVALUACIONES IRL",
         "IRL ESPECIFICA",
         "IRL GENERAL"
@@ -12999,12 +12979,10 @@ window.DASHBOARD_DATA = {
       "rut": "13714156-6",
       "folderName": "FUENZALIDA_MEJIAS_OSCAR_RODRIGO_137141566",
       "folderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/FUENZALIDA_MEJIAS_OSCAR_RODRIGO_137141566?csf=1&web=1&e=d6nH9p",
-      "cursos": "CAD",
-      "courseList": [
-        "CAD"
-      ],
-      "estado": "Con registros",
-      "statusKey": "con-registros",
+      "cursos": "-",
+      "courseList": [],
+      "estado": "No hay registros cargados, confirmar en portales",
+      "statusKey": "sin-registros",
       "detalle": "CHOFER DE BUS · Estado TARJA: Sin estado · ACR: Acreditado · Cat: . · Turno: 10X10 A",
       "certFinal": "APROBADO",
       "examenSalud": "",
@@ -13345,10 +13323,9 @@ window.DASHBOARD_DATA = {
       "rut": "12519848-1",
       "folderName": "GAJARDO_GAJARDO_JORGE_LUIS_125198481",
       "folderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/GAJARDO_GAJARDO_JORGE_LUIS_125198481?csf=1&web=1&e=d6nH9p",
-      "cursos": "AYB, CAD, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
+      "cursos": "AYB, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
       "courseList": [
         "AYB",
-        "CAD",
         "EVALUACIONES IRL",
         "IRL ESPECIFICA",
         "IRL GENERAL"
@@ -13463,9 +13440,8 @@ window.DASHBOARD_DATA = {
       "rut": "11757268-4",
       "folderName": "GALARCE_BAEZA_JUAN_OSVALDO_117572684",
       "folderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/GALARCE_BAEZA_JUAN_OSVALDO_117572684?csf=1&web=1&e=d6nH9p",
-      "cursos": "CAD, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
+      "cursos": "EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
       "courseList": [
-        "CAD",
         "EVALUACIONES IRL",
         "IRL ESPECIFICA",
         "IRL GENERAL"
@@ -13580,10 +13556,9 @@ window.DASHBOARD_DATA = {
       "rut": "11903248-2",
       "folderName": "GALDAMES_PEREZ_LORENZO_RAUL_119032482",
       "folderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/GALDAMES_PEREZ_LORENZO_RAUL_119032482?csf=1&web=1&e=d6nH9p",
-      "cursos": "AYB, CAD, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
+      "cursos": "AYB, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
       "courseList": [
         "AYB",
-        "CAD",
         "EVALUACIONES IRL",
         "IRL ESPECIFICA",
         "IRL GENERAL"
@@ -13698,10 +13673,9 @@ window.DASHBOARD_DATA = {
       "rut": "13877897-5",
       "folderName": "GALLARDO_BORQUEZ_ERWIN_LORENZO_138778975",
       "folderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/GALLARDO_BORQUEZ_ERWIN_LORENZO_138778975?csf=1&web=1&e=d6nH9p",
-      "cursos": "AYB, CAD, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
+      "cursos": "AYB, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
       "courseList": [
         "AYB",
-        "CAD",
         "EVALUACIONES IRL",
         "IRL ESPECIFICA",
         "IRL GENERAL"
@@ -14159,10 +14133,9 @@ window.DASHBOARD_DATA = {
       "rut": "14392844-6",
       "folderName": "GALLARDO_VERGARA_GONZALO_ALONSO_143928446",
       "folderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/GALLARDO_VERGARA_GONZALO_ALONSO_143928446?csf=1&web=1&e=d6nH9p",
-      "cursos": "AYB, CAD",
+      "cursos": "AYB",
       "courseList": [
-        "AYB",
-        "CAD"
+        "AYB"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
@@ -14507,10 +14480,9 @@ window.DASHBOARD_DATA = {
       "rut": "13725595-2",
       "folderName": "GANA_DUARTE_CESAR_ANTONIO_137255952",
       "folderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/GANA_DUARTE_CESAR_ANTONIO_137255952?csf=1&web=1&e=d6nH9p",
-      "cursos": "AYB, CAD, IRL GENERAL",
+      "cursos": "AYB, IRL GENERAL",
       "courseList": [
         "AYB",
-        "CAD",
         "IRL GENERAL"
       ],
       "estado": "Con registros",
@@ -14735,9 +14707,8 @@ window.DASHBOARD_DATA = {
       "rut": "14018586-8",
       "folderName": "GARRIDO_FIGUEROA_SEBASTIAN_MARCELO_140185868",
       "folderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/GARRIDO_FIGUEROA_SEBASTIAN_MARCELO_140185868?csf=1&web=1&e=d6nH9p",
-      "cursos": "CAD, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
+      "cursos": "EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
       "courseList": [
-        "CAD",
         "EVALUACIONES IRL",
         "IRL ESPECIFICA",
         "IRL GENERAL"
@@ -15770,10 +15741,9 @@ window.DASHBOARD_DATA = {
       "rut": "16598446-3",
       "folderName": "GROLLMUS_MELLADO_DIEGO_ALEJANDRO_165984463",
       "folderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/GROLLMUS_MELLADO_DIEGO_ALEJANDRO_165984463?csf=1&web=1&e=d6nH9p",
-      "cursos": "AYB, CAD",
+      "cursos": "AYB",
       "courseList": [
-        "AYB",
-        "CAD"
+        "AYB"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
@@ -15999,12 +15969,10 @@ window.DASHBOARD_DATA = {
       "rut": "15696772-6",
       "folderName": "GUTIERREZ_CACERES_RODRIGO_ALEJANDRO_156967726",
       "folderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/GUTIERREZ_CACERES_RODRIGO_ALEJANDRO_156967726?csf=1&web=1&e=d6nH9p",
-      "cursos": "CAD",
-      "courseList": [
-        "CAD"
-      ],
-      "estado": "Con registros",
-      "statusKey": "con-registros",
+      "cursos": "-",
+      "courseList": [],
+      "estado": "Duplicado",
+      "statusKey": "duplicado",
       "detalle": "CHOFER CAMION PLANO C/EQ · Estado TARJA: Sin estado · incluye duplicados · ACR: Acreditado",
       "certFinal": "APROBADO",
       "examenSalud": "",
@@ -16230,10 +16198,9 @@ window.DASHBOARD_DATA = {
       "rut": "19332318-9",
       "folderName": "GUTIERREZ_VILLEGA_ARIEL_ESTEBAN_193323189",
       "folderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/GUTIERREZ_VILLEGA_ARIEL_ESTEBAN_193323189?csf=1&web=1&e=d6nH9p",
-      "cursos": "AYB, CAD, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
+      "cursos": "AYB, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
       "courseList": [
         "AYB",
-        "CAD",
         "EVALUACIONES IRL",
         "IRL ESPECIFICA",
         "IRL GENERAL"
@@ -17149,10 +17116,9 @@ window.DASHBOARD_DATA = {
       "rut": "15945639-0",
       "folderName": "INZUNZA_MUNOZ_CRISTIAN_ALEXIS_159456390",
       "folderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/INZUNZA_MUNOZ_CRISTIAN_ALEXIS_159456390?csf=1&web=1&e=d6nH9p",
-      "cursos": "AYB, CAD, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
+      "cursos": "AYB, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
       "courseList": [
         "AYB",
-        "CAD",
         "EVALUACIONES IRL",
         "IRL ESPECIFICA",
         "IRL GENERAL"
@@ -18526,10 +18492,9 @@ window.DASHBOARD_DATA = {
       "rut": "10178433-9",
       "folderName": "LOPEZ_OTEY_SERGIO_ANDRES_101784339",
       "folderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/LOPEZ_OTEY_SERGIO_ANDRES_101784339?csf=1&web=1&e=d6nH9p",
-      "cursos": "AYB, CAD, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
+      "cursos": "AYB, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
       "courseList": [
         "AYB",
-        "CAD",
         "EVALUACIONES IRL",
         "IRL ESPECIFICA",
         "IRL GENERAL"
@@ -19791,10 +19756,9 @@ window.DASHBOARD_DATA = {
       "rut": "14904401-9",
       "folderName": "MARAMBIO_VERGARA_ORLANDO_DAVID_149044019",
       "folderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/MARAMBIO_VERGARA_ORLANDO_DAVID_149044019?csf=1&web=1&e=d6nH9p",
-      "cursos": "AYB, CAD, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
+      "cursos": "AYB, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
       "courseList": [
         "AYB",
-        "CAD",
         "EVALUACIONES IRL",
         "IRL ESPECIFICA",
         "IRL GENERAL"
@@ -20599,10 +20563,9 @@ window.DASHBOARD_DATA = {
       "rut": "14390227-7",
       "folderName": "MELLADO_LOPEZ_MAXIMILIANO_ENRIQUE_143902277",
       "folderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/MELLADO_LOPEZ_MAXIMILIANO_ENRIQUE_143902277?csf=1&web=1&e=d6nH9p",
-      "cursos": "AYB, CAD",
+      "cursos": "AYB",
       "courseList": [
-        "AYB",
-        "CAD"
+        "AYB"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
@@ -23483,10 +23446,9 @@ window.DASHBOARD_DATA = {
       "rut": "15223148-2",
       "folderName": "OLIVA_TAPIA_JONATHAN_JESUS_152231482",
       "folderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/OLIVA_TAPIA_JONATHAN_JESUS_152231482?csf=1&web=1&e=d6nH9p",
-      "cursos": "AYB, CAD, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
+      "cursos": "AYB, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
       "courseList": [
         "AYB",
-        "CAD",
         "EVALUACIONES IRL",
         "IRL ESPECIFICA",
         "IRL GENERAL"
@@ -26250,10 +26212,9 @@ window.DASHBOARD_DATA = {
       "rut": "18468486-1",
       "folderName": "PAVEZ_URIBE_FERNANDO_ALEJANDRO_184684861",
       "folderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/PAVEZ_URIBE_FERNANDO_ALEJANDRO_184684861?csf=1&web=1&e=d6nH9p",
-      "cursos": "AYB, CAD, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
+      "cursos": "AYB, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
       "courseList": [
         "AYB",
-        "CAD",
         "EVALUACIONES IRL",
         "IRL ESPECIFICA",
         "IRL GENERAL"
@@ -27407,10 +27368,9 @@ window.DASHBOARD_DATA = {
       "rut": "19105469-5",
       "folderName": "PINILLA_VASQUEZ_ROBERTO_IGNACIO_191054695",
       "folderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/PINILLA_VASQUEZ_ROBERTO_IGNACIO_191054695?csf=1&web=1&e=d6nH9p",
-      "cursos": "AYB, CAD, IRL GENERAL",
+      "cursos": "AYB, IRL GENERAL",
       "courseList": [
         "AYB",
-        "CAD",
         "IRL GENERAL"
       ],
       "estado": "Con registros",
@@ -28662,10 +28622,9 @@ window.DASHBOARD_DATA = {
       "rut": "15180350-4",
       "folderName": "RETAMAL_RODRIGUEZ_NISEN_ANDRES_151803504",
       "folderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/RETAMAL_RODRIGUEZ_NISEN_ANDRES_151803504?csf=1&web=1&e=d6nH9p",
-      "cursos": "AYB, CAD, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
+      "cursos": "AYB, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
       "courseList": [
         "AYB",
-        "CAD",
         "EVALUACIONES IRL",
         "IRL ESPECIFICA",
         "IRL GENERAL"
@@ -29237,10 +29196,9 @@ window.DASHBOARD_DATA = {
       "rut": "10589693-K",
       "folderName": "RIOS_DIAZ_JUAN_JOSE_10589693K",
       "folderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/RIOS_DIAZ_JUAN_JOSE_10589693K?csf=1&web=1&e=d6nH9p",
-      "cursos": "AYB, CAD",
+      "cursos": "AYB",
       "courseList": [
-        "AYB",
-        "CAD"
+        "AYB"
       ],
       "estado": "Con registros",
       "statusKey": "con-registros",
@@ -29352,12 +29310,10 @@ window.DASHBOARD_DATA = {
       "rut": "12718661-8",
       "folderName": "RIQUELME_AHUMADA_RAUL_CESAR_127186618",
       "folderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/RIQUELME_AHUMADA_RAUL_CESAR_127186618?csf=1&web=1&e=d6nH9p",
-      "cursos": "CAD",
-      "courseList": [
-        "CAD"
-      ],
-      "estado": "Con registros",
-      "statusKey": "con-registros",
+      "cursos": "-",
+      "courseList": [],
+      "estado": "Duplicado",
+      "statusKey": "duplicado",
       "detalle": "CHOFER TRACTO CAMION CAMA · Estado TARJA: Sin estado · incluye duplicados · ACR: Acreditado",
       "certFinal": "APROBADO",
       "examenSalud": "",
@@ -30047,10 +30003,9 @@ window.DASHBOARD_DATA = {
       "rut": "18751466-5",
       "folderName": "RIVERA_MENESES_JOSE_ALEJANDRO_187514665",
       "folderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/RIVERA_MENESES_JOSE_ALEJANDRO_187514665?csf=1&web=1&e=d6nH9p",
-      "cursos": "AYB, CAD, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
+      "cursos": "AYB, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
       "courseList": [
         "AYB",
-        "CAD",
         "EVALUACIONES IRL",
         "IRL ESPECIFICA",
         "IRL GENERAL"
@@ -30967,9 +30922,8 @@ window.DASHBOARD_DATA = {
       "rut": "15512347-8",
       "folderName": "ROJAS_ORTEGA_GUIDO_DAMIAN_155123478",
       "folderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/ROJAS_ORTEGA_GUIDO_DAMIAN_155123478?csf=1&web=1&e=d6nH9p",
-      "cursos": "CAD, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
+      "cursos": "EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
       "courseList": [
-        "CAD",
         "EVALUACIONES IRL",
         "IRL ESPECIFICA",
         "IRL GENERAL"
@@ -31196,10 +31150,9 @@ window.DASHBOARD_DATA = {
       "rut": "16762294-1",
       "folderName": "ROSALES_ALARCON_WALTER_FABRICIO_167622941",
       "folderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/ROSALES_ALARCON_WALTER_FABRICIO_167622941?csf=1&web=1&e=d6nH9p",
-      "cursos": "AYB, CAD, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
+      "cursos": "AYB, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
       "courseList": [
         "AYB",
-        "CAD",
         "EVALUACIONES IRL",
         "IRL ESPECIFICA",
         "IRL GENERAL"
@@ -31314,9 +31267,8 @@ window.DASHBOARD_DATA = {
       "rut": "10436709-7",
       "folderName": "ROSAS_SILVA_CARLOS_GUILLERMO_104367097",
       "folderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/ROSAS_SILVA_CARLOS_GUILLERMO_104367097?csf=1&web=1&e=d6nH9p",
-      "cursos": "CAD, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
+      "cursos": "EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
       "courseList": [
-        "CAD",
         "EVALUACIONES IRL",
         "IRL ESPECIFICA",
         "IRL GENERAL"
@@ -31431,10 +31383,9 @@ window.DASHBOARD_DATA = {
       "rut": "16793501-K",
       "folderName": "RUBILAR_GONZALEZ_ALEXI_ERBE_16793501K",
       "folderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/RUBILAR_GONZALEZ_ALEXI_ERBE_16793501K?csf=1&web=1&e=d6nH9p",
-      "cursos": "AYB, CAD, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
+      "cursos": "AYB, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
       "courseList": [
         "AYB",
-        "CAD",
         "EVALUACIONES IRL",
         "IRL ESPECIFICA",
         "IRL GENERAL"
@@ -31666,9 +31617,8 @@ window.DASHBOARD_DATA = {
       "rut": "20529897-5",
       "folderName": "RUIZ_BRICENO_LUCIANO_NICOLAS_205298975",
       "folderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/RUIZ_BRICENO_LUCIANO_NICOLAS_205298975?csf=1&web=1&e=d6nH9p",
-      "cursos": "CAD, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
+      "cursos": "EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
       "courseList": [
-        "CAD",
         "EVALUACIONES IRL",
         "IRL ESPECIFICA",
         "IRL GENERAL"
@@ -31783,10 +31733,9 @@ window.DASHBOARD_DATA = {
       "rut": "17896664-2",
       "folderName": "RUIZ_VIDAL_JEAN_PAUL_178966642",
       "folderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/RUIZ_VIDAL_JEAN_PAUL_178966642?csf=1&web=1&e=d6nH9p",
-      "cursos": "AYB, CAD, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
+      "cursos": "AYB, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
       "courseList": [
         "AYB",
-        "CAD",
         "EVALUACIONES IRL",
         "IRL ESPECIFICA",
         "IRL GENERAL"
@@ -34995,10 +34944,9 @@ window.DASHBOARD_DATA = {
       "rut": "19800142-2",
       "folderName": "SUAZO_TORRES_FRANCISCO_ESTEBAN_198001422",
       "folderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/SUAZO_TORRES_FRANCISCO_ESTEBAN_198001422?csf=1&web=1&e=d6nH9p",
-      "cursos": "AYB, CAD, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
+      "cursos": "AYB, EVALUACIONES IRL, IRL ESPECIFICA, IRL GENERAL",
       "courseList": [
         "AYB",
-        "CAD",
         "EVALUACIONES IRL",
         "IRL ESPECIFICA",
         "IRL GENERAL"
@@ -36619,12 +36567,10 @@ window.DASHBOARD_DATA = {
       "rut": "13266171-5",
       "folderName": "TUDELA_SALDIAS_RAUL_GERMAN_132661715",
       "folderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/TUDELA_SALDIAS_RAUL_GERMAN_132661715?csf=1&web=1&e=d6nH9p",
-      "cursos": "CAD",
-      "courseList": [
-        "CAD"
-      ],
-      "estado": "Con registros",
-      "statusKey": "con-registros",
+      "cursos": "-",
+      "courseList": [],
+      "estado": "Duplicado",
+      "statusKey": "duplicado",
       "detalle": "CHOFER DE BUS · Estado TARJA: Sin estado · incluye duplicados · ACR: Finiquitado · Cat: . · Turno: 10X10 B",
       "certFinal": "APROBADO",
       "examenSalud": "",
@@ -40169,7 +40115,7 @@ window.DASHBOARD_DATA = {
     },
     {
       "title": "Cruce con TARJA",
-      "detail": "Se detectaron 51 trabajadores sin evidencias cargadas en el sistema."
+      "detail": "Se detectaron 52 trabajadores sin evidencias cargadas en el sistema."
     },
     {
       "title": "Calidad del registro",

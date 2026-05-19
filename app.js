@@ -256,8 +256,7 @@ function renderCards(data) {
     { label: 'Total de archivos', value: data.kpis.totalArchivos, color: '#2d7ff9', help: 'Cantidad total de evidencias y documentos encontrados en el consolidado.' },
     { label: 'Total trabajadores en TARJA', value: data.kpis.trabajadoresTarja, color: '#8c63ff', help: 'Dotación total considerada en la hoja TARJA para el cruce.' },
     { label: '100% acreditados (auditoría)', value: completos100, color: '#51b847', help: `Trabajadores con los ${total} cursos visibles completos (${completos100} de ${records.length}).` },
-    { label: 'Trabajadores con registros', value: data.kpis.conRegistros, color: '#7dd87a', help: 'Personas que sí presentan al menos una evidencia asociada en el sistema.' },
-    { label: 'Trabajadores sin registro', value: data.kpis.sinRegistros, color: '#ff7a59', help: 'Personas sin evidencia encontrada; conviene confirmar en portales.' }
+    { label: 'Trabajadores con registros', value: data.kpis.conRegistros, color: '#7dd87a', help: 'Personas que sí presentan al menos una evidencia asociada en el sistema.' }
   ];
 
   document.getElementById('kpiCards').innerHTML = cards.map(card => `
@@ -704,9 +703,6 @@ function setupFilters(data) {
     const limited = filtered.slice(0, 250);
     renderRecords(limited, shiftCtx);
     resultsCount.textContent = `${formatNumber(filtered.length)} resultado(s)` + (filtered.length > 250 ? ' · mostrando 250' : '');
-
-    // Visual de cumplimiento se adapta a los filtros activos
-    renderAcrCompliance(filtered, { usarTodos: filtered.length !== (data.records || []).length });
   }
 
   nameInput.addEventListener('input', applyFilters);
@@ -733,8 +729,12 @@ function setupFilters(data) {
   document.getElementById('updatedAt').textContent = `Actualizado: ${data.generatedAt}`;
   renderCards(data);
   renderBars(data.courseTotals || []);
-  renderDonut(data.statusBreakdown || []);
-  renderAcrCompliance(data.records || []);
+  // Excluir "Sin registros" del donut para enfocar el dashboard en lo completo
+  const donutItems = (data.statusBreakdown || []).filter(it => {
+    const l = normalizeText(it.label || '');
+    return !l.includes('sin registro');
+  });
+  renderDonut(donutItems);
   renderAccess(data);
   renderTable(data.summaryRows || []);
   renderInsights(data.insights || []);

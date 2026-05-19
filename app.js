@@ -7,10 +7,6 @@ const COURSE_COLUMNS = [
   'IRL ESPECIFICA',
   'IRL GENERAL',
   'AYB',
-  'EPP',
-  'EXT',
-  'OPR',
-  'PA',
 ];
 
 // Leyenda de códigos que pueden aparecer en la TARJA (col por día)

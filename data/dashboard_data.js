@@ -1,9 +1,9 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "12/05/2026 13:39",
+  "generatedAt": "19/05/2026 00:22",
   "sourceFile": "REGISTRO_FINAL_CURSOS.xlsx",
   "kpis": {
-    "totalArchivos": 2730,
-    "documentosUnicos": 1917,
+    "totalArchivos": 2732,
+    "documentosUnicos": 1918,
     "duplicados": 686,
     "noLegibles": 6,
     "trabajadoresTarja": 345,
@@ -37,7 +37,7 @@ window.DASHBOARD_DATA = {
     },
     {
       "curso": "IRL Específica",
-      "total": 198
+      "total": 199
     },
     {
       "curso": "Evaluaciones IRL",
@@ -103,8 +103,8 @@ window.DASHBOARD_DATA = {
     },
     {
       "curso": "IRL Específica",
-      "total": 198,
-      "unicos": 198
+      "total": 199,
+      "unicos": 199
     },
     {
       "curso": "Evaluaciones IRL",
@@ -123,7 +123,7 @@ window.DASHBOARD_DATA = {
     },
     {
       "curso": "TOTAL",
-      "total": 2730,
+      "total": 2732,
       "unicos": null
     }
   ],
@@ -5169,10 +5169,11 @@ window.DASHBOARD_DATA = {
       "rut": "13725568-5",
       "folderName": "BASTIAS_FIGUEROA_ALEX_ANTONIO_137255685",
       "folderUrl": "https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/BASTIAS_FIGUEROA_ALEX_ANTONIO_137255685?csf=1&web=1&e=d6nH9p",
-      "cursos": "EPP, EXT, IRL GENERAL, OPR, PA",
+      "cursos": "EPP, EXT, IRL ESPECIFICA, IRL GENERAL, OPR, PA",
       "courseList": [
         "EPP",
         "EXT",
+        "IRL ESPECIFICA",
         "IRL GENERAL",
         "OPR",
         "PA"
@@ -40920,6 +40921,13 @@ window.DASHBOARD_DATA = {
       "file": "IRL ESPECIFICA 120841289.pdf",
       "rut": "12084128-9",
       "hint": "IRL ESPECIFICA"
+    },
+    {
+      "folder": "IRL ESPECIFICA",
+      "folderLabel": "IRL Específica",
+      "file": "irl especifica 13725568-5.pdf",
+      "rut": "1372556-8",
+      "hint": "irl especifica  5"
     },
     {
       "folder": "IRL ESPECIFICA",

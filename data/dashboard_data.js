@@ -1,5 +1,5 @@
 window.DASHBOARD_DATA = {
-  "generatedAt": "19/05/2026 00:22",
+  "generatedAt": "19/05/2026 00:47",
   "sourceFile": "REGISTRO_FINAL_CURSOS.xlsx",
   "kpis": {
     "totalArchivos": 2732,
@@ -40921,13 +40921,6 @@ window.DASHBOARD_DATA = {
       "file": "IRL ESPECIFICA 120841289.pdf",
       "rut": "12084128-9",
       "hint": "IRL ESPECIFICA"
-    },
-    {
-      "folder": "IRL ESPECIFICA",
-      "folderLabel": "IRL Específica",
-      "file": "irl especifica 13725568-5.pdf",
-      "rut": "1372556-8",
-      "hint": "irl especifica  5"
     },
     {
       "folder": "IRL ESPECIFICA",

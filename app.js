@@ -555,24 +555,26 @@ function setupFilters(data) {
   // Botones filtro rápido "Sin evidencia de X curso"
   let activeMissingCourse = '';
   const btnGroup = document.getElementById('courseMissingButtons');
-  btnGroup.innerHTML = courses.map(c => `
-    <button class="missing-btn" data-course="${c}">Sin ${c}</button>
-  `).join('');
+  if (btnGroup) {
+    btnGroup.innerHTML = courses.map(c => `
+      <button class="missing-btn" data-course="${c}">Sin ${c}</button>
+    `).join('');
 
-  btnGroup.querySelectorAll('.missing-btn').forEach(btn => {
-    btn.addEventListener('click', () => {
-      const course = btn.dataset.course;
-      if (activeMissingCourse === course) {
-        activeMissingCourse = '';
-        btn.classList.remove('active');
-      } else {
-        activeMissingCourse = course;
-        btnGroup.querySelectorAll('.missing-btn').forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
-      }
-      applyFilters();
+    btnGroup.querySelectorAll('.missing-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const course = btn.dataset.course;
+        if (activeMissingCourse === course) {
+          activeMissingCourse = '';
+          btn.classList.remove('active');
+        } else {
+          activeMissingCourse = course;
+          btnGroup.querySelectorAll('.missing-btn').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+        }
+        applyFilters();
+      });
     });
-  });
+  }
 
   function computeShiftContext() {
     const selected = shiftDateInput ? shiftDateInput.value : '';

@@ -29,7 +29,7 @@ const RESSSO_CONTRATOS = [
     nombre: 'Contrato 4600030982',
     paletaPrincipal: '#2d7ff9', // azul SK
     paletaSecundaria: '#5fa8ff',
-    pcts: [100, 100, 64, 100, 100, 100, 100, 100, 80],
+    pcts: [100, 100, 100, 64, 100, 100, 100, 100, 80],
     sharepoint: 'https://empresassk.sharepoint.com/sites/ICSK-HSEC/Documentos%20compartidos/Forms/AllItems.aspx?id=%2Fsites%2FICSK%2DHSEC%2FDocumentos%20compartidos%2F05%20%2D%20Respaldo%20HSEC%20faenas%2F250%20%2D%20Mantenimiento%20M2%20y%20M3%2FContrato%20250%20Dch%2FSistema%20de%20Gesti%C3%B3n%2F09%5FRESSO%20V10%2FAplicaci%C3%B3n%20MGA%2F4600030982&viewid=e72333c8%2D45a8%2D4050%2Dbdda%2D7b838f222428',
   },
   {
@@ -37,7 +37,7 @@ const RESSSO_CONTRATOS = [
     nombre: 'Contrato 4600030984',
     paletaPrincipal: '#ff7a59', // naranja contrast
     paletaSecundaria: '#ffa280',
-    pcts: [100, 100, 64, 100, 100, 100, 100, 100, 60],
+    pcts: [100, 100, 100, 64, 100, 100, 100, 100, 60],
     sharepoint: 'https://empresassk.sharepoint.com/sites/ICSK-HSEC/Documentos%20compartidos/Forms/AllItems.aspx?id=%2Fsites%2FICSK%2DHSEC%2FDocumentos%20compartidos%2F05%20%2D%20Respaldo%20HSEC%20faenas%2F250%20%2D%20Mantenimiento%20M2%20y%20M3%2FContrato%20250%20Dch%2FSistema%20de%20Gesti%C3%B3n%2F09%5FRESSO%20V10%2FAplicaci%C3%B3n%20MGA%2F4600030984&viewid=e72333c8%2D45a8%2D4050%2Dbdda%2D7b838f222428',
   },
 ];

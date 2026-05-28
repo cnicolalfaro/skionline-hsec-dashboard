@@ -941,6 +941,28 @@ tr:hover td { background: rgba(255,255,255,.03); }
   font-weight: 800;
   letter-spacing: .3px;
 }
+.ressso-sp-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 6px;
+  padding: 4px 9px;
+  border-radius: 999px;
+  background: rgba(255,255,255,.08);
+  border: 1px solid var(--c-soft);
+  color: var(--c-soft);
+  font-size: .68rem;
+  font-weight: 700;
+  letter-spacing: .5px;
+  text-decoration: none;
+  transition: background .15s, color .15s;
+}
+.ressso-sp-link:hover {
+  background: var(--c-main);
+  color: #fff;
+  border-color: var(--c-main);
+}
+.ressso-sp-link svg { flex-shrink: 0; }
 .ressso-badge {
   display: inline-block;
   padding: 6px 14px;

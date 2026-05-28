@@ -25,11 +25,12 @@ const RESSSO_TITULOS = [
 
 const RESSSO_CONTRATOS = [
   {
-    id: '4600030983',
-    nombre: 'Contrato 4600030983',
+    id: '4600030982',
+    nombre: 'Contrato 4600030982',
     paletaPrincipal: '#2d7ff9', // azul SK
     paletaSecundaria: '#5fa8ff',
     pcts: [100, 100, 64, 100, 100, 100, 100, 100, 80],
+    sharepoint: 'https://empresassk.sharepoint.com/sites/ICSK-HSEC/Documentos%20compartidos/Forms/AllItems.aspx?id=%2Fsites%2FICSK%2DHSEC%2FDocumentos%20compartidos%2F05%20%2D%20Respaldo%20HSEC%20faenas%2F250%20%2D%20Mantenimiento%20M2%20y%20M3%2FContrato%20250%20Dch%2FSistema%20de%20Gesti%C3%B3n%2F09%5FRESSO%20V10%2FAplicaci%C3%B3n%20MGA%2F4600030982&viewid=e72333c8%2D45a8%2D4050%2Dbdda%2D7b838f222428',
   },
   {
     id: '4600030984',
@@ -37,6 +38,7 @@ const RESSSO_CONTRATOS = [
     paletaPrincipal: '#ff7a59', // naranja contrast
     paletaSecundaria: '#ffa280',
     pcts: [100, 100, 64, 100, 100, 100, 100, 100, 60],
+    sharepoint: 'https://empresassk.sharepoint.com/sites/ICSK-HSEC/Documentos%20compartidos/Forms/AllItems.aspx?id=%2Fsites%2FICSK%2DHSEC%2FDocumentos%20compartidos%2F05%20%2D%20Respaldo%20HSEC%20faenas%2F250%20%2D%20Mantenimiento%20M2%20y%20M3%2FContrato%20250%20Dch%2FSistema%20de%20Gesti%C3%B3n%2F09%5FRESSO%20V10%2FAplicaci%C3%B3n%20MGA%2F4600030984&viewid=e72333c8%2D45a8%2D4050%2Dbdda%2D7b838f222428',
   },
 ];
 
@@ -338,6 +340,7 @@ function renderRessso() {
           <div>
             <span class="ressso-contract-tag">CONTRATO</span>
             <h3>${contrato.id}</h3>
+            ${contrato.sharepoint ? `<a class="ressso-sp-link" href="${contrato.sharepoint}" target="_blank" rel="noopener" title="Abrir carpeta en SharePoint"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3h7v7"/><path d="M10 14 21 3"/><path d="M21 14v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5"/></svg><span>SharePoint</span></a>` : ''}
           </div>
           <span class="ressso-badge ${badgeCls}">${estado}</span>
         </div>

@@ -329,9 +329,9 @@ function renderRessso() {
     });
 
     const itemsHtml = contrato.pcts.map((pct, i) => {
-      let cls = pct >= 100 ? 'rs-ok' : pct >= 80 ? 'rs-mid' : 'rs-low';
-      let icon = pct >= 100 ? '✓' : pct >= 80 ? '◐' : '!';
-      let pctText = pct === null ? 'No aplica' : pct + '%';
+      let cls = pct === null ? 'rs-na' : pct >= 100 ? 'rs-ok' : pct >= 80 ? 'rs-mid' : 'rs-low';
+      let icon = pct === null ? '–' : pct >= 100 ? '✓' : pct >= 80 ? '◐' : '!';
+      let pctText = pct === null ? 'N/A' : (typeof pct === 'number' ? pct.toLocaleString('es-CL', { minimumFractionDigits: 1, maximumFractionDigits: 1 }) + '%' : pct + '%');
       let nota = (contrato.notas && contrato.notas[i]) ? `<div class="ressso-item-note">${contrato.notas[i]}</div>` : '';
       return `
         <div class="ressso-item ${cls}">

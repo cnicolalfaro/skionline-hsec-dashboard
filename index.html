@@ -7,13 +7,13 @@ nombre<!DOCTYPE html>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=20260528e" />
+  <link rel="stylesheet" href="styles.css?v=20260528f" />
 </head>
 <body>
   <div class="page-shell">
     <header class="hero">
       <div class="hero-brand">
-        <img src="assets/logo.png" alt="Logo departamento" class="brand-logo" />
+        <img src="assets/logo.png" alt="Logo SK Industrial" class="brand-logo" />
         <div>
           <p class="eyebrow">SK INDUSTRIAL S.A. · HSEC</p>
           <h1>Dashboard de Registro Final de Cursos</h1>
@@ -21,7 +21,20 @@ nombre<!DOCTYPE html>
         </div>
       </div>
       <div class="hero-meta">
-        <span class="badge" id="updatedAt">Actualizando datos...</span>
+        <span class="badge live-badge" id="updatedAt">
+          <span class="live-dot" aria-hidden="true"></span>
+          <span class="live-text">Actualizando datos…</span>
+        </span>
+        <div class="hero-actions no-print">
+          <button id="presentBtn" class="hero-btn" type="button" title="Modo presentación (F11 sale)">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7V4h3"/><path d="M21 7V4h-3"/><path d="M3 17v3h3"/><path d="M21 17v3h-3"/></svg>
+            <span>Presentar</span>
+          </button>
+          <button id="exportPdfBtn" class="hero-btn" type="button" title="Exportar resumen ejecutivo en PDF">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><path d="M12 18v-6"/><path d="M9 15l3 3 3-3"/></svg>
+            <span>PDF Ejecutivo</span>
+          </button>
+        </div>
       </div>
     </header>
 

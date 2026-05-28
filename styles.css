@@ -1238,3 +1238,200 @@ tr:hover td { background: rgba(255,255,255,.03); }
   .two-col, .filters, .filters-four { grid-template-columns: 1fr; }
   .brand-logo { width: 120px; }
 }
+
+/* ============================================================
+   v20260528f — Enhancements para presentación ejecutiva
+   ============================================================ */
+
+/* Live badge con punto pulsante */
+.live-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(81, 184, 71, .12);
+  border-color: rgba(81, 184, 71, .35);
+  color: #cfe6c8;
+  font-weight: 600;
+}
+.live-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #51b847;
+  box-shadow: 0 0 0 0 rgba(81, 184, 71, .7);
+  animation: pulseDot 1.8s ease-out infinite;
+}
+@keyframes pulseDot {
+  0%   { box-shadow: 0 0 0 0 rgba(81, 184, 71, .55); }
+  70%  { box-shadow: 0 0 0 10px rgba(81, 184, 71, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(81, 184, 71, 0); }
+}
+
+/* Acciones del hero */
+.hero-meta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 12px;
+}
+.hero-actions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+.hero-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 9px 14px;
+  border-radius: 10px;
+  background: linear-gradient(180deg, rgba(45,127,249,.22), rgba(45,127,249,.10));
+  border: 1px solid rgba(140, 200, 255, .35);
+  color: #e8f1ff;
+  font-size: .88rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform .15s ease, background .2s ease, border-color .2s ease;
+}
+.hero-btn:hover {
+  background: linear-gradient(180deg, rgba(45,127,249,.35), rgba(45,127,249,.18));
+  border-color: rgba(180, 220, 255, .6);
+  transform: translateY(-1px);
+}
+.hero-btn:active { transform: translateY(0); }
+.hero-btn svg { opacity: .9; }
+
+/* Animaciones de entrada en stagger */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(14px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.cards .card,
+.bars .bar-row,
+.ressso-contracts .ressso-contract,
+.legend .legend-item {
+  animation: fadeUp .55s cubic-bezier(.2,.7,.2,1) both;
+}
+.cards .card:nth-child(1) { animation-delay: .04s; }
+.cards .card:nth-child(2) { animation-delay: .12s; }
+.cards .card:nth-child(3) { animation-delay: .20s; }
+.cards .card:nth-child(4) { animation-delay: .28s; }
+.bars .bar-row:nth-child(1)  { animation-delay: .10s; }
+.bars .bar-row:nth-child(2)  { animation-delay: .16s; }
+.bars .bar-row:nth-child(3)  { animation-delay: .22s; }
+.bars .bar-row:nth-child(4)  { animation-delay: .28s; }
+.bars .bar-row:nth-child(5)  { animation-delay: .34s; }
+.bars .bar-row:nth-child(6)  { animation-delay: .40s; }
+.bars .bar-row:nth-child(7)  { animation-delay: .46s; }
+.bars .bar-row:nth-child(8)  { animation-delay: .52s; }
+.bars .bar-row:nth-child(9)  { animation-delay: .58s; }
+.bars .bar-row:nth-child(n+10) { animation-delay: .64s; }
+.ressso-contracts .ressso-contract:nth-child(1) { animation-delay: .10s; }
+.ressso-contracts .ressso-contract:nth-child(2) { animation-delay: .22s; }
+
+/* Tooltip enriquecido para celdas de cursos */
+.course-cell { position: relative; }
+.course-cell[data-tip]:hover::after {
+  content: attr(data-tip);
+  position: absolute;
+  bottom: calc(100% + 6px);
+  left: 50%;
+  transform: translateX(-50%);
+  background: #0e1d33;
+  color: #e8f1ff;
+  padding: 6px 10px;
+  border-radius: 8px;
+  border: 1px solid rgba(140, 200, 255, .35);
+  font-size: .78rem;
+  font-weight: 500;
+  white-space: nowrap;
+  box-shadow: 0 8px 24px rgba(0,0,0,.45);
+  z-index: 50;
+  pointer-events: none;
+  animation: fadeUp .18s ease-out both;
+}
+.course-cell[data-tip]:hover::before {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 5px solid transparent;
+  border-top-color: rgba(140, 200, 255, .35);
+  z-index: 50;
+  pointer-events: none;
+}
+
+/* ===== Modo Presentación ===== */
+body.presentation-mode {
+  background: radial-gradient(circle at 20% 0%, #0a1f3a, #050a14 60%);
+}
+body.presentation-mode .filters-panel,
+body.presentation-mode .records-panel-wrap,
+body.presentation-mode .sin-match-panel,
+body.presentation-mode .access-panel,
+body.presentation-mode .footer,
+body.presentation-mode .hero-actions {
+  display: none !important;
+}
+body.presentation-mode .page-shell { max-width: 1600px; padding: 18px 36px; }
+body.presentation-mode h1 { font-size: clamp(2rem, 4vw, 3.2rem); }
+body.presentation-mode .card .value { font-size: clamp(2.2rem, 3.5vw, 3rem); }
+body.presentation-mode .panel,
+body.presentation-mode .card {
+  box-shadow: 0 12px 36px rgba(0,0,0,.55);
+  transform: scale(1.005);
+}
+body.presentation-mode .ressso-panel { padding: 28px; }
+
+/* Botón flotante para salir del modo presentación */
+.exit-present-fab {
+  position: fixed;
+  top: 18px;
+  right: 18px;
+  z-index: 9998;
+  display: none;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  border-radius: 999px;
+  background: rgba(245, 59, 77, .92);
+  color: white;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 8px 24px rgba(0,0,0,.5);
+}
+body.presentation-mode .exit-present-fab { display: inline-flex; }
+
+/* ===== Print / PDF Ejecutivo ===== */
+@media print {
+  @page { size: A4 landscape; margin: 10mm; }
+  body { background: white !important; color: #0b1a2d !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .no-print,
+  .filters-panel,
+  .records-panel-wrap,
+  .sin-match-panel,
+  .access-panel,
+  .footer,
+  .hero-actions {
+    display: none !important;
+  }
+  .page-shell { padding: 0; max-width: 100%; }
+  .hero, .panel, .card {
+    page-break-inside: avoid;
+    break-inside: avoid;
+    background: white !important;
+    color: #0b1a2d !important;
+    border-color: #cfd8e3 !important;
+    box-shadow: none !important;
+  }
+  .hero { padding: 12px 18px; }
+  h1, h2 { color: #0b1a2d !important; }
+  .eyebrow, .lead, .panel-header p, .card .label, .card-help { color: #4a5b73 !important; }
+  .card { border-top-width: 6px; }
+  .card .value { color: #0b1a2d !important; }
+  .ressso-contract { color: #0b1a2d !important; }
+  .ressso-item-row, .ressso-item { color: #0b1a2d !important; }
+}

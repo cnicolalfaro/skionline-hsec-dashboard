@@ -619,12 +619,14 @@ function renderRecords(rows, shiftContext) {
 
     const courseSet = new Set(row.courseList || []);
     const coursesCells = COURSE_COLUMNS.map(c => {
-      const ok = cIRL_ESENCIAL_COURSES.length;
-    const found = IRL_ESENCIAL_COURSE-cell">${ok ? '<span class="check-ok">✓</span>' : '<span class="check-empty">—</span>'}</td>`;
+      const ok = courseSet.has(c);
+      const isEsencial = IRL_ESENCIAL_COURSES.includes(c);
+      const tip = `${row.nombre} · ${c}\n${ok ? '✓ Acreditado' : '— Sin registro'}${isEsencial ? '  (IRL Esencial)' : ''}`;
+      return `<td class="course-cell" data-tip="${escapeHtml(tip)}">${ok ? '<span class="check-ok">✓</span>' : '<span class="check-empty">—</span>'}</td>`;
     }).join('');
 
-    const total = COURSE_COLUMNS.length;
-    const found = COURSE_COLUMNS.filter(c => courseSet.has(c)).length;
+    const total = IRL_ESENCIAL_COURSES.length;
+    const found = IRL_ESENCIAL_COURSES.filter(c => courseSet.has(c)).length;
     const pct = Math.round((found / total) * 100);
     const pctClass = pct >= 80 ? 'pct-high' : pct >= 50 ? 'pct-mid' : 'pct-low';
     const barColor = pct >= 80 ? '#51b847' : pct >= 50 ? '#ffcc66' : '#ff7a59';
@@ -861,6 +863,59 @@ function setupFilters(data) {
   applyFilters();
 }
 
+function setupPresentationMode() {
+  const btn = document.getElementById('presentBtn');
+  if (!btn) return;
+
+  // Crear FAB para salir
+  let fab = document.getElementById('exitPresentFab');
+  if (!fab) {
+    fab = document.createElement('button');
+    fab.id = 'exitPresentFab';
+    fab.className = 'exit-present-fab';
+    fab.type = 'button';
+    fab.innerHTML = '✕  Salir de presentación';
+    document.body.appendChild(fab);
+  }
+
+  const enter = () => {
+    document.body.classList.add('presentation-mode');
+    const docEl = document.documentElement;
+    if (docEl.requestFullscreen) {
+      docEl.requestFullscreen().catch(() => {});
+    }
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+  const exit = () => {
+    document.body.classList.remove('presentation-mode');
+    if (document.fullscreenElement && document.exitFullscreen) {
+      document.exitFullscreen().catch(() => {});
+    }
+  };
+
+  btn.addEventListener('click', enter);
+  fab.addEventListener('click', exit);
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && document.body.classList.contains('presentation-mode')) {
+      exit();
+    }
+  });
+  document.addEventListener('fullscreenchange', () => {
+    if (!document.fullscreenElement && document.body.classList.contains('presentation-mode')) {
+      document.body.classList.remove('presentation-mode');
+    }
+  });
+}
+
+function setupPdfExport() {
+  const btn = document.getElementById('exportPdfBtn');
+  if (!btn) return;
+  btn.addEventListener('click', () => {
+    // Pequeña espera para que el navegador aplique el layout antes de imprimir
+    setTimeout(() => window.print(), 80);
+  });
+}
+
 (function init() {
   const data = window.DASHBOARD_DATA;
   if (!data) {
@@ -868,7 +923,9 @@ function setupFilters(data) {
     return;
   }
 
-  document.getElementById('updatedAt').textContent = `Actualizado: ${data.generatedAt}`;
+  document.getElementById('updatedAt').innerHTML = `<span class="live-dot" aria-hidden="true"></span><span class="live-text">Datos al ${data.generatedAt}</span>`;
+  setupPresentationMode();
+  setupPdfExport();
   renderRessso();
   renderCards(data);
   renderBars(data.courseTotals || []);

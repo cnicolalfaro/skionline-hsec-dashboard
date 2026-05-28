@@ -7,6 +7,11 @@ const COURSE_COLUMNS = [
   'IRL ESPECIFICA',
   'IRL GENERAL',
   'AYB',
+  'CAD',
+  'EPP',
+  'EXTINTORES',
+  'PA',
+  'OPR',
 ];
 
 // === Cumplimiento RESSSO (editar valores aquí cuando cambien) =================

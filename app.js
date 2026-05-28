@@ -611,7 +611,7 @@ function renderRecords(rows, shiftContext) {
     const courseSet = new Set(row.courseList || []);
     const coursesCells = COURSE_COLUMNS.map(c => {
       const ok = courseSet.has(c);
-      return `<td class="course-cell"><span class="${ok ? 'check-ok' : 'check-no'}">${ok ? '✓' : '✕'}</span></td>`;
+      return `<td class="course-cell">${ok ? '<span class="check-ok">✓</span>' : '<span class="check-empty">—</span>'}</td>`;
     }).join('');
 
     const total = COURSE_COLUMNS.length;

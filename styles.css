@@ -539,6 +539,7 @@ th, td {
 }
 .records-table .check-ok { color: #51b847; font-weight: 700; }
 .records-table .check-no { color: #ff7a59; font-weight: 700; }
+.records-table .check-empty { color: rgba(255,255,255,.28); font-weight: 600; }
 .records-table td.nombre-cell {
   font-weight: 600;
   min-width: 120px;

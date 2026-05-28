@@ -359,16 +359,28 @@ function renderRessso() {
           </div>
           <span class="ressso-badge ${badgeCls}">${avgStr}% <span>${estado}</span></span>
         </div>
-        <div class="ressso-donut-wrap">
+        <div class="ressso-donut-wrap" style="display:grid;grid-template-columns:220px 1fr;gap:24px;align-items:center;">
           <svg class="ressso-donut" viewBox="0 0 260 260" aria-label="Donut RESSSO ${contrato.id}">
             ${segments.map(s => `
               <path d="${s.path}" stroke="${s.color}" stroke-width="22" fill="none" stroke-linecap="round" />
             `).join('')}
-            ${segments.map(s => `
-              <text x="${s.lx}" y="${s.ly}" fill="#cfe6ff" font-size="11" font-weight="700" text-anchor="${s.anchor}" dominant-baseline="middle">${s.n} · ${s.pct}%</text>
-            `).join('')}
+            ${contrato.pcts.map((pct, i) => {
+              // Mostrar todos los valores, incluso N/A
+              const angle = 360 / contrato.pcts.length;
+              const midAngle = ((i + 0.5) * angle) - 90;
+              const lx = 110 + 128 * Math.cos(midAngle * Math.PI / 180);
+              const ly = 110 + 128 * Math.sin(midAngle * Math.PI / 180);
+              const anchor = midAngle > 90 && midAngle < 270 ? 'end' : 'start';
+              const pctText = pct === null ? 'N/A' : (typeof pct === 'number' ? pct.toLocaleString('es-CL', { minimumFractionDigits: 1, maximumFractionDigits: 1 }) + '%' : pct + '%');
+              return `<text x="${lx}" y="${ly}" fill="#cfe6ff" font-size="11" font-weight="700" text-anchor="${anchor}" dominant-baseline="middle">${i+1} · ${pctText}</text>`;
+            }).join('')}
             <text x="110" y="105" fill="#fff" font-size="32" font-weight="800" text-anchor="middle">${avgStr}%</text>
           </svg>
+          <div class="ressso-summary-box">
+            <div class="ressso-summary-row"><span>Elementos al 100%</span><strong>${completos} / ${contrato.pcts.length}</strong></div>
+            <div class="ressso-summary-row"><span>Promedio general</span><strong>${avgStr}%</strong></div>
+            <div class="ressso-summary-row"><span>Estado</span><strong class="ressso-badge ${badgeCls}" style="font-size:.72rem;padding:3px 10px">${estado}</strong></div>
+          </div>
         </div>
         <div class="ressso-items ressso-items-grid">${itemsHtml}</div>
       </div>

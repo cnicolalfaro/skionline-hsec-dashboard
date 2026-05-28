@@ -14,6 +14,10 @@ const COURSE_COLUMNS = [
   'OPR',
 ];
 
+// Cursos que componen el "IRL Esencial" para el cálculo de cumplimiento
+// (primeros 4 de COURSE_COLUMNS). Los demás se muestran como informativos.
+const IRL_ESENCIAL_COURSES = COURSE_COLUMNS.slice(0, 4);
+
 // === Cumplimiento RESSSO (editar valores aquí cuando cambien) =================
 // Lista compartida de elementos. Para cambiar % por contrato edita RESSSO_CONTRATOS.
 const RESSSO_TITULOS = [
@@ -615,8 +619,8 @@ function renderRecords(rows, shiftContext) {
 
     const courseSet = new Set(row.courseList || []);
     const coursesCells = COURSE_COLUMNS.map(c => {
-      const ok = courseSet.has(c);
-      return `<td class="course-cell">${ok ? '<span class="check-ok">✓</span>' : '<span class="check-empty">—</span>'}</td>`;
+      const ok = cIRL_ESENCIAL_COURSES.length;
+    const found = IRL_ESENCIAL_COURSE-cell">${ok ? '<span class="check-ok">✓</span>' : '<span class="check-empty">—</span>'}</td>`;
     }).join('');
 
     const total = COURSE_COLUMNS.length;

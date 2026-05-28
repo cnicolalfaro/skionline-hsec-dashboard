@@ -19,11 +19,11 @@ SPECIAL_SHEETS = {'RESUMEN', 'TARJA', 'NO_LEGIBLE', 'DUPLICADOS'}
 
 # URL base de SharePoint donde se replicarán las carpetas _PorPersona/<NOMBRE>.
 # Las subcarpetas se construyen insertando "/<NOMBRE>" antes del "?".
-PORPERSONA_SHAREPOINT_BASE = 'https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA?csf=1&web=1&e=d6nH9p'
+PORPERSONA_SHAREPOINT_BASE = 'https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n/05_Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA?csf=1&web=1&e=oDT45K'
 
 # URL fija a la que apuntan las personas SIN carpeta propia (no tienen archivos en SharePoint),
 # y también la sección "Sin match con TARJA" del dashboard.
-PORPERSONA_SIN_MATCH_URL = 'https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/5-%20Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/TRABAJADOR%20SIN%20MATCH%20CON%20TARJA?csf=1&web=1&e=W1n3aM'
+PORPERSONA_SIN_MATCH_URL = 'https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n/05_Respaldo%20documentaci%C3%B3n%20trabajadores/00_PORPERSONA/TRABAJADOR%20SIN%20MATCH%20CON%20TARJA?csf=1&web=1&e=W1n3aM'
 INDUCCION_COLS = [
     'CHARLA ADMINISTRATIVA',
     'CHARLA LEY KARIN',
@@ -783,10 +783,9 @@ def main() -> None:
         'sinMatchFolderUrl': PORPERSONA_SIN_MATCH_URL,
         'irlFormsNote': '',
         'accessLinks': [
-            {'label': 'Evidencias de certificaciones', 'url': 'https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/3-%20Registros%20capacitaciones%20-%20difusiones/3-%20Evidencias%20de%20Certificaciones?csf=1&web=1&e=ovhAFT'},
-            {'label': 'Procedimientos contrato 982', 'url': 'https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/2-%20Procedimientos?csf=1&web=1&e=IsTxdJ'},
+            {'label': 'Procedimientos contrato 982', 'url': 'https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n/02_Procedimientos?csf=1&web=1&e=cXVjGR'},
             {'label': 'Procedimientos contrato 984', 'url': 'https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030984/2-%20Procedimientos?csf=1&web=1&e=RJlP81'},
-            {'label': 'Check list actualizados', 'url': 'https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n%20n%20contrato%204600030982/4-%20Formatos%20terreno/01-%20Check%20list/Check%20List%20Actualizados?csf=1&web=1&e=5arIgO'}
+            {'label': 'Check list actualizados', 'url': 'https://empresassk.sharepoint.com/:f:/r/sites/ICSK-HSEC/Documentos%20compartidos/05%20-%20Respaldo%20HSEC%20faenas/250%20-%20Mantenimiento%20M2%20y%20M3/Contrato%20250%20Dch/Sistema%20de%20Gesti%C3%B3n/04_Formatos%20terreno/01-%20Check%20list?csf=1&web=1&e=p6je1i'}
         ],
         'insights': [
             {'title': 'Curso con mayor volumen', 'detail': f"{curso_top['curso']} concentra {curso_top['total']} archivos."},

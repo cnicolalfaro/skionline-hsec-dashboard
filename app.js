@@ -9,7 +9,7 @@ const COURSE_COLUMNS = [
   'AYB',
   'CAD',
   'EPP',
-  'EXTINTORES',
+  'EXT',
   'PA',
   'OPR',
 ];

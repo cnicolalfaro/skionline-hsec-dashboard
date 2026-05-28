@@ -242,8 +242,8 @@ def is_evidence_sheet(sheet_name: str) -> bool:
 
 
 # Hojas que no se muestran en el dashboard (totalmente ocultas de gráficos y tabla resumen)
-# Se ocultan los cursos dictados por la mutual para enfocar el dashboard en las IRL.
-HIDDEN_FROM_DASHBOARD = {'IRL_GENERAL_FORMS', 'EPP', 'EXT', 'OPR', 'PA', 'CAD'}
+# Solo IRL_GENERAL_FORMS queda oculto; los cursos de mutual ahora se muestran como columnas.
+HIDDEN_FROM_DASHBOARD = {'IRL_GENERAL_FORMS'}
 
 # Nombres completos amigables para la visualización en el dashboard
 COURSE_FULL_NAMES = {

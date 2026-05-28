@@ -348,7 +348,7 @@ function renderRessso() {
     }).join('');
 
     const badgeCls = avg >= 95 ? 'rs-ok' : avg >= 80 ? 'rs-mid' : 'rs-low';
-
+    const avgStr = avg.toLocaleString('es-CL', { minimumFractionDigits: 1, maximumFractionDigits: 1 });
     return `
       <div class="ressso-contract" style="--c-main:${contrato.paletaPrincipal};--c-soft:${contrato.paletaSecundaria}">
         <div class="ressso-contract-head">
@@ -357,7 +357,7 @@ function renderRessso() {
             <h3>${contrato.id}</h3>
             ${contrato.sharepoint ? `<a class="ressso-sp-link" href="${contrato.sharepoint}" target="_blank" rel="noopener" title="Abrir carpeta en SharePoint"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3h7v7"/><path d="M10 14 21 3"/><path d="M21 14v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5"/></svg><span>SharePoint</span></a>` : ''}
           </div>
-          <span class="ressso-badge ${badgeCls}">${estado}</span>
+          <span class="ressso-badge ${badgeCls}">${avgStr}% <span>${estado}</span></span>
         </div>
         <div class="ressso-donut-wrap">
           <svg class="ressso-donut" viewBox="0 0 260 260" aria-label="Donut RESSSO ${contrato.id}">
@@ -367,11 +367,12 @@ function renderRessso() {
             ${segments.map(s => `
               <text x="${s.lx}" y="${s.ly}" fill="#cfe6ff" font-size="11" font-weight="700" text-anchor="${s.anchor}" dominant-baseline="middle">${s.n} · ${s.pct}%</text>
             `).join('')}
-            <text x="110" y="105" fill="#fff" font-size="32" font-weight="800" text-anchor="middle">${avg}%</text>
-            <text x="110" y="128" fill="#9fd1ff" font-size="10" font-weight="700" letter-spacing="2" text-anchor="middle">PROMEDIO</text>
+            <text x="110" y="105" fill="#fff" font-size="32" font-weight="800" text-anchor="middle">${avgStr}%</text>
           </svg>
-          <div class="ressso-summary">
-            <div class="ressso-summary-row">
+        </div>
+        <div class="ressso-items">${itemsHtml}</div>
+      </div>
+    `;
               <span>Elementos al 100%</span>
               <strong>${completos} / ${total}</strong>
             </div>

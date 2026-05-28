@@ -296,9 +296,10 @@ function renderRessso() {
   const statusLabel = (pct) => pct >= 100 ? 'ÓPTIMO' : pct >= 80 ? 'ACEPTABLE' : 'CRÍTICO';
 
   host.innerHTML = RESSSO_CONTRATOS.map(contrato => {
-    const total = contrato.pcts.length;
-    const avg = total ? Math.round((contrato.pcts.reduce((a, b) => a + b, 0) / total) * 10) / 10 : 0;
-    const completos = contrato.pcts.filter(p => p >= 100).length;
+    const pctsValidos = contrato.pcts.filter(p => typeof p === 'number');
+    const total = pctsValidos.length;
+    const avg = total ? Math.round((pctsValidos.reduce((a, b) => a + b, 0) / total) * 10) / 10 : 0;
+    const completos = pctsValidos.filter(p => p >= 100).length;
     const estado = statusLabel(avg);
 
     // Donut SVG: 9 segmentos iguales, color según % del elemento

@@ -29,14 +29,14 @@ const RESSSO_CONTRATOS = [
     nombre: 'Contrato 4600030983',
     paletaPrincipal: '#2d7ff9', // azul SK
     paletaSecundaria: '#5fa8ff',
-    pcts: [100, 100, 64, 100, 100, 100, 100, 100, 70],
+    pcts: [100, 100, 64, 100, 100, 100, 100, 100, 80],
   },
   {
     id: '4600030984',
     nombre: 'Contrato 4600030984',
     paletaPrincipal: '#ff7a59', // naranja contrast
     paletaSecundaria: '#ffa280',
-    pcts: [100, 100, 64, 100, 100, 100, 100, 100, 70],
+    pcts: [100, 100, 64, 100, 100, 100, 100, 100, 60],
   },
 ];
 

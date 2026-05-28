@@ -10,17 +10,34 @@ const COURSE_COLUMNS = [
 ];
 
 // === Cumplimiento RESSSO (editar valores aquí cuando cambien) =================
-// Cada elemento: { n, titulo, pct }
-const RESSSO_ITEMS = [
-  { n: 1, titulo: 'Mapas de procesos y MIPER',                                                pct: 100 },
-  { n: 2, titulo: 'Programa de seguridad y salud ocupacional alineado con el análisis MIPER', pct: 100 },
-  { n: 3, titulo: 'Exámenes de salud según acuerdo de homologación',                           pct: 64  },
-  { n: 4, titulo: 'Cursos de inducción SSO, IRL, inducción al área del contrato',              pct: 100 },
-  { n: 5, titulo: 'Matriz de cumplimiento legal',                                              pct: 100 },
-  { n: 6, titulo: 'Programa personalizado de verificaciones en terreno',                       pct: 100 },
-  { n: 7, titulo: 'Seguimiento a indicaciones preventivas (leading) y de resultados',          pct: 100 },
-  { n: 8, titulo: 'Procedimientos de trabajo',                                                 pct: 100 },
-  { n: 9, titulo: 'LV Riesgos de Fatalidad',                                                   pct: 80  },
+// Lista compartida de elementos. Para cambiar % por contrato edita RESSSO_CONTRATOS.
+const RESSSO_TITULOS = [
+  'Mapas de procesos y MIPER',
+  'Programa de seguridad y salud ocupacional alineado con el análisis MIPER',
+  'Exámenes de salud según acuerdo de homologación',
+  'Cursos de inducción SSO, IRL, inducción al área del contrato',
+  'Matriz de cumplimiento legal',
+  'Programa personalizado de verificaciones en terreno',
+  'Seguimiento a indicaciones preventivas (leading) y de resultados',
+  'Procedimientos de trabajo',
+  'LV Riesgos de Fatalidad',
+];
+
+const RESSSO_CONTRATOS = [
+  {
+    id: '4600030983',
+    nombre: 'Contrato 4600030983',
+    paletaPrincipal: '#2d7ff9', // azul SK
+    paletaSecundaria: '#5fa8ff',
+    pcts: [100, 100, 64, 100, 100, 100, 100, 100, 70],
+  },
+  {
+    id: '4600030984',
+    nombre: 'Contrato 4600030984',
+    paletaPrincipal: '#ff7a59', // naranja contrast
+    paletaSecundaria: '#ffa280',
+    pcts: [100, 100, 64, 100, 100, 100, 100, 100, 70],
+  },
 ];
 
 // Leyenda de códigos que pueden aparecer en la TARJA (col por día)
@@ -258,43 +275,99 @@ function exportFilteredToExcel(rows) {
 }
 
 function renderRessso() {
-  const grid = document.getElementById('resssoGrid');
-  const scoreValue = document.querySelector('#resssoScore .ressso-score-value');
-  const badge = document.getElementById('resssoBadge');
-  const meta = document.getElementById('resssoMeta');
-  if (!grid) return;
+  const host = document.getElementById('resssoContracts');
+  if (!host) return;
 
-  const total = RESSSO_ITEMS.length;
-  const promedio = total ? Math.round((RESSSO_ITEMS.reduce((s, it) => s + it.pct, 0) / total) * 10) / 10 : 0;
-  const completos = RESSSO_ITEMS.filter(it => it.pct >= 100).length;
+  // Color por estado de cumplimiento (independiente de paleta de contrato)
+  const statusColor = (pct) => pct >= 100 ? '#51b847' : pct >= 80 ? '#f4c430' : '#ff7a59';
+  const statusLabel = (pct) => pct >= 100 ? 'ÓPTIMO' : pct >= 80 ? 'ACEPTABLE' : 'CRÍTICO';
 
-  if (scoreValue) scoreValue.textContent = `${promedio}%`;
-  const ring = document.querySelector('#resssoScore .ressso-score-ring');
-  if (ring) {
-    const color = promedio >= 95 ? '#51b847' : promedio >= 80 ? '#f4c430' : '#ff7a59';
-    ring.style.background = `conic-gradient(${color} ${promedio * 3.6}deg, rgba(255,255,255,.08) 0)`;
-  }
-  if (badge) {
-    const estado = promedio >= 95 ? { txt: 'ÓPTIMO',    cls: 'rs-ok'  }
-                : promedio >= 80 ? { txt: 'ACEPTABLE', cls: 'rs-mid' }
-                :                  { txt: 'CRÍTICO',   cls: 'rs-low' };
-    badge.textContent = estado.txt;
-    badge.className = `ressso-badge ${estado.cls}`;
-  }
-  if (meta) meta.textContent = `${completos} de ${total} elementos al 100%`;
+  host.innerHTML = RESSSO_CONTRATOS.map(contrato => {
+    const total = contrato.pcts.length;
+    const avg = total ? Math.round((contrato.pcts.reduce((a, b) => a + b, 0) / total) * 10) / 10 : 0;
+    const completos = contrato.pcts.filter(p => p >= 100).length;
+    const estado = statusLabel(avg);
 
-  grid.innerHTML = RESSSO_ITEMS.map(it => {
-    const cls = it.pct >= 100 ? 'rs-ok' : it.pct >= 80 ? 'rs-mid' : 'rs-low';
-    const icon = it.pct >= 100 ? '✓' : it.pct >= 80 ? '◐' : '!';
-    return `
-      <div class="ressso-card ${cls}">
-        <div class="ressso-card-head">
-          <span class="ressso-num">${it.n}</span>
-          <span class="ressso-icon">${icon}</span>
+    // Donut SVG: 9 segmentos iguales, color según % del elemento
+    const R = 90, CX = 110, CY = 110, GAP = 3;
+    const segs = total;
+    const segAngle = 360 / segs;
+    const segments = contrato.pcts.map((pct, i) => {
+      const start = (i * segAngle) - 90 + (GAP / 2);
+      const end = start + segAngle - GAP;
+      const largeArc = (end - start) > 180 ? 1 : 0;
+      const x1 = CX + R * Math.cos(start * Math.PI / 180);
+      const y1 = CY + R * Math.sin(start * Math.PI / 180);
+      const x2 = CX + R * Math.cos(end * Math.PI / 180);
+      const y2 = CY + R * Math.sin(end * Math.PI / 180);
+      // Etiqueta a 130
+      const midAngle = (start + end) / 2;
+      const lx = CX + 128 * Math.cos(midAngle * Math.PI / 180);
+      const ly = CY + 128 * Math.sin(midAngle * Math.PI / 180);
+      return {
+        path: `M ${x1} ${y1} A ${R} ${R} 0 ${largeArc} 1 ${x2} ${y2}`,
+        color: statusColor(pct),
+        pct,
+        n: i + 1,
+        lx, ly,
+        anchor: midAngle > 90 && midAngle < 270 ? 'end' : 'start',
+      };
+    });
+
+    const itemsHtml = contrato.pcts.map((pct, i) => {
+      const cls = pct >= 100 ? 'rs-ok' : pct >= 80 ? 'rs-mid' : 'rs-low';
+      const icon = pct >= 100 ? '✓' : pct >= 80 ? '◐' : '!';
+      return `
+        <div class="ressso-item ${cls}">
+          <div class="ressso-item-head">
+            <span class="ressso-item-num" style="background:${contrato.paletaPrincipal}">${i + 1}</span>
+            <span class="ressso-item-icon">${icon}</span>
+            <span class="ressso-item-pct">${pct}%</span>
+          </div>
+          <div class="ressso-item-title">${RESSSO_TITULOS[i]}</div>
+          <div class="ressso-item-bar"><span style="width:${Math.max(0, Math.min(100, pct))}%"></span></div>
         </div>
-        <div class="ressso-card-title">${it.titulo}</div>
-        <div class="ressso-card-pct">${it.pct}%</div>
-        <div class="ressso-card-bar"><span style="width:${Math.max(0, Math.min(100, it.pct))}%"></span></div>
+      `;
+    }).join('');
+
+    const badgeCls = avg >= 95 ? 'rs-ok' : avg >= 80 ? 'rs-mid' : 'rs-low';
+
+    return `
+      <div class="ressso-contract" style="--c-main:${contrato.paletaPrincipal};--c-soft:${contrato.paletaSecundaria}">
+        <div class="ressso-contract-head">
+          <div>
+            <span class="ressso-contract-tag">CONTRATO</span>
+            <h3>${contrato.id}</h3>
+          </div>
+          <span class="ressso-badge ${badgeCls}">${estado}</span>
+        </div>
+        <div class="ressso-donut-wrap">
+          <svg class="ressso-donut" viewBox="0 0 260 260" aria-label="Donut RESSSO ${contrato.id}">
+            ${segments.map(s => `
+              <path d="${s.path}" stroke="${s.color}" stroke-width="22" fill="none" stroke-linecap="round" />
+            `).join('')}
+            ${segments.map(s => `
+              <text x="${s.lx}" y="${s.ly}" fill="#cfe6ff" font-size="11" font-weight="700" text-anchor="${s.anchor}" dominant-baseline="middle">${s.n} · ${s.pct}%</text>
+            `).join('')}
+            <text x="110" y="105" fill="#fff" font-size="32" font-weight="800" text-anchor="middle">${avg}%</text>
+            <text x="110" y="128" fill="#9fd1ff" font-size="10" font-weight="700" letter-spacing="2" text-anchor="middle">PROMEDIO</text>
+          </svg>
+          <div class="ressso-summary">
+            <div class="ressso-summary-row">
+              <span>Elementos al 100%</span>
+              <strong>${completos} / ${total}</strong>
+            </div>
+            <div class="ressso-summary-row">
+              <span>Promedio general</span>
+              <strong style="color:${statusColor(avg)}">${avg}%</strong>
+            </div>
+            <div class="ressso-summary-row">
+              <span>Estado</span>
+              <strong class="ressso-badge ${badgeCls}" style="font-size:.72rem;padding:3px 10px">${estado}</strong>
+            </div>
+          </div>
+        </div>
+        <div class="ressso-items-grid">${itemsHtml}</div>
       </div>
     `;
   }).join('');

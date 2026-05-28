@@ -38,7 +38,8 @@ const RESSSO_CONTRATOS = [
     nombre: 'Contrato 4600030982',
     paletaPrincipal: '#2d7ff9', // azul SK
     paletaSecundaria: '#5fa8ff',
-    pcts: [100, 100, 100, 64, 100, 100, 100, 100, 50],
+    pcts: [100, 100, 100, 64, 100, null, 100, 100, 50],
+    notas: { 5: 'No se nos entregaron cuentas Zyght' },
     sharepoint: 'https://empresassk.sharepoint.com/sites/ICSK-HSEC/Documentos%20compartidos/Forms/AllItems.aspx?id=%2Fsites%2FICSK%2DHSEC%2FDocumentos%20compartidos%2F05%20%2D%20Respaldo%20HSEC%20faenas%2F250%20%2D%20Mantenimiento%20M2%20y%20M3%2FContrato%20250%20Dch%2FSistema%20de%20Gesti%C3%B3n%2F09%5FRESSO%20V10%2FAplicaci%C3%B3n%20MGA%2F4600030982&viewid=e72333c8%2D45a8%2D4050%2Dbdda%2D7b838f222428',
   },
   {
@@ -46,7 +47,8 @@ const RESSSO_CONTRATOS = [
     nombre: 'Contrato 4600030984',
     paletaPrincipal: '#ff7a59', // naranja contrast
     paletaSecundaria: '#ffa280',
-    pcts: [100, 100, 100, 64, 100, 100, 100, 100, 50],
+    pcts: [100, 100, 100, 64, 100, null, 100, 100, 50],
+    notas: { 5: 'No se nos entregaron cuentas Zyght' },
     sharepoint: 'https://empresassk.sharepoint.com/sites/ICSK-HSEC/Documentos%20compartidos/Forms/AllItems.aspx?id=%2Fsites%2FICSK%2DHSEC%2FDocumentos%20compartidos%2F05%20%2D%20Respaldo%20HSEC%20faenas%2F250%20%2D%20Mantenimiento%20M2%20y%20M3%2FContrato%20250%20Dch%2FSistema%20de%20Gesti%C3%B3n%2F09%5FRESSO%20V10%2FAplicaci%C3%B3n%20MGA%2F4600030984&viewid=e72333c8%2D45a8%2D4050%2Dbdda%2D7b838f222428',
   },
 ];
@@ -326,17 +328,20 @@ function renderRessso() {
     });
 
     const itemsHtml = contrato.pcts.map((pct, i) => {
-      const cls = pct >= 100 ? 'rs-ok' : pct >= 80 ? 'rs-mid' : 'rs-low';
-      const icon = pct >= 100 ? '✓' : pct >= 80 ? '◐' : '!';
+      let cls = pct >= 100 ? 'rs-ok' : pct >= 80 ? 'rs-mid' : 'rs-low';
+      let icon = pct >= 100 ? '✓' : pct >= 80 ? '◐' : '!';
+      let pctText = pct === null ? 'No aplica' : pct + '%';
+      let nota = (contrato.notas && contrato.notas[i]) ? `<div class="ressso-item-note">${contrato.notas[i]}</div>` : '';
       return `
         <div class="ressso-item ${cls}">
           <div class="ressso-item-head">
             <span class="ressso-item-num" style="background:${contrato.paletaPrincipal}">${i + 1}</span>
             <span class="ressso-item-icon">${icon}</span>
-            <span class="ressso-item-pct">${pct}%</span>
+            <span class="ressso-item-pct">${pctText}</span>
           </div>
           <div class="ressso-item-title">${RESSSO_TITULOS[i]}</div>
-          <div class="ressso-item-bar"><span style="width:${Math.max(0, Math.min(100, pct))}%"></span></div>
+          ${nota}
+          <div class="ressso-item-bar"><span style="width:${pct === null ? 100 : Math.max(0, Math.min(100, pct))}%"></span></div>
         </div>
       `;
     }).join('');

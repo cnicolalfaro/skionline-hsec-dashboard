@@ -373,22 +373,6 @@ function renderRessso() {
         <div class="ressso-items">${itemsHtml}</div>
       </div>
     `;
-              <span>Elementos al 100%</span>
-              <strong>${completos} / ${total}</strong>
-            </div>
-            <div class="ressso-summary-row">
-              <span>Promedio general</span>
-              <strong style="color:${statusColor(avg)}">${avg}%</strong>
-            </div>
-            <div class="ressso-summary-row">
-              <span>Estado</span>
-              <strong class="ressso-badge ${badgeCls}" style="font-size:.72rem;padding:3px 10px">${estado}</strong>
-            </div>
-          </div>
-        </div>
-        <div class="ressso-items-grid">${itemsHtml}</div>
-      </div>
-    `;
   }).join('');
 }
 

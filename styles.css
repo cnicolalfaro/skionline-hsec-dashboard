@@ -922,16 +922,18 @@ tr:hover td { background: rgba(255,255,255,.03); }
   color: #fff;
 }
 .ressso-aplic-pop {
-  position: absolute;
-  top: calc(100% + 10px);
-  right: 0;
-  width: 460px;
-  max-width: 90vw;
+  position: fixed;
+  top: 80px;
+  right: 40px;
+  width: 520px;
+  max-width: 92vw;
+  max-height: calc(100vh - 100px);
+  overflow-y: auto;
   background: #0b1f3d;
   border: 1px solid rgba(95,168,255,.35);
   border-radius: 14px;
   padding: 8px;
-  box-shadow: 0 16px 48px rgba(0,0,0,.55), 0 0 0 1px rgba(255,255,255,.04) inset;
+  box-shadow: 0 16px 48px rgba(0,0,0,.65), 0 0 0 1px rgba(255,255,255,.04) inset;
   opacity: 0;
   visibility: hidden;
   transform: translateY(-6px);
@@ -954,16 +956,7 @@ tr:hover td { background: rgba(255,255,255,.03); }
   pointer-events: auto;
 }
 .ressso-aplic-pop::before {
-  content: "";
-  position: absolute;
-  top: -8px;
-  right: 24px;
-  width: 14px;
-  height: 14px;
-  background: #0b1f3d;
-  border-left: 1px solid rgba(95,168,255,.35);
-  border-top: 1px solid rgba(95,168,255,.35);
-  transform: rotate(45deg);
+  content: none;
 }
 .ressso-aplic-pop h4 {
   margin: 0 0 8px;

@@ -9,6 +9,20 @@ const COURSE_COLUMNS = [
   'AYB',
 ];
 
+// === Cumplimiento RESSSO (editar valores aquí cuando cambien) =================
+// Cada elemento: { n, titulo, pct }
+const RESSSO_ITEMS = [
+  { n: 1, titulo: 'Mapas de procesos y MIPER',                                                pct: 100 },
+  { n: 2, titulo: 'Programa de seguridad y salud ocupacional alineado con el análisis MIPER', pct: 100 },
+  { n: 3, titulo: 'Exámenes de salud según acuerdo de homologación',                           pct: 64  },
+  { n: 4, titulo: 'Cursos de inducción SSO, IRL, inducción al área del contrato',              pct: 100 },
+  { n: 5, titulo: 'Matriz de cumplimiento legal',                                              pct: 100 },
+  { n: 6, titulo: 'Programa personalizado de verificaciones en terreno',                       pct: 100 },
+  { n: 7, titulo: 'Seguimiento a indicaciones preventivas (leading) y de resultados',          pct: 100 },
+  { n: 8, titulo: 'Procedimientos de trabajo',                                                 pct: 100 },
+  { n: 9, titulo: 'LV Riesgos de Fatalidad',                                                   pct: 80  },
+];
+
 // Leyenda de códigos que pueden aparecer en la TARJA (col por día)
 const SHIFT_CODES = {
   'T':   { label: 'Trabajando',                      color: '#51b847' },
@@ -241,6 +255,49 @@ function exportFilteredToExcel(rows) {
 
   const stamp = new Date().toISOString().slice(0, 19).replace(/[:T]/g, '-');
   XLSX.writeFile(workbook, `dashboard_filtrado_${stamp}.xlsx`);
+}
+
+function renderRessso() {
+  const grid = document.getElementById('resssoGrid');
+  const scoreValue = document.querySelector('#resssoScore .ressso-score-value');
+  const badge = document.getElementById('resssoBadge');
+  const meta = document.getElementById('resssoMeta');
+  if (!grid) return;
+
+  const total = RESSSO_ITEMS.length;
+  const promedio = total ? Math.round((RESSSO_ITEMS.reduce((s, it) => s + it.pct, 0) / total) * 10) / 10 : 0;
+  const completos = RESSSO_ITEMS.filter(it => it.pct >= 100).length;
+
+  if (scoreValue) scoreValue.textContent = `${promedio}%`;
+  const ring = document.querySelector('#resssoScore .ressso-score-ring');
+  if (ring) {
+    const color = promedio >= 95 ? '#51b847' : promedio >= 80 ? '#f4c430' : '#ff7a59';
+    ring.style.background = `conic-gradient(${color} ${promedio * 3.6}deg, rgba(255,255,255,.08) 0)`;
+  }
+  if (badge) {
+    const estado = promedio >= 95 ? { txt: 'ÓPTIMO',    cls: 'rs-ok'  }
+                : promedio >= 80 ? { txt: 'ACEPTABLE', cls: 'rs-mid' }
+                :                  { txt: 'CRÍTICO',   cls: 'rs-low' };
+    badge.textContent = estado.txt;
+    badge.className = `ressso-badge ${estado.cls}`;
+  }
+  if (meta) meta.textContent = `${completos} de ${total} elementos al 100%`;
+
+  grid.innerHTML = RESSSO_ITEMS.map(it => {
+    const cls = it.pct >= 100 ? 'rs-ok' : it.pct >= 80 ? 'rs-mid' : 'rs-low';
+    const icon = it.pct >= 100 ? '✓' : it.pct >= 80 ? '◐' : '!';
+    return `
+      <div class="ressso-card ${cls}">
+        <div class="ressso-card-head">
+          <span class="ressso-num">${it.n}</span>
+          <span class="ressso-icon">${icon}</span>
+        </div>
+        <div class="ressso-card-title">${it.titulo}</div>
+        <div class="ressso-card-pct">${it.pct}%</div>
+        <div class="ressso-card-bar"><span style="width:${Math.max(0, Math.min(100, it.pct))}%"></span></div>
+      </div>
+    `;
+  }).join('');
 }
 
 function renderCards(data) {
@@ -727,6 +784,7 @@ function setupFilters(data) {
   }
 
   document.getElementById('updatedAt').textContent = `Actualizado: ${data.generatedAt}`;
+  renderRessso();
   renderCards(data);
   renderBars(data.courseTotals || []);
   // Excluir "Sin registros" del donut para enfocar el dashboard en lo completo

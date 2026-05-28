@@ -911,3 +911,170 @@ tr:hover td { background: rgba(255,255,255,.03); }
   .two-col, .filters, .filters-four { grid-template-columns: 1fr; }
   .brand-logo { width: 120px; }
 }
+/* ============ Cumplimiento RESSSO (panel ejecutivo) ============ */
+.ressso-panel {
+  background: linear-gradient(135deg, #0f2a4a 0%, #1a3f6b 50%, #11253f 100%);
+  border: 1px solid rgba(159,209,255,.25);
+  position: relative;
+  overflow: hidden;
+}
+.ressso-panel::before {
+  content: '';
+  position: absolute; inset: 0;
+  background: radial-gradient(circle at 90% 0%, rgba(81,184,71,.18), transparent 55%);
+  pointer-events: none;
+}
+.ressso-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 28px;
+  flex-wrap: wrap;
+  margin-bottom: 22px;
+  position: relative;
+}
+.ressso-title h2 {
+  font-size: 1.85rem;
+  margin: 4px 0 6px;
+  letter-spacing: .2px;
+  background: linear-gradient(90deg, #ffffff, #cfe6ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.ressso-title p { color: #b6c7e6; margin: 0; font-size: .95rem; }
+.ressso-eyebrow {
+  display: inline-block;
+  color: #9fd1ff;
+  font-size: .72rem;
+  font-weight: 700;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  background: rgba(45,127,249,.18);
+  padding: 4px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(45,127,249,.35);
+}
+.ressso-score { display: flex; align-items: center; gap: 18px; }
+.ressso-score-ring {
+  width: 130px; height: 130px;
+  border-radius: 50%;
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: center;
+  background: conic-gradient(#51b847 0deg, rgba(255,255,255,.08) 0);
+  position: relative;
+  box-shadow: 0 8px 28px rgba(0,0,0,.35), inset 0 0 0 2px rgba(255,255,255,.04);
+}
+.ressso-score-ring::before {
+  content: '';
+  position: absolute; inset: 12px;
+  border-radius: 50%;
+  background: #10233b;
+}
+.ressso-score-value {
+  position: relative;
+  font-size: 2.1rem;
+  font-weight: 800;
+  color: #fff;
+  line-height: 1;
+}
+.ressso-score-label {
+  position: relative;
+  font-size: .68rem;
+  letter-spacing: 2px;
+  color: #9fd1ff;
+  margin-top: 4px;
+}
+.ressso-score-meta { display: flex; flex-direction: column; gap: 8px; }
+.ressso-badge {
+  display: inline-block;
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-weight: 800;
+  font-size: .82rem;
+  letter-spacing: 1.5px;
+  text-align: center;
+  border: 1px solid transparent;
+}
+.ressso-badge.rs-ok  { background: rgba(81,184,71,.22);  color: #b9efb1; border-color: #51b847; }
+.ressso-badge.rs-mid { background: rgba(244,196,48,.22); color: #ffeaa3; border-color: #f4c430; }
+.ressso-badge.rs-low { background: rgba(255,122,89,.25); color: #ffc1ad; border-color: #ff7a59; }
+.ressso-meta-text { color: #cfe6ff; font-size: .88rem; }
+
+.ressso-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 14px;
+  position: relative;
+}
+.ressso-card {
+  background: rgba(255,255,255,.04);
+  border: 1px solid rgba(255,255,255,.08);
+  border-radius: 14px;
+  padding: 14px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  transition: transform .15s, border-color .15s, background .15s;
+  position: relative;
+  overflow: hidden;
+}
+.ressso-card:hover {
+  transform: translateY(-2px);
+  background: rgba(255,255,255,.07);
+}
+.ressso-card::before {
+  content: '';
+  position: absolute;
+  left: 0; top: 0; bottom: 0;
+  width: 4px;
+  background: var(--accent, #2d7ff9);
+}
+.ressso-card.rs-ok  { --accent: #51b847; border-color: rgba(81,184,71,.35); }
+.ressso-card.rs-mid { --accent: #f4c430; border-color: rgba(244,196,48,.35); }
+.ressso-card.rs-low { --accent: #ff7a59; border-color: rgba(255,122,89,.45); background: rgba(255,122,89,.06); }
+
+.ressso-card-head { display: flex; align-items: center; justify-content: space-between; }
+.ressso-num {
+  width: 26px; height: 26px;
+  border-radius: 8px;
+  background: rgba(255,255,255,.08);
+  color: #fff;
+  display: inline-flex;
+  align-items: center; justify-content: center;
+  font-weight: 800;
+  font-size: .85rem;
+}
+.ressso-icon { font-size: 1.05rem; color: var(--accent); font-weight: 800; }
+.ressso-card-title {
+  color: #eef4ff;
+  font-size: .88rem;
+  font-weight: 600;
+  line-height: 1.25;
+  min-height: 2.6em;
+}
+.ressso-card-pct {
+  font-size: 1.7rem;
+  font-weight: 800;
+  color: var(--accent);
+  line-height: 1;
+}
+.ressso-card-bar {
+  height: 6px;
+  background: rgba(255,255,255,.06);
+  border-radius: 999px;
+  overflow: hidden;
+}
+.ressso-card-bar > span {
+  display: block;
+  height: 100%;
+  background: var(--accent);
+  border-radius: 999px;
+  transition: width .4s;
+}
+
+@media (max-width: 720px) {
+  .ressso-score-ring { width: 110px; height: 110px; }
+  .ressso-score-value { font-size: 1.75rem; }
+  .ressso-title h2 { font-size: 1.45rem; }
+}

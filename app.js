@@ -370,7 +370,7 @@ function renderRessso() {
             <text x="110" y="105" fill="#fff" font-size="32" font-weight="800" text-anchor="middle">${avgStr}%</text>
           </svg>
         </div>
-        <div class="ressso-items">${itemsHtml}</div>
+        <div class="ressso-items ressso-items-grid">${itemsHtml}</div>
       </div>
     `;
   }).join('');
